@@ -1,34 +1,33 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+![App Screenshot](https://i.postimg.cc/c4KSRrnt/Screen-Shot-2021-10-15-at-2-38-49-PM.png)
 
-First, run the development server:
+# BDR Reader
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+**This project is currently in early development and non-functioning. Your feedback and contributions are greatly appreciated!**
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The modern customizable self-hosted RSS reader.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## Motivations
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+I became dissatisfied with the current self-hosted RSS reader solutions available due to their lack of visual appeal, functionality, and/or lack-of customization. The aim of BDR Reader is to build a beautiful, unopiniated, self-hosted RSS reader that you will actually want to use.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Contribute
 
-## Learn More
+### Front-End User Interface 
 
-To learn more about Next.js, take a look at the following resources:
+The user-interface is built with Next.js, graphQL, and Material React UI (Mui).
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Coding styleguide is coming soon.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Getting the development server up and running is very easy.
 
-## Deploy on Vercel
+1. Clone the project to your local machine.
+2. In a terminal, navigate to the project's root folder and run `yarn install`.
+3. Next, run `yarn dev` to start the development server.
+4. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+If you encounter any issues, refer to the [Next.js documentation](https://nextjs.org/docs), or reach out to anyone on the team.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### Back-End
+
+TBA
