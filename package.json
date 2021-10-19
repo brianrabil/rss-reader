@@ -12,6 +12,7 @@
     "build-storybook": "build-storybook"
   },
   "dependencies": {
+    "@apollo/client": "^3.4.16",
     "@carbon/icons-react": "10.22.0",
     "@carbon/type": "^10.33.0",
     "@emotion/react": "^11.4.1",
@@ -29,10 +30,13 @@
     "@storybook/addon-viewport": "^6.3.9",
     "@types/carbon-components-react": "^7.36.1",
     "@types/carbon__icons-react": "^10.31.2",
+    "@types/faker": "^5.5.8",
     "@types/lodash": "^4.14.175",
     "carbon-components": "10.25.0",
     "carbon-components-react": "7.25.0",
     "carbon-icons": "7.0.7",
+    "faker": "^5.5.3",
+    "graphql": "^15.6.1",
     "lodash": "^4.17.21",
     "next": "11.1.2",
     "next-pwa": "^5.3.1",
