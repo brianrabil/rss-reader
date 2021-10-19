@@ -8,7 +8,7 @@ import { useTheme } from "@mui/material/styles";
 import Box from "@mui/material/Box";
 import { Article, Source } from "../models";
 import DrawerHandle from "./drawer-handle";
-import { useMockArticles, useDrawerResizable } from "./../hooks";
+import { useDrawerResizable, useLayout } from "./../hooks";
 
 interface ArticlesDrawerProps {
   source?: Source;
@@ -16,7 +16,6 @@ interface ArticlesDrawerProps {
   drawerWidth?: number;
   contentShift: number;
   style?: React.CSSProperties;
-  headerHeight: number;
   open: boolean;
   onArticleClick: (article: Article) => void;
   onOpen: () => void;
@@ -31,13 +30,14 @@ export default function ArticlesDrawer({
   open,
   contentShift,
   onOpen,
-  headerHeight,
   onClose,
   onArticleClick,
   onDrawerWidthResize
 }: ArticlesDrawerProps) {
-  const mockArticles = useMockArticles(25);
   const theme = useTheme();
+
+  const { topNavHeight } = useLayout();
+
   const drawerRef = useRef(null);
   const {
     width,
@@ -49,20 +49,24 @@ export default function ArticlesDrawer({
   const handleDrawerClose = () => onClose();
   const handleArticleClick = (article: Article) => onArticleClick(article);
 
+  useEffect(() => {
+    console.log('TOP NAV', topNavHeight);
+  }, [topNavHeight]);
+
   const drawerHeaderStyles = useMemo(
     () => ({
       display: "flex",
       alignItems: "center",
       padding: theme.spacing(0, 2),
-      height: headerHeight,
-      minHeight: headerHeight,
+      height: topNavHeight,
+      minHeight: topNavHeight,
       [`& > img`]: {
         maxWidth: 24,
         maxHeight: 24,
         marginRight: theme.spacing(2),
       },
     }),
-    [headerHeight, theme]
+    [topNavHeight, theme]
   );
 
   useEffect(() => {
@@ -92,7 +96,7 @@ export default function ArticlesDrawer({
         </Box>
         <Divider />
         <List>
-          {(articles || mockArticles || []).map((article) => (
+          {(articles || []).map((article) => (
             <ArticleListItem
               key={article.id}
               article={article}

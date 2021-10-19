@@ -6,23 +6,20 @@ import Divider from "@mui/material/Divider";
 import ListItem from "@mui/material/ListItem";
 import ListItemText from "@mui/material/ListItemText";
 import ListItemIcon from "@mui/material/ListItemIcon";
-import InboxIcon from "@mui/icons-material/Inbox";
-import MailIcon from "@mui/icons-material/Mail";
 import Box from "@mui/material/Box";
 import DrawerToggleButton from "./collapse-button";
 import SourcesTree from "./sources-tree";
 import Typography from "@mui/material/Typography";
 import StarsIcon from "@mui/icons-material/Stars";
 import AllInboxIcon from "@mui/icons-material/AllInbox";
-import DrawerHandle from "./drawer-handle"
-import { useDrawerResizable, useMockSourcesTree } from "../hooks";
+import DrawerHandle from "./drawer-handle";
+import { useDrawerResizable, useMockSourcesTree, useLayout } from "../hooks";
 import Avatar from "@mui/material/Avatar";
 
 interface SourcesDrawerProps {
   drawerWidth: number;
   open: boolean;
   style?: React.CSSProperties;
-  headerHeight: number;
   onOpen: () => void;
   onClose: () => void;
   onDrawerWidthResize: (width: number) => void;
@@ -33,12 +30,13 @@ export default function SourcesDrawer({
   open,
   onOpen,
   style,
-  headerHeight,
   onClose,
-  onDrawerWidthResize
+  onDrawerWidthResize,
 }: SourcesDrawerProps) {
-  const theme = useTheme();
   const drawerRef = useRef(null);
+
+  const theme = useTheme();
+  const { topNavHeight } = useLayout();
   const mockSourcesTree = useMockSourcesTree();
   const { width, handleOffsetLeft, onHandleMouseDown } = useDrawerResizable(
     drawerRef,
@@ -71,7 +69,7 @@ export default function SourcesDrawer({
           sx={{
             display: "flex",
             alignItems: "center",
-            minHeight: headerHeight,
+            minHeight: topNavHeight,
             padding: theme.spacing(0, 1),
             justifyContent: "flex-end",
           }}

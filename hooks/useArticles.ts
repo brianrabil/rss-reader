@@ -1,10 +1,11 @@
 import { useState, useEffect } from 'react';
-import { Article, Source } from '../models';
-import { useGenerateMockArticles } from './../hooks';
+import { Article, Source, SortBy  } from '../models';
+import { useMockArticles, useSort } from './../hooks';
 
-export function useArticles(source: Source, useMockData?: boolean) {
+export function useArticles(source: Source, sortBy?: SortBy, useMockData?: boolean): Article[] {
   const [articles, setArticles] = useState<Article[]>([]);
-  const mockArticles = useGenerateMockArticles(25);
+  const mockArticles = useMockArticles(25);
+  const sortedArticles = useSort(articles, sortBy);
 
   useEffect(() => {
     if (useMockData) {
@@ -14,5 +15,5 @@ export function useArticles(source: Source, useMockData?: boolean) {
     }
   }, [source, useMockData]);
 
-  return articles;
+  return sortedArticles;
 }

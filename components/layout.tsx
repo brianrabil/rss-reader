@@ -1,10 +1,8 @@
 import React, { useState, useEffect, useRef } from "react";
 import Box from '@mui/material/Box';
-import { useTheme } from "@mui/material/styles";
 import ArticlesDrawer from "./articles-drawer";
 import SourcesDrawer from "./sources-drawer";
 import TopNav from "./top-nav";
-import Article from './article';
 import { Article as IArticle } from "../models";
 
 interface LayoutProps {
@@ -13,12 +11,10 @@ interface LayoutProps {
 
 export default function Layout({ children }: LayoutProps) {
 
-  const theme = useTheme();
-
   const topNavHeight = useRef(64);
 
   const [sourcesDrawerWidth, setSourcesDrawerWidth] = useState(240);
-  const [articlesDrawerWidth, setArticlesDrawerWidth] = useState(340);
+  const [articlesDrawerWidth, setArticlesDrawerWidth] = useState(380);
   const [contentShift, setContentShift] = useState(0);
   const [sourcesDrawerOpen, setSourcesDrawerOpen] = useState(true);
   const [articlesDrawerOpen, setArticlesDrawerOpen] = useState(true);
@@ -44,12 +40,12 @@ export default function Layout({ children }: LayoutProps) {
 
   return (
     <Box>
+      
       <TopNav 
         contentShift={contentShift}
       />
 
       <SourcesDrawer 
-        headerHeight={topNavHeight.current}
         drawerWidth={sourcesDrawerWidth}
         onClose={handleSourceListClose}
         onOpen={handleSourceListOpen}
@@ -58,13 +54,12 @@ export default function Layout({ children }: LayoutProps) {
       />
 
       <ArticlesDrawer 
-        headerHeight={topNavHeight.current}
         drawerWidth={articlesDrawerWidth}
         onClose={handleArticleListClose}
         onOpen={handleArticleListOpen}
         contentShift={getArticleDrawerContentShift()}
         open={articlesDrawerOpen}
-        onArticleClick={handleArticleListClose}
+        onArticleClick={handleArticleClick}
         onDrawerWidthResize={handleArticlesDrawerWidthChange}
       />
 
@@ -81,7 +76,7 @@ export default function Layout({ children }: LayoutProps) {
           right: 0,
         }}
       >
-        <Article />
+        {children}
       </main>
     </Box>
   );

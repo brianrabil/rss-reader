@@ -1,12 +1,12 @@
 import type { NextPage } from 'next'
-import Layout from './../components/layout'
+import { useQuery } from '@apollo/client';
 
 const Home: NextPage = () => {
   return (
-    <Layout>
-        
-    </Layout>
-  )
+    <div>
+      <h1>Hello Next.js</h1>
+    </div>
+  );
 }
 
 export default Home

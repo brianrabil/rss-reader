@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from 'react';
 import { useTheme } from "@mui/material/styles";
 import AppBar from "@mui/material/AppBar";
 import Toolbar from "@mui/material/Toolbar";
@@ -7,29 +7,26 @@ import StyleMenu from "./style-menu";
 import Box from "@mui/material/Box";
 import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 import ShareMenu from "./share-menu";
+import { useLayout } from './../hooks';
 
 interface TopNavProps {
-  height?: number;
   style?: React.CSSProperties;
   contentShift?: number;
 }
 
-export default function TopNav({ style, height, contentShift }: TopNavProps) {
+export default function TopNav({ style, contentShift }: TopNavProps) {
   const theme = useTheme();
+  const { topNavHeight } = useLayout();
 
   const handleDrawerOpen = () => {};
   const handleDrawerClose = () => {};
-
-  useEffect(() => {
-    console.log(contentShift);
-  }, [contentShift]);
 
   return (
     <AppBar
       position="fixed"
       color="transparent"
       sx={{
-        height: `${height}px`,
+        height: `${topNavHeight}px`,
         boxShadow: "none",
         borderBottomWidth: "1px",
         borderBottomStyle: "solid",
