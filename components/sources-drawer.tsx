@@ -1,19 +1,25 @@
 import React, { useRef, useEffect } from "react";
-
-import { useTheme } from "@mui/material/styles";
-import Drawer from "@mui/material/Drawer";
-import List from "@mui/material/List";
-import Divider from "@mui/material/Divider";
-import ListItem from "@mui/material/ListItem";
-import ListItemText from "@mui/material/ListItemText";
-import ListItemIcon from "@mui/material/ListItemIcon";
-import Box from "@mui/material/Box";
-import Typography from "@mui/material/Typography";
-import StarsIcon from "@mui/icons-material/Stars";
-import AllInboxIcon from "@mui/icons-material/AllInbox";
-import Avatar from "@mui/material/Avatar";
-
-import { DrawerHandle, SourcesTree, CollapseButton } from "@/components";
+import {
+  ListItemText,
+  ListItemIcon,
+  ListItem,
+  Divider,
+  List,
+  Drawer,
+  Typography,
+  Box,
+  useTheme,
+} from "@mui/material";
+import {
+  Stars as StarsIcon,
+  AllInbox as AllInboxIcon,
+} from "@mui/icons-material";
+import {
+  DrawerHandle,
+  SourcesTree,
+  UserMenu,
+  DrawerHeader
+} from "@/components";
 import { useDrawerResizable, useMockSourcesTree, useLayout } from "@/hooks";
 
 interface SourcesDrawerProps {
@@ -32,7 +38,7 @@ export default function SourcesDrawer({
   const drawerRef = useRef(null);
   const theme = useTheme();
   const mockSourcesTree = useMockSourcesTree();
-  const { topNavHeight, sourcesDrawer } = useLayout();
+  const { sourcesDrawer } = useLayout();
 
   const {
     width,
@@ -62,21 +68,7 @@ export default function SourcesDrawer({
           },
         }}
       >
-        <Box
-          sx={{
-            display: "flex",
-            alignItems: "center",
-            minHeight: topNavHeight,
-            padding: theme.spacing(0, 1),
-            justifyContent: "flex-end",
-          }}
-        >
-          <CollapseButton
-            isOpen={theme.direction === "ltr"}
-            onClick={handleDrawerClose}
-          />
-        </Box>
-        <Divider />
+        <DrawerHeader />
         <List>
           <ListItem button key="All">
             <ListItemIcon>
@@ -93,20 +85,13 @@ export default function SourcesDrawer({
         </List>
         <Divider />
         <Box padding={theme.spacing(2)}>
-          <Typography variant="subtitle2" noWrap color="GrayText">
+          <Typography variant="subtitle2" noWrap color={theme.palette.text.secondary}>
             Sources
           </Typography>
         </Box>
         <SourcesTree sources={mockSourcesTree} />
         <Divider />
-        <List>
-          <ListItem button>
-            <ListItemIcon>
-              <Avatar src="https://media-exp1.licdn.com/dms/image/C4D03AQHbPxllJPbb_A/profile-displayphoto-shrink_200_200/0/1615401435325?e=1635379200&v=beta&t=B8XlNWICMDMmDdWKelQ554k-hHPuRvXUw5dFpwQVitA" />
-            </ListItemIcon>
-            <ListItemText primary={"Brian Rabil"} />
-          </ListItem>
-        </List>
+        <UserMenu />
       </Drawer>
       <DrawerHandle left={handleOffsetLeft} onMouseDown={onHandleMouseDown} />
     </React.Fragment>

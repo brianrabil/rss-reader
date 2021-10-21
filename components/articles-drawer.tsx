@@ -1,14 +1,12 @@
-import React, { useRef, useMemo, useEffect } from "react";
-import Drawer from "@mui/material/Drawer";
-import List from "@mui/material/List";
-import Typography from "@mui/material/Typography";
-import Divider from "@mui/material/Divider";
-import ArticleListItem from "./article-list-item";
-import { useTheme } from "@mui/material/styles";
-import Box from "@mui/material/Box";
+import React, { useRef, useEffect, Fragment } from "react";
+import {
+  Typography,
+  List,
+  Drawer,
+} from "@mui/material";
 import { Article, Source } from "../models";
-import DrawerHandle from "./drawer-handle";
-import { useDrawerResizable, useLayout } from "./../hooks";
+import { DrawerHandle, ArticleListItem, DrawerHeader } from "@/components";
+import { useDrawerResizable, useLayout } from "@/hooks";
 
 interface ArticlesDrawerProps {
   source?: Source;
@@ -24,8 +22,7 @@ export default function ArticlesDrawer({
   onArticleClick,
   onDrawerWidthResize,
 }: ArticlesDrawerProps) {
-  const theme = useTheme();
-  const { topNavHeight, articlesDrawer } = useLayout();
+  const { articlesDrawer } = useLayout();
   const drawerRef = useRef(null);
   const {
     width,
@@ -35,30 +32,15 @@ export default function ArticlesDrawer({
     open,
   } = useDrawerResizable(drawerRef, articlesDrawer);
 
-  const handleArticleClick = (article: Article) => onArticleClick && onArticleClick(article);
-
-  const drawerHeaderStyles = useMemo(
-    () => ({
-      display: "flex",
-      alignItems: "center",
-      padding: theme.spacing(0, 2),
-      height: topNavHeight,
-      minHeight: topNavHeight,
-      [`& > img`]: {
-        maxWidth: 24,
-        maxHeight: 24,
-        marginRight: theme.spacing(2),
-      },
-    }),
-    [topNavHeight, theme]
-  );
+  const handleArticleClick = (article: Article) =>
+    onArticleClick && onArticleClick(article);
 
   useEffect(() => {
     onDrawerWidthResize && onDrawerWidthResize(width);
   }, [width]);
 
   return (
-    <React.Fragment>
+    <Fragment>
       <Drawer
         ref={drawerRef}
         variant="persistent"
@@ -72,13 +54,12 @@ export default function ArticlesDrawer({
           },
         }}
       >
-        <Box sx={drawerHeaderStyles}>
+        <DrawerHeader>
           <img
             src={`http://www.google.com/s2/favicons?domain=${source?.url}`}
           />
           <Typography color="textPrimary">{source?.name}</Typography>
-        </Box>
-        <Divider />
+        </DrawerHeader>
         <List>
           {(articles || []).map((article) => (
             <ArticleListItem
@@ -90,6 +71,6 @@ export default function ArticlesDrawer({
         </List>
       </Drawer>
       <DrawerHandle left={handleOffsetLeft} onMouseDown={onHandleMouseDown} />
-    </React.Fragment>
+    </Fragment>
   );
 }

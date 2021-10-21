@@ -12,3 +12,5 @@ export { default as SourcesTree } from "@/components/sources-tree";
 export { default as StyleMenu } from "@/components/style-menu";
 export { default as TopNav } from "@/components/top-nav";
 export { default as Favicon } from "@/components/favicon";
+export { default as UserMenu } from "@/components/user-menu";
+export { default as DrawerHeader } from "@/components/drawer-header"; 
