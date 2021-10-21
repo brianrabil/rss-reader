@@ -13,10 +13,8 @@ import { useDrawerResizable, useLayout } from "./../hooks";
 interface ArticlesDrawerProps {
   source?: Source;
   articles?: Article[];
-  drawerWidth?: number;
   contentShift: number;
   style?: React.CSSProperties;
-  open: boolean;
   onArticleClick: (article: Article) => void;
   onOpen: () => void;
   onClose: () => void;
@@ -26,8 +24,6 @@ interface ArticlesDrawerProps {
 export default function ArticlesDrawer({
   source,
   articles,
-  drawerWidth,
-  open,
   contentShift,
   onOpen,
   onClose,
@@ -35,23 +31,18 @@ export default function ArticlesDrawer({
   onDrawerWidthResize
 }: ArticlesDrawerProps) {
   const theme = useTheme();
-
-  const { topNavHeight } = useLayout();
-
+  const { topNavHeight, articlesDrawer } = useLayout();
   const drawerRef = useRef(null);
   const {
     width,
     handleOffsetLeft,
     onHandleMouseDown,
-  } = useDrawerResizable(drawerRef, contentShift, drawerWidth);
+    open
+  } = useDrawerResizable(drawerRef, contentShift, articlesDrawer);
 
   const handleDrawerOpen = () => onOpen();
   const handleDrawerClose = () => onClose();
   const handleArticleClick = (article: Article) => onArticleClick(article);
-
-  useEffect(() => {
-    console.log('TOP NAV', topNavHeight);
-  }, [topNavHeight]);
 
   const drawerHeaderStyles = useMemo(
     () => ({
@@ -84,7 +75,7 @@ export default function ArticlesDrawer({
         sx={{
           [`& .MuiDrawer-paper`]: {
             left: contentShift,
-            width: drawerWidth,
+            width,
           },
         }}
       >

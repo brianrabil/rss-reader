@@ -17,32 +17,28 @@ import { useDrawerResizable, useMockSourcesTree, useLayout } from "../hooks";
 import Avatar from "@mui/material/Avatar";
 
 interface SourcesDrawerProps {
-  drawerWidth: number;
-  open: boolean;
-  style?: React.CSSProperties;
-  onOpen: () => void;
   onClose: () => void;
   onDrawerWidthResize: (width: number) => void;
+  onOpen: () => void;
+  style?: React.CSSProperties;
 }
 
 export default function SourcesDrawer({
-  drawerWidth,
-  open,
-  onOpen,
-  style,
   onClose,
   onDrawerWidthResize,
+  onOpen,
+  style,
 }: SourcesDrawerProps) {
   const drawerRef = useRef(null);
-
   const theme = useTheme();
-  const { topNavHeight } = useLayout();
   const mockSourcesTree = useMockSourcesTree();
-  const { width, handleOffsetLeft, onHandleMouseDown } = useDrawerResizable(
-    drawerRef,
-    undefined,
-    drawerWidth
-  );
+  const { topNavHeight, sourcesDrawer } = useLayout();
+  const {
+    width,
+    handleOffsetLeft,
+    onHandleMouseDown,
+    open,
+  } = useDrawerResizable(drawerRef, undefined, sourcesDrawer);
 
   useEffect(() => {
     onDrawerWidthResize(width);
@@ -61,7 +57,7 @@ export default function SourcesDrawer({
         anchor="left"
         sx={{
           [`& .MuiDrawer-paper`]: {
-            width: drawerWidth,
+            width,
           },
         }}
       >

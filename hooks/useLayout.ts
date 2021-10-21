@@ -4,8 +4,5 @@ import { GetLayout } from '../graphql/layout';
 
 export function useLayout(): LayoutState {
   const { data: { layout } } = useQuery(GetLayout);
-
-  return {
-    topNavHeight: layout?.topNavHeight,
-  }
+  return layout;
 }

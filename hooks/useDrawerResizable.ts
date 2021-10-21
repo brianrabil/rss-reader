@@ -1,12 +1,13 @@
 import { useState, useEffect, useCallback, RefObject, useRef } from "react";
+import { DrawerState } from "../models";
 
 export function useDrawerResizable(
   ref: RefObject<HTMLElement | null>,
   contentShift?: number,
-  drawerWidth?: number
+  drawer?: DrawerState
 ) {
   const [handleOffsetLeft, setHandleOffsetLeft] = useState(0);
-  const [width, setWidth] = useState(drawerWidth || 0);
+  const [width, setWidth] = useState(drawer?.width || 0);
 
   const initialWidth = useRef<number | null>(null);
 
@@ -23,7 +24,7 @@ export function useDrawerResizable(
       const offsetLeft = drawerOffsetLeft + drawerWidth;
       setHandleOffsetLeft(offsetLeft);
     }
-  }, [getDrawerPaperEl, drawerWidth, contentShift]);
+  }, [getDrawerPaperEl, drawer?.width, contentShift]);
 
   const onMouseMove = (event: MouseEvent) => {
     if (initialWidth.current !== null) {
@@ -51,6 +52,7 @@ export function useDrawerResizable(
   return {
     handleOffsetLeft,
     onHandleMouseDown,
-    width
+    width,
+    open: drawer?.open
   };
 }
