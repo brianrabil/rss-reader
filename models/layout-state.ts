@@ -6,6 +6,7 @@ export interface DrawerState {
 
 export interface LayoutState {
   topNavHeight: number;
+  contentShift: number;
   sourcesDrawer: DrawerState;
   articlesDrawer: DrawerState;
 }

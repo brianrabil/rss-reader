@@ -1,15 +1,16 @@
-import { LayoutState } from '../../models/layout-state';
+import { LayoutState } from "../../models/layout-state";
 
 const defaultState: LayoutState = {
   topNavHeight: 64,
+  contentShift: 260,
   sourcesDrawer: {
     open: true,
-    width: 260
+    width: 260,
   },
   articlesDrawer: {
     open: true,
-    width: 260
-  }
+    width: 260,
+  },
 };
 
 function getLocalStorageState() {

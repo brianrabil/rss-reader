@@ -17,9 +17,9 @@ import { useDrawerResizable, useMockSourcesTree, useLayout } from "../hooks";
 import Avatar from "@mui/material/Avatar";
 
 interface SourcesDrawerProps {
-  onClose: () => void;
-  onDrawerWidthResize: (width: number) => void;
-  onOpen: () => void;
+  onClose?: () => void;
+  onDrawerWidthResize?: (width: number) => void;
+  onOpen?: () => void;
   style?: React.CSSProperties;
 }
 
@@ -33,19 +33,20 @@ export default function SourcesDrawer({
   const theme = useTheme();
   const mockSourcesTree = useMockSourcesTree();
   const { topNavHeight, sourcesDrawer } = useLayout();
+
   const {
     width,
     handleOffsetLeft,
     onHandleMouseDown,
     open,
-  } = useDrawerResizable(drawerRef, undefined, sourcesDrawer);
+  } = useDrawerResizable(drawerRef, sourcesDrawer);
 
   useEffect(() => {
-    onDrawerWidthResize(width);
+    onDrawerWidthResize && onDrawerWidthResize(width);
   }, [width]);
 
-  const handleDrawerOpen = () => onOpen();
-  const handleDrawerClose = () => onClose();
+  const handleDrawerOpen = () => onOpen && onOpen();
+  const handleDrawerClose = () => onClose && onClose();
 
   return (
     <React.Fragment>

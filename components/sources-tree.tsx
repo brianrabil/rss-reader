@@ -5,12 +5,15 @@ import TreeItem from "@mui/lab/TreeItem";
 import ChevronRightIcon from "@mui/icons-material/ChevronRight";
 import { Folder } from "../models/folder";
 import { Source } from "../models/source";
+import { useFavicon } from "../hooks";
 
 export interface SourcesTreeProps {
   sources?: Folder[];
 }
 
 export default function SourcesTree({ sources }: SourcesTreeProps) {
+  const { getFavicon } = useFavicon();
+
   const [expanded, setExpanded] = useState<string[]>([]);
   const [selected, setSelected] = useState<string[]>([]);
 
@@ -63,7 +66,7 @@ export default function SourcesTree({ sources }: SourcesTreeProps) {
               key={source.id}
               icon={
                 <img 
-                  src={`http://www.google.com/s2/favicons?domain=${source.url}`}
+                  src={getFavicon(source?.url)}
                   style={{
                     maxHeight: 12,
                     maxWidth: 15,

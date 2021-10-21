@@ -13,22 +13,16 @@ import { useDrawerResizable, useLayout } from "./../hooks";
 interface ArticlesDrawerProps {
   source?: Source;
   articles?: Article[];
-  contentShift: number;
   style?: React.CSSProperties;
-  onArticleClick: (article: Article) => void;
-  onOpen: () => void;
-  onClose: () => void;
-  onDrawerWidthResize: (width: number) => void;
+  onArticleClick?: (article: Article) => void;
+  onDrawerWidthResize?: (width: number) => void;
 }
 
 export default function ArticlesDrawer({
   source,
   articles,
-  contentShift,
-  onOpen,
-  onClose,
   onArticleClick,
-  onDrawerWidthResize
+  onDrawerWidthResize,
 }: ArticlesDrawerProps) {
   const theme = useTheme();
   const { topNavHeight, articlesDrawer } = useLayout();
@@ -37,12 +31,11 @@ export default function ArticlesDrawer({
     width,
     handleOffsetLeft,
     onHandleMouseDown,
-    open
-  } = useDrawerResizable(drawerRef, contentShift, articlesDrawer);
+    contentShift,
+    open,
+  } = useDrawerResizable(drawerRef, articlesDrawer);
 
-  const handleDrawerOpen = () => onOpen();
-  const handleDrawerClose = () => onClose();
-  const handleArticleClick = (article: Article) => onArticleClick(article);
+  const handleArticleClick = (article: Article) => onArticleClick && onArticleClick(article);
 
   const drawerHeaderStyles = useMemo(
     () => ({
@@ -61,7 +54,7 @@ export default function ArticlesDrawer({
   );
 
   useEffect(() => {
-    onDrawerWidthResize(width);
+    onDrawerWidthResize && onDrawerWidthResize(width);
   }, [width]);
 
   return (
@@ -96,10 +89,7 @@ export default function ArticlesDrawer({
           ))}
         </List>
       </Drawer>
-      <DrawerHandle 
-        left={handleOffsetLeft} 
-        onMouseDown={onHandleMouseDown}
-      />
+      <DrawerHandle left={handleOffsetLeft} onMouseDown={onHandleMouseDown} />
     </React.Fragment>
   );
 }
