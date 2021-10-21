@@ -1,4 +1,5 @@
 import React, { useRef, useEffect } from "react";
+
 import { useTheme } from "@mui/material/styles";
 import Drawer from "@mui/material/Drawer";
 import List from "@mui/material/List";
@@ -7,14 +8,13 @@ import ListItem from "@mui/material/ListItem";
 import ListItemText from "@mui/material/ListItemText";
 import ListItemIcon from "@mui/material/ListItemIcon";
 import Box from "@mui/material/Box";
-import DrawerToggleButton from "./collapse-button";
-import SourcesTree from "./sources-tree";
 import Typography from "@mui/material/Typography";
 import StarsIcon from "@mui/icons-material/Stars";
 import AllInboxIcon from "@mui/icons-material/AllInbox";
-import DrawerHandle from "./drawer-handle";
-import { useDrawerResizable, useMockSourcesTree, useLayout } from "../hooks";
 import Avatar from "@mui/material/Avatar";
+
+import { DrawerHandle, SourcesTree, CollapseButton } from "@/components";
+import { useDrawerResizable, useMockSourcesTree, useLayout } from "@/hooks";
 
 interface SourcesDrawerProps {
   onClose?: () => void;
@@ -71,7 +71,7 @@ export default function SourcesDrawer({
             justifyContent: "flex-end",
           }}
         >
-          <DrawerToggleButton
+          <CollapseButton
             isOpen={theme.direction === "ltr"}
             onClick={handleDrawerClose}
           />

@@ -7,7 +7,7 @@ interface CollapseButtonProps {
   isOpen: boolean;
 }
 
-export default function DrawerToggleButton({
+export default function CollapseButton({
   onClick,
   isOpen
 }: CollapseButtonProps) {
