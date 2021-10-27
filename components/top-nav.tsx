@@ -9,24 +9,21 @@ import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 import ShareMenu from "./share-menu";
 import { useLayout } from './../hooks';
 
-interface TopNavProps {
-  style?: React.CSSProperties;
-  contentShift?: number;
-}
-
-export default function TopNav({ style, contentShift }: TopNavProps) {
+export default function TopNav() {
   const theme = useTheme();
-  const { topNavHeight } = useLayout();
+  const { topNavHeight, contentShift, loading } = useLayout();
 
   const handleDrawerOpen = () => {};
   const handleDrawerClose = () => {};
+
+  if (loading) return null;
 
   return (
     <AppBar
       position="fixed"
       color="transparent"
       sx={{
-        height: `${topNavHeight}px`,
+        height: topNavHeight,
         boxShadow: "none",
         borderBottomWidth: "1px",
         borderBottomStyle: "solid",

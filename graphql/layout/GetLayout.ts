@@ -8,10 +8,14 @@ export const GetLayout = gql`
       sourcesDrawer {
         open
         width
+        resizing
+        left
       }
       articlesDrawer {
         open
         width
+        resizing
+        left
       }
     }
   }

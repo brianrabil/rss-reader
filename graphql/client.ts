@@ -1,8 +1,4 @@
-import {
-  ApolloClient,
-  InMemoryCache,
-  gql,
-} from "@apollo/client";
+import { ApolloClient, InMemoryCache } from "@apollo/client";
 import { layoutVar } from "./layout";
 
 export const client = new ApolloClient({
@@ -14,10 +10,10 @@ export const client = new ApolloClient({
           layout: {
             read() {
               return layoutVar();
-            }
-          }
-        }
-      } 
+            },
+          },
+        },
+      },
     },
   }),
 });

@@ -11,7 +11,6 @@ interface LayoutProps {
 }
 
 export default function Layout({ children }: LayoutProps) {
-  const [contentShift, setContentShift] = useState(0);
 
   const handleArticleClick = (article: IArticle) => {
     console.log("ARTICLE CLOCKED", article);
@@ -19,9 +18,9 @@ export default function Layout({ children }: LayoutProps) {
 
   return (
     <Box>
-      <TopNav contentShift={contentShift} />
+      <TopNav />
       <SourcesDrawer />
-      <ArticlesDrawer onArticleClick={handleArticleClick} />
+      <ArticlesDrawer />
       <Main>{children}</Main>
     </Box>
   );

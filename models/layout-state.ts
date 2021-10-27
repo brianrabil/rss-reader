@@ -1,7 +1,8 @@
-
 export interface DrawerState {
-  open?: boolean;
-  width?: number;
+  left: number;
+  open: boolean;
+  width: number;
+  resizing: boolean;
 }
 
 export interface LayoutState {
@@ -10,3 +11,5 @@ export interface LayoutState {
   sourcesDrawer: DrawerState;
   articlesDrawer: DrawerState;
 }
+
+export type DrawerAction = (drawer: Partial<DrawerState>) => void;

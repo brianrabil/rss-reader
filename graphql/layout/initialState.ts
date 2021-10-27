@@ -1,15 +1,19 @@
-import { LayoutState } from "../../models/layout-state";
+import { LayoutState } from "@/models";
 
-const defaultState: LayoutState = {
+export const defaultState: LayoutState = {
   topNavHeight: 64,
-  contentShift: 260,
+  contentShift: 270,
   sourcesDrawer: {
     open: true,
-    width: 260,
+    width: 270,
+    resizing: false,
+    left: 0
   },
   articlesDrawer: {
     open: true,
-    width: 260,
+    width: 360,
+    resizing: false,
+    left: 270
   },
 };
 

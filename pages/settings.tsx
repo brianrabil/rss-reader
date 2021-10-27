@@ -32,6 +32,5 @@ export default function Settings() {
       <Typography>Sources</Typography>
       <Typography>Filters</Typography>
     </Grid>
-
   )
 }

@@ -1,4 +1,4 @@
-import React, { useRef, useEffect } from "react";
+import React, { useMemo, useEffect, useState } from "react";
 import {
   ListItemText,
   ListItemIcon,
@@ -15,85 +15,68 @@ import {
   AllInbox as AllInboxIcon,
 } from "@mui/icons-material";
 import {
-  DrawerHandle,
+  ResizerHandle,
   SourcesTree,
   UserMenu,
-  DrawerHeader
+  DrawerHeader,
 } from "@/components";
 import { useDrawerResizable, useMockSourcesTree, useLayout } from "@/hooks";
 
 interface SourcesDrawerProps {
   onClose?: () => void;
-  onDrawerWidthResize?: (width: number) => void;
   onOpen?: () => void;
-  style?: React.CSSProperties;
 }
 
-export default function SourcesDrawer({
-  onClose,
-  onDrawerWidthResize,
-  onOpen,
-  style,
-}: SourcesDrawerProps) {
-  const drawerRef = useRef(null);
+export default function SourcesDrawer({ onClose, onOpen }: SourcesDrawerProps) {
   const theme = useTheme();
-  const mockSourcesTree = useMockSourcesTree();
-  const { sourcesDrawer } = useLayout();
+  const sourcesTree = useMockSourcesTree();
+  const { sourcesDrawer, setSourcesDrawer, loading } = useLayout();
+  const handleResize = useDrawerResizable(sourcesDrawer, setSourcesDrawer);
+  const { left, width, open } = sourcesDrawer;
 
-  const {
-    width,
-    handleOffsetLeft,
-    onHandleMouseDown,
-    open,
-  } = useDrawerResizable(drawerRef, sourcesDrawer);
-
-  useEffect(() => {
-    onDrawerWidthResize && onDrawerWidthResize(width);
-  }, [width]);
-
-  const handleDrawerOpen = () => onOpen && onOpen();
-  const handleDrawerClose = () => onClose && onClose();
+  if (loading || width === undefined || left === undefined) return null;
 
   return (
-    <React.Fragment>
-      <Drawer
-        style={style}
-        variant="persistent"
-        open={open}
-        ref={drawerRef}
-        anchor="left"
-        sx={{
-          [`& .MuiDrawer-paper`]: {
-            width,
-          },
-        }}
-      >
-        <DrawerHeader />
-        <List>
-          <ListItem button key="All">
-            <ListItemIcon>
-              <AllInboxIcon />
-            </ListItemIcon>
-            <ListItemText primary="All Sources" />
-          </ListItem>
-          <ListItem button key="Starred">
-            <ListItemIcon>
-              <StarsIcon />
-            </ListItemIcon>
-            <ListItemText primary="Starred" />
-          </ListItem>
-        </List>
-        <Divider />
-        <Box padding={theme.spacing(2)}>
-          <Typography variant="subtitle2" noWrap color={theme.palette.text.secondary}>
-            Sources
-          </Typography>
-        </Box>
-        <SourcesTree sources={mockSourcesTree} />
-        <Divider />
-        <UserMenu />
-      </Drawer>
-      <DrawerHandle left={handleOffsetLeft} onMouseDown={onHandleMouseDown} />
-    </React.Fragment>
+    <Drawer
+      variant="persistent"
+      open={open ?? true}
+      anchor="left"
+      sx={{
+        [`& .MuiDrawer-paper`]: {
+          width,
+          left,
+        },
+      }}
+    >
+      <DrawerHeader />
+      <List>
+        <ListItem button key="All">
+          <ListItemIcon>
+            <AllInboxIcon />
+          </ListItemIcon>
+          <ListItemText primary="All Sources" />
+        </ListItem>
+        <ListItem button key="Starred">
+          <ListItemIcon>
+            <StarsIcon />
+          </ListItemIcon>
+          <ListItemText primary="Starred" />
+        </ListItem>
+      </List>
+      <Divider />
+      <Box padding={theme.spacing(2)}>
+        <Typography
+          variant="subtitle2"
+          noWrap
+          color={theme.palette.text.secondary}
+        >
+          Sources
+        </Typography>
+      </Box>
+      <SourcesTree sources={sourcesTree} />
+      <Divider />
+      <UserMenu />
+      <ResizerHandle left={width + left} onMouseDown={handleResize} />
+    </Drawer>
   );
 }

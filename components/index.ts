@@ -2,7 +2,7 @@ export { default as Article } from "@/components/article";
 export { default as ArticleListItem } from "@/components/article-list-item";
 export { default as ArticlesDrawer } from "@/components/articles-drawer";
 export { default as CollapseButton } from "@/components/collapse-button";
-export { default as DrawerHandle } from "@/components/drawer-handle";
+export { default as ResizerHandle } from "@/components/resizer-handle";
 export { default as Layout } from "@/components/layout";
 export { default as Main } from "@/components/main";
 export { default as PageHeader } from "@/components/page-header";
