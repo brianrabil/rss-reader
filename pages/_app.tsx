@@ -8,7 +8,7 @@ import { createTheme, ThemeProvider } from "@mui/material/styles";
 import CssBaseline from "@mui/material/CssBaseline";
 import createCache from "@emotion/cache";
 import type {} from "@mui/lab/themeAugmentation";
-import Layout from "./../components/layout";
+import Layout from "../components/layout";
 import { ApolloProvider } from "@apollo/client";
 import { client } from "./../graphql";
 

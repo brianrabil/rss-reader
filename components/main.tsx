@@ -1,12 +1,18 @@
-import { ReactNode } from "react";
-import { useLayout } from "./../hooks";
+import { ReactNode, useContext } from "react";
+import {
+  LayoutContext,
+  selectContentOffset,
+  selectTopNavHeight,
+} from "@/context/layout";
 
 export interface MainProps {
   children?: ReactNode;
 }
 
 export default function Main({ children }: MainProps) {
-  const { topNavHeight, contentShift } = useLayout();
+  const [state] = useContext(LayoutContext);
+  const contentOffset = selectContentOffset(state);
+  const topNavHeight = selectTopNavHeight(state);
 
   return (
     <main
@@ -14,7 +20,7 @@ export default function Main({ children }: MainProps) {
         position: "fixed",
         width: "100%",
         overflowY: "auto",
-        maxWidth: `calc(100vw - ${contentShift}px)`,
+        maxWidth: `calc(100vw - ${contentOffset}px)`,
         height: `calc(100vh - ${topNavHeight}px)`,
         bottom: 0,
         top: topNavHeight,

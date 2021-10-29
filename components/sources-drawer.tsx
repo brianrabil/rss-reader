@@ -1,4 +1,4 @@
-import React, { useMemo, useEffect, useState } from "react";
+import React, { useContext } from "react";
 import {
   ListItemText,
   ListItemIcon,
@@ -20,7 +20,9 @@ import {
   UserMenu,
   DrawerHeader,
 } from "@/components";
-import { useDrawerResizable, useMockSourcesTree, useLayout } from "@/hooks";
+import { useDrawerResizable, useMockSourcesTree } from "@/hooks";
+import { LayoutContext, selectSourcesDrawer } from "@/context/layout";
+import { DRAWER } from "@/models";
 
 interface SourcesDrawerProps {
   onClose?: () => void;
@@ -29,24 +31,18 @@ interface SourcesDrawerProps {
 
 export default function SourcesDrawer({ onClose, onOpen }: SourcesDrawerProps) {
   const theme = useTheme();
-  const sourcesTree = useMockSourcesTree();
-  const { sourcesDrawer, setSourcesDrawer, loading } = useLayout();
-  const handleResize = useDrawerResizable(sourcesDrawer, setSourcesDrawer);
-  const { left, width, open } = sourcesDrawer;
+  const [state] = useContext(LayoutContext);
+  const { open, ...sx } = selectSourcesDrawer(state);
+  const handleResize = useDrawerResizable(DRAWER.SOURCES);
 
-  if (loading || width === undefined || left === undefined) return null;
+  const sourcesTree = useMockSourcesTree();
 
   return (
     <Drawer
       variant="persistent"
-      open={open ?? true}
+      open={open}
       anchor="left"
-      sx={{
-        [`& .MuiDrawer-paper`]: {
-          width,
-          left,
-        },
-      }}
+      sx={{ [`& .MuiDrawer-paper`]: sx }}
     >
       <DrawerHeader />
       <List>
@@ -76,7 +72,7 @@ export default function SourcesDrawer({ onClose, onOpen }: SourcesDrawerProps) {
       <SourcesTree sources={sourcesTree} />
       <Divider />
       <UserMenu />
-      <ResizerHandle left={width + left} onMouseDown={handleResize} />
+      <ResizerHandle left={sx.width + sx.left} onMouseDown={handleResize} />
     </Drawer>
   );
 }

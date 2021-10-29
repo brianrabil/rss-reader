@@ -1,8 +1,9 @@
-import React from "react";
+import React, { useContext } from "react";
 import { Typography, Drawer } from "@mui/material";
-import { Article, Source } from "../models";
+import { Article, Source, DRAWER } from "@/models";
 import { ResizerHandle, DrawerHeader, Favicon } from "@/components";
-import { useDrawerResizable, useLayout } from "@/hooks";
+import { LayoutContext, selectArticlesDrawer } from "@/context/layout";
+import { useDrawerResizable } from "@/hooks";
 
 interface ArticlesDrawerProps {
   source?: Source;
@@ -13,15 +14,9 @@ export default function ArticlesDrawer({
   source,
   articles,
 }: ArticlesDrawerProps) {
-  const { articlesDrawer, setArticlesDrawer, loading } = useLayout();
-  const handleResize = useDrawerResizable(articlesDrawer, setArticlesDrawer);
-  const { left, width, open } = articlesDrawer;
-
-  const handleArticleClick = (article: Article) => {
-    console.log("Handle Articles");
-  };
-
-  if (loading) return null;
+  const [state] = useContext(LayoutContext);
+  const { open, ...sx } = selectArticlesDrawer(state);
+  const handleResize = useDrawerResizable(DRAWER.ARTICLES);
 
   return (
     <Drawer
@@ -29,19 +24,13 @@ export default function ArticlesDrawer({
       anchor="left"
       elevation={5}
       open={open}
-      sx={{
-        [`& .MuiDrawer-paper`]: {
-          left,
-          width,
-        },
-      }}
+      sx={{ [`& .MuiDrawer-paper`]: sx }}
     >
       <DrawerHeader>
         <Favicon source={source} />
         <Typography color="textPrimary">{source?.name}</Typography>
       </DrawerHeader>
-
-      <ResizerHandle onMouseDown={handleResize} left={left + width} />
+      <ResizerHandle onMouseDown={handleResize} left={sx.left + sx.width} />
     </Drawer>
   );
 }

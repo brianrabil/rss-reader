@@ -1,22 +1,22 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { useTheme } from "@mui/material/styles";
 import AppBar from "@mui/material/AppBar";
 import Toolbar from "@mui/material/Toolbar";
 import IconButton from "@mui/material/IconButton";
-import StyleMenu from "./style-menu";
+import StyleMenu from "@/components/style-menu";
 import Box from "@mui/material/Box";
 import ArrowBackIcon from "@mui/icons-material/ArrowBack";
-import ShareMenu from "./share-menu";
-import { useLayout } from './../hooks';
+import ShareMenu from "@/components/share-menu";
+import { LayoutContext, selectTopNavHeight, selectContentOffset} from '@/context/layout';
 
 export default function TopNav() {
   const theme = useTheme();
-  const { topNavHeight, contentShift, loading } = useLayout();
+  const [state] = useContext(LayoutContext);
+  const topNavHeight = selectTopNavHeight(state);
+  const contentOffset = selectContentOffset(state);
 
   const handleDrawerOpen = () => {};
   const handleDrawerClose = () => {};
-
-  if (loading) return null;
 
   return (
     <AppBar
@@ -28,7 +28,7 @@ export default function TopNav() {
         borderBottomWidth: "1px",
         borderBottomStyle: "solid",
         borderBottomColor: theme.palette.divider,
-        width: `calc(100vw - ${contentShift}px)`,
+        width: `calc(100vw - ${contentOffset}px)`,
       }}
     >
       <Toolbar>
