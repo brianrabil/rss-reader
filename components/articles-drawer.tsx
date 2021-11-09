@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import { Typography, Drawer } from "@mui/material";
 import { Article, Source, DRAWER } from "@/models";
-import { ResizerHandle, DrawerHeader, Favicon } from "@/components";
+import { ResizerHandle, DrawerHeader, Favicon, ArticleList } from "@/components";
 import { LayoutContext, selectArticlesDrawer } from "@/context/layout";
 import { useDrawerResizable } from "@/hooks";
 
@@ -12,11 +12,14 @@ interface ArticlesDrawerProps {
 
 export default function ArticlesDrawer({
   source,
-  articles,
 }: ArticlesDrawerProps) {
   const [state] = useContext(LayoutContext);
   const { open, ...sx } = selectArticlesDrawer(state);
   const handleResize = useDrawerResizable(DRAWER.ARTICLES);
+
+  const handleArticleClick = (article: Article) => {
+    
+  }
 
   return (
     <Drawer
@@ -30,6 +33,7 @@ export default function ArticlesDrawer({
         <Favicon source={source} />
         <Typography color="textPrimary">{source?.name}</Typography>
       </DrawerHeader>
+      <ArticleList onArticleClick={handleArticleClick} />
       <ResizerHandle onMouseDown={handleResize} left={sx.left + sx.width} />
     </Drawer>
   );

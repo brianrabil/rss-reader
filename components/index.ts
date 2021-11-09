@@ -1,4 +1,5 @@
 export { default as Article } from "@/components/article";
+export { default as ArticleList } from "@/components/article-list";
 export { default as ArticleListItem } from "@/components/article-list-item";
 export { default as ArticlesDrawer } from "@/components/articles-drawer";
 export { default as CollapseButton } from "@/components/collapse-button";

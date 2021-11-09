@@ -3,11 +3,11 @@ import { createContext, Dispatch } from "react";
 
 export const initialState: LayoutState = {
   articlesDrawer: {
-    open: false,
+    open: true,
     width: 300,
   },
   sourcesDrawer: {
-    open: false,
+    open: true,
     width: 300,
   },
   topNavHeight: 64,

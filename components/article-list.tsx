@@ -1,23 +1,21 @@
-
 import React from "react";
 import { List } from "@mui/material";
 import { ArticleListItem } from '@/components';
-import { Article } from '@/models';
+import { Article } from '@/models'
+import { useArticles } from '@/hooks';
 
 export interface ArticleListProps {
-  articles?: Article[];
   onArticleClick: (article: Article) => void; 
 }
 
-export default function ArticleList({ articles, onArticleClick }: ArticleListProps) {
-  
-  const handleArticleClick = (article: Article) => {
-    return onArticleClick && onArticleClick(article);
-  }
+export default function ArticleList({ onArticleClick }: ArticleListProps) {
+  const articles = useArticles({ useMockData: true });
+
+  const handleArticleClick = (article: Article) => onArticleClick?.(article);
 
   return (
     <List>
-      {(articles || []).map((article) => (
+      {articles.map((article) => (
         <ArticleListItem
           key={article.id}
           article={article}

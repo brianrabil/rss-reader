@@ -1,12 +1,16 @@
 import type { NextPage } from 'next'
-import {Layout} from '@/components';
-import { useQuery } from '@apollo/client';
+import { useRouter } from 'next/router';
+import { useEffect } from 'react';
 
 const Home: NextPage = () => {
+  const router = useRouter();
+
+  useEffect(() => {
+    router.push('reader');
+  }, []);
+
   return (
-    <Layout>
-      <h1>Hello Next.js</h1>
-    </Layout>
+    <h1>Hello Next.js</h1>
   );
 }
 
