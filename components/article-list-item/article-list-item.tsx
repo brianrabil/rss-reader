@@ -12,7 +12,7 @@ import styled from "@emotion/styled";
 export interface ArticleListItemProps {
   article: Article;
   key: string;
-  onClick: (article: Article) => void;
+  onClick?: (article: Article) => void;
 }
 
 const AvatarImage = styled.img<Partial<Theme>>`
@@ -30,7 +30,7 @@ export default function ArticleListItem({
   const { title, description, image, date } = article;
   const truncatedDescription = useTruncateText(description, 40);
 
-  const handleListItemClick = () => onClick(article);
+  const handleListItemClick = () => onClick?.(article);
 
   return (
     <ListItem onClick={handleListItemClick} key={key} alignItems="flex-start">

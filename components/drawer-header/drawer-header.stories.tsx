@@ -1,14 +1,12 @@
 import React from 'react';
 import { Story, Meta } from '@storybook/react';
-import { Box } from '@mui/material';
 import DrawerHeader, { DrawerHeaderProps } from './drawer-header';
 
 export default {
   component: DrawerHeader,
-  title: 'Components/DrawerHeader',
+  title: 'Base Components/DrawerHeader',
 } as Meta;
 
-//👇 We create a “template” of how args map to rendering
 const Template: Story<DrawerHeaderProps> = (args) => {
   return (
     <DrawerHeader {...args} />

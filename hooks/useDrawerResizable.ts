@@ -1,4 +1,4 @@
-import { LAYOUT_ACTION, DRAWER, ComputedDrawerState } from "@/models/layout";
+import { LAYOUT_ACTION, DRAWER, ComputedDrawerState, LayoutAction } from "@/models/layout";
 import {
   LayoutContext,
   selectArticlesDrawer,
@@ -31,10 +31,10 @@ export function useDrawerResizable(
       const drawer = getDrawer();
       const delta = event.clientX - initialWidth.current;
       const nextWidth = drawer?.width + delta;
-      dispatch({
+      dispatch?.({
         type: actionTypes[drawerId],
         width: nextWidth,
-      });
+      } as LayoutAction);
     }
   };
 

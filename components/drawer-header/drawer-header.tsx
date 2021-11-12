@@ -14,7 +14,7 @@ export default function DrawerHeader({ children, sx }: DrawerHeaderProps) {
   const { height } = selectTopNav(state);
   const {
     direction,
-    palette: { divider },
+    palette,
     spacing,
   } = useTheme();
 
@@ -32,11 +32,12 @@ export default function DrawerHeader({ children, sx }: DrawerHeaderProps) {
       height: height,
       borderBottomWidth: "1px",
       borderBottomStyle: "solid",
-      borderBottomColor: divider,
+      borderBottomColor: palette?.divider,
+      backgroundColor: palette?.background.paper,
       paddingX: spacing(2),
       ...sx
     }),
-    [height, divider, sx]
+    [height, palette, sx]
   );
 
   return (

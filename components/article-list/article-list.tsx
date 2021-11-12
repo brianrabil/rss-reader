@@ -7,7 +7,7 @@ import { SxProps } from "@mui/system";
 
 export interface ArticleListProps {
   articles?: Article[];
-  onArticleClick: (article: Article) => void;
+  onArticleClick?: (article: Article) => void;
   sx?: SxProps<any>;
 }
 
@@ -71,8 +71,6 @@ export default function ArticleList({
   sx
 }: ArticleListProps) {
   const groupedArticles = useGroupedByDate(articles);
-
-  console.log('GROUPED ARTICLES: ', groupedArticles);
 
   return (
     <List sx={sx}>

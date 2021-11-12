@@ -1,8 +1,6 @@
 export enum LAYOUT_ACTION {
-  SET_ARTICLES_DRAWER,
-  SET_SOURCES_DRAWER,
-  RESIZE_ARTICLE_DRAWER,
-  RESIZE_SOURCES_DRAWER,
+  SET_ARTICLES_DRAWER = 'SET_ARTICLES_DRAWER',
+  SET_SOURCES_DRAWER = 'SET_SOURCES_DRAWER',
 }
 
 export enum ELEVATION {
@@ -12,17 +10,14 @@ export enum ELEVATION {
   THREE,
 }
 
-
 export enum DRAWER {
   ARTICLES,
   SOURCES
 }
 
 export type LayoutAction =
-  | { type: LAYOUT_ACTION.SET_ARTICLES_DRAWER; payload: Partial<DrawerState> }
-  | { type: LAYOUT_ACTION.SET_SOURCES_DRAWER; payload: Partial<DrawerState>}
-  | { type: LAYOUT_ACTION.RESIZE_ARTICLE_DRAWER; width: number }
-  | { type: LAYOUT_ACTION.RESIZE_SOURCES_DRAWER; width: number };
+  | { type: LAYOUT_ACTION.SET_ARTICLES_DRAWER, payload: Partial<DrawerState> }
+  | { type: LAYOUT_ACTION.SET_SOURCES_DRAWER, payload: Partial<DrawerState> };
 
 export interface LayoutProps {
   children: React.ReactNode;
@@ -32,18 +27,15 @@ export interface LayoutProps {
  * Layout state of the Drawers (Articles and Sources)
  */
 export interface DrawerState {
-  open: boolean;
+  isOpen: boolean;
   width: number;
+  left: number;
   elevation: ELEVATION;
 }
 
 export interface TopNavState {
   elevation: ELEVATION;
   height: number;
-}
-
-export interface ComputedDrawerState extends DrawerState {
-  left: number;
 }
 
 /**
