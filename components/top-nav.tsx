@@ -7,12 +7,12 @@ import StyleMenu from "@/components/style-menu";
 import Box from "@mui/material/Box";
 import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 import ShareMenu from "@/components/share-menu";
-import { LayoutContext, selectTopNavHeight, selectContentOffset} from '@/context/layout';
+import { LayoutContext, selectTopNav, selectContentOffset} from '@/context/layout';
 
 export default function TopNav() {
   const theme = useTheme();
   const [state] = useContext(LayoutContext);
-  const topNavHeight = selectTopNavHeight(state);
+  const { height, elevation } = selectTopNav(state);
   const contentOffset = selectContentOffset(state);
 
   const handleDrawerOpen = () => {};
@@ -23,11 +23,9 @@ export default function TopNav() {
       position="fixed"
       color="transparent"
       sx={{
-        height: topNavHeight,
+        height,
         boxShadow: "none",
-        borderBottomWidth: "1px",
-        borderBottomStyle: "solid",
-        borderBottomColor: theme.palette.divider,
+        zIndex: elevation,
         width: `calc(100vw - ${contentOffset}px)`,
       }}
     >

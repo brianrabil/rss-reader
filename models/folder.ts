@@ -1,3 +1,4 @@
+import { Source } from '@/models';
 
 export interface Folder {
   name?: string;

@@ -1,16 +1,24 @@
-import { ComputedDrawerState, LayoutAction, LayoutState, LAYOUT_ACTION } from "@/models/layout";
+import { ComputedDrawerState, ELEVATION, LayoutAction, LayoutState, LAYOUT_ACTION, MainState, TopNavState } from "@/models/layout";
 import { createContext, Dispatch } from "react";
 
 export const initialState: LayoutState = {
+  topNav: {
+    elevation: ELEVATION.TWO,
+    height: 64
+  },
   articlesDrawer: {
     open: true,
-    width: 300,
+    width: 420,
+    elevation: ELEVATION.DEFAULT
   },
   sourcesDrawer: {
     open: true,
     width: 300,
+    elevation: ELEVATION.DEFAULT,
   },
-  topNavHeight: 64,
+  main: {
+    elevation: ELEVATION.DEFAULT
+  }
 };
 
 export function reducer(state: LayoutState, action: LayoutAction): LayoutState {
@@ -55,8 +63,23 @@ export function selectArticlesDrawer(state?: LayoutState): ComputedDrawerState {
   }
 }
 
+export function selectTopNav(state?: LayoutState): TopNavState {
+  return {
+    ...initialState.topNav,
+    ...state?.topNav,
+  }
+};
+
+export function selectMain(state?: LayoutState): MainState {
+  return {
+    ...initialState.main,
+    ...state?.main
+  }
+}
+
 export function selectTopNavHeight(state?: LayoutState): number {
-  return state?.topNavHeight ?? initialState.topNavHeight;
+  const { height } = selectTopNav(state);
+  return height;
 }
 
 export function selectContentOffset(state?: LayoutState): number {

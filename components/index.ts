@@ -15,3 +15,4 @@ export { default as TopNav } from "@/components/top-nav";
 export { default as Favicon } from "@/components/favicon";
 export { default as UserMenu } from "@/components/user-menu";
 export { default as DrawerHeader } from "@/components/drawer-header"; 
+export { default as ArticleDrawerHeader } from "@/components/articles-drawer-header";
