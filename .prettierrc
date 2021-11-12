@@ -1,0 +1,16 @@
+{
+  "tabWidth": 2,
+  "useTabs": false,
+  "insertSpaces": true,
+  "jsxSingleQuote": false,
+  "trimTrailingWhitespace": true,
+  "autoClosingBrackets": true,
+  "autoClosingQuotes": true,
+  "autoClosingOvertype": true,
+  "autoIndent": true,
+  "singleQuote": false,
+  "proseWrap": "always",
+  "quoteProps": "consistent",
+  "printWidth": 80,
+  "semi": true
+}
