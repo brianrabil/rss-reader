@@ -2,7 +2,7 @@ import React, { useMemo, Fragment } from "react";
 import { List, ListItem, Typography, useTheme } from "@mui/material";
 import { ArticleListItem } from "@/components";
 import { Article, ELEVATION } from "@/models";
-import { groupBy, entries, Dictionary } from "lodash";
+import { groupBy, entries } from "lodash";
 import { SxProps } from "@mui/system";
 
 export interface ArticleListProps {
@@ -23,68 +23,46 @@ export function FilterGroupLabel({ label }: FilterGroupLabelProps) {
   );
 }
 
-// Today
-// Yesterday
-// This week
-// Last week
-// Month
-// Year
-
-interface ItemGroup {
+interface ItemSegment {
   label?: string;
   items?: Article[];
 }
 
-function formatYear(year: string) {
+function formatYear(year: string): string {
+  const current = new Date().getFullYear();
   const rtf1 = new Intl.RelativeTimeFormat("en", { style: "narrow" });
-  const diff = getCurrentYear() - parseInt(year);
+  const diff = current - parseInt(year);
   return rtf1.format(diff, "year");
 }
 
-function getCurrentYear() {
-  return new Date().getFullYear();
+function segmentByYear(items: any[]): ItemSegment[] {
+  const current = new Date().getFullYear().toString();
+  const itemsByYear = groupBy(items, ({ date }) => date?.getFullYear());
+  return entries(itemsByYear).map(([year, items]) => {
+    const label = year === current ? "This year" : formatYear(year);
+    return { label, items };
+  }); 
 }
 
-function getOtherYearGroups(thisYear: string, itemsByYear?: Dictionary<any>) {
-  return entries(itemsByYear)
-    .filter(([year]) => year !== thisYear)
-    .map(buildYearGroup);
+function segmentByMonth(items: any[]) {
+  const itemsByMonth = groupBy(items, ({ date }) => date?.getMonth());
+  return entries(itemsByMonth).map(([month, items]) => {
+    const monthNum = parseInt(month);
+    const label = new Date(0, monthNum, 1).toLocaleString("en", { month: "long" });
+    return { label, items };
+  });
 }
 
-function getThisYearGroup(group: ItemGroup[]) {
-  const thisYear = new Date().getFullYear();
-  return group.find(({ label }) => label === thisYear.toString());
-}
-
-function groupItemsByYear(items: any[]) {
-  return groupBy(items, ({ date }) => date?.getFullYear());
-}
-
-function groupItemsByMonth(items: any[]) {
-  return groupBy(items, ({ date }) => date?.getMonth())
-}
-
-function buildYearGroup([year, items]: [string, any[]]) {
-  const label = year === getCurrentYear().toString() ? "This year" : formatYear(year);
-  return { label, items };
-}
-
-function useByYear(items: any[]) {
-  return useMemo(() => {
-    const current = getCurrentYear().toString();
-    const itemsByYear = groupItemsByYear(items);
-    const otherYears = getOtherYearGroups(current, itemsByYear);
-    const thisYear = buildYearGroup([current, itemsByYear[current]]);
-    return { thisYear, otherYears };
-  }, [items]);
+function segmentByWeek() {
+  // TODO
 }
 
 function useGroupedByDate(items: Article[] = []) {
-  const { thisYear, otherYears } = useByYear(items);
+  const yearSegments = segmentByYear(items);
 
   return useMemo(() => {
-    return [thisYear, ...otherYears];
-  }, [thisYear, otherYears]);
+    return yearSegments;
+  }, [yearSegments]);
 }
 
 export default function ArticleList({
