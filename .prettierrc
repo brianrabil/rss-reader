@@ -10,7 +10,7 @@
   "autoIndent": true,
   "singleQuote": false,
   "proseWrap": "always",
-  "quoteProps": "consistent",
+  "quoteProps": "as-needed",
   "printWidth": 80,
   "semi": true
 }

@@ -7,26 +7,33 @@ import StyleMenu from "@/components/style-menu";
 import Box from "@mui/material/Box";
 import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 import ShareMenu from "@/components/share-menu";
-import { LayoutContext, selectTopNav, selectContentOffset} from '@/context/layout';
+import { DrawerState, NavState } from '@/models';
 
-export default function TopNav() {
+export interface TopNavProps {
+  store?: NavState;
+  panelStore?: DrawerState;
+}
+
+export default function TopNav({ store, panelStore }: TopNavProps) {
   const theme = useTheme();
-  const [state] = useContext(LayoutContext);
-  const { height, elevation } = selectTopNav(state);
-  const contentOffset = selectContentOffset(state);
 
   const handleDrawerOpen = () => {};
   const handleDrawerClose = () => {};
+
+  const left = (
+     (panelStore?.width ?? 0) +
+     (panelStore?.left ?? 0)
+  )
 
   return (
     <AppBar
       position="fixed"
       color="transparent"
       sx={{
-        height,
+        height: store?.height,
         boxShadow: "none",
-        zIndex: elevation,
-        width: `calc(100vw - ${contentOffset}px)`,
+        zIndex: store?.elevation,
+        width: `calc(100vw - ${left}px)`,
       }}
     >
       <Toolbar>

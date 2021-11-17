@@ -21,18 +21,23 @@ import {
   DrawerHeader,
 } from "@/components";
 import { useDrawerResizable, useMockSourcesTree } from "@/hooks";
-import { LayoutContext, selectSourcesDrawer } from "@/context/layout";
-import { DRAWER } from "@/models";
+import { DRAWER, DrawerState, NavState } from "@/models";
 
 interface SourcesDrawerProps {
+  store?: DrawerState;
+  navStore?: NavState;
   onClose?: () => void;
   onOpen?: () => void;
 }
 
-export default function SourcesDrawer({ onClose, onOpen }: SourcesDrawerProps) {
+export default function SourcesDrawer({
+  onClose,
+  onOpen,
+  store,
+  navStore,
+}: SourcesDrawerProps) {
   const theme = useTheme();
-  const [state] = useContext(LayoutContext);
-  const { open, ...sx } = selectSourcesDrawer(state);
+
   const handleResize = useDrawerResizable(DRAWER.SOURCES);
 
   const sourcesTree = useMockSourcesTree();
@@ -40,11 +45,17 @@ export default function SourcesDrawer({ onClose, onOpen }: SourcesDrawerProps) {
   return (
     <Drawer
       variant="persistent"
-      open={open}
+      open={store?.isOpen}
       anchor="left"
-      sx={{ [`& .MuiDrawer-paper`]: sx }}
+      sx={{
+        [`& .MuiDrawer-paper`]: {
+          width: store?.width,
+          left: store?.left,
+          zIndex: store?.elevation,
+        },
+      }}
     >
-      <DrawerHeader />
+      <DrawerHeader store={navStore} />
       <List>
         <ListItem button key="All">
           <ListItemIcon>
@@ -72,7 +83,10 @@ export default function SourcesDrawer({ onClose, onOpen }: SourcesDrawerProps) {
       <SourcesTree sources={sourcesTree} />
       <Divider />
       <UserMenu />
-      <ResizerHandle left={sx.width + sx.left} onMouseDown={handleResize} />
+      <ResizerHandle
+        left={(store?.width ?? 0) + (store?.left ?? 0)}
+        onMouseDown={handleResize}
+      />
     </Drawer>
   );
 }

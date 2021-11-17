@@ -1,6 +1,6 @@
-import React from "react";
+import React, { Fragment } from "react";
 import { Typography, Drawer } from "@mui/material";
-import { Article, DrawerState, Source } from "@/models";
+import { Article, DRAWER, DrawerState, NavState, Source } from "@/models";
 import {
   ResizerHandle,
   DrawerHeader,
@@ -9,11 +9,11 @@ import {
 } from "@/components";
 import { SxProps } from "@mui/system";
 
-export interface ArticlesDrawerProps extends DrawerState {
+export interface ArticlesDrawerProps{
   source?: Source;
   articles?: Article[];
-  headerHeight?: number;
-  isLoading?: boolean;
+  store?: DrawerState;
+  navStore?: NavState;
   onArticleClick?: (article: Article) => void;
   onResizerHandleMouseDown?: (evt: React.MouseEvent<HTMLDivElement>) => void;
 }
@@ -23,23 +23,22 @@ export default function ArticlesDrawer({
   articles,
   onArticleClick,
   onResizerHandleMouseDown,
-  elevation = 1,
-  headerHeight = 48,
-  width = 400,
-  isOpen = true,
-  isLoading,
-  left = 0,
+  store,
+  navStore
 }: ArticlesDrawerProps) {
+
+  if (store?.active !== DRAWER.ARTICLES) return <Fragment />
+
   const drawerSx: SxProps = {
     [`& .MuiDrawer-paper`]: {
-      width: width,
-      left: left,
-      zIndex: elevation,
+      width: store?.width,
+      left: store?.left,
+      zIndex: store?.elevation,
     },
   };
 
   const scrollSx: SxProps<{ maxHeight: string; overflowY: string }> = {
-    maxHeight: `calc(100vh - ${headerHeight}px)`,
+    maxHeight: `calc(100vh - ${navStore?.height}px)`,
     overflowY: "scroll",
     ["&.MuiList-root"]: {
       paddingTop: 0,
@@ -50,8 +49,8 @@ export default function ArticlesDrawer({
     <Drawer
       variant="persistent"
       anchor="left"
-      elevation={elevation}
-      open={isOpen}
+      elevation={store?.elevation}
+      open={store?.isOpen}
       sx={drawerSx}
     >
       <DrawerHeader>
@@ -65,7 +64,7 @@ export default function ArticlesDrawer({
       />
       <ResizerHandle
         onMouseDown={onResizerHandleMouseDown}
-        left={width + left}
+        left={(store?.width ?? 0) + (store?.left ?? 0)}
       />
     </Drawer>
   );

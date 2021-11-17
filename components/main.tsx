@@ -1,20 +1,17 @@
-import { ReactNode, useContext } from "react";
-import { LayoutContext, selectContentOffset } from "@/context/layout";
+import { ReactNode } from "react";
 import styled from "@emotion/styled";
 
 export interface MainProps {
   children?: ReactNode;
+  left?: number | null;
 }
 
-export default function Main({ children }: MainProps) {
-  const [state] = useContext(LayoutContext);
-  const contentOffset = selectContentOffset(state);
-
-  return <Wrapper contentOffset={contentOffset}>{children}</Wrapper>;
+export default function Main({ children, left }: MainProps) {
+  return <Wrapper left={left ?? 0}>{children}</Wrapper>;
 }
 
 interface WrapperProps {
-  contentOffset?: number;
+  left?: number;
 }
 
 const Wrapper = styled.div<WrapperProps>`
@@ -22,7 +19,7 @@ const Wrapper = styled.div<WrapperProps>`
   position: fixed;
   width: 100%;
   overflow-y: auto;
-  max-width: calc(100vw - ${(props) => props?.contentOffset ?? 0}px);
+  max-width: calc(100vw - ${(props) => props?.left ?? 0}px);
   height: 100vh;
   bottom: 0;
   top: 0;

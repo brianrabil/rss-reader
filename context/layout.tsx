@@ -1,34 +1,27 @@
 import {
+  DRAWER,
   DrawerState,
   ELEVATION,
   LayoutAction,
   LayoutState,
   LAYOUT_ACTION,
-  MainState,
-  TopNavState,
+  NavState,
 } from "@/models/layout";
 import { createContext, Dispatch, useContext, useMemo } from "react";
 
 /* ------------------------------ Initial State ----------------------------- */
 
 export const initialState: LayoutState = {
-  topNav: {
+  nav: {
     elevation: ELEVATION.TWO,
     height: 64,
+    width: 80,
   },
-  articlesDrawer: {
+  panel: {
+    active: DRAWER.ARTICLES,
     isOpen: true,
     width: 400,
     left: 0,
-    elevation: ELEVATION.DEFAULT,
-  },
-  sourcesDrawer: {
-    isOpen: true,
-    width: 400,
-    left: 0,
-    elevation: ELEVATION.DEFAULT,
-  },
-  main: {
     elevation: ELEVATION.DEFAULT,
   },
 };
@@ -37,19 +30,19 @@ export const initialState: LayoutState = {
 
 export function reducer(state: LayoutState, action: LayoutAction): LayoutState {
   switch (action.type) {
-    case LAYOUT_ACTION.SET_ARTICLES_DRAWER:
+    case LAYOUT_ACTION.SET_NAV:
       return {
         ...state,
-        articlesDrawer: {
-          ...state.articlesDrawer,
+        nav: {
+          ...state.nav,
           ...action.payload,
         },
       };
-    case LAYOUT_ACTION.SET_SOURCES_DRAWER:
+    case LAYOUT_ACTION.SET_PANEL:
       return {
         ...state,
-        sourcesDrawer: {
-          ...state.sourcesDrawer,
+        panel: {
+          ...state.panel,
           ...action.payload,
         },
       };
@@ -60,46 +53,18 @@ export function reducer(state: LayoutState, action: LayoutAction): LayoutState {
 
 /* -------------------------------- Selectors ------------------------------- */
 
-export function selectSourcesDrawer(state?: LayoutState): DrawerState {
+export function selectNav(state?: LayoutState): NavState {
   return {
-    ...initialState.sourcesDrawer,
-    ...state?.sourcesDrawer,
-    left: 0,
+    ...initialState.nav,
+    ...state?.nav,
   };
 }
 
-export function selectArticlesDrawer(state?: LayoutState): DrawerState {
-  const { isOpen, width } = selectSourcesDrawer(state);
+export function selectPanel(state?: LayoutState): DrawerState {
   return {
-    ...initialState.articlesDrawer,
-    ...state?.articlesDrawer,
-    left: isOpen ? width : 0,
+    ...initialState.panel,
+    ...state?.panel,
   };
-}
-
-export function selectTopNav(state?: LayoutState): TopNavState {
-  return {
-    ...initialState.topNav,
-    ...state?.topNav,
-  };
-}
-
-export function selectMain(state?: LayoutState): MainState {
-  return {
-    ...initialState.main,
-    ...state?.main,
-  };
-}
-
-export function selectTopNavHeight(state?: LayoutState): number {
-  const { height } = selectTopNav(state);
-  return height;
-}
-
-export function selectContentOffset(state?: LayoutState): number {
-  const { isOpen, width } = selectArticlesDrawer(state);
-  const { left } = selectArticlesDrawer(state);
-  return isOpen ? left + width : left;
 }
 
 /* --------------------------------- Context -------------------------------- */
@@ -110,18 +75,12 @@ export const LayoutContext = createContext<
 
 /* ---------------------------------- Hooks --------------------------------- */
 
-export function useArticleDrawerStore(deps?: Array<keyof LayoutState>) {
+export function useNavStore(deps?: Array<keyof LayoutState>) {
   const [store] = useContext(LayoutContext);
-  return useMemo(() => 
-    selectArticlesDrawer(store), 
-    deps ?? [store]
-  );
+  return useMemo(() => selectNav(store), deps ?? [store]);
 }
 
-export function useTopNavStore(deps?: Array<keyof LayoutState>) {
+export function usePanelStore(deps?: Array<keyof LayoutState>) {
   const [store] = useContext(LayoutContext);
-  return useMemo(() => 
-    selectTopNav(store), 
-    deps ?? [store]
-  );
+  return useMemo(() => selectPanel(store), deps ?? [store]);
 }

@@ -1,35 +1,25 @@
-import React from "react";
+import React, { useContext } from "react";
 import Box from "@mui/material/Box";
-import { DRAWER, LayoutProps } from "@/models/layout";
-import { useArticles, useDrawerResizable, useLayout } from "@/hooks";
-import { LayoutContext, useArticleDrawerStore, useTopNavStore } from "@/context/layout";
-import { Main, TopNav, SourcesDrawer, ArticlesDrawer } from "@/components";
-import { generateSources } from "@/utils";
+import { LayoutProps } from "@/models/layout";
+import { useArticles } from "@/hooks";
+import { Main, TopNav } from "@/components";
+import { LayoutContext, useNavStore, usePanelStore } from "@/context/layout";
+import Sidebar from "@/components/sidebar";
 
 export default function Layout({ children }: LayoutProps) {
-  const [state, dispatch] = useLayout();
-  const articleDrawer = useArticleDrawerStore();
-  const source = generateSources(1)[0];
+  const [state, dispatch] = useContext(LayoutContext);
   const articles = useArticles({ useMockData: true });
-  const { height: headerHeight } = useTopNavStore();
-
-  const handleArticlesDrawerResize = useDrawerResizable(DRAWER.ARTICLES);
+  const navStore = useNavStore();
+  const panelStore = usePanelStore();
 
   return (
     <LayoutContext.Provider value={[state, dispatch]}>
       <Box>
-        <TopNav />
-        <SourcesDrawer />
-        <ArticlesDrawer 
-          source={source} 
-          articles={articles} 
-          left={articleDrawer.left}
-          onResizerHandleMouseDown={handleArticlesDrawerResize}
-          width={articleDrawer.width}
-          elevation={articleDrawer.elevation}
-          isOpen={articleDrawer.isOpen}
-        />
-        <Main>{children}</Main>
+        <TopNav store={navStore} panelStore={panelStore} />
+        <Sidebar />
+        <Main left={(panelStore?.left ?? 0) + (panelStore?.width ?? 0)}>
+          {children}
+        </Main>
       </Box>
     </LayoutContext.Provider>
   );

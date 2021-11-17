@@ -10,7 +10,6 @@ export default {
   title: 'Components/ArticleListItem',
 } as Meta;
 
-//👇 We create a “template” of how args map to rendering
 const Template: Story<ArticleListItemProps> = (args) => {
   return (
     <ArticleListItem {...args} />

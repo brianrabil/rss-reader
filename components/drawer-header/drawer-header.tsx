@@ -1,17 +1,21 @@
 import { CollapseButton } from "@/components";
 import { Grid, Box, useTheme, Theme } from "@mui/material";
-import { ReactNode, useMemo, useContext } from "react";
+import { ReactNode, useMemo } from "react";
 import { SxProps } from "@mui/system";
-import { LayoutContext, selectTopNav } from "@/context/layout";
+import { NavState } from "@/models";
 
 export interface DrawerHeaderProps {
   children?: ReactNode;
+  store?: NavState;
   sx?: SxProps;
 }
 
-export default function DrawerHeader({ children, sx }: DrawerHeaderProps) {
-  const [state] = useContext(LayoutContext);
-  const { height } = selectTopNav(state);
+export default function DrawerHeader(props: DrawerHeaderProps) {
+  const {
+    children,
+    store,
+    sx
+  } = props;
   const {
     direction,
     palette,
@@ -27,9 +31,9 @@ export default function DrawerHeader({ children, sx }: DrawerHeaderProps) {
 
   const gridSx: SxProps<Theme> = useMemo(
     () => ({
-      minHeight: height,
-      maxHeight: height,
-      height: height,
+      minHeight: store?.height,
+      maxHeight: store?.height,
+      height: store?.height,
       borderBottomWidth: "1px",
       borderBottomStyle: "solid",
       borderBottomColor: palette?.divider,
@@ -37,7 +41,7 @@ export default function DrawerHeader({ children, sx }: DrawerHeaderProps) {
       paddingX: spacing(2),
       ...sx
     }),
-    [height, palette, sx]
+    [store, palette, sx]
   );
 
   return (
