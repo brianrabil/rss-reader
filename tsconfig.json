@@ -16,20 +16,14 @@
     "jsx": "preserve",
     "baseUrl": ".",
     "paths": {
-      "@/components": ["components"],
-      "@/components/*": ["components/*"],
-      "@/models": ["models"],
-      "@/models/*": ["models/*"],
-      "@/context/*": ["context/*"],
-      "@/context": ["context"],
-      "@/constants": ["constants"],
-      "@/constants/*": ["constants/*"],
-      "@/graphql": ["graphql"],
-      "@/graphql/*": ["graphql/*"],
-      "@/hooks": ["hooks"],
-      "@/hooks/*": ["hooks/*"],
-      "@/utils": ["utils"],
-      "@/utils/*": ["utils/*"]
+      "@components": ["components"],
+      "@models": ["models"],
+      "@context": ["context"],
+      "@constants": ["constants"],
+      "@store": ["store"],
+      "@graphql": ["graphql"],
+      "@hooks": ["hooks"],
+      "@utils": ["utils"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],

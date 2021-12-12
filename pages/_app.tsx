@@ -1,15 +1,19 @@
 import "../styles/globals.scss";
-import type { AppProps } from "next/app";
 import "@fontsource/roboto";
-import React from "react";
-import { CacheProvider, EmotionCache } from "@emotion/react";
-import useMediaQuery from "@mui/material/useMediaQuery";
-import { createTheme, ThemeProvider } from "@mui/material/styles";
-import CssBaseline from "@mui/material/CssBaseline";
-import createCache from "@emotion/cache";
 import type {} from "@mui/lab/themeAugmentation";
+
+import { CacheProvider, EmotionCache } from "@emotion/react";
+import { ThemeProvider, createTheme } from "@mui/material/styles";
+
 import { ApolloProvider } from "@apollo/client";
+import type { AppProps } from "next/app";
+import CssBaseline from "@mui/material/CssBaseline";
+import { Provider } from "react-redux";
+import React from "react";
 import { client } from "./../graphql";
+import createCache from "@emotion/cache";
+import { store } from "./../store";
+import useMediaQuery from "@mui/material/useMediaQuery";
 
 export const muiTheme = (prefersDarkMode: boolean) =>
   createTheme({
@@ -37,6 +41,7 @@ function createEmotionCache() {
 }
 
 const clientSideEmotionCache = createEmotionCache();
+
 interface MyAppProps extends AppProps {
   emotionCache?: EmotionCache;
 }
@@ -54,12 +59,14 @@ function MyApp({
 
   return (
     <ApolloProvider client={client}>
-      <CacheProvider value={emotionCache}>
-        <ThemeProvider theme={theme}>
-          <CssBaseline />
-          <Component {...pageProps} />
-        </ThemeProvider>
-      </CacheProvider>
+      <Provider store={store}>
+        <CacheProvider value={emotionCache}>
+          <ThemeProvider theme={theme}>
+            <CssBaseline />
+            <Component {...pageProps} />
+          </ThemeProvider>
+        </CacheProvider>
+      </Provider>
     </ApolloProvider>
   );
 }

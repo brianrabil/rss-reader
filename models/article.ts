@@ -1,10 +1,18 @@
+import {
+  Author,
+  Image,
+  Meta,
+  Source,
+} from '@models';
 
 export interface Article {
-  id: string;
-  title?: string;
-  author?: string;
+  authorId?: Author['id'];
+  bannerImage?: Image;
   description?: string;
-  date?: Date;
-  image?: string;
-  source?: string;
+  id: string;
+  lastModified?: Date;
+  meta?: Meta;
+  publishDate?: Date;
+  sourceId?: Source['id'];
+  title?: string;
 }
