@@ -9,7 +9,7 @@ import {
 } from "@/components";
 import { SxProps } from "@mui/system";
 
-export interface ArticlesDrawerProps{
+export interface ArticlesDrawerProps {
   source?: Source;
   articles?: Article[];
   store?: DrawerState;
@@ -24,10 +24,9 @@ export default function ArticlesDrawer({
   onArticleClick,
   onResizerHandleMouseDown,
   store,
-  navStore
+  navStore,
 }: ArticlesDrawerProps) {
-
-  if (store?.active !== DRAWER.ARTICLES) return <Fragment />
+  if (store?.active !== DRAWER.ARTICLES) return <Fragment />;
 
   const drawerSx: SxProps = {
     [`& .MuiDrawer-paper`]: {

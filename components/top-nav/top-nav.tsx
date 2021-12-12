@@ -1,13 +1,14 @@
-import React, { useContext } from 'react';
-import { useTheme } from "@mui/material/styles";
-import AppBar from "@mui/material/AppBar";
-import Toolbar from "@mui/material/Toolbar";
-import IconButton from "@mui/material/IconButton";
-import StyleMenu from "@/components/style-menu";
-import Box from "@mui/material/Box";
-import ArrowBackIcon from "@mui/icons-material/ArrowBack";
-import ShareMenu from "@/components/share-menu";
 import { DrawerState, NavState } from '@/models';
+
+import AppBar from "@mui/material/AppBar";
+import ArrowBackIcon from "@mui/icons-material/ArrowBack";
+import Box from "@mui/material/Box";
+import IconButton from "@mui/material/IconButton";
+import React from 'react';
+import ShareMenu from "@/components/share-menu/share-menu";
+import StyleMenu from "@/components/style-menu/style-menu";
+import Toolbar from "@mui/material/Toolbar";
+import { useTheme } from "@mui/material/styles";
 
 export interface TopNavProps {
   store?: NavState;

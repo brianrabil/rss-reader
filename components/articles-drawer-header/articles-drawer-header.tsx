@@ -2,7 +2,7 @@ import DrawerHeader from '@/components/drawer-header/drawer-header';
 import { Source } from '@/models';
 import Stack from '@mui/material/Stack';
 import Typography from '@mui/material/Typography';
-import Favicon from '@/components/favicon';
+import Favicon from '@/components/favicon/favicon';
 
 export interface ArticlesDrawerHeaderProps {
   source: Source;

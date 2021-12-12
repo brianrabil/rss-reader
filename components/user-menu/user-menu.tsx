@@ -1,16 +1,16 @@
-import { useState } from "react";
 import Avatar from "@mui/material/Avatar";
 import List from "@mui/material/List";
 import ListItem from "@mui/material/ListItem";
 import ListItemIcon from "@mui/material/ListItemIcon";
 import ListItemText from "@mui/material/ListItemText";
 import { useLayout } from "@/hooks";
+import { useState } from "react";
 
 export default function UserMenu() {
   const [isExpanded, setIsExpanded] = useState<boolean>(false);
-  const { topNavHeight } = useLayout();
+  const [{ nav }] = useLayout();
 
-  const rowHeight = { height: topNavHeight };
+  const rowHeight = { height: nav.height };
 
   const toggleIsExpanded = () => setIsExpanded(!isExpanded);
 

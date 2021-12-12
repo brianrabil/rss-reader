@@ -7,7 +7,14 @@ import {
   LAYOUT_ACTION,
   NavState,
 } from "@/models/layout";
-import { createContext, Dispatch, useContext, useMemo } from "react";
+import {
+  createContext,
+  Dispatch,
+  ReactNode,
+  useContext,
+  useMemo,
+  useReducer,
+} from "react";
 
 /* ------------------------------ Initial State ----------------------------- */
 
@@ -83,4 +90,19 @@ export function useNavStore(deps?: Array<keyof LayoutState>) {
 export function usePanelStore(deps?: Array<keyof LayoutState>) {
   const [store] = useContext(LayoutContext);
   return useMemo(() => selectPanel(store), deps ?? [store]);
+}
+
+export interface LayoutContextProviderProps {
+  children?: ReactNode;
+}
+
+export default function LayoutContextProvider({
+  children,
+}: LayoutContextProviderProps) {
+  const [state, dispatch] = useReducer(reducer, initialState);
+  return (
+    <LayoutContext.Provider value={[state, dispatch]}>
+      {children}
+    </LayoutContext.Provider>
+  );
 }

@@ -1,8 +1,9 @@
-import React, { Dispatch, useReducer } from "react";
 import { DRAWER, DrawerState } from "@/models";
-import SourcesDrawer from "@/components/sources-drawer";
+
 import ArticlesDrawer from "@/components/articles-drawer";
 import { Box } from "@mui/material";
+import React from "react";
+import SourcesDrawer from "@/components/sources-drawer/sources-drawer";
 import { usePanelStore } from "@/context/layout";
 
 interface SidebarPanelState {
