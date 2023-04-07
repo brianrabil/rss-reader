@@ -1,4 +1,4 @@
-import { useState, useEffect, useCallback, RefObject, useRef } from "react";
+import React, { useState, useEffect, useCallback, RefObject, useRef } from "react";
 
 export function useDrawerResizable(
   ref: RefObject<HTMLElement | null>,
@@ -38,7 +38,7 @@ export function useDrawerResizable(
     window.removeEventListener('mousemove', onMouseMove);
     document.body.style.userSelect = "";
   }
-  
+
   const onHandleMouseDown = (evt: React.MouseEvent<HTMLDivElement>) => {
     if (typeof window !== 'undefined' && evt.clientX) {
       initialWidth.current = evt.clientX;

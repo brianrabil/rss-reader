@@ -7,5 +7,6 @@ export function generateArticles(count: number): Article[] {
     description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit.`,
     date: "2020-01-01",
     image: "https://source.unsplash.com/random/400x400",
+		author: "John Doe"
   }));
 }

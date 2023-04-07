@@ -15,7 +15,6 @@ const DrawerHandle: React.FC<DrawerHandleProps> = ({
   onMouseUp,
 }) => {
   const theme = useTheme();
-
   return (
     <Portal>
       <Box

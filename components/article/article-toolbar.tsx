@@ -1,28 +1,26 @@
-import React, { useEffect } from "react";
+import React from "react";
+
 import { useTheme } from "@mui/material/styles";
 import AppBar from "@mui/material/AppBar";
 import Toolbar from "@mui/material/Toolbar";
 import IconButton from "@mui/material/IconButton";
-import StyleMenu from "./style-menu";
+import StyleMenu from "../style-menu";
 import Box from "@mui/material/Box";
 import ArrowBackIcon from "@mui/icons-material/ArrowBack";
-import ShareMenu from "./share-menu";
+import ShareMenu from "../share-menu";
 
-interface TopNavProps {
+interface ArticleToolbarProps {
   height?: number;
   style?: React.CSSProperties;
   contentShift?: number;
 }
 
-export default function TopNav({ style, height, contentShift }: TopNavProps) {
+const ArticleToolbar: React.FunctionComponent<ArticleToolbarProps> = (props) => {
+  const { style, height, contentShift } = props;
   const theme = useTheme();
 
   const handleDrawerOpen = () => {};
   const handleDrawerClose = () => {};
-
-  useEffect(() => {
-    console.log(contentShift);
-  }, [contentShift]);
 
   return (
     <AppBar
@@ -31,10 +29,8 @@ export default function TopNav({ style, height, contentShift }: TopNavProps) {
       sx={{
         height: `${height}px`,
         boxShadow: "none",
-        borderBottomWidth: "1px",
-        borderBottomStyle: "solid",
-        borderBottomColor: theme.palette.divider,
-        width: `calc(100vw - ${contentShift}px)`,
+				borderBottom: 'none',
+				width: '100%'
       }}
     >
       <Toolbar>
@@ -60,4 +56,8 @@ export default function TopNav({ style, height, contentShift }: TopNavProps) {
       </Toolbar>
     </AppBar>
   );
-}
+};
+
+ArticleToolbar.displayName = "ArticleToolbar";
+
+export default ArticleToolbar;

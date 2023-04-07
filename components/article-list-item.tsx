@@ -18,13 +18,10 @@ export default function ArticleListItem({
   onClick,
   key,
 }: ArticleListItemProps) {
+	const { title, description, image } = article;
   const theme = useTheme();
 
   const handleListItemClick = () => onClick(article);
-
-  const title = useMemo(() => _.get(article, 'title'), [article.title]);
-  const description = useMemo(() => _.get(article, 'description'), [article.description]);
-  const image = useMemo(() => _.get(article, 'image'), [article.image]);
 
   return (
     <React.Fragment>
@@ -38,9 +35,13 @@ export default function ArticleListItem({
                 marginRight: theme.spacing(1),
                 borderRadius: theme.shape.borderRadius,
               }}
-              src={image}
+              src={article?.image}
+							alt={`Avatar ${article?.source}`}
             />
           )}
+					<div>
+						Hello
+					</div>
         </ListItemAvatar>
         <ListItemText
           primary={title}

@@ -34,36 +34,20 @@ export default function ArticlesDrawer({
   headerHeight,
   onClose,
   onArticleClick,
-  onDrawerWidthResize
+  onDrawerWidthResize,
 }: ArticlesDrawerProps) {
   const mockArticles = useMockArticles(25);
   const theme = useTheme();
   const drawerRef = useRef(null);
-  const {
-    width,
-    handleOffsetLeft,
-    onHandleMouseDown,
-  } = useDrawerResizable(drawerRef, contentShift, drawerWidth);
+  const { width, handleOffsetLeft, onHandleMouseDown } = useDrawerResizable(
+    drawerRef,
+    contentShift,
+    drawerWidth
+  );
 
   const handleDrawerOpen = () => onOpen();
   const handleDrawerClose = () => onClose();
   const handleArticleClick = (article: Article) => onArticleClick(article);
-
-  const drawerHeaderStyles = useMemo(
-    () => ({
-      display: "flex",
-      alignItems: "center",
-      padding: theme.spacing(0, 2),
-      height: headerHeight,
-      minHeight: headerHeight,
-      [`& > img`]: {
-        maxWidth: 24,
-        maxHeight: 24,
-        marginRight: theme.spacing(2),
-      },
-    }),
-    [headerHeight, theme]
-  );
 
   useEffect(() => {
     onDrawerWidthResize(width);
@@ -84,7 +68,20 @@ export default function ArticlesDrawer({
           },
         }}
       >
-        <Box sx={drawerHeaderStyles}>
+        <Box
+          sx={{
+            display: "flex",
+            alignItems: "center",
+            padding: theme.spacing(0, 2),
+            height: headerHeight,
+            minHeight: headerHeight,
+            [`& > img`]: {
+              maxWidth: 24,
+              maxHeight: 24,
+              marginRight: theme.spacing(2),
+            },
+          }}
+        >
           <img
             src={`http://www.google.com/s2/favicons?domain=${source?.url}`}
           />
@@ -101,10 +98,7 @@ export default function ArticlesDrawer({
           ))}
         </List>
       </Drawer>
-      <DrawerHandle 
-        left={handleOffsetLeft} 
-        onMouseDown={onHandleMouseDown}
-      />
+      <DrawerHandle left={handleOffsetLeft} onMouseDown={onHandleMouseDown} />
     </React.Fragment>
   );
 }

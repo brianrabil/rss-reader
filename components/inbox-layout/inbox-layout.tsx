@@ -1,17 +1,16 @@
 import React, { useState, useEffect, useRef } from "react";
 import Box from '@mui/material/Box';
 import { useTheme } from "@mui/material/styles";
-import ArticlesDrawer from "./articles-drawer";
-import SourcesDrawer from "./sources-drawer";
-import TopNav from "./top-nav";
-import Article from './article';
-import { Article as IArticle } from "../models";
+import ArticlesDrawer from "../articles-drawer";
+import SourcesDrawer from "../sources-drawer";
+import Article from '../article';
+import { Article as IArticle } from "../../models";
 
 interface LayoutProps {
-  children: React.ReactNode;
+  children?: React.ReactNode;
 }
 
-export default function Layout({ children }: LayoutProps) {
+const Layout: React.VFC<LayoutProps> = ({ children }) => {
 
   const theme = useTheme();
 
@@ -44,11 +43,8 @@ export default function Layout({ children }: LayoutProps) {
 
   return (
     <Box>
-      <TopNav 
-        contentShift={contentShift}
-      />
 
-      <SourcesDrawer 
+      <SourcesDrawer
         headerHeight={topNavHeight.current}
         drawerWidth={sourcesDrawerWidth}
         onClose={handleSourceListClose}
@@ -57,7 +53,7 @@ export default function Layout({ children }: LayoutProps) {
         onDrawerWidthResize={handleSourcesDrawerWidthChange}
       />
 
-      <ArticlesDrawer 
+      <ArticlesDrawer
         headerHeight={topNavHeight.current}
         drawerWidth={articlesDrawerWidth}
         onClose={handleArticleListClose}
@@ -86,3 +82,5 @@ export default function Layout({ children }: LayoutProps) {
     </Box>
   );
 }
+
+export default Layout;
