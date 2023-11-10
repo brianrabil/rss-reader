@@ -1,9 +1,11 @@
 {
-    "cSpell.words": [
-        "fontsource",
-        "roboto",
-        "storyshots",
-        "storysource"
-    ],
-    "editor.formatOnSave": true
+  "cSpell.words": [
+    "fontsource",
+    "nextjs",
+    "roboto",
+    "storyshots",
+    "storysource"
+  ],
+  "editor.formatOnSave": true,
+  "typescript.tsdk": "node_modules/typescript/lib"
 }
