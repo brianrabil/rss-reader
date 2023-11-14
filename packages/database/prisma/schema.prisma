@@ -10,25 +10,83 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
+/// User model represents an individual user of the application.
 model User {
-  id        Int      @id @default(autoincrement())
-  createdAt DateTime @default(now())
-  email     String   @unique
-  name      String?
+  id            Int            @id @default(autoincrement())
+  username      String         @unique
+  email         String         @unique
+  firstName     String?
+  lastName      String?
+  profileImage  String? // URL to the user's profile image
+  password      String // @db.VarChar(200) // Hashed password for user authentication
+  createdAt     DateTime       @default(now())
+  updatedAt     DateTime       @updatedAt
+  subscriptions Subscription[] // List of subscriptions the user has made
+  readArticles  UserArticle[] // Tracks the articles read by the user
 }
 
+/// Subscription model links a User to a Feed they are subscribed to.
+model Subscription {
+  id        Int       @id @default(autoincrement())
+  userId    Int // ID of the subscribing User
+  feedId    Int // ID of the subscribed Feed
+  createdAt DateTime  @default(now())
+  updatedAt DateTime  @updatedAt
+  user      User      @relation(fields: [userId], references: [id])
+  feed      Feed      @relation(fields: [feedId], references: [id])
+  articles  Article[] // Articles associated with this subscription
+}
+
+/// Feed model represents an external RSS feed.
 model Feed {
-  id       Int       @id @default(autoincrement())
-  url      String    @unique
-  title    String
-  articles Article[]
+  id            Int            @id @default(autoincrement())
+  url           String         @unique // URL of the RSS feed
+  title         String? // Title of the feed
+  description   String? // Description of the feed
+  favicon       String? // URL of the feed's favicon or representative image
+  lastUpdated   DateTime? // Timestamp of the last feed update
+  subscriptions Subscription[] // Subscriptions associated with this feed
 }
 
+/// Author model represents the creator of an article.
+model Author {
+  id            Int       @id @default(autoincrement())
+  articles      Article[] // Articles written by this author
+  bio           String? // Short biography of the author
+  email         String? // Contact email of the author
+  linkedinUrl   String? // URL to the author's LinkedIn profile
+  name          String // Full name of the author
+  profileImage  String? // URL to the author's profile image
+  twitterHandle String?   @unique // Twitter handle of the author
+  website       String? // Personal or professional website of the author
+}
+
+/// Article model represents a news article.
 model Article {
-  id      Int    @id @default(autoincrement())
-  title   String
-  link    String
-  content String
-  feedId  Int
-  feed    Feed   @relation(fields: [feedId], references: [id])
+  id             Int           @id @default(autoincrement())
+  subscriptionId Int // ID of the Subscription through which the article was accessed
+  title          String // Title of the article
+  description    String? // Short description or summary of the article
+  content        String? // Full content of the article
+  imageUrl       String? // URL of the main image or thumbnail for the article
+  authorId       Int? // ID of the author of the article
+  link           String // Direct link to the article
+  pubDate        DateTime // Publication date of the article
+  createdAt      DateTime      @default(now())
+  updatedAt      DateTime      @updatedAt
+  subscription   Subscription  @relation(fields: [subscriptionId], references: [id])
+  author         Author?       @relation(fields: [authorId], references: [id])
+  userArticles   UserArticle[] // Relationship with UserArticle for tracking read status
+}
+
+/// Junction table for the many-to-many relationship between User and Article.
+/// It tracks whether a user has read a particular article.
+model UserArticle {
+  userId    Int
+  articleId Int
+  read      Boolean @default(false) // Boolean indicating if the article has been read
+  user      User    @relation(fields: [userId], references: [id])
+  article   Article @relation(fields: [articleId], references: [id])
+
+  @@id([userId, articleId]) // Composite primary key consisting of userId and articleId
 }
