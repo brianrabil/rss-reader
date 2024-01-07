@@ -1,11 +1,5 @@
 {
   "private": true,
-  "description": "BDR RSS Reader UI",
-  "author": {
-    "name": "Brian Rabil",
-    "email": "brianrabil@gmail.com"
-  },
-  "types": "./bdr-reader.d.ts",
   "workspaces": [
     "packages/*",
     "apps/*"
