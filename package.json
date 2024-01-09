@@ -21,5 +21,8 @@
     "turbo": "latest",
     "typescript": "^5.2.2"
   },
-  "packageManager": "yarn@1.22.15"
+  "packageManager": "yarn@1.22.15",
+  "dependencies": {
+    "xml-js": "^1.6.11"
+  }
 }
