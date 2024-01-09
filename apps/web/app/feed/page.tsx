@@ -1,75 +1,89 @@
 import { InboxLayout, FeedLayout } from 'ui'
-import { PrismaClient } from 'database'
+import { PrismaClient, Article } from 'database'
 import convert from 'xml-js'
+
+type ParsedArticle = Omit<Article, 'id' | 'createdAt' | 'updatedAt' | 'subscriptionId'>
+
+function useRSS() {
+  const getFeed = async (url: string): Promise<ParsedArticle[]> => {
+    'use server'
+
+    const response = await fetch(url, {
+      method: 'GET',
+    })
+
+    let articles: ParsedArticle[] = []
+
+    convert.xml2js(await response.text()).elements[0].elements[0].elements.forEach((item) => {
+      let element: Partial<{
+        title: string
+        link: string
+        guid: string
+        pubDate: Date
+        'media:content': string
+        description: string
+        category: string
+        'media:keywords': string[]
+        'dc:creator': string[]
+        'dc:publisher': string
+        'dc:subject': string
+      }> = {}
+
+      item.elements?.forEach((el) => {
+        if (!el.name) return
+        switch (el.name) {
+          case 'media:thumbnail':
+            element[el.name] = el.attributes
+            break
+          case 'media:content':
+            element[el.name] = el.attributes
+            break
+          case 'media:credit':
+            element[el.name] = el.elements[0].text
+            break
+          case 'media:keywords':
+            element[el.name] = el.elements[0].text.split(', ')
+            break
+          case 'dc:creator':
+            element[el.name] = el.elements[0].text.split(', ')
+            break
+          case 'pubDate':
+            element[el.name] = new Date(el.elements?.[0].text)
+            break
+          default:
+            element[el.name] = el.elements?.[0].text
+            break
+        }
+      })
+
+      if (element.guid && element.title && element.pubDate && element.link) {
+        articles.push({
+          guid: element.guid,
+          link: element.link,
+          title: element.title,
+          imageUrl: element['media:thumbnail']?.url ?? null,
+          pubDate: element.pubDate,
+          description: element.description ?? null,
+          content: element['media:content'] ?? null,
+          authorId: null,
+        })
+      }
+    })
+
+    return articles
+  }
+
+  return { getFeed }
+}
 
 const prisma = new PrismaClient()
 
 const rssFeeds = { wired: 'https://www.wired.com/feed/category/gear/latest/rss' }
 
-interface RSSArticle {
-  title: string
-  link: string
-  guid: string
-  pubDate: Date
-  'media:content'?: string
-  description: string
-  category: string
-  'media:keywords': string[]
-  'dc:creator': string[]
-  'dc:publisher': string
-  'dc:subject': string
-}
-
-const fetchFeed = async () => {
-  'use server'
-
-  const response = await fetch(rssFeeds.wired, {
-    method: 'GET',
-  })
-
-  return convert.xml2js(await response.text()).elements[0].elements[0].elements.map((item) => {
-    let article: Partial<RSSArticle> = {}
-
-    item.elements?.forEach((element) => {
-      switch (element.name) {
-        case 'media:thumbnail':
-          article[element.name] = element.attributes
-          break
-        case 'media:content':
-          article[element.name] = element.attributes
-          break
-        case 'media:credit':
-          article[element.name] = element.elements[0].text
-          break
-        case 'media:keywords':
-          article[element.name] = element.elements[0].text.split(', ')
-          break
-        case 'dc:creator':
-          article[element.name] = element.elements[0].text.split(', ')
-          break
-        case 'pubDate':
-          article[element.name] = new Date(element.elements?.[0].text)
-          break
-        default:
-          article[element.name] = element.elements?.[0].text
-          break
-      }
-    })
-
-    return {
-      id: article.guid,
-      title: article.title,
-      imageUrl: article['media:thumbnail']?.url,
-      pubDate: article.pubDate?.toISOString(),
-      description: article.description,
-      content: article['media:content'],
-      authorId: article['dc:creator'],
-    }
-  })
-}
-
 export default async function FeedPage() {
-  const articles = await fetchFeed()
+  const { getFeed } = useRSS()
+
+  const articles = await getFeed(rssFeeds.wired)
 
   const subscriptions = await prisma.subscription.findMany({
     include: {
@@ -95,14 +109,14 @@ export default async function FeedPage() {
           </div> */}
           <div>
             {articles.map((article) => (
-              <div key={article.id}>
+              <div key={article.guid}>
                 <div>
-                  {!!article.imageUrl && (
-                    <img alt={`${article.title} image`} src={article.imageUrl} />
+                  {!!article?.imageUrl && (
+                    <img alt={`${article.title} image`} src={article?.imageUrl} />
                   )}
                   <h3>{article.title}</h3>
                   <h4>{article.authorId}</h4>
-                  <span>{article.pubDate}</span>
+                  <span>{article.pubDate?.toDateString()}</span>
                   <p>{article.description}</p>
                 </div>
                 <div>{article.content}</div>

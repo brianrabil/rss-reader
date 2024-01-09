@@ -65,6 +65,7 @@ model Author {
 model Article {
   id             Int           @id @default(autoincrement())
   subscriptionId Int // ID of the Subscription through which the article was accessed
+  guid           String        @unique // Unique identifier for the article
   title          String // Title of the article
   description    String? // Short description or summary of the article
   content        String? // Full content of the article

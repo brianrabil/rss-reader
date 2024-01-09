@@ -73,6 +73,7 @@ async function main() {
       const randomFeed = faker.helpers.arrayElement(feeds)
       await prisma.article.create({
         data: {
+          guid: faker.string.uuid(),
           title: faker.lorem.sentence(),
           description: faker.lorem.paragraph(),
           content: faker.lorem.paragraphs(5),
