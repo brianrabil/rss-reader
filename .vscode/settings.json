@@ -1,10 +1,14 @@
 {
   "cSpell.words": [
     "fontsource",
+    "jetpack",
     "nextjs",
+    "pino",
     "roboto",
+    "rssfeeds",
     "storyshots",
-    "storysource"
+    "storysource",
+    "tslog"
   ],
   "editor.formatOnSave": true,
   "typescript.tsdk": "node_modules/typescript/lib"

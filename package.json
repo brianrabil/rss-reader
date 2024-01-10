@@ -17,12 +17,10 @@
     "eslint": "^8.53.0",
     "eslint-config-next": "^14.0.2",
     "prettier": "^3.0.3",
+    "ts-node": "^10.9.2",
     "tsconfig": "*",
     "turbo": "latest",
     "typescript": "^5.2.2"
   },
-  "packageManager": "yarn@1.22.15",
-  "dependencies": {
-    "xml-js": "^1.6.11"
-  }
+  "packageManager": "yarn@1.22.15"
 }
