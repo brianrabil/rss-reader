@@ -2,7 +2,7 @@ import { FeedSpot } from './lib'
 import { logger } from './logger'
 
 async function main() {
-  await new FeedSpot().sync()
+  await new FeedSpot().getFeeds()
 }
 
 main()

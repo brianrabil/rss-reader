@@ -1,23 +1,23 @@
 {
-  "name": "rss-service",
+  "name": "rss",
   "version": "0.0.0",
   "private": true,
   "license": "MIT",
-  "type": "module",
-  "main": "./src/index.ts",
+  "main": "./dist/index.js",
   "types": "./src/index.ts",
   "scripts": {
-    "start": "node --enable-source-maps --experimental-specifier-resolution=node --no-warnings --loader ts-node/esm src/main.ts"
+    "start:sync": "node --enable-source-maps --experimental-specifier-resolution=node --no-warnings --loader ts-node/esm src/main.ts",
+    "build": "ts-node ./esbuild.ts"
   },
   "dependencies": {
     "axios": "^1.6.5",
     "cheerio": "^1.0.0-rc.12",
-    "database": "*",
+    "esbuild": "^0.19.11",
     "fs-jetpack": "^5.1.0",
     "lodash-es": "^4.17.21",
+    "ora": "^8.0.1",
     "rss-parser": "^3.13.0",
-    "tslog": "^4.9.2",
-    "xlsx": "^0.18.5"
+    "tslog": "^4.9.2"
   },
   "devDependencies": {
     "@types/lodash-es": "^4.17.12",

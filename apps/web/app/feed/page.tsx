@@ -1,68 +1,111 @@
-import { InboxLayout, FeedLayout } from 'ui'
-import { PrismaClient } from 'database'
-import { getFeed } from 'rss-service'
-
-const prisma = new PrismaClient()
+import Link from 'next/link'
 
 export default async function FeedPage() {
-  await getFeed()
-
-  const subscriptions = await prisma.subscription.findMany({
-    include: {
-      articles: {
-        include: {
-          author: true,
-        },
-      },
-      feed: true,
-    },
-  })
+  // const subscriptions = await prisma.subscription.findMany({
+  //   include: {
+  //     articles: {
+  //       include: {
+  //         author: true,
+  //       },
+  //     },
+  //     feed: true,
+  //   },
+  // })
 
   return (
-    <div>
-      {subscriptions.map(({ id, articles, feed }) => (
-        <div key={id}>
-          <div>
-            {!!feed.favicon && <img alt={`${feed.title} favicon`} src={feed.favicon} />}
-            <h2>{feed.title}</h2>
-            <p>{feed.description}</p>
-            <a>{feed.url}</a>
-            <span>{feed.lastUpdated?.toISOString()}</span>
-          </div>
-          <div
-            style={{
-              display: 'flex',
-              flexDirection: 'column',
-              maxWidth: 400,
-              gap: 24,
-              fontFamily: 'sans-serif',
-            }}
+    <div className="flex flex-1 overflow-hidden">
+      <aside className="w-72 border-r overflow-auto dark:border-gray-800">
+        <nav className="p-4 space-y-2">
+          <Link
+            id={`subscription-all-feeds`}
+            className="flex items-center gap-2 font-semibold text-gray-900 dark:text-gray-50"
+            href={`/feeds`}
           >
-            {articles.map((article) => (
-              <div
-                style={{ border: '1px solid lightgray', borderRadius: 8, overflow: 'hidden' }}
-                key={article.guid}
-              >
-                {!!article?.imageUrl && (
-                  <img
-                    alt={`${article.title} image`}
-                    src={article?.imageUrl}
-                    style={{ width: '100%', maxHeight: 200, objectFit: 'cover' }}
-                  />
-                )}
-                <div style={{ padding: '8px 16px' }}>
-                  <h3>{article.title}</h3>
-                  <p style={{ fontSize: 16, lineHeight: 1.3 }}>{article.description}</p>
-
-                  <h4>{article.authorId}</h4>
-                  <span style={{ fontSize: 12 }}>{article.pubDate?.toDateString()}</span>
-                </div>
-                <div>{article.content}</div>
-              </div>
-            ))}
+            <img alt="All Feeds Icon" className="w-5 h-5" src="/placeholder.svg" />
+            All Feeds
+          </Link>
+          {/* {subscriptions.map(({ id, feed }) => (
+            <Link
+              key={id}
+              className="flex items-center gap-2 text-sm font-semibold text-gray-900 dark:text-gray-50"
+              href={`/feed/${id}`}
+            >
+              {!!feed.favicon && (
+                <img alt={`${feed.title} Icon`} className="w-5 h-5" src={feed.favicon} />
+              )}
+              {feed.title}
+            </Link>
+          ))} */}
+        </nav>
+      </aside>
+      <main className="flex-1 overflow-auto">
+        <article className="p-4 border-b dark:border-gray-800">
+          <div className="flex gap-4">
+            <img
+              alt="Article Thumbnail"
+              className="w-24 h-24 object-cover"
+              height="100"
+              src="/placeholder.svg"
+              style={{
+                aspectRatio: '100/100',
+                objectFit: 'cover',
+              }}
+              width="100"
+            />
+            <div>
+              <h2 className="text-lg font-semibold">Article Title</h2>
+              <p className="text-sm text-gray-500 dark:text-gray-400">
+                Published on January 16, 2024
+              </p>
+              <p className="mt-2">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pellentesque egestas
+                velit, non sollicitudin mauris. Nullam ut fermentum nunc...
+              </p>
+            </div>
           </div>
-        </div>
-      ))}
+          <div className="mt-4 flex items-center gap-2">
+            {/* <Button size="sm" variant="outline">
+                Read More
+              </Button>
+              <Button size="sm" variant="ghost">
+                Mark as Read
+              </Button> */}
+          </div>
+        </article>
+        <article className="p-4 border-b dark:border-gray-800">
+          <div className="flex gap-4">
+            <img
+              alt="Article Thumbnail"
+              className="w-24 h-24 object-cover"
+              height="100"
+              src="/placeholder.svg"
+              style={{
+                aspectRatio: '100/100',
+                objectFit: 'cover',
+              }}
+              width="100"
+            />
+            <div>
+              <h2 className="text-lg font-semibold">Article Title</h2>
+              <p className="text-sm text-gray-500 dark:text-gray-400">
+                Published on January 15, 2024
+              </p>
+              <p className="mt-2">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pellentesque egestas
+                velit, non sollicitudin mauris. Nullam ut fermentum nunc...
+              </p>
+            </div>
+          </div>
+          <div className="mt-4 flex items-center gap-2">
+            {/* <Button size="sm" variant="outline">
+                Read More
+              </Button>
+              <Button size="sm" variant="ghost">
+                Mark as Read
+              </Button> */}
+          </div>
+        </article>
+      </main>
     </div>
   )
 }

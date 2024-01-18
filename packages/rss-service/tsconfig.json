@@ -1,9 +1,0 @@
-{
-  "extends": "tsconfig/react-library.json",
-  "include": ["."],
-  "compilerOptions": {
-    "inlineSourceMap": true,
-    "target": "es2020"
-  },
-  "exclude": ["dist", "build", "node_modules"]
-}
