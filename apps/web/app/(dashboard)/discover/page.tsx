@@ -11,23 +11,6 @@ export default async function DiscoverPage() {
   })
 
   return (
-    // <div className="container p-8 max-w-6xl mx-auto">
-    //   {feeds.map((feed) => (
-    //     <div key={feed.id}>
-    //       <div>
-    //         {!!feed.favicon && (
-    //           <img alt={`${feed.title} favicon`} src={feed.favicon} className="h-5 w-5" />
-    //         )}
-    //         <h2 className="text-gray-800 font-sans dark:text-gray-100 font-medium">{feed.title}</h2>
-    //         {!!feed.description && (
-    //           <p className="font-sans text-gray-700 dark:text-gray-200">{feed.description}</p>
-    //         )}
-    //         <a>{feed.url}</a>
-    //         <span>{feed.lastUpdated?.toISOString()}</span>
-    //       </div>
-    //     </div>
-    //   ))}
-    // </div>
     <section className="w-full py-12 md:py-24 lg:py-32">
       <div className="container px-4 md:px-6 mx-auto">
         <div className="flex flex-col items-center justify-center space-y-4 text-center">

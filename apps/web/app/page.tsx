@@ -45,7 +45,7 @@ export default async function HomePage() {
 
   const users = await prisma.user.findMany()
 
-  redirect('/feed')
+  redirect('/login')
 
   return (
     <div>

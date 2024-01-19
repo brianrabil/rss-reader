@@ -9,22 +9,5 @@ export const metadata: Metadata = {
 }
 
 export default function RootLayout({ children }: { readonly children: ReactNode }) {
-  return (
-    <div className="flex flex-col h-screen bg-white dark:bg-gray-950">
-      <header className="flex items-center justify-between h-16 px-4 border-b dark:border-gray-800">
-        <h1 className="text-xl font-semibold text-gray-950 dark:text-white">RSS Reader</h1>
-        <div className="flex items-center gap-4 justify-center">
-          <nav className="flex items-center gap-4 w-auto">
-            <Link href="/feed" className="text-gray-900 dark:text-gray-50">
-              Feed
-            </Link>
-            <Link href="/discover" className="text-gray-900 dark:text-gray-50">
-              Discover
-            </Link>
-          </nav>
-        </div>
-      </header>
-      <div className="flex flex-1 overflow-scroll">{children}</div>
-    </div>
-  )
+  return <div className="flex flex-col h-screen bg-white dark:bg-gray-950">{children}</div>
 }
