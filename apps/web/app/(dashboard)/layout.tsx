@@ -2,7 +2,6 @@ import { type ReactNode } from "react";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { Button } from "./../../components/ui/button";
-import { Input } from "./../../components/ui/input";
 import {
   RssIcon,
   RefreshCwIcon,
@@ -10,10 +9,10 @@ import {
   NewspaperIcon,
   ComputerIcon,
   MenuIcon,
-  SearchIcon,
 } from "./../../components/icon";
 import { CommandPalette } from "./../../components/command-palette";
 import { Avatar } from "./../../components/ui/avatar";
+import { ScrollArea } from "./../../components/ui/scroll-area";
 
 export const metadata: Metadata = {
   title: "RSS Reader | Dashboard",
@@ -66,17 +65,19 @@ export default function DashboardLayout({ children }: { readonly children: React
           </div>
         </div>
       </div>
-      <div className="flex flex-col">
-        <header className="flex h-14 lg:h-[60px] items-center gap-4 border-b bg-gray-100/40 px-6 dark:bg-gray-800/40">
-          <Link className="lg:hidden" href="#">
-            <MenuIcon className="h-6 w-6" />
-            <span className="sr-only">Toggle menu</span>
-          </Link>
-          <div className="w-full flex-1">
-            <CommandPalette />
-          </div>
-        </header>
-        <div className="flex flex-1 overflow-scroll">{children}</div>
+      <div className="flex flex-col relative h-screen overflow-hidden">
+        <div className="h-screen w-full overflow-y-auto pt-14 lg:pt-[60px]">
+          <header className="shadow-sm z-10 flex h-14 lg:h-[60px] absolute left-0 right-0 bottom-0 top-0  items-center justify-center gap-4 border-b bg-gray-100/40 px-6 dark:bg-gray-800/40">
+            <Link className="lg:hidden" href="#">
+              <MenuIcon className="h-6 w-6" />
+              <span className="sr-only">Toggle menu</span>
+            </Link>
+            <div className="w-screen-lg mx-auto flex-1">
+              <CommandPalette className="md:w-2/3 lg:w-2/4" />
+            </div>
+          </header>
+          <div className="w-full flex flex-1">{children}</div>
+        </div>
       </div>
     </div>
   );

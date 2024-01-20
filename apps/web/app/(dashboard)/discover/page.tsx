@@ -10,6 +10,16 @@ import {
 import { Button } from "./../../../components/ui/button";
 import { Input } from "./../../../components/ui/input";
 import { TypographyH1, TypographyP } from "../../../components/typography";
+import { Carousel, CarouselContent, CarouselItem } from "./../../../components/ui/carousel";
+import {
+  Pagination,
+  PaginationContent,
+  PaginationEllipsis,
+  PaginationItem,
+  PaginationLink,
+  PaginationNext,
+  PaginationPrevious,
+} from "./../../../components/ui/pagination";
 
 const prisma = new PrismaClient();
 
@@ -57,7 +67,24 @@ export default async function DiscoverPage() {
           ))}
         </div>
         <div className="flex justify-center my-8">
-          <Button variant="outline">Load More</Button>
+          <Pagination>
+            <PaginationContent>
+              <PaginationItem>
+                <PaginationPrevious size="md" href="#" />
+              </PaginationItem>
+              <PaginationItem>
+                <PaginationLink size="md" href="#">
+                  1
+                </PaginationLink>
+              </PaginationItem>
+              <PaginationItem>
+                <PaginationEllipsis />
+              </PaginationItem>
+              <PaginationItem>
+                <PaginationNext size="md" href="#" />
+              </PaginationItem>
+            </PaginationContent>
+          </Pagination>
         </div>
       </div>
     </section>
