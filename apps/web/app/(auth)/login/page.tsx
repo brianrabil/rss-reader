@@ -1,83 +1,127 @@
-import { InboxLayout, FeedLayout } from 'ui'
-import Link from 'next/link'
-import { useRouter } from 'next/router'
-import { PrismaAdapter } from '@auth/prisma-adapter'
+"use client";
+
+import Link from "next/link";
+import { useRouter } from "next/router";
+import { PrismaAdapter } from "@auth/prisma-adapter";
+import { Button } from "./../../../components/ui/button";
+import { zodResolver } from "@hookform/resolvers/zod";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+} from "./../../../components/ui/card";
+import {
+  Form,
+  FormControl,
+  FormDescription,
+  FormField,
+  FormItem,
+  FormLabel,
+  FormMessage,
+} from "./../../../components/ui/form";
+import { Input } from "./../../../components/ui/input";
+import { GoogleIcon, GithubIcon } from "../../../components/icon";
+import * as z from "zod";
+import { useForm } from "react-hook-form";
+
+const formSchema = z.object({
+  username: z.string().min(2).max(50),
+  password: z.string().min(8).max(50),
+});
 
 export default function LoginPage() {
+  const form = useForm<z.infer<typeof formSchema>>({
+    resolver: zodResolver(formSchema),
+    defaultValues: {
+      username: "",
+    },
+  });
+
+  function onSubmit(values: z.infer<typeof formSchema>) {
+    // Do something with the form values.
+    // ✅ This will be type-safe and validated.
+    console.log(values);
+  }
+
   return (
-    <div className="w-full max-w-md p-8 m-4 bg-white rounded-lg shadow-md dark:bg-gray-800">
-      <h1 className="mb-4 text-2xl font-semibold text-center text-gray-900 dark:text-gray-100">
-        Log In
-      </h1>
-      <div className="mb-4 space-y-2">
-        <button className="font-sans font-medium w-full flex items-center justify-center bg-red-600 text-white py-2 rounded-md">
-          <img alt="Google logo" className="w-6 h-6 mr-2" src="/vercel.svg" />
-          Sign in with Google
-        </button>
-        <button className="font-sans font-medium w-full flex items-center justify-center bg-slate-950 text-white py-2 rounded-md">
-          <img alt="GitHub logo" className="w-6 h-6 mr-2" src="/placeholder.svg" />
-          Sign in with GitHub
-        </button>
-      </div>
-      <div className="relative mb-4">
-        <div aria-hidden="true" className="absolute inset-0 flex items-center">
-          <div className="w-full border-t border-gray-300 dark:border-gray-700" />
+    <Card className="w-full max-w-md ">
+      <CardHeader>
+        <CardTitle>Log In</CardTitle>
+        <CardDescription>Card Description</CardDescription>
+      </CardHeader>
+      <CardContent>
+        <div className="mb-4 space-y-2">
+          <Button className="w-full gap-x-2 text-white" style={{ background: "#4285F4" }}>
+            <GoogleIcon className="h-5 w-5  fill-white" />
+            Sign in with Google
+          </Button>
+          <Button className="w-full gap-x-2  text-white" style={{ background: "#181717" }}>
+            <GithubIcon className="h-5 w-5 fill-white" />
+            Sign in with GitHub
+          </Button>
         </div>
-        <div className="relative flex justify-center text-sm">
-          <span className="px-2 bg-white dark:bg-gray-800 text-gray-500 dark:text-gray-400">
-            Or continue with
-          </span>
-        </div>
-      </div>
-      <form className="space-y-4">
-        <div className="space-y-1">
-          <label
-            className="font-medium font-sans text-gray-950 dark:text-gray-50"
-            htmlFor="username"
-          >
-            Username
-          </label>
-          <input
-            id="username"
-            className="shadow-sm w-full px-2 py-2 rounded-md border dark:text-white bg-white dark:bg-gray-700 border-gray-300 dark:border-gray-600 focus:ring-2 focus:ring-blue-600 focus:border-transparent"
-            placeholder="Enter your username"
-            required
-            type="text"
-          />
-        </div>
-        <div className="space-y-1">
-          <div className="flex items-center justify-between">
-            <label
-              htmlFor="password"
-              className="font-medium font-sans text-gray-960 dark:text-gray-50"
-            >
-              Password
-            </label>
-            <Link className="text-sm underline text-gray-600 dark:text-gray-400" href="#">
-              Forgot your password?
-            </Link>
+        <div className="relative mb-4">
+          <div aria-hidden="true" className="absolute inset-0 flex items-center">
+            <div className="w-full border-t border-gray-300 dark:border-gray-700" />
           </div>
-          <input
-            id="password"
-            placeholder="Enter your password"
-            required
-            type="password"
-            className="shadow-sm w-full px-2 py-2 rounded-md border dark:text-white bg-white dark:bg-gray-700 border-gray-300 dark:border-gray-600 focus:ring-2 focus:ring-blue-600 focus:border-transparent"
-          />
+          <div className="relative flex justify-center text-sm">
+            <span className="px-2 bg-white dark:bg-gray-800 text-gray-500 dark:text-gray-400">
+              Or continue with
+            </span>
+          </div>
         </div>
-        <button
-          className="font-medium w-full py-2 px-3 flex item-center justify-center rounded-md text-white bg-gray-900 dark:bg-gray-50 dark:text-gray-950 font-sans fond-medium"
-          type="submit"
-        >
-          Log In
-        </button>
-      </form>
-      <p className="mt-4 text-center text-sm text-gray-600 dark:text-gray-400 ">
-        Don&apos;t have an account?&nbsp;
-        <Link className="underline text-blue-600 dark:text-blue-400" href="#">
-          Sign Up
-        </Link>
-      </p>
-    </div>
-  )
+        <Form {...form}>
+          <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-8">
+            <div className="space-y-4">
+              <FormField
+                control={form.control}
+                name="username"
+                render={({ field }) => (
+                  <FormItem>
+                    <FormLabel>Username</FormLabel>
+                    <FormControl>
+                      <Input placeholder="Enter your username" {...field} />
+                    </FormControl>
+                    <FormMessage />
+                  </FormItem>
+                )}
+              />
+              <FormField
+                control={form.control}
+                name="password"
+                render={({ field }) => (
+                  <FormItem>
+                    <FormLabel>Password</FormLabel>
+                    <FormControl>
+                      <Input placeholder="Enter your password" {...field} />
+                    </FormControl>
+                    <FormDescription>
+                      <Link className="text-sm underline text-gray-600 dark:text-gray-400" href="#">
+                        Forgot your password?
+                      </Link>
+                    </FormDescription>
+                    <FormMessage />
+                  </FormItem>
+                )}
+              />
+            </div>
+            <Button type="submit" className="w-full">
+              Log In
+            </Button>
+          </form>
+        </Form>
+      </CardContent>
+      <CardFooter className="justify-center">
+        <p className="text-center text-sm text-gray-600 dark:text-gray-400 ">
+          Don&apos;t have an account?&nbsp;
+          <Link className="underline text-blue-600 dark:text-blue-400" href="#">
+            Sign Up
+          </Link>
+        </p>
+      </CardFooter>
+    </Card>
+  );
 }
