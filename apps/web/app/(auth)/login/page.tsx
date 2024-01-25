@@ -1,10 +1,13 @@
 "use client";
 
+import { PrismaAdapter } from "@auth/prisma-adapter";
+import { zodResolver } from "@hookform/resolvers/zod";
 import Link from "next/link";
 import { useRouter } from "next/router";
-import { PrismaAdapter } from "@auth/prisma-adapter";
+import { useForm } from "react-hook-form";
+import * as z from "zod";
+import { GithubIcon, GoogleIcon } from "../../../components/icon";
 import { Button } from "./../../../components/ui/button";
-import { zodResolver } from "@hookform/resolvers/zod";
 import {
   Card,
   CardContent,
@@ -23,9 +26,6 @@ import {
   FormMessage,
 } from "./../../../components/ui/form";
 import { Input } from "./../../../components/ui/input";
-import { GoogleIcon, GithubIcon } from "../../../components/icon";
-import * as z from "zod";
-import { useForm } from "react-hook-form";
 
 const formSchema = z.object({
   username: z.string().min(2).max(50),
@@ -44,6 +44,12 @@ export default function LoginPage() {
     // Do something with the form values.
     // ✅ This will be type-safe and validated.
     console.log(values);
+
+  }
+
+  function onLogin() {
+    const adapter = new PrismaAdapter();
+    adapter.login({ username: "test", password: "test" });
   }
 
   return (

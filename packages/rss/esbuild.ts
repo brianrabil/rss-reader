@@ -1,30 +1,31 @@
-import * as esbuild from 'esbuild'
-import * as fs from 'fs'
-import { logger } from './src/logger'
+import * as fs from "node:fs";
+import * as esbuild from "esbuild";
+import { logger } from "./src/logger";
 
-// clean output dir
-logger.info('Cleaning dist')
-fs.rmSync('dist', { recursive: true, force: true })
+logger.info("Starting build process...");
 
-logger.info('Building')
-async function main() {
-  await esbuild.build({
-    entryPoints: ['./src/index.ts'],
+logger.info("Cleaning 'dist' directory...");
+fs.rmSync("dist", { recursive: true, force: true });
+logger.info("'dist' directory cleaned.");
+
+logger.info("Starting esbuild...");
+try {
+  esbuild.buildSync({
+    entryPoints: ["./src/index.ts", "./src/main.ts"],
     bundle: true,
-    platform: 'node',
-    target: 'node16',
-    outfile: 'dist/index.js',
-    minify: true,
+    platform: "node",
+    target: "node16",
+    outdir: "dist",
+    minify: false,
     sourcemap: true,
-  })
+    logLevel: "info",
+  });
+} catch (e) {
+  logger.error(e);
+  process.exit(1);
 }
+logger.info("esbuild completed.");
 
-main()
-  .then(() => {
-    logger.info('Done')
-    process.exit(0)
-  })
-  .catch((e) => {
-    logger.error(e)
-    process.exit(1)
-  })
+logger.info("Setting permissions of 'dist/main.js' to 755...");
+fs.chmodSync("dist/main.js", 0o755);
+logger.info("Permissions set.");
