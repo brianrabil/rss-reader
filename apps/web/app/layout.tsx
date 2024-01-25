@@ -16,13 +16,17 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { readonly children: ReactNode }) {
   return (
-    <div
-      className={cn(
-        "flex flex-col h-screen font-sans antialiased bg-white dark:bg-gray-950",
-        fontSans.variable
-      )}
-    >
-      {children}
-    </div>
+    <html>
+      <body>
+        <div
+          className={cn(
+            "flex flex-col h-screen font-sans antialiased bg-white dark:bg-gray-950",
+            fontSans.variable
+          )}
+        >
+          {children}
+        </div>
+      </body>
+    </html>
   );
 }

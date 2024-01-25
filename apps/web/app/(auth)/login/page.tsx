@@ -44,12 +44,6 @@ export default function LoginPage() {
     // Do something with the form values.
     // ✅ This will be type-safe and validated.
     console.log(values);
-
-  }
-
-  function onLogin() {
-    const adapter = new PrismaAdapter();
-    adapter.login({ username: "test", password: "test" });
   }
 
   return (
@@ -123,7 +117,7 @@ export default function LoginPage() {
       <CardFooter className="justify-center">
         <p className="text-center text-sm text-gray-600 dark:text-gray-400 ">
           Don&apos;t have an account?&nbsp;
-          <Link className="underline text-blue-600 dark:text-blue-400" href="#">
+          <Link className="underline text-blue-600 dark:text-blue-400" href="/signup">
             Sign Up
           </Link>
         </p>
