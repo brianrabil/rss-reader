@@ -1,10 +1,58 @@
-import { PrismaClient } from '@prisma/client'
-import dotenv from 'dotenv'
-import { FeedSpot, logger } from 'rss'
+import { PrismaClient } from "@prisma/client";
+import dotenv from "dotenv";
+import { FeedSpot, logger } from "rss";
+import Parser from "rss-parser";
 
-dotenv.config()
+dotenv.config();
 
-const prisma = new PrismaClient()
+const prisma = new PrismaClient();
+
+const newsFeeds = [
+  {
+    name: "BBC News - World",
+    url: "http://feeds.bbci.co.uk/news/world/rss.xml",
+  },
+  {
+    name: "CNN - Top Stories",
+    url: "http://rss.cnn.com/rss/edition.rss",
+  },
+  {
+    name: "The New York Times - Home Page",
+    url: "http://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml",
+  },
+  {
+    name: "The Guardian - International",
+    url: "https://www.theguardian.com/world/rss",
+  },
+  {
+    name: "NPR News",
+    url: "https://www.npr.org/rss/rss.php?id=1001",
+  },
+  {
+    name: "Al Jazeera English",
+    url: "http://www.aljazeera.com/xml/rss/all.xml",
+  },
+  {
+    name: "TechCrunch",
+    url: "http://feeds.feedburner.com/TechCrunch/",
+  },
+  {
+    name: "Wired - Latest Headlines",
+    url: "https://www.wired.com/feed/rss",
+  },
+  {
+    name: "Forbes - Top Stories",
+    url: "http://www.forbes.com/real-time/feed2/",
+  },
+  {
+    name: "The Economist - World News",
+    url: "https://www.economist.com/the-world-this-week/rss.xml",
+  },
+  {
+    name: "Science Daily - Top News",
+    url: "https://www.sciencedaily.com/rss/top/science.xml",
+  },
+];
 
 // const NUM_USERS = parseInt(process.env.SEED_NUM_USERS || '10')
 // const NUM_FEEDS = parseInt(process.env.SEED_NUM_FEEDS || '5')
@@ -13,36 +61,81 @@ const prisma = new PrismaClient()
 // const NUM_ARTICLES_READ_PER_USER = parseInt(process.env.SEED_NUM_ARTICLES_READ_PER_USER || '20')
 
 async function main() {
-  logger.info('Fetching feeds')
-  const feeds = await new FeedSpot().getFeeds()
+  logger.info("Fetching feeds");
 
-  await Promise.all(
-    feeds.map(async (feed) => {
-      if (!feed) {
-        logger.warn({ feed }, 'Feed is missing')
-        return
-      }
+  const parser = new Parser();
 
-      logger.info({ feed }, 'Creating feed')
+  for (const feed of newsFeeds) {
+    logger.info({ feed }, "Parsing feed");
+    const result = await parser.parseURL(feed.url);
+
+    if (result) {
+      logger.info(result);
       await prisma.feed.upsert({
         where: { url: feed.url },
+
         update: {
           url: feed.url,
-          title: feed.title,
-          description: feed.description,
-          favicon: feed.favicon,
+          title: feed.name,
+          description: result.description,
+          favicon: result.image?.url,
+        },
+        include: {
+          items: true,
         },
         create: {
           url: feed.url,
-          title: feed.title,
-          description: feed.description,
-          favicon: feed.favicon,
+          title: feed.name,
+          items: {
+            createMany: {
+              skipDuplicates: true,
+              data: result.items.map((item) => ({
+                guid: item.guid as string,
+                title: item.title as string,
+                description: item.contentSnippet,
+                content: item.content,
+                imageUrl: item.enclosure?.url,
+                link: item.link as string,
+                pubDate: item.pubDate as string,
+              })),
+            },
+          },
         },
-      })
-    })
-  )
+      });
+    }
 
-  logger.info('Done')
+    console.log(result);
+  }
+
+  // const feeds = await new FeedSpot().getFeeds();
+
+  // await Promise.all(
+  //   feeds.map(async (feed) => {
+  //     if (!feed) {
+  //       logger.warn({ feed }, "Feed is missing");
+  //       return;
+  //     }
+
+  //     logger.info({ feed }, "Creating feed");
+  //     await prisma.feed.upsert({
+  //       where: { url: feed.url },
+  //       update: {
+  //         url: feed.url,
+  //         title: feed.title,
+  //         description: feed.description,
+  //         favicon: feed.favicon,
+  //       },
+  //       create: {
+  //         url: feed.url,
+  //         title: feed.title,
+  //         description: feed.description,
+  //         favicon: feed.favicon,
+  //       },
+  //     });
+  //   })
+  // );
+
+  logger.info("Done");
 }
 
 // async function main() {
@@ -143,9 +236,9 @@ async function main() {
 
 main()
   .catch((e) => {
-    console.error(e)
-    process.exit(1)
+    console.error(e);
+    process.exit(1);
   })
   .finally(async () => {
-    await prisma.$disconnect()
-  })
+    await prisma.$disconnect();
+  });

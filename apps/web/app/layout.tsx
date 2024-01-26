@@ -1,8 +1,10 @@
 import { type ReactNode } from "react";
 import type { Metadata } from "next";
-import "./globals.css";
 import { Inter as FontSans } from "next/font/google";
 import { cn } from "../lib/utils";
+import { redirect } from "next/navigation";
+import { useSession, SessionProvider } from "next-auth/react";
+import "./globals.css";
 
 const fontSans = FontSans({
   subsets: ["latin"],
@@ -18,14 +20,7 @@ export default function RootLayout({ children }: { readonly children: ReactNode 
   return (
     <html>
       <body>
-        <div
-          className={cn(
-            "flex flex-col h-screen font-sans antialiased bg-white dark:bg-gray-950",
-            fontSans.variable
-          )}
-        >
-          {children}
-        </div>
+        <div className={cn("font-sans antialiased ", fontSans.variable)}>{children}</div>
       </body>
     </html>
   );

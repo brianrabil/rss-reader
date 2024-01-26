@@ -70,34 +70,23 @@ model Feed {
   description String? // Description of the feed
   favicon     String? // URL of the feed's favicon or representative image
   lastUpdated DateTime? // Timestamp of the last feed update
-}
-
-/// Author model represents the creator of an article.
-model Author {
-  id            Int       @id @default(autoincrement())
-  articles      Article[] // Articles written by this author
-  bio           String? // Short biography of the author
-  email         String? // Contact email of the author
-  linkedinUrl   String? // URL to the author's LinkedIn profile
-  name          String // Full name of the author
-  profileImage  String? // URL to the author's profile image
-  twitterHandle String?   @unique // Twitter handle of the author
-  website       String? // Personal or professional website of the author
+  items       Article[] // Articles in the feed
 }
 
 /// Article model represents a news article.
 model Article {
-  id             Int      @id @default(autoincrement())
-  subscriptionId Int // ID of the Subscription through which the article was accessed
-  guid           String   @unique // Unique identifier for the article
-  title          String // Title of the article
-  description    String? // Short description or summary of the article
-  content        String? // Full content of the article
-  imageUrl       String? // URL of the main image or thumbnail for the article
-  authorId       Int? // ID of the author of the article
-  link           String // Direct link to the article
-  pubDate        DateTime // Publication date of the article
-  createdAt      DateTime @default(now())
-  updatedAt      DateTime @updatedAt
-  author         Author?  @relation(fields: [authorId], references: [id])
+  id          Int      @id @default(autoincrement())
+  guid        String   @unique // Unique identifier for the article
+  title       String // Title of the article
+  description String? // Short description or summary of the article
+  content     String? // Full content of the article
+  imageUrl    String? // URL of the main image or thumbnail for the article
+  authorId    Int? // ID of the author of the article
+  link        String // Direct link to the article
+  pubDate     String? // Publication date of the article
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+  feedId      Int?
+
+  Feed Feed? @relation(fields: [feedId], references: [id])
 }

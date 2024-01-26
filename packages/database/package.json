@@ -10,17 +10,18 @@
     "db:seed": "prisma db seed"
   },
   "dependencies": {
-    "@prisma/client": "latest"
+    "@prisma/client": "latest",
+    "rss-parser": "^3.13.0"
   },
   "devDependencies": {
     "@faker-js/faker": "^8.3.1",
     "@types/node": "^20.9.0",
     "dotenv": "^16.3.1",
     "prisma": "latest",
+    "rss": "*",
     "ts-node": "^10.9.1",
-    "typescript": "^5.2.2",
     "tsconfig": "*",
-    "rss": "*"
+    "typescript": "^5.2.2"
   },
   "prisma": {
     "seed": "ts-node prisma/seed.ts"

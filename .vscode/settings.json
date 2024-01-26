@@ -3,6 +3,7 @@
     "actix",
     "apos",
     "autofilter",
+    "clsx",
     "fontsource",
     "hookform",
     "jetpack",

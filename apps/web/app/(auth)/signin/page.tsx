@@ -1,15 +1,10 @@
 "use client";
 
-import { PrismaAdapter } from "@auth/prisma-adapter";
 import { zodResolver } from "@hookform/resolvers/zod";
 import Link from "next/link";
-import { useRouter } from "next/router";
 import { useForm } from "react-hook-form";
 import * as z from "zod";
-import { GithubIcon, GoogleIcon } from "../../../components/icon";
 import { Button } from "../../../components/ui/button";
-import { signIn, useSession } from "next-auth/react";
-// import { logger } from "./../../../lib/logger";
 import {
   Card,
   CardContent,
@@ -28,9 +23,10 @@ import {
   FormMessage,
 } from "../../../components/ui/form";
 import { Input } from "../../../components/ui/input";
+import { authenticateUser } from "./../../actions";
 
 const formSchema = z.object({
-  username: z.string().min(2).max(50),
+  email: z.string().min(2).max(50),
   password: z.string().min(8).max(50),
 });
 
@@ -38,36 +34,23 @@ export default function SigninPage() {
   const form = useForm<z.infer<typeof formSchema>>({
     resolver: zodResolver(formSchema),
     defaultValues: {
-      username: "",
+      email: "",
+      password: "",
     },
   });
 
-  async function onSubmit(values: z.infer<typeof formSchema>) {
-    // Do something with the form values.
-    // ✅ This will be type-safe and validated.
-    try {
-      const res = await fetch("/api/user/create", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(values),
-      });
-      console.info("User created successfully");
-      console.info(res);
-      form.reset();
-    } catch (err) {
-      console.info("User creation failed");
-      console.error(err);
-    }
+  async function onSubmit(data: z.infer<typeof formSchema>) {
+    await authenticateUser(data);
   }
 
   return (
     <Card className="w-full max-w-md ">
       <CardHeader>
-        <CardTitle>Log In</CardTitle>
-        <CardDescription>Card Description</CardDescription>
+        <CardTitle>Sign In</CardTitle>
+        <CardDescription>{status}</CardDescription>
       </CardHeader>
       <CardContent>
-        <div className="mb-4 space-y-2">
+        {/* <div className="mb-4 space-y-2">
           <Button className="w-full gap-x-2 text-white" style={{ background: "#4285F4" }}>
             <GoogleIcon className="h-5 w-5  fill-white" />
             Sign in with Google
@@ -86,18 +69,18 @@ export default function SigninPage() {
               Or continue with
             </span>
           </div>
-        </div>
+        </div> */}
         <Form {...form}>
           <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-8">
             <div className="space-y-4">
               <FormField
                 control={form.control}
-                name="username"
+                name="email"
                 render={({ field }) => (
                   <FormItem>
-                    <FormLabel>Username</FormLabel>
+                    <FormLabel>Email</FormLabel>
                     <FormControl>
-                      <Input placeholder="Enter your username" {...field} />
+                      <Input placeholder="Enter your email" {...field} />
                     </FormControl>
                     <FormMessage />
                   </FormItem>
@@ -123,7 +106,7 @@ export default function SigninPage() {
               />
             </div>
             <Button type="submit" className="w-full">
-              Log In
+              Sign In
             </Button>
           </form>
         </Form>
