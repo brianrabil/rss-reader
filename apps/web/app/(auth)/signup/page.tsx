@@ -1,5 +1,6 @@
 "use client";
 
+import { useTransition } from "react";
 import { zodResolver } from "@hookform/resolvers/zod";
 import Link from "next/link";
 import { useForm, SubmitHandler } from "react-hook-form";
@@ -23,6 +24,7 @@ import {
   FormMessage,
 } from "../../../components/ui/form";
 import { Input } from "../../../components/ui/input";
+import { createUser } from "./../../actions";
 
 const formSchema = z
   .object({
@@ -31,22 +33,35 @@ const formSchema = z
       .string()
       .min(8, { message: "Password must be at least 8 characters." })
       .max(50, { message: "Password must be between 8 and 50 characters." }),
-    confirmPassword: z.string().min(8).max(50),
+    confirmPassword: z
+      .string()
+      .min(8, { message: "Password must be at least 8 characters." })
+      .max(50, { message: "Password must be between 8 and 50 characters." }),
   })
   .refine((data) => data.password === data.confirmPassword, {
     message: "Passwords do not match",
     path: ["confirmPassword"],
   });
 
+type FormData = z.infer<typeof formSchema>;
+
 export default function SignupPage() {
-  const form = useForm<z.infer<typeof formSchema>>({
+  const [isPending, startTransition] = useTransition();
+
+  const form = useForm<FormData>({
     resolver: zodResolver(formSchema),
+    defaultValues: {
+      email: "",
+      password: "",
+      confirmPassword: "",
+    },
   });
 
-  const onSubmit: SubmitHandler<z.infer<typeof formSchema>> = (values) => {
-    // Do something with the form values.
-    // ✅ This will be type-safe and validated.
-    console.log(values);
+  const onSubmit: SubmitHandler<FormData> = (data) => {
+    console.log("form data: ", data);
+    startTransition(() => {
+      createUser(data);
+    });
   };
 
   return (
@@ -99,7 +114,7 @@ export default function SignupPage() {
                 )}
               />
             </div>
-            <Button type="submit" className="w-full">
+            <Button type="submit" className="w-full" disabled={isPending}>
               Sign Up
             </Button>
           </form>

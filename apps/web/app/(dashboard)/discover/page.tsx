@@ -1,4 +1,4 @@
-import { PrismaClient } from "database";
+import { prisma } from "./../../../lib/database";
 import {
   Card,
   CardContent,
@@ -20,8 +20,6 @@ import {
   PaginationNext,
   PaginationPrevious,
 } from "./../../../components/ui/pagination";
-
-const prisma = new PrismaClient();
 
 export default async function DiscoverPage() {
   const feeds = await prisma.feed.findMany({

@@ -12,6 +12,7 @@ generator client {
 
 //* ----------------------------- Authentication ----------------------------- *//
 
+/// Account model represents a user's account with an external authentication provider.
 model Account {
   id                String  @id @default(cuid())
   userId            String
@@ -39,11 +40,13 @@ model Session {
   user         User     @relation(fields: [userId], references: [id], onDelete: Cascade)
 }
 
+/// User model represents a user of the application.
 model User {
   id            String    @id @default(cuid())
   name          String?
-  email         String?   @unique
+  email         String    @unique
   emailVerified DateTime?
+  password      String
   image         String?
   accounts      Account[]
   sessions      Session[]

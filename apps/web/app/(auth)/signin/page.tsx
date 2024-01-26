@@ -7,7 +7,9 @@ import { useRouter } from "next/router";
 import { useForm } from "react-hook-form";
 import * as z from "zod";
 import { GithubIcon, GoogleIcon } from "../../../components/icon";
-import { Button } from "./../../../components/ui/button";
+import { Button } from "../../../components/ui/button";
+import { signIn, useSession } from "next-auth/react";
+// import { logger } from "./../../../lib/logger";
 import {
   Card,
   CardContent,
@@ -15,7 +17,7 @@ import {
   CardFooter,
   CardHeader,
   CardTitle,
-} from "./../../../components/ui/card";
+} from "../../../components/ui/card";
 import {
   Form,
   FormControl,
@@ -24,15 +26,15 @@ import {
   FormItem,
   FormLabel,
   FormMessage,
-} from "./../../../components/ui/form";
-import { Input } from "./../../../components/ui/input";
+} from "../../../components/ui/form";
+import { Input } from "../../../components/ui/input";
 
 const formSchema = z.object({
   username: z.string().min(2).max(50),
   password: z.string().min(8).max(50),
 });
 
-export default function LoginPage() {
+export default function SigninPage() {
   const form = useForm<z.infer<typeof formSchema>>({
     resolver: zodResolver(formSchema),
     defaultValues: {
@@ -40,10 +42,22 @@ export default function LoginPage() {
     },
   });
 
-  function onSubmit(values: z.infer<typeof formSchema>) {
+  async function onSubmit(values: z.infer<typeof formSchema>) {
     // Do something with the form values.
     // ✅ This will be type-safe and validated.
-    console.log(values);
+    try {
+      const res = await fetch("/api/user/create", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(values),
+      });
+      console.info("User created successfully");
+      console.info(res);
+      form.reset();
+    } catch (err) {
+      console.info("User creation failed");
+      console.error(err);
+    }
   }
 
   return (
