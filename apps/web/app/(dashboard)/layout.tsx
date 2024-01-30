@@ -11,8 +11,9 @@ import {
   MenuIcon,
 } from "./../../components/icon";
 import { CommandPalette } from "./../../components/command-palette";
-import { Avatar } from "./../../components/ui/avatar";
+import { Avatar, AvatarImage, AvatarFallback } from "./../../components/ui/avatar";
 import { ScrollArea } from "./../../components/ui/scroll-area";
+import { TypographySmall, TypographyMuted, TypographyP } from "./../../components/typography";
 
 export const metadata: Metadata = {
   title: "RSS Reader | Dashboard",
@@ -24,7 +25,7 @@ export default function DashboardLayout({ children }: { readonly children: React
     <div className="grid min-h-screen max-h-screen w-full lg:grid-cols-[280px_1fr]">
       <div className="hidden border-r bg-gray-100/40 lg:block dark:bg-gray-800/40 max-h-screen">
         <div className="flex h-full max-h-screen flex-col gap-2">
-          <div className="flex h-[60px] items-center border-b px-6">
+          <div className="flex h-[60px] items-center px-6">
             <Link className="flex items-center gap-2 font-semibold" href="#">
               <RssIcon className="h-6 w-6" />
               <span className="">RSS Reader</span>
@@ -59,21 +60,29 @@ export default function DashboardLayout({ children }: { readonly children: React
               </Link>
             </nav>
           </div>
-          <div className="flex-0 overflow-auto py-2">
-            <Avatar />
-            Username
+          <div className="px-4 flex-0 overflow-auto py-3 flex items-center gx-2">
+            <Avatar>
+              <AvatarImage
+                alt="Profile Picture"
+                src="https://avatars.githubusercontent.com/u/499581?s=460&u=8b7f0d2f5c2b4d8a3f4f7d6b2c9e4c4e0f9b3b4d&v=4"
+              />
+            </Avatar>
+            <div className="flex flex-col justify-center ml-2">
+              <TypographyP>Username</TypographyP>
+              <TypographyMuted>Email@email.com</TypographyMuted>
+            </div>
           </div>
         </div>
       </div>
       <div className="flex flex-col relative h-screen overflow-hidden">
         <div className="h-screen w-full overflow-y-auto pt-14 lg:pt-[60px]">
-          <header className="shadow-sm z-10 flex h-14 lg:h-[60px] absolute left-0 right-0 bottom-0 top-0  items-center justify-center gap-4 border-b bg-gray-100/40 px-6 dark:bg-gray-800/40">
+          <header className="z-10 flex h-14 lg:h-[60px] absolute left-0 right-0 bottom-0 top-0  items-center justify-center gap-4 border-b bg-white px-6 dark:bg-gray-800">
             <Link className="lg:hidden" href="#">
               <MenuIcon className="h-6 w-6" />
               <span className="sr-only">Toggle menu</span>
             </Link>
             <div className="w-screen-lg mx-auto flex-1">
-              <CommandPalette className="md:w-2/3 lg:w-2/4" />
+              <CommandPalette className="w-full max-w-3xl mx-auto" />
             </div>
           </header>
           <div className="w-full flex flex-1">{children}</div>
