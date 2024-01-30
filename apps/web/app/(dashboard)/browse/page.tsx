@@ -1,4 +1,4 @@
-import { prisma } from "./../../../lib/database";
+import { prisma } from "../../../lib/database";
 import {
   Card,
   CardContent,
@@ -6,11 +6,11 @@ import {
   CardFooter,
   CardHeader,
   CardTitle,
-} from "./../../../components/ui/card";
-import { Button } from "./../../../components/ui/button";
-import { Input } from "./../../../components/ui/input";
+} from "../../../components/ui/card";
+import { Button } from "../../../components/ui/button";
+import { Input } from "../../../components/ui/input";
 import { TypographyH1, TypographyP } from "../../../components/typography";
-import { Carousel, CarouselContent, CarouselItem } from "./../../../components/ui/carousel";
+import { Carousel, CarouselContent, CarouselItem } from "../../../components/ui/carousel";
 import {
   Pagination,
   PaginationContent,
@@ -19,7 +19,7 @@ import {
   PaginationLink,
   PaginationNext,
   PaginationPrevious,
-} from "./../../../components/ui/pagination";
+} from "../../../components/ui/pagination";
 
 export default async function DiscoverPage() {
   const feeds = await prisma.feed.findMany({

@@ -53,10 +53,24 @@ export default function DashboardLayout({ children }: { readonly children: React
               </Link>
               <Link
                 className="flex items-center gap-3 rounded-lg px-3 py-2 text-gray-500 transition-all hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-50"
-                href="/discover"
+                href="/browse"
               >
                 <ComputerIcon className="h-4 w-4" />
-                Discover
+                Browse
+              </Link>
+              <Link
+                className="flex items-center gap-3 rounded-lg px-3 py-2 text-gray-500 transition-all hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-50"
+                href="/settings"
+              >
+                <ComputerIcon className="h-4 w-4" />
+                Settings
+              </Link>
+              <Link
+                className="flex items-center gap-3 rounded-lg px-3 py-2 text-gray-500 transition-all hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-50"
+                href="/logout"
+              >
+                <ComputerIcon className="h-4 w-4" />
+                Logout
               </Link>
             </nav>
           </div>
