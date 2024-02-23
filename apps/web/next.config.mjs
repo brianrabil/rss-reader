@@ -1,4 +1,4 @@
-import nextPWA from "next-pwa";
+// import nextPWA from "next-pwa";
 
 // const withPWA = nextPWA({
 //   dest: 'public',
@@ -8,10 +8,10 @@ import nextPWA from "next-pwa";
  * @type {import('next').NextConfig}
  */
 const nextConfig = {
-  /* config options here */
-  reactStrictMode: true,
-  cleanDistDir: true,
-  transpilePackages: ["ui"],
+	/* config options here */
+	reactStrictMode: true,
+	cleanDistDir: true,
+	transpilePackages: ["ui"],
 };
 
 export default nextConfig;
