@@ -4,53 +4,55 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import Link from "next/link";
 import { useForm } from "react-hook-form";
 import * as z from "zod";
-import { Button } from "../../../components/ui/button";
+import { Button } from "@/components/ui/button";
 import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardFooter,
-  CardHeader,
-  CardTitle,
-} from "../../../components/ui/card";
+	Form,
+	FormControl,
+	FormDescription,
+	FormField,
+	FormItem,
+	FormLabel,
+	FormMessage,
+} from "@/components/ui/form";
 import {
-  Form,
-  FormControl,
-  FormDescription,
-  FormField,
-  FormItem,
-  FormLabel,
-  FormMessage,
-} from "../../../components/ui/form";
-import { Input } from "../../../components/ui/input";
-import { authenticateUser } from "./../../actions";
+	Card,
+	CardContent,
+	CardDescription,
+	CardFooter,
+	CardHeader,
+	CardTitle,
+} from "@/components/ui/card";
+import { Input } from "@/components/ui/input";
+import { authenticateUser } from "@/app/actions";
 
 const formSchema = z.object({
-  email: z.string().min(2).max(50),
-  password: z.string().min(8).max(50),
+	email: z.string().min(2).max(50),
+	password: z.string().min(8).max(50),
 });
 
+type FormData = z.infer<typeof formSchema>;
+
 export default function SigninPage() {
-  const form = useForm<z.infer<typeof formSchema>>({
-    resolver: zodResolver(formSchema),
-    defaultValues: {
-      email: "",
-      password: "",
-    },
-  });
+	const form = useForm<FormData>({
+		resolver: zodResolver(formSchema),
+		defaultValues: {
+			email: "",
+			password: "",
+		},
+	});
 
-  async function onSubmit(data: z.infer<typeof formSchema>) {
-    await authenticateUser(data);
-  }
+	async function onSubmit(data: FormData) {
+		await authenticateUser(data);
+	}
 
-  return (
-    <Card className="w-full max-w-md ">
-      <CardHeader>
-        <CardTitle>Sign In</CardTitle>
-        <CardDescription>{status}</CardDescription>
-      </CardHeader>
-      <CardContent>
-        {/* <div className="mb-4 space-y-2">
+	return (
+		<Card className="w-full max-w-md ">
+			<CardHeader>
+				<CardTitle>Sign In</CardTitle>
+				<CardDescription>Status</CardDescription>
+			</CardHeader>
+			<CardContent>
+				{/* <div className="mb-4 space-y-2">
           <Button className="w-full gap-x-2 text-white" style={{ background: "#4285F4" }}>
             <GoogleIcon className="h-5 w-5  fill-white" />
             Sign in with Google
@@ -70,55 +72,55 @@ export default function SigninPage() {
             </span>
           </div>
         </div> */}
-        <Form {...form}>
-          <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-8">
-            <div className="space-y-4">
-              <FormField
-                control={form.control}
-                name="email"
-                render={({ field }) => (
-                  <FormItem>
-                    <FormLabel>Email</FormLabel>
-                    <FormControl>
-                      <Input placeholder="Enter your email" {...field} />
-                    </FormControl>
-                    <FormMessage />
-                  </FormItem>
-                )}
-              />
-              <FormField
-                control={form.control}
-                name="password"
-                render={({ field }) => (
-                  <FormItem>
-                    <FormLabel>Password</FormLabel>
-                    <FormControl>
-                      <Input placeholder="Enter your password" {...field} />
-                    </FormControl>
-                    <FormDescription>
-                      <Link className="text-sm underline text-gray-600 dark:text-gray-400" href="#">
-                        Forgot your password?
-                      </Link>
-                    </FormDescription>
-                    <FormMessage />
-                  </FormItem>
-                )}
-              />
-            </div>
-            <Button type="submit" className="w-full">
-              Sign In
-            </Button>
-          </form>
-        </Form>
-      </CardContent>
-      <CardFooter className="justify-center">
-        <p className="text-center text-sm text-gray-600 dark:text-gray-400 ">
-          Don&apos;t have an account?&nbsp;
-          <Link className="underline text-blue-600 dark:text-blue-400" href="/signup">
-            Sign Up
-          </Link>
-        </p>
-      </CardFooter>
-    </Card>
-  );
+				<Form {...form}>
+					<form onSubmit={form.handleSubmit(onSubmit)} className="space-y-8">
+						<div className="space-y-4">
+							<FormField
+								control={form.control}
+								name="email"
+								render={({ field }) => (
+									<FormItem>
+										<FormLabel>Email</FormLabel>
+										<FormControl>
+											<Input placeholder="Enter your email" {...field} />
+										</FormControl>
+										<FormMessage />
+									</FormItem>
+								)}
+							/>
+							<FormField
+								control={form.control}
+								name="password"
+								render={({ field }) => (
+									<FormItem>
+										<FormLabel>Password</FormLabel>
+										<FormControl>
+											<Input placeholder="Enter your password" {...field} />
+										</FormControl>
+										<FormDescription>
+											<Link className="text-sm underline text-gray-600 dark:text-gray-400" href="#">
+												Forgot your password?
+											</Link>
+										</FormDescription>
+										<FormMessage />
+									</FormItem>
+								)}
+							/>
+						</div>
+						<Button type="submit" className="w-full">
+							Sign In
+						</Button>
+					</form>
+				</Form>
+			</CardContent>
+			<CardFooter className="justify-center">
+				<p className="text-center text-sm text-gray-600 dark:text-gray-400 ">
+					Don&apos;t have an account?&nbsp;
+					<Link className="underline text-blue-600 dark:text-blue-400" href="/signup">
+						Sign Up
+					</Link>
+				</p>
+			</CardFooter>
+		</Card>
+	);
 }

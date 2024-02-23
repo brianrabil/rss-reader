@@ -1,3 +1,5 @@
 import { PrismaClient } from "database";
 
-export const prisma = new PrismaClient();
+export const database = new PrismaClient();
+
+export type { User } from "database";

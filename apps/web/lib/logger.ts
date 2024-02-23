@@ -1,3 +1,1 @@
-import { logger } from "rss";
-
-export { logger };
+export { logger } from "rss";

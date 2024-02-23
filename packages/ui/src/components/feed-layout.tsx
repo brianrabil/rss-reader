@@ -50,6 +50,7 @@ export const FeedLayout = () => {
   const theme = useTheme();
   const article = useMockArticles(1)?.[0];
   const CARD_COUNT = 4;
+
   return (
     <Container maxWidth="md" sx={{ paddingY: theme.spacing(3) }}>
       <FeedCardGrid>
