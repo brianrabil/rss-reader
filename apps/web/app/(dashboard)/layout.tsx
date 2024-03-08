@@ -13,13 +13,15 @@ import {
 import { CommandPalette } from "@/components/command-palette";
 import { Avatar, AvatarImage } from "@/components/ui/avatar";
 import { TypographyMuted, TypographyP } from "@/components/typography";
+import { auth } from "../auth";
 
 export const metadata: Metadata = {
 	title: "RSS Reader | Dashboard",
 	description: "RSS Reader Dashboard",
 };
 
-export default function DashboardLayout({ children }: { readonly children: ReactNode }) {
+export default async function DashboardLayout({ children }: { readonly children: ReactNode }) {
+	const session = await auth();
 	return (
 		<div className="grid min-h-screen max-h-screen w-full lg:grid-cols-[280px_1fr]">
 			<div className="hidden border-r bg-gray-100/40 lg:block dark:bg-gray-800/40 max-h-screen">
@@ -81,8 +83,8 @@ export default function DashboardLayout({ children }: { readonly children: React
 							/>
 						</Avatar>
 						<div className="flex flex-col justify-center ml-2">
-							<TypographyP>Username</TypographyP>
-							<TypographyMuted>Email@email.com</TypographyMuted>
+							<TypographyP>{session?.user?.email}</TypographyP>
+							<TypographyMuted>{session?.user?.id}</TypographyMuted>
 						</div>
 					</div>
 				</div>

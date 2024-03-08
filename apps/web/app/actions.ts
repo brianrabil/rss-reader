@@ -10,36 +10,36 @@ const client = new PrismaClient();
 type CreateUser = Pick<User, "email" | "password">;
 
 export async function createUser({ email, password }: CreateUser) {
-  "use server";
+	"use server";
 
-  const user = await client.user.create({
-    data: {
-      email,
-      password: bcrypt.hashSync(password, 10),
-    },
-  });
+	const user = await client.user.create({
+		data: {
+			email,
+			password: bcrypt.hashSync(password, 10),
+		},
+	});
 
-  logger.info("✅ created user: ", user);
+	logger.info("✅ created user: ", user);
 }
 
 export async function authenticateUser({ email, password }: CreateUser) {
-  "use server";
+	"use server";
 
-  const user = await client.user.findUnique({
-    where: { email },
-  });
+	const user = await client.user.findUnique({
+		where: { email },
+	});
 
-  if (user && bcrypt.compareSync(password, user.password)) {
-    // Any object returned will be saved in the session
-    // You can choose what to return here
-    logger.info("✅ user found for credentials: ", { email });
-    logger.info("✅ user: ", user);
-    signIn("credentials", { email, password });
-    // return user;
-    return user;
-  } else {
-    // If you return null or false then the credentials will be rejected
-    logger.error("🔴 user not found for credentials: ", { email });
-    return null;
-  }
+	if (user && bcrypt.compareSync(password, user.password)) {
+		// Any object returned will be saved in the session
+		// You can choose what to return here
+		logger.info("✅ user found for credentials: ", { email });
+		logger.info("✅ user: ", user);
+		signIn("credentials", { email, password });
+		// return user;
+		return user;
+	} else {
+		// If you return null or false then the credentials will be rejected
+		logger.error("🔴 user not found for credentials: ", { email });
+		return null;
+	}
 }

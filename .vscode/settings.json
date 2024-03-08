@@ -1,24 +1,26 @@
 {
-  "cSpell.words": [
-    "actix",
-    "apos",
-    "autofilter",
-    "clsx",
-    "fontsource",
-    "hookform",
-    "jetpack",
-    "nextjs",
-    "outdir",
-    "outfile",
-    "pino",
-    "roboto",
-    "rssfeeds",
-    "Signin",
-    "Signup",
-    "storyshots",
-    "storysource",
-    "tslog"
-  ],
-  "editor.formatOnSave": true,
-  "typescript.tsdk": "node_modules/typescript/lib"
+	"cSpell.words": [
+		"actix",
+		"apos",
+		"autofilter",
+		"clsx",
+		"fontsource",
+		"hookform",
+		"jetpack",
+		"lucide",
+		"nextjs",
+		"outdir",
+		"outfile",
+		"pino",
+		"roboto",
+		"rssfeeds",
+		"Signin",
+		"Signup",
+		"storyshots",
+		"storysource",
+		"tailwindcss",
+		"tslog"
+	],
+	"editor.formatOnSave": true,
+	"typescript.tsdk": "node_modules/typescript/lib"
 }

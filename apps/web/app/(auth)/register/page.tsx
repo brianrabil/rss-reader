@@ -44,7 +44,7 @@ const formSchema = z
 
 type FormData = z.infer<typeof formSchema>;
 
-export default function SignupPage() {
+export default function RegisterPage() {
 	const [isPending, startTransition] = React.useTransition();
 
 	const form = useForm<FormData>({
@@ -114,7 +114,7 @@ export default function SignupPage() {
 							/>
 						</div>
 						<Button type="submit" className="w-full" disabled={isPending}>
-							Sign Up
+							Register
 						</Button>
 					</form>
 				</Form>
@@ -122,7 +122,7 @@ export default function SignupPage() {
 			<CardFooter className="justify-center">
 				<p className="text-center text-sm text-gray-600 dark:text-gray-400 ">
 					Already have an account?&nbsp;
-					<Link className="underline text-blue-600 dark:text-blue-400" href="/signin">
+					<Link className="underline text-blue-600 dark:text-blue-400" href="/login">
 						Login
 					</Link>
 				</p>

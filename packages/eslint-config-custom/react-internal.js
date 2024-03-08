@@ -33,7 +33,6 @@ module.exports = {
 		},
 	},
 	ignorePatterns: ["node_modules/", "dist/", ".eslintrc.js"],
-
 	rules: {
 		// add specific rules configurations here
 	},

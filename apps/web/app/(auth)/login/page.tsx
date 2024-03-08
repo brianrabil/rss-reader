@@ -24,6 +24,8 @@ import {
 } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { authenticateUser } from "@/app/actions";
+import { signIn } from "next-auth/react";
+import { auth } from "../../auth";
 
 const formSchema = z.object({
 	email: z.string().min(2).max(50),
@@ -32,7 +34,7 @@ const formSchema = z.object({
 
 type FormData = z.infer<typeof formSchema>;
 
-export default function SigninPage() {
+export default function LoginPage() {
 	const form = useForm<FormData>({
 		resolver: zodResolver(formSchema),
 		defaultValues: {
@@ -42,13 +44,25 @@ export default function SigninPage() {
 	});
 
 	async function onSubmit(data: FormData) {
-		await authenticateUser(data);
+		// await authenticateUser(data);
+		const result = await signIn("credentials", {
+			email: data.email,
+			password: data.password,
+		});
+
+		if (!result?.error) {
+			// Redirect to the desired page after successful sign in
+			window.location.href = "/";
+		} else {
+			// Handle error, show error message
+			console.error(result.error);
+		}
 	}
 
 	return (
 		<Card className="w-full max-w-md ">
 			<CardHeader>
-				<CardTitle>Sign In</CardTitle>
+				<CardTitle>Log In</CardTitle>
 				<CardDescription>Status</CardDescription>
 			</CardHeader>
 			<CardContent>
@@ -108,7 +122,7 @@ export default function SigninPage() {
 							/>
 						</div>
 						<Button type="submit" className="w-full">
-							Sign In
+							Login
 						</Button>
 					</form>
 				</Form>
@@ -116,7 +130,7 @@ export default function SigninPage() {
 			<CardFooter className="justify-center">
 				<p className="text-center text-sm text-gray-600 dark:text-gray-400 ">
 					Don&apos;t have an account?&nbsp;
-					<Link className="underline text-blue-600 dark:text-blue-400" href="/signup">
+					<Link className="underline text-blue-600 dark:text-blue-400" href="/register">
 						Sign Up
 					</Link>
 				</p>

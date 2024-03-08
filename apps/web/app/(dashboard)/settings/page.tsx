@@ -3,7 +3,7 @@ import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/componen
 import { Button } from "@/components/ui/button";
 
 export default async function FeedPage() {
-	const articles = await database.article.findMany({});
+	const articles = await database.article.findMany();
 
 	return (
 		<div className="flex flex-1 overflow-hidden">
