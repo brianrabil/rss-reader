@@ -1,84 +1,145 @@
 import React from "react";
 import Link from "next/link";
+import { Input } from "@/components/ui/input";
+import { Button } from "@/components/ui/button";
+import { auth } from "./auth";
 
 // `app/page.tsx` is the UI for the `/` URL
-export default function Page() {
+export default async function Page() {
+	const session = await auth();
+	console.log(session);
 	return (
-		<div>
-			<nav className="bg-white shadow">
-				<div className="container mx-auto px-6 py-3">
-					<div className="flex justify-between items-center">
-						<div className="text-lg font-semibold">RSS Reader</div>
-						<div className="flex space-x-4">
-							<a href="#" className="hover:text-gray-600">
-								Features
-							</a>
-							<a href="#" className="hover:text-gray-600">
-								Pricing
-							</a>
+		/**
+		 * v0 by Vercel.
+		 * @see https://v0.dev/t/1VAJK568w2O
+		 * Documentation: https://v0.dev/docs#integrating-generated-code-into-your-nextjs-app
+		 */
+		<div className="flex flex-col min-h-[100dvh]">
+			<header className="px-4 lg:px-6 h-14 flex items-center">
+				<Link className="flex items-center justify-center" href="#">
+					<MountainIcon className="h-6 w-6" />
+					<span className="sr-only">Acme Inc</span>
+				</Link>
+				<nav className="ml-auto flex gap-4 sm:gap-6">
+					<Link className="text-sm font-medium hover:underline underline-offset-4" href="#">
+						Features
+					</Link>
+					<Link className="text-sm font-medium hover:underline underline-offset-4" href="#">
+						Pricing
+					</Link>
+					<Link className="text-sm font-medium hover:underline underline-offset-4" href="#">
+						About
+					</Link>
+					{!!session?.user?.id ? (
+						<Link className="text-sm font-medium hover:underline underline-offset-4" href="/feed">
+							Dashboard
+						</Link>
+					) : (
+						<React.Fragment>
 							<Link
-								href="/register"
-								className="bg-blue-500 text-white px-3 py-2 rounded hover:bg-blue-600"
+								className="text-sm font-medium hover:underline underline-offset-4"
+								href="/login"
 							>
-								Sign Up
+								Login
 							</Link>
-						</div>
-					</div>
-				</div>
-			</nav>
-
-			<header className="text-center py-16 bg-blue-500 text-white">
-				<h1 className="text-4xl font-bold">Stay Updated with Your Favorite Feeds</h1>
-				<p className="mt-4">
-					The ultimate RSS reader for aggregating all your news and blog feeds in one place.
-				</p>
-				<a href="#" className="mt-8 inline-block bg-white text-blue-500 px-5 py-3 rounded shadow">
-					Get Started
-				</a>
+							<Link
+								className="text-sm font-medium hover:underline underline-offset-4"
+								href="/register"
+							>
+								Register
+							</Link>
+						</React.Fragment>
+					)}
+				</nav>
 			</header>
-
-			<section className="container mx-auto px-6 py-20">
-				<h2 className="text-3xl font-bold text-center">Features</h2>
-				<div className="flex flex-wrap mt-16">
-					<div className="w-full md:w-1/3 px-2 mb-8">
-						<div className="bg-white rounded shadow py-6 px-4">
-							<h3 className="text-xl font-semibold">Feature One</h3>
-							<p className="mt-2">Description of feature one. How it helps the user.</p>
+			<main className="flex-1">
+				<section className="w-full py-12 md:py-24 lg:py-32 xl:py-48">
+					<div className="container px-4 md:px-6">
+						<div className="flex flex-col items-center space-y-4 text-center">
+							<div className="space-y-2">
+								<h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl/none">
+									The Complete Platform for Building the Web
+								</h1>
+								<p className="mx-auto max-w-[700px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
+									Give your team the toolkit to stop configuring and start innovating. Securely
+									build, deploy, and scale the best web experiences.
+								</p>
+							</div>
+							<div className="space-x-4">
+								<Link
+									className="inline-flex h-9 items-center justify-center rounded-md bg-gray-900 px-4 py-2 text-sm font-medium text-gray-50 shadow transition-colors hover:bg-gray-900/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:bg-gray-50 dark:text-gray-900 dark:hover:bg-gray-50/90 dark:focus-visible:ring-gray-300"
+									href="#"
+								>
+									Get Started
+								</Link>
+								<Link
+									className="inline-flex h-9 items-center justify-center rounded-md border border-gray-200 border-gray-200 bg-white px-4 py-2 text-sm font-medium shadow-sm transition-colors hover:bg-gray-100 hover:text-gray-900 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:border-gray-800 dark:border-gray-800 dark:bg-gray-950 dark:hover:bg-gray-800 dark:hover:text-gray-50 dark:focus-visible:ring-gray-300"
+									href="#"
+								>
+									Contact Sales
+								</Link>
+							</div>
 						</div>
 					</div>
-
-					<div className="w-full md:w-1/3 px-2 mb-8">
-						<div className="bg-white rounded shadow py-6 px-4">
-							<h3 className="text-xl font-semibold">Feature Two</h3>
-							<p className="mt-2">Description of feature two. Its benefits.</p>
+				</section>
+				<section className="w-full py-12 md:py-24 lg:py-32 border-t">
+					<div className="container grid items-center gap-6 px-4 text-center md:px-6 lg:grid-cols-[1fr_600px] lg:gap-10 xl:grid-cols-[1fr_800px]">
+						<div className="space-y-2">
+							<h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">
+								Experience the workflow the best frontend teams love.
+							</h2>
+							<p className="mx-auto max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
+								Let your team focus on shipping features instead of managing infrastructure with
+								automated CI/CD.
+							</p>
+						</div>
+						<div className="mx-auto w-full max-w-sm space-y-2">
+							<form className="flex space-x-2">
+								<Input className="max-w-lg flex-1" placeholder="Enter your email" type="email" />
+								<Button type="submit">Sign Up</Button>
+							</form>
+							<p className="text-xs text-gray-500 dark:text-gray-400">
+								Sign up to get notified when we launch.
+								<Link className="underline underline-offset-2" href="#">
+									Terms & Conditions
+								</Link>
+							</p>
 						</div>
 					</div>
-
-					<div className="w-full md:w-1/3 px-2 mb-8">
-						<div className="bg-white rounded shadow py-6 px-4">
-							<h3 className="text-xl font-semibold">Feature Three</h3>
-							<p className="mt-2">Explanation of feature three. Why it&apos;s important.</p>
-						</div>
-					</div>
-				</div>
-			</section>
-
-			<section className="bg-gray-200 py-20">
-				<div className="container mx-auto px-6">
-					<h2 className="text-3xl font-bold text-center">What Users Say</h2>
-					<div className="mt-16">
-						<p className="text-center italic">
-							&quot;I&apos;ve tried many RSS readers but this one stands out because of its ease of
-							use and clean interface.&quot;
-						</p>
-						<p className="mt-4 text-center">- User Name</p>
-					</div>
-				</div>
-			</section>
-
-			<footer className="bg-white shadow text-center py-4">
-				<p>&copy; 2024 RSS Reader. All rights reserved.</p>
+				</section>
+			</main>
+			<footer className="flex flex-col gap-2 sm:flex-row py-6 w-full shrink-0 items-center px-4 md:px-6 border-t">
+				<p className="text-xs text-gray-500 dark:text-gray-400">
+					© 2024 Acme Inc. All rights reserved.
+				</p>
+				<nav className="sm:ml-auto flex gap-4 sm:gap-6">
+					<Link className="text-xs hover:underline underline-offset-4" href="#">
+						Terms of Service
+					</Link>
+					<Link className="text-xs hover:underline underline-offset-4" href="#">
+						Privacy
+					</Link>
+				</nav>
 			</footer>
 		</div>
+	);
+}
+
+function MountainIcon(props) {
+	return (
+		<svg
+			{...props}
+			xmlns="http://www.w3.org/2000/svg"
+			width="24"
+			height="24"
+			viewBox="0 0 24 24"
+			fill="none"
+			stroke="currentColor"
+			strokeWidth="2"
+			strokeLinecap="round"
+			strokeLinejoin="round"
+		>
+			<path d="m8 3 4 8 5-5 5 15H2L8 3z" />
+		</svg>
 	);
 }

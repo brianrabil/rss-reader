@@ -1,23 +1,28 @@
 {
-	"private": true,
-	"workspaces": ["packages/*", "apps/*"],
-	"scripts": {
-		"build": "turbo run build --color",
-		"dev": "turbo run dev --color",
-		"lint": "turbo run lint --color",
-		"format": "prettier --write \"**/*.{js,ts,tsx,md}\""
-	},
-	"devDependencies": {
-		"@babel/core": "^7.23.3",
-		"@types/lodash": "^4.14.201",
-		"@types/node": "^20.10.8",
-		"@types/react": "^18.2.37",
-		"eslint": "^8.53.0",
-		"eslint-config-next": "^14.0.2",
-		"prettier": "^3.0.3",
-		"ts-node": "^10.9.2",
-		"tsconfig": "*",
-		"turbo": "latest",
-		"typescript": "^5.2.2"
-	}
+  "private": true,
+  "workspaces": ["packages/*", "apps/*"],
+  "scripts": {
+    "build": "turbo run build --color",
+    "dev": "turbo run dev --color",
+    "lint": "turbo run lint --color",
+    "format": "prettier --write \"**/*.{js,ts,tsx,md}\""
+  },
+  "devDependencies": {
+    "@babel/core": "^7.23.3",
+    "@types/lodash": "^4.14.201",
+    "@types/node": "^20.10.8",
+    "@types/react": "^18.2.37",
+    "eslint": "^8.53.0",
+    "eslint-config-next": "latest",
+    "prettier": "^3.0.3",
+    "ts-node": "^10.9.2",
+    "tsconfig": "*",
+    "turbo": "latest",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  }
 }

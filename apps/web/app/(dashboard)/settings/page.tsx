@@ -2,7 +2,7 @@ import { database } from "@/lib/database";
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 
-export default async function FeedPage() {
+export default async function SettingsPage() {
 	const articles = await database.article.findMany();
 
 	return (
