@@ -11,7 +11,7 @@ const nextConfig = {
 	/* config options here */
 	reactStrictMode: true,
 	cleanDistDir: true,
-	transpilePackages: ["ui"],
+	transpilePackages: ["@rss-reader/ui"],
 };
 
 export default nextConfig;

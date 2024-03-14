@@ -1,8 +1,8 @@
 "use server";
 
-import { logger } from "rss";
-import { PrismaClient, User } from "database";
-import bcrypt from "bcrypt";
+import { logger } from "@rss-reader/rss-service";
+import { PrismaClient, User } from "@rss-reader/database";
+import * as bcrypt from "bcrypt";
 import { signIn } from "next-auth/react";
 
 const client = new PrismaClient();

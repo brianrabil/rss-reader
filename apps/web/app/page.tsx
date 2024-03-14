@@ -9,11 +9,6 @@ export default async function Page() {
 	const session = await auth();
 	console.log(session);
 	return (
-		/**
-		 * v0 by Vercel.
-		 * @see https://v0.dev/t/1VAJK568w2O
-		 * Documentation: https://v0.dev/docs#integrating-generated-code-into-your-nextjs-app
-		 */
 		<div className="flex flex-col min-h-[100dvh]">
 			<header className="px-4 lg:px-6 h-14 flex items-center">
 				<Link className="flex items-center justify-center" href="#">

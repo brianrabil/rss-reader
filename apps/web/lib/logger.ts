@@ -1,1 +1,1 @@
-export { logger } from "rss";
+export { logger } from "@rss-reader/rss-service";
