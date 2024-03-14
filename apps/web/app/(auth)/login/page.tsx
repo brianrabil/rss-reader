@@ -52,7 +52,7 @@ export default function LoginPage() {
 
 		if (!result?.error) {
 			// Redirect to the desired page after successful sign in
-			window.location.href = "/";
+			window.location.href = "/feed";
 		} else {
 			// Handle error, show error message
 			console.error(result.error);

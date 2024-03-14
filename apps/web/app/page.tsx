@@ -3,11 +3,13 @@ import Link from "next/link";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { auth } from "./auth";
+import { database } from "@/lib/database";
 
 // `app/page.tsx` is the UI for the `/` URL
 export default async function Page() {
 	const session = await auth();
-	console.log(session);
+	database.user.findMany().then(console.log);
+	console.log("session: ", session);
 	return (
 		<div className="flex flex-col min-h-[100dvh]">
 			<header className="px-4 lg:px-6 h-14 flex items-center">
@@ -15,7 +17,7 @@ export default async function Page() {
 					<MountainIcon className="h-6 w-6" />
 					<span className="sr-only">Acme Inc</span>
 				</Link>
-				<nav className="ml-auto flex gap-4 sm:gap-6">
+				<nav className="ml-auto flex items-center gap-4 sm:gap-6">
 					<Link className="text-sm font-medium hover:underline underline-offset-4" href="#">
 						Features
 					</Link>
@@ -26,8 +28,8 @@ export default async function Page() {
 						About
 					</Link>
 					{!!session?.user?.id ? (
-						<Link className="text-sm font-medium hover:underline underline-offset-4" href="/feed">
-							Dashboard
+						<Link href="/feed">
+							<Button variant="outline">Dashboard</Button>
 						</Link>
 					) : (
 						<React.Fragment>

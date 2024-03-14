@@ -1,46 +1,102 @@
-import { database } from "@/lib/database";
-import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
+import { CardTitle, CardDescription, CardHeader, CardContent, Card } from "@/components/ui/card";
+import { Label } from "@/components/ui/label";
+import { Input } from "@/components/ui/input";
+import { Switch } from "@/components/ui/switch";
+import { TypographyH1, TypographyLead, TypographyMuted } from "@/components/typography";
+import { Container } from "@/components/container";
+import { auth } from "@/app/auth";
 
 export default async function SettingsPage() {
-	const articles = await database.article.findMany();
-
+	const session = await auth();
 	return (
-		<div className="flex flex-1 overflow-hidden">
-			<main className="flex-1 overflow-auto container mx-auto p-8 flex flex-col gap-y-8 max-w-4xl">
-				{articles.map((article) => (
-					<Card key={article.guid} className="p-4 border-b dark:border-gray-800">
-						<CardHeader>
-							<CardTitle>{article.title}</CardTitle>
-						</CardHeader>
-						<CardContent>
-							{!!article.imageUrl && (
-								<img
-									alt="Article Thumbnail"
-									className="w-24 h-24 object-cover"
-									height="100"
-									src={article.imageUrl}
-									style={{
-										aspectRatio: "100/100",
-										objectFit: "cover",
-									}}
-									width="100"
-								/>
-							)}
-							<p className="mt-2">{article.content}</p>
-						</CardContent>
-						<CardFooter>
-							<p className="text-sm text-gray-500 dark:text-gray-400">
-								Published on January 16, 2024
-							</p>
-							<div className="gx-1 flex align-center">
-								<Button variant="link">Save</Button>
-								<Button variant="link">Share</Button>
+		<Container className="space-y-12">
+			<section className="max-w-3xl space-y-4">
+				<div className="space-y-2">
+					<TypographyH1>Account Settings</TypographyH1>
+					<TypographyLead>Update your account information.</TypographyLead>
+				</div>
+				<Card>
+					<CardHeader>
+						<CardTitle>General</CardTitle>
+						<CardDescription>Update your account information.</CardDescription>
+					</CardHeader>
+					<CardContent className="space-y-4">
+						<div className="space-y-2">
+							<Label htmlFor="name">Name</Label>
+							<Input id="name" placeholder="Enter your name" />
+						</div>
+						<div className="space-y-2">
+							<Label htmlFor="email">Email</Label>
+							<Input
+								id="email"
+								placeholder="Enter your email"
+								type="email"
+								defaultValue={session?.user?.email ?? undefined}
+							/>
+						</div>
+					</CardContent>
+				</Card>
+			</section>
+			<section className="max-w-3xl space-y-4">
+				<Card>
+					<CardHeader>
+						<CardTitle>Privacy</CardTitle>
+						<CardDescription>Control who can see your profile and activity.</CardDescription>
+					</CardHeader>
+					<CardContent className="space-y-4">
+						<div className="space-y-4">
+							<div className="flex items-center space-x-4">
+								<div className="flex-1">
+									<Label htmlFor="profile">Profile visibility</Label>
+									<TypographyMuted>Choose who can see your profile information.</TypographyMuted>
+								</div>
+								<div className="w-24">
+									<Switch defaultChecked id="profile" />
+								</div>
 							</div>
-						</CardFooter>
-					</Card>
-				))}
-			</main>
-		</div>
+							<div className="flex items-center space-x-4">
+								<div className="flex-1">
+									<Label htmlFor="activity">Activity feed</Label>
+									<TypographyMuted>Choose who can see your activity feed.</TypographyMuted>
+								</div>
+								<div className="w-24">
+									<Switch id="activity" />
+								</div>
+							</div>
+						</div>
+					</CardContent>
+				</Card>
+			</section>
+			<section className="max-w-3xl space-y-4">
+				<Card>
+					<CardHeader>
+						<CardTitle>Notifications</CardTitle>
+						<CardDescription>Choose how you want to be notified.</CardDescription>
+					</CardHeader>
+					<CardContent className="space-y-4">
+						<div className="space-y-4">
+							<div className="flex items-center space-x-4">
+								<div className="flex-1">
+									<Label htmlFor="email">Email notifications</Label>
+									<TypographyMuted>Receive daily summary emails.</TypographyMuted>
+								</div>
+								<div className="w-24">
+									<Switch defaultChecked id="email" />
+								</div>
+							</div>
+							<div className="flex items-center space-x-4">
+								<div className="flex-1">
+									<Label htmlFor="push">Push notifications</Label>
+									<TypographyMuted>Get notified on your mobile device.</TypographyMuted>
+								</div>
+								<div className="w-24">
+									<Switch id="push" />
+								</div>
+							</div>
+						</div>
+					</CardContent>
+				</Card>
+			</section>
+		</Container>
 	);
 }
