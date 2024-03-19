@@ -7,7 +7,9 @@ import { auth } from "@/app/auth";
 
 export default async function FeedPage() {
 	const session = await auth();
-	const articles = await database.article.findMany();
+	const articles = await database.article.findMany({
+		take: 5,
+	});
 
 	return (
 		<div className="flex flex-1 overflow-hidden">

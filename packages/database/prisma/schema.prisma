@@ -50,6 +50,7 @@ model User {
   image         String?
   accounts      Account[]
   sessions      Session[]
+  feeds         Feed[]
 }
 
 model VerificationToken {
@@ -70,7 +71,9 @@ model Feed {
   description String? // Description of the feed
   favicon     String? // URL of the feed's favicon or representative image
   lastUpdated DateTime? // Timestamp of the last feed update
-  items       Article[] // Articles in the feed
+  articles    Article[] // Articles in the feed
+  userId      String?
+  user        User?     @relation(fields: [userId], references: [id])
 }
 
 /// Article model represents a news article.
@@ -87,6 +90,5 @@ model Article {
   createdAt   DateTime @default(now())
   updatedAt   DateTime @updatedAt
   feedId      Int?
-
-  Feed Feed? @relation(fields: [feedId], references: [id])
+  feed        Feed?    @relation(fields: [feedId], references: [id])
 }

@@ -4,6 +4,7 @@ import { logger } from "@rss-reader/rss-service";
 import { PrismaClient, User } from "@rss-reader/database";
 import * as bcrypt from "bcrypt";
 import { signIn } from "next-auth/react";
+import { auth } from "./auth";
 
 const client = new PrismaClient();
 
@@ -42,4 +43,21 @@ export async function authenticateUser({ email, password }: CreateUser) {
 		logger.error("🔴 user not found for credentials: ", { email });
 		return null;
 	}
+}
+
+export async function subscribeFeed(feedId: string) {
+	"use server";
+	const session = await auth();
+	const userId = session?.user?.id;
+
+	await client.user.update({
+		where: { id: userId },
+		data: {
+			feeds: {
+				connect: {
+					id: Number(feedId),
+				},
+			},
+		},
+	});
 }

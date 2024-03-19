@@ -33,13 +33,6 @@ function Sidebar({ session }: { readonly session: any }) {
 					<nav className="grid items-start px-4 text-sm font-medium">
 						<Link
 							className="flex items-center gap-3 rounded-lg px-3 py-2 text-gray-500 transition-all hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-50"
-							href="#"
-						>
-							<Icon.Bookmark className="h-4 w-4" />
-							Bookmarks
-						</Link>
-						<Link
-							className="flex items-center gap-3 rounded-lg px-3 py-2 text-gray-500 transition-all hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-50"
 							href="/feed"
 						>
 							<Icon.Activity className="h-4 w-4" />
@@ -47,10 +40,18 @@ function Sidebar({ session }: { readonly session: any }) {
 						</Link>
 						<Link
 							className="flex items-center gap-3 rounded-lg px-3 py-2 text-gray-500 transition-all hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-50"
-							href="/browse"
+							href="/bookmarks"
 						>
-							<Icon.Search className="h-4 w-4" />
-							Browse
+							<Icon.Bookmark className="h-4 w-4" />
+							Bookmarks
+						</Link>
+
+						<Link
+							className="flex items-center gap-3 rounded-lg px-3 py-2 text-gray-500 transition-all hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-50"
+							href="/explore"
+						>
+							<Icon.Store className="h-4 w-4" />
+							Explore
 						</Link>
 						<Link
 							className="flex items-center gap-3 rounded-lg px-3 py-2 text-gray-500 transition-all hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-50"
