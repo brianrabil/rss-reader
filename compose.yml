@@ -1,0 +1,28 @@
+version: '3'
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - '3000:3000'
+    environment:
+      - NODE_ENV=production
+      - AUTH_SECRET=VVhFkvlYqeDE/pNmsZ5l4nDVxEdeLpXwN76eH09zeTg=
+      - DATABASE_URL=postgresql://admin:password@localhost:5432/rss
+    depends_on:
+      - db
+    restart: always
+
+  db:
+    image: postgres:latest
+    volumes:
+      - db_data:/var/lib/postgresql/data
+    environment:
+      - POSTGRES_USER=admin
+      - POSTGRES_PASSWORD=password
+      - POSTGRES_DB=rss
+    restart: always
+
+volumes:
+  db_data:
