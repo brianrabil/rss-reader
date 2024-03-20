@@ -15,12 +15,11 @@
 	},
 	"devDependencies": {
 		"@faker-js/faker": "^8.3.1",
+		"@rss-reader/tsconfig": "*",
 		"@types/node": "^20.9.0",
 		"dotenv": "^16.3.1",
 		"prisma": "latest",
-		"@rss-reader/rss-service": "*",
 		"ts-node": "^10.9.1",
-		"@rss-reader/tsconfig": "*",
 		"typescript": "latest"
 	},
 	"prisma": {

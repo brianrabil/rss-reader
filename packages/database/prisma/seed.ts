@@ -1,6 +1,5 @@
 import Parser from "rss-parser";
 import dotenv from "dotenv";
-// import { logger } from "@rss-reader/rss-service";
 import { PrismaClient, User, Feed } from "@prisma/client";
 import { faker } from "@faker-js/faker";
 import bcrypt from "bcrypt";

@@ -1,6 +1,6 @@
 "use server";
 
-import { logger } from "@rss-reader/rss-service";
+import { logger } from "@/lib/logger";
 import { PrismaClient, User } from "@rss-reader/database";
 import * as bcrypt from "bcrypt";
 import { signIn } from "next-auth/react";
@@ -45,19 +45,40 @@ export async function authenticateUser({ email, password }: CreateUser) {
 	}
 }
 
-export async function subscribeFeed(feedId: string) {
+export async function subscribeFeed(formData: FormData) {
 	"use server";
-	const session = await auth();
-	const userId = session?.user?.id;
 
-	await client.user.update({
-		where: { id: userId },
-		data: {
-			feeds: {
-				connect: {
-					id: Number(feedId),
+	try {
+		logger.info("🔔 Subscribing to feed..."); // Log the start of the subscription process
+
+		const session = await auth();
+		const userId = session?.user?.id;
+
+		logger.info(`👤 User ID: ${userId}`); // Log the user ID
+
+		if (!userId) {
+			logger.error("❌ User not authenticated"); // Log an error if the user is not authenticated
+			throw new Error("User not authenticated");
+		}
+
+		const feedId = Number(formData.get("feedId"));
+
+		logger.info(`📰 Feed ID: ${feedId}`); // Log the feed ID
+
+		await client.user.update({
+			where: { id: userId },
+			data: {
+				feeds: {
+					connect: {
+						id: feedId,
+					},
 				},
 			},
-		},
-	});
+		});
+
+		logger.info("✅ Feed subscription successful"); // Log the successful subscription
+	} catch (error) {
+		logger.error("❌ Error subscribing to feed:", error); // Log any errors that occur
+		throw error;
+	}
 }

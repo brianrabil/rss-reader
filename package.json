@@ -8,18 +8,23 @@
 		"build": "turbo run build --color",
 		"dev": "turbo run dev --color",
 		"lint": "turbo run lint --color",
-		"format": "prettier --write \"**/*.{js,ts,tsx,md}\""
+		"format": "prettier --write \"**/*.{js,ts,tsx,md}\"",
+		"docker:build": "docker build -t rss-reader .",
+		"docker:run": "docker run -p 3000:3000 rss-reader",
+		"docker:stop": "docker stop $(docker ps -q --filter ancestor=rss-reader)",
+		"docker:clean": "docker rm $(docker ps -a -q --filter ancestor=rss-reader)"
 	},
 	"devDependencies": {
 		"@babel/core": "^7.23.3",
-		"eslint-config-next": "latest",
 		"@rss-reader/tsconfig": "*",
 		"@types/lodash": "^4.14.201",
 		"@types/node": "^20.10.8",
 		"@types/react": "^18.2.37",
 		"eslint": "latest",
+		"eslint-config-next": "latest",
 		"prettier": "^3.0.3",
 		"ts-node": "^10.9.2",
+		"tslog": "^4.9.2",
 		"turbo": "latest",
 		"typescript": "latest"
 	},
@@ -27,5 +32,6 @@
 		"next": "latest",
 		"react": "latest",
 		"react-dom": "latest"
-	}
+	},
+	"packageManager": "yarn@4.1.1"
 }

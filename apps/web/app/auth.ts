@@ -1,7 +1,7 @@
 import NextAuth from "next-auth";
 import { PrismaAdapter } from "@auth/prisma-adapter";
 import { PrismaClient } from "@prisma/client";
-import { logger } from "@rss-reader/rss-service";
+import { logger } from "@/lib/logger";
 import { compareSync } from "bcrypt";
 import CredentialsProvider from "next-auth/providers/credentials";
 

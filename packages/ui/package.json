@@ -21,14 +21,14 @@
 		"lodash": "^4.17.21"
 	},
 	"devDependencies": {
+		"@rss-reader/eslint-config-custom": "*",
+		"@rss-reader/tsconfig": "*",
 		"@turbo/gen": "^1.10.12",
 		"@types/node": "^20.5.2",
 		"@types/react": "^18.2.0",
 		"@types/react-dom": "^18.2.0",
-		"@rss-reader/eslint-config-custom": "*",
 		"react": "^18.2.0",
 		"react-dom": "^18.2.0",
-		"@rss-reader/tsconfig": "*",
 		"typescript": "^5.2.2"
 	}
 }
