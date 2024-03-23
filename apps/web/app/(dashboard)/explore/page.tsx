@@ -18,8 +18,8 @@ import {
 	CardDescription,
 } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { auth } from "@/app/auth";
-import { subscribeFeed } from "@/app/actions";
+import { auth } from "@/lib/auth";
+import { subscribeFeed } from "@/lib/actions";
 import { prisma } from "@/lib/database";
 
 export default async function DiscoverPage({ searchParams }) {

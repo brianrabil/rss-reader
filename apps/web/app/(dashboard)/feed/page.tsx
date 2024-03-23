@@ -2,16 +2,97 @@ import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/componen
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import * as Icon from "@/components/icon";
-import { auth } from "@/app/auth";
-import { getAllArticles } from "@/app/actions";
+import { getAllArticles } from "@/lib/actions";
 import { TypographySmall, TypographyH4, TypographyMuted } from "@/components/typography";
-import Image from "next/image";
+import { formatDistanceToNow } from "date-fns";
+import {
+	DropdownMenu,
+	DropdownMenuContent,
+	DropdownMenuItem,
+	DropdownMenuLabel,
+	DropdownMenuSeparator,
+	DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu";
 
 export default async function FeedPage() {
 	const articles = await getAllArticles();
 
 	return (
 		<>
+			{articles.map((article) => (
+				<Card key={article.guid} className="dark:border-gray-800">
+					<CardHeader className="gap-y-2">
+						<CardTitle className="flex items-center justify-between">
+							<div className="flex items-center gap-x-2">
+								{article.feed?.favicon && (
+									// eslint-disable-next-line @next/next/no-img-element
+									<img
+										className="h-4 object-contain"
+										src={article.feed?.favicon}
+										alt={`${article.feed?.title} favicon`}
+									/>
+								)}
+								<TypographySmall>
+									<Link href={`feed/${article.feed?.id}`}>{article.feed?.title}</Link>
+								</TypographySmall>
+								{article.pubDate && (
+									<>
+										&middot;
+										<TypographyMuted>
+											{formatDistanceToNow(article.pubDate, { addSuffix: true })}
+										</TypographyMuted>
+									</>
+								)}
+							</div>
+
+							<DropdownMenu>
+								<DropdownMenuTrigger asChild>
+									<Button variant="ghost" size="icon" className="rounded-full">
+										<Icon.EllipsisVertical className="h-4 w-4" />
+										<span className="sr-only">Toggle feed item menu</span>
+									</Button>
+								</DropdownMenuTrigger>
+								<DropdownMenuContent align="end">
+									<DropdownMenuLabel>My Account</DropdownMenuLabel>
+									<DropdownMenuSeparator />
+									<DropdownMenuItem>Settings</DropdownMenuItem>
+									<DropdownMenuItem>Support</DropdownMenuItem>
+									<DropdownMenuSeparator />
+									<DropdownMenuItem>Logout</DropdownMenuItem>
+								</DropdownMenuContent>
+							</DropdownMenu>
+						</CardTitle>
+						<CardTitle>
+							<TypographyH4>
+								<Link href={`feed/items/${article.id}`}>{article.title}</Link>
+							</TypographyH4>
+						</CardTitle>
+					</CardHeader>
+					<CardContent>
+						{!!article.imageUrl && (
+							// eslint-disable-next-line @next/next/no-img-element
+							<img
+								alt="Image Thumbnail"
+								className="w-24 h-24 object-cover aspect-square"
+								src={article.imageUrl}
+							/>
+						)}
+						<TypographySmall>{article.content}</TypographySmall>
+					</CardContent>
+					<CardFooter>
+						<div className="gx-1 flex align-center">
+							<Button className="aspect-square px-0" variant="ghost">
+								<Icon.Bookmark className="h-5 text-gray-500" />
+								<span className="sr-only">Bookmark</span>
+							</Button>
+							<Button className="aspect-square px-0" variant="ghost">
+								<Icon.Share className="h-5 text-gray-500" />
+								<span className="sr-only">Share</span>
+							</Button>
+						</div>
+					</CardFooter>
+				</Card>
+			))}
 			{/* <Card>
 					<CardContent>
 						<div className="flex flex-col bg-gradient-to-r from-blue-500 to-blue-700">
@@ -369,53 +450,6 @@ export default async function FeedPage() {
 						<p className="text-gray-500 dark:text-gray-400">Style & Vogue</p>
 					</div>
 				</div> */}
-
-			{articles.map((article) => (
-				<Card key={article.guid} className="p-4 border-b dark:border-gray-800">
-					<CardHeader>
-						<CardTitle>
-							<div className="flex items-center gap-x-2">
-								{article.feed?.favicon && (
-									// eslint-disable-next-line @next/next/no-img-element
-									<img
-										className="h-4 object-contain"
-										src={article.feed?.favicon}
-										alt={`${article.feed?.title} favicon`}
-									/>
-								)}
-								<TypographySmall>
-									<Link href={`feed/${article.feed?.id}`}>{article.feed?.title}</Link>
-								</TypographySmall>
-							</div>
-						</CardTitle>
-						<CardTitle>
-							<TypographyH4>
-								<Link href={`feed/items/${article.id}`}>{article.title}</Link>
-							</TypographyH4>
-						</CardTitle>
-					</CardHeader>
-					<CardContent>
-						{!!article.imageUrl && (
-							// eslint-disable-next-line @next/next/no-img-element
-							<img
-								alt="Image Thumbnail"
-								className="w-24 h-24 object-cover aspect-square"
-								src={article.imageUrl}
-							/>
-						)}
-						<p className="mt-2">{article.content}</p>
-					</CardContent>
-					<CardFooter>
-						<TypographyMuted>{article.pubDate?.toString()}</TypographyMuted>
-						<div className="gx-1 flex align-center">
-							<Button variant="ghost">
-								<Icon.Bookmark />
-							</Button>
-							<Button variant="link">Share</Button>
-						</div>
-					</CardFooter>
-				</Card>
-			))}
 		</>
 	);
 }

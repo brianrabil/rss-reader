@@ -23,9 +23,9 @@ import {
 	CardTitle,
 } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
-import { authenticateUser } from "@/app/actions";
+import { authenticateUser } from "@/lib/actions";
 import { signIn } from "next-auth/react";
-import { auth } from "../../auth";
+import { auth } from "../../../lib/auth";
 
 const formSchema = z.object({
 	email: z.string().min(2).max(50),

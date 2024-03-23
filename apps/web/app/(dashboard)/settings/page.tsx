@@ -1,102 +1,90 @@
-import { CardTitle, CardDescription, CardHeader, CardContent, Card } from "@/components/ui/card";
-import { Label } from "@/components/ui/label";
-import { Input } from "@/components/ui/input";
+import {
+	CardTitle,
+	CardDescription,
+	CardHeader,
+	CardContent,
+	Card,
+	CardFooter,
+} from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
 import { Switch } from "@/components/ui/switch";
 import { TypographyH1, TypographyLead, TypographyMuted } from "@/components/typography";
 import { Container } from "@/components/container";
-import { auth } from "@/app/auth";
+import { auth } from "@/lib/auth";
+import Link from "next/link";
+import { Checkbox } from "@/components/ui/checkbox";
+import {
+	DropdownMenu,
+	DropdownMenuContent,
+	DropdownMenuItem,
+	DropdownMenuLabel,
+	DropdownMenuSeparator,
+	DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu";
+import { Input } from "@/components/ui/input";
 
 export default async function SettingsPage() {
 	const session = await auth();
 	return (
-		<Container className="space-y-12">
-			<section className="max-w-3xl space-y-4">
-				<div className="space-y-2">
-					<TypographyH1>Account Settings</TypographyH1>
-					<TypographyLead>Update your account information.</TypographyLead>
+		<div className="flex h-full w-full flex-col">
+			<main className="flex min-h-[calc(100vh_-_theme(spacing.16))] flex-1 flex-col gap-4 bg-background p-4 md:gap-8 md:p-10">
+				<div className="mx-auto grid w-full max-w-6xl gap-2">
+					<h1 className="text-3xl font-semibold">Settings</h1>
 				</div>
-				<Card>
-					<CardHeader>
-						<CardTitle>General</CardTitle>
-						<CardDescription>Update your account information.</CardDescription>
-					</CardHeader>
-					<CardContent className="space-y-4">
-						<div className="space-y-2">
-							<Label htmlFor="name">Name</Label>
-							<Input id="name" placeholder="Enter your name" />
-						</div>
-						<div className="space-y-2">
-							<Label htmlFor="email">Email</Label>
-							<Input
-								id="email"
-								placeholder="Enter your email"
-								type="email"
-								defaultValue={session?.user?.email ?? undefined}
-							/>
-						</div>
-					</CardContent>
-				</Card>
-			</section>
-			<section className="max-w-3xl space-y-4">
-				<Card>
-					<CardHeader>
-						<CardTitle>Privacy</CardTitle>
-						<CardDescription>Control who can see your profile and activity.</CardDescription>
-					</CardHeader>
-					<CardContent className="space-y-4">
-						<div className="space-y-4">
-							<div className="flex items-center space-x-4">
-								<div className="flex-1">
-									<Label htmlFor="profile">Profile visibility</Label>
-									<TypographyMuted>Choose who can see your profile information.</TypographyMuted>
-								</div>
-								<div className="w-24">
-									<Switch defaultChecked id="profile" />
-								</div>
-							</div>
-							<div className="flex items-center space-x-4">
-								<div className="flex-1">
-									<Label htmlFor="activity">Activity feed</Label>
-									<TypographyMuted>Choose who can see your activity feed.</TypographyMuted>
-								</div>
-								<div className="w-24">
-									<Switch id="activity" />
-								</div>
-							</div>
-						</div>
-					</CardContent>
-				</Card>
-			</section>
-			<section className="max-w-3xl space-y-4">
-				<Card>
-					<CardHeader>
-						<CardTitle>Notifications</CardTitle>
-						<CardDescription>Choose how you want to be notified.</CardDescription>
-					</CardHeader>
-					<CardContent className="space-y-4">
-						<div className="space-y-4">
-							<div className="flex items-center space-x-4">
-								<div className="flex-1">
-									<Label htmlFor="email">Email notifications</Label>
-									<TypographyMuted>Receive daily summary emails.</TypographyMuted>
-								</div>
-								<div className="w-24">
-									<Switch defaultChecked id="email" />
-								</div>
-							</div>
-							<div className="flex items-center space-x-4">
-								<div className="flex-1">
-									<Label htmlFor="push">Push notifications</Label>
-									<TypographyMuted>Get notified on your mobile device.</TypographyMuted>
-								</div>
-								<div className="w-24">
-									<Switch id="push" />
-								</div>
-							</div>
-						</div>
-					</CardContent>
-				</Card>
-			</section>
-		</Container>
+				<div className="mx-auto grid w-full max-w-6xl items-start gap-6 md:grid-cols-[180px_1fr] lg:grid-cols-[250px_1fr]">
+					<nav className="grid gap-4 text-sm text-muted-foreground">
+						<Link href="#" className="font-semibold text-primary">
+							General
+						</Link>
+						<Link href="#">Security</Link>
+						<Link href="#">Integrations</Link>
+						<Link href="#">Support</Link>
+						<Link href="#">Organizations</Link>
+						<Link href="#">Advanced</Link>
+					</nav>
+					<div className="grid gap-6">
+						<Card>
+							<CardHeader>
+								<CardTitle>Store Name</CardTitle>
+								<CardDescription>Used to identify your store in the marketplace.</CardDescription>
+							</CardHeader>
+							<CardContent>
+								<form>
+									<Input placeholder="Store Name" />
+								</form>
+							</CardContent>
+							<CardFooter className="border-t px-6 py-4">
+								<Button>Save</Button>
+							</CardFooter>
+						</Card>
+						<Card>
+							<CardHeader>
+								<CardTitle>Plugins Directory</CardTitle>
+								<CardDescription>
+									The directory within your project, in which your plugins are located.
+								</CardDescription>
+							</CardHeader>
+							<CardContent>
+								<form className="flex flex-col gap-4">
+									<Input placeholder="Project Name" defaultValue="/content/plugins" />
+									<div className="flex items-center space-x-2">
+										<Checkbox id="include" defaultChecked />
+										<label
+											htmlFor="include"
+											className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+										>
+											Allow administrators to change the directory.
+										</label>
+									</div>
+								</form>
+							</CardContent>
+							<CardFooter className="border-t px-6 py-4">
+								<Button>Save</Button>
+							</CardFooter>
+						</Card>
+					</div>
+				</div>
+			</main>
+		</div>
 	);
 }

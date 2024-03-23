@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
-import { auth } from "./auth";
+import { auth } from "../lib/auth";
 
 export default async function Page() {
 	const session = await auth();

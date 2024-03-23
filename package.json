@@ -29,6 +29,7 @@
 		"typescript": "latest"
 	},
 	"dependencies": {
+		"date-fns": "^3.6.0",
 		"next": "latest",
 		"react": "latest",
 		"react-dom": "latest"

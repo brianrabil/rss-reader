@@ -68,6 +68,7 @@ export async function getAllArticles(args?: { orderBy?: Prisma.ArticleFindManyAr
 			feed: true,
 		},
 		orderBy: args.orderBy,
+		take: 10,
 	});
 
 	return articles;

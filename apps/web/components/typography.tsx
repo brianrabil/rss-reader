@@ -4,6 +4,7 @@ import { cn } from "@/lib/utils";
 interface TypographyProps {
 	className?: string;
 	children?: React.ReactNode;
+	size?: "xs" | "sm" | "md" | "lg" | "xl";
 }
 
 export function TypographyH1({ children, className }: TypographyProps) {
@@ -65,6 +66,6 @@ export function TypographySmall({ children, className }: TypographyProps) {
 	return <small className={cn("text-sm font-medium leading-none", className)}> {children}</small>;
 }
 
-export function TypographyMuted({ children, className }: TypographyProps) {
-	return <p className={cn("text-sm text-muted-foreground", className)}>{children}</p>;
+export function TypographyMuted({ size = "sm", children, className }: TypographyProps) {
+	return <p className={cn(`text-${size} text-muted-foreground`, className)}>{children}</p>;
 }
