@@ -1,17 +1,15 @@
 import NextAuth from "next-auth";
 import { PrismaAdapter } from "@auth/prisma-adapter";
-import { PrismaClient } from "@prisma/client";
 import { logger } from "@/lib/logger";
 import { compareSync } from "bcrypt";
 import CredentialsProvider from "next-auth/providers/credentials";
-
-const db = new PrismaClient();
+import { prisma } from "@/lib/database";
 
 export const {
 	handlers: { GET, POST },
 	auth,
 } = NextAuth({
-	adapter: PrismaAdapter(db),
+	adapter: PrismaAdapter(prisma),
 	debug: true,
 	session: {
 		strategy: "jwt",
@@ -33,7 +31,7 @@ export const {
 					return null;
 				}
 
-				const user = await db.user.findUnique({
+				const user = await prisma.user.findUnique({
 					where: {
 						email: credentials.email as string,
 					},

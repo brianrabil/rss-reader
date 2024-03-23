@@ -3,19 +3,16 @@ import Link from "next/link";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { auth } from "./auth";
-import { database } from "@/lib/database";
 
-// `app/page.tsx` is the UI for the `/` URL
 export default async function Page() {
 	const session = await auth();
-	database.user.findMany().then(console.log);
-	console.log("session: ", session);
 	return (
 		<div className="flex flex-col min-h-[100dvh]">
 			<header className="px-4 lg:px-6 h-14 flex items-center">
 				<Link className="flex items-center justify-center" href="#">
-					<MountainIcon className="h-6 w-6" />
-					<span className="sr-only">Acme Inc</span>
+					{/* <MountainIcon className="h-6 w-6" />
+					<span className="sr-only">Acme Inc</span> */}
+					RSS Reader
 				</Link>
 				<nav className="ml-auto flex items-center gap-4 sm:gap-6">
 					<Link className="text-sm font-medium hover:underline underline-offset-4" href="#">
@@ -119,24 +116,5 @@ export default async function Page() {
 				</nav>
 			</footer>
 		</div>
-	);
-}
-
-function MountainIcon(props) {
-	return (
-		<svg
-			{...props}
-			xmlns="http://www.w3.org/2000/svg"
-			width="24"
-			height="24"
-			viewBox="0 0 24 24"
-			fill="none"
-			stroke="currentColor"
-			strokeWidth="2"
-			strokeLinecap="round"
-			strokeLinejoin="round"
-		>
-			<path d="m8 3 4 8 5-5 5 15H2L8 3z" />
-		</svg>
 	);
 }

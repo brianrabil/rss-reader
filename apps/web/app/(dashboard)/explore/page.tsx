@@ -18,11 +18,9 @@ import {
 	CardDescription,
 } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { PrismaClient } from "@prisma/client";
 import { auth } from "@/app/auth";
 import { subscribeFeed } from "@/app/actions";
-
-const prisma = new PrismaClient();
+import { prisma } from "@/lib/database";
 
 export default async function DiscoverPage({ searchParams }) {
 	const session = await auth();

@@ -1,19 +1,18 @@
 "use server";
 
 import { logger } from "@/lib/logger";
-import { PrismaClient, User } from "@rss-reader/database";
+import type { User, Prisma } from "@rss-reader/database";
 import * as bcrypt from "bcrypt";
 import { signIn } from "next-auth/react";
 import { auth } from "./auth";
-
-const client = new PrismaClient();
+import { prisma } from "@/lib/database";
 
 type CreateUser = Pick<User, "email" | "password">;
 
 export async function createUser({ email, password }: CreateUser) {
 	"use server";
 
-	const user = await client.user.create({
+	const user = await prisma.user.create({
 		data: {
 			email,
 			password: bcrypt.hashSync(password, 10),
@@ -26,7 +25,7 @@ export async function createUser({ email, password }: CreateUser) {
 export async function authenticateUser({ email, password }: CreateUser) {
 	"use server";
 
-	const user = await client.user.findUnique({
+	const user = await prisma.user.findUnique({
 		where: { email },
 	});
 
@@ -43,6 +42,35 @@ export async function authenticateUser({ email, password }: CreateUser) {
 		logger.error("🔴 user not found for credentials: ", { email });
 		return null;
 	}
+}
+
+export async function getAllArticles(args?: { orderBy?: Prisma.ArticleFindManyArgs["orderBy"] }) {
+	"use server";
+
+	const session = await auth();
+	const userId = session?.user?.id;
+
+	if (!userId) {
+		logger.error("❌ User not authenticated"); // Log an error if the user is not authenticated
+		throw new Error("User not authenticated");
+	}
+
+	args ??= {};
+	args.orderBy ??= { pubDate: "asc" };
+
+	const articles = await prisma.article.findMany({
+		where: {
+			feed: {
+				userId: userId,
+			},
+		},
+		include: {
+			feed: true,
+		},
+		orderBy: args.orderBy,
+	});
+
+	return articles;
 }
 
 export async function subscribeFeed(formData: FormData) {
@@ -65,7 +93,7 @@ export async function subscribeFeed(formData: FormData) {
 
 		logger.info(`📰 Feed ID: ${feedId}`); // Log the feed ID
 
-		await client.user.update({
+		await prisma.user.update({
 			where: { id: userId },
 			data: {
 				feeds: {
