@@ -3,7 +3,7 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import * as Icon from "@/components/icon";
 import { getAllArticles } from "@/lib/actions";
-import { TypographySmall, TypographyH4, TypographyMuted } from "@/components/typography";
+import * as Text from "@/components/text";
 import { formatDistanceToNow } from "date-fns";
 import {
 	DropdownMenu,
@@ -32,15 +32,15 @@ export default async function FeedPage() {
 										alt={`${article.feed?.title} favicon`}
 									/>
 								)}
-								<TypographySmall>
+								<Text.Small>
 									<Link href={`feed/${article.feed?.id}`}>{article.feed?.title}</Link>
-								</TypographySmall>
+								</Text.Small>
 								{article.pubDate && (
 									<>
 										&middot;
-										<TypographyMuted>
+										<Text.Muted>
 											{formatDistanceToNow(article.pubDate, { addSuffix: true })}
-										</TypographyMuted>
+										</Text.Muted>
 									</>
 								)}
 							</div>
@@ -63,9 +63,9 @@ export default async function FeedPage() {
 							</DropdownMenu>
 						</CardTitle>
 						<CardTitle>
-							<TypographyH4>
+							<Text.H4>
 								<Link href={`feed/items/${article.id}`}>{article.title}</Link>
-							</TypographyH4>
+							</Text.H4>
 						</CardTitle>
 					</CardHeader>
 					<CardContent>
@@ -77,7 +77,7 @@ export default async function FeedPage() {
 								src={article.imageUrl}
 							/>
 						)}
-						<TypographySmall>{article.content}</TypographySmall>
+						<Text.Small>{article.content}</Text.Small>
 					</CardContent>
 					<CardFooter>
 						<div className="gx-1 flex align-center">

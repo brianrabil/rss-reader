@@ -2,9 +2,10 @@ import Link from "next/link";
 import * as Icon from "@/components/icon";
 import { Button } from "@/components/ui/button";
 import { Avatar, AvatarImage } from "@/components/ui/avatar";
-import { TypographyMuted, TypographyP } from "@/components/typography";
+import * as Text from "@/components/text";
+import type { User } from "@rss-reader/database";
 
-export async function LeftPanel({ session }: { session: any }) {
+export async function LeftPanel({ user }: { user: User | null }) {
 	return (
 		<aside className="hidden  lg:block bg-background h-full max-h-screen">
 			<div className="flex max-h-screen h-full flex-col gap-2">
@@ -62,12 +63,12 @@ export async function LeftPanel({ session }: { session: any }) {
 					<Avatar>
 						<AvatarImage
 							alt="profile pic"
-							src={session?.user?.image ?? `https://avatar.vercel.sh/${session?.user?.email}`}
+							src={user?.image ?? `https://avatar.vercel.sh/${user?.email}`}
 						/>
 					</Avatar>
 					<div className="flex flex-col justify-center">
-						<TypographyP>{session?.user?.name}</TypographyP>
-						<TypographyMuted size="xs">{session?.user?.email}</TypographyMuted>
+						<Text.P>{user?.name}</Text.P>
+						<Text.Muted size="xs">{user?.email}</Text.Muted>
 					</div>
 				</div>
 			</div>

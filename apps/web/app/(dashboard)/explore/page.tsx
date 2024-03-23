@@ -8,7 +8,7 @@ import {
 } from "@/components/ui/pagination";
 import cn from "clsx";
 import { Input } from "@/components/ui/input";
-import { TypographyH1, TypographyP } from "@/components/typography";
+import * as Text from "@/components/text";
 import {
 	Card,
 	CardContent,
@@ -46,7 +46,7 @@ export default async function DiscoverPage({ searchParams }) {
 		<section className="w-full py-12 md:py-24 lg:py-32">
 			<div className="container px-4 md:px-6 mx-auto">
 				<div className="flex flex-col items-center justify-center space-y-4 text-center">
-					<TypographyH1 className="">Discover RSS Feeds</TypographyH1>
+					<Text.H1 className="">Discover RSS Feeds</Text.H1>
 					<p className="max-w-[900px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
 						Search and subscribe to your favorite RSS feeds from one place.
 					</p>
@@ -69,7 +69,7 @@ export default async function DiscoverPage({ searchParams }) {
 								</CardDescription>
 							</CardHeader>
 							<CardContent>
-								<TypographyP>{feed.description}</TypographyP>
+								<Text.P>{feed.description}</Text.P>
 							</CardContent>
 							<CardFooter>
 								<form action={subscribeFeed}>

@@ -1,19 +1,16 @@
 import { type ReactNode } from "react";
-import { Button } from "@/components/ui/button";
-import * as Icon from "@/components/icon";
-import { CommandPalette } from "@/components/command-palette";
 import { LeftPanel } from "@/app/(dashboard)/left-panel";
 import { auth } from "../../lib/auth";
 import { ResizableHandle, ResizablePanel, ResizablePanelGroup } from "@/components/ui/resizable";
-import { ThemeToggle } from "@/components/theme-toggle";
 import { Header } from "@/app/(dashboard)/header";
+import { getUser } from "@/lib/actions";
 
 export default async function DashboardLayout({ children }: { readonly children: ReactNode }) {
-	const session = await auth();
+	const user = await getUser();
 	return (
 		<ResizablePanelGroup direction="horizontal" className="max-w-screen max-h-screen">
 			<ResizablePanel defaultSize={25} minSize={10} maxSize={30}>
-				<LeftPanel session={session} />
+				<LeftPanel user={user} />
 			</ResizablePanel>
 			<ResizableHandle />
 			<ResizablePanel defaultSize={75} maxSize={90} minSize={70}>

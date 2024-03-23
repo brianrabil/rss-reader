@@ -2,9 +2,8 @@ import { type ReactNode } from "react";
 import type { Metadata } from "next";
 import { Inter as FontSans } from "next/font/google";
 import { cn } from "@/lib/utils";
-import { redirect } from "next/navigation";
-import { useSession, SessionProvider } from "next-auth/react";
 import { ThemeProvider } from "@/components/theme-provider";
+import { Toaster } from "@/components/ui/sonner";
 import "./globals.css";
 
 const fontSans = FontSans({
@@ -23,6 +22,7 @@ export default function RootLayout({ children }: { readonly children: ReactNode 
 			<body className={cn("font-sans antialiased ", fontSans.variable)}>
 				<ThemeProvider attribute="class" defaultTheme="system" enableSystem>
 					{children}
+					<Toaster />
 				</ThemeProvider>
 			</body>
 		</html>
