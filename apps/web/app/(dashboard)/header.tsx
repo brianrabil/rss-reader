@@ -1,14 +1,15 @@
 import { Button } from "@/components/ui/button";
 import { CommandPalette } from "@/components/command-palette";
 import * as Icon from "@/components/icon";
+import * as Text from "@/components/text";
 import { ThemeToggle } from "@/components/theme-toggle";
 
 export function Header() {
 	return (
 		<header className="sticky top-0 flex h-16 items-center gap-4 border-b bg-background px-4 md:px-6">
-			<Button variant="ghost" size="icon">
-				<Icon.PanelLeftClose className="h-6 w-6" />
-				<span className="sr-only">Toggle menu</span>
+			<Button variant="ghost" size="icon" className="text-muted-foreground">
+				<Icon.PanelLeftClose className="h-5 w-5" />
+				<Text.Span sr-only>Toggle menu</Text.Span>
 			</Button>
 			<CommandPalette className="w-full max-w-3xl mx-auto" />
 			<ThemeToggle />

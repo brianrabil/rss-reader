@@ -1,11 +1,14 @@
+"use server";
+
 import Link from "next/link";
 import * as Icon from "@/components/icon";
 import { Button } from "@/components/ui/button";
 import { Avatar, AvatarImage } from "@/components/ui/avatar";
 import * as Text from "@/components/text";
-import type { User } from "@rss-reader/database";
+import { getUser } from "@/lib/actions";
 
-export async function LeftPanel({ user }: { user: User | null }) {
+export async function LeftPanel() {
+	const user = await getUser();
 	return (
 		<aside className="hidden  lg:block bg-background h-full max-h-screen">
 			<div className="flex max-h-screen h-full flex-col gap-2">

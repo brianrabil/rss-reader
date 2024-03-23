@@ -53,6 +53,15 @@ interface TextProps {
 		| "muted-foreground"
 		| "destructive-foreground"
 		| "foreground";
+	/**
+	 * Screen readers only
+	 */
+	readonly "sr-only"?: boolean;
+	/**
+	 * Truncate text after a certain number of lines.
+	 * @default "none"
+	 */
+	readonly truncate?: 1 | 2 | 3 | 4 | 5 | 6 | "none";
 }
 
 function TextBase({
@@ -64,6 +73,8 @@ function TextBase({
 	size: $size = "md",
 	tracking = "normal",
 	weight = "normal",
+	"sr-only": srOnly,
+	truncate: lineClamp = "none",
 	...restProps
 }: TextProps) {
 	const size = useResponsiveClass("text", $size);
@@ -74,7 +85,9 @@ function TextBase({
 				`font-${weight}`,
 				`tracking-${tracking}`,
 				`text-${color}`,
+				`line-clamp-${lineClamp}`,
 				italic && "italic",
+				srOnly && "sr-only",
 				className
 			)}
 			{...restProps}
@@ -87,7 +100,6 @@ function TextBase({
 export function H1({ ...props }: TextProps) {
 	props.as ??= "h1";
 	props.color ??= "foreground";
-	props.italic ??= false;
 	props.size ??= { base: "4xl", lg: "5xl" };
 	props.tracking ??= "tight";
 	props.weight ??= "extrabold";
@@ -97,7 +109,6 @@ export function H1({ ...props }: TextProps) {
 export function H2({ ...props }: TextProps) {
 	props.as ??= "h2";
 	props.color ??= "foreground";
-	props.italic ??= false;
 	props.size ??= "3xl";
 	props.tracking ??= "tight";
 	props.weight ??= "semibold";
@@ -107,7 +118,6 @@ export function H2({ ...props }: TextProps) {
 export function H3({ ...props }: TextProps) {
 	props.as ??= "h3";
 	props.color ??= "foreground";
-	props.italic ??= false;
 	props.size ??= "2xl";
 	props.tracking ??= "tight";
 	props.weight ??= "semibold";
@@ -117,7 +127,6 @@ export function H3({ ...props }: TextProps) {
 export function H4({ ...props }: TextProps) {
 	props.as ??= "h4";
 	props.color ??= "foreground";
-	props.italic ??= false;
 	props.size ??= "xl";
 	props.tracking ??= "tight";
 	props.weight ??= "semibold";
@@ -127,7 +136,6 @@ export function H4({ ...props }: TextProps) {
 export function P({ ...props }: TextProps) {
 	props.as ??= "p";
 	props.color ??= "foreground";
-	props.italic ??= false;
 	props.size ??= "md";
 	props.tracking ??= "normal";
 	props.weight ??= "normal";
@@ -147,7 +155,6 @@ export function Blockquote({ ...props }: TextProps) {
 export function Lead({ ...props }: TextProps) {
 	props.as ??= "p";
 	props.color ??= "muted-foreground";
-	props.italic ??= false;
 	props.size ??= "xl";
 	props.tracking ??= "normal";
 	props.weight ??= "normal";
@@ -157,7 +164,6 @@ export function Lead({ ...props }: TextProps) {
 export function Large({ ...props }: TextProps) {
 	props.as ??= "span";
 	props.color ??= "foreground";
-	props.italic ??= false;
 	props.size ??= "lg";
 	props.tracking ??= "normal";
 	props.weight ??= "semibold";
@@ -167,7 +173,6 @@ export function Large({ ...props }: TextProps) {
 export function Small({ ...props }: TextProps) {
 	props.as ??= "small";
 	props.color ??= "foreground";
-	props.italic ??= false;
 	props.size ??= "sm";
 	props.tracking ??= "normal";
 	props.weight ??= "medium";
@@ -177,8 +182,16 @@ export function Small({ ...props }: TextProps) {
 export function Muted({ ...props }: TextProps) {
 	props.as ??= "span";
 	props.color ??= "muted-foreground";
-	props.italic ??= false;
 	props.size ??= "sm";
+	props.tracking ??= "normal";
+	props.weight ??= "normal";
+	return <TextBase {...props} />;
+}
+
+export function Span({ ...props }: TextProps) {
+	props.as ??= "span";
+	props.color ??= "foreground";
+	props.size ??= "md";
 	props.tracking ??= "normal";
 	props.weight ??= "normal";
 	return <TextBase {...props} />;

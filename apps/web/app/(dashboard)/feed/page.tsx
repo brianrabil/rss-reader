@@ -13,86 +13,87 @@ import {
 	DropdownMenuSeparator,
 	DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
+import { Stack } from "@/components/stack";
 
 export default async function FeedPage() {
 	const articles = await getAllArticles();
-
 	return (
 		<>
-			{articles.map((article) => (
-				<Card key={article.guid} className="dark:border-gray-800">
-					<CardHeader className="gap-y-2">
-						<CardTitle className="flex items-center justify-between">
-							<div className="flex items-center gap-x-2">
-								{article.feed?.favicon && (
+			{articles.map(
+				(article) =>
+					!!article.feed && (
+						<Card key={article.guid}>
+							<CardHeader>
+								<Stack direction="col" align="start" className="w-full" gap={2}>
+									<Stack className="w-full" justify="between">
+										<Stack gap={2}>
+											{article.feed.favicon && (
+												// eslint-disable-next-line @next/next/no-img-element
+												<img
+													className="h-5 object-contain"
+													src={article.feed.favicon}
+													alt={`${article.feed.title} favicon`}
+												/>
+											)}
+											<Link href={`feed/${article.feed.id}`}>
+												<Text.Small>{article.feed.title}</Text.Small>
+											</Link>
+											{article.pubDate && (
+												<Text.Muted>
+													&middot; {formatDistanceToNow(article.pubDate, { addSuffix: true })}
+												</Text.Muted>
+											)}
+										</Stack>
+										<DropdownMenu>
+											<DropdownMenuTrigger asChild>
+												<Button variant="ghost" size="icon" className="text-muted-foreground">
+													<Icon.EllipsisVertical className="h-4" />
+													<Text.Span sr-only>Toggle feed item menu</Text.Span>
+												</Button>
+											</DropdownMenuTrigger>
+											<DropdownMenuContent align="end">
+												<DropdownMenuLabel>My Account</DropdownMenuLabel>
+												<DropdownMenuSeparator />
+												<DropdownMenuItem>Settings</DropdownMenuItem>
+												<DropdownMenuItem>Support</DropdownMenuItem>
+												<DropdownMenuSeparator />
+												<DropdownMenuItem>Logout</DropdownMenuItem>
+											</DropdownMenuContent>
+										</DropdownMenu>
+									</Stack>
+									<CardTitle>
+										<Link href={`feed/items/${article.id}`}>
+											<Text.H3 className="hover:underline">{article.title}</Text.H3>
+										</Link>
+									</CardTitle>
+								</Stack>
+							</CardHeader>
+							<CardContent>
+								{!!article.imageUrl && (
 									// eslint-disable-next-line @next/next/no-img-element
 									<img
-										className="h-4 object-contain"
-										src={article.feed?.favicon}
-										alt={`${article.feed?.title} favicon`}
+										alt="Image Thumbnail"
+										className="w-24 h-24 object-cover aspect-square"
+										src={article.imageUrl}
 									/>
 								)}
-								<Text.Small>
-									<Link href={`feed/${article.feed?.id}`}>{article.feed?.title}</Link>
-								</Text.Small>
-								{article.pubDate && (
-									<>
-										&middot;
-										<Text.Muted>
-											{formatDistanceToNow(article.pubDate, { addSuffix: true })}
-										</Text.Muted>
-									</>
-								)}
-							</div>
-
-							<DropdownMenu>
-								<DropdownMenuTrigger asChild>
-									<Button variant="ghost" size="icon" className="rounded-full">
-										<Icon.EllipsisVertical className="h-4 w-4" />
-										<span className="sr-only">Toggle feed item menu</span>
+								<Text.Muted truncate={1}>{article.content}</Text.Muted>
+							</CardContent>
+							<CardFooter>
+								<Stack align="start">
+									<Button size="icon" variant="ghost" className="text-muted-foreground">
+										<Icon.Bookmark className="h-5 " />
+										<Text.Span sr-only>Bookmark</Text.Span>
 									</Button>
-								</DropdownMenuTrigger>
-								<DropdownMenuContent align="end">
-									<DropdownMenuLabel>My Account</DropdownMenuLabel>
-									<DropdownMenuSeparator />
-									<DropdownMenuItem>Settings</DropdownMenuItem>
-									<DropdownMenuItem>Support</DropdownMenuItem>
-									<DropdownMenuSeparator />
-									<DropdownMenuItem>Logout</DropdownMenuItem>
-								</DropdownMenuContent>
-							</DropdownMenu>
-						</CardTitle>
-						<CardTitle>
-							<Text.H4>
-								<Link href={`feed/items/${article.id}`}>{article.title}</Link>
-							</Text.H4>
-						</CardTitle>
-					</CardHeader>
-					<CardContent>
-						{!!article.imageUrl && (
-							// eslint-disable-next-line @next/next/no-img-element
-							<img
-								alt="Image Thumbnail"
-								className="w-24 h-24 object-cover aspect-square"
-								src={article.imageUrl}
-							/>
-						)}
-						<Text.Small>{article.content}</Text.Small>
-					</CardContent>
-					<CardFooter>
-						<div className="gx-1 flex align-center">
-							<Button className="aspect-square px-0" variant="ghost">
-								<Icon.Bookmark className="h-5 text-gray-500" />
-								<span className="sr-only">Bookmark</span>
-							</Button>
-							<Button className="aspect-square px-0" variant="ghost">
-								<Icon.Share className="h-5 text-gray-500" />
-								<span className="sr-only">Share</span>
-							</Button>
-						</div>
-					</CardFooter>
-				</Card>
-			))}
+									<Button size="icon" variant="ghost" className="text-muted-foreground">
+										<Icon.Share className="h-5" />
+										<Text.Span sr-only>Share</Text.Span>
+									</Button>
+								</Stack>
+							</CardFooter>
+						</Card>
+					)
+			)}
 			{/* <Card>
 					<CardContent>
 						<div className="flex flex-col bg-gradient-to-r from-blue-500 to-blue-700">

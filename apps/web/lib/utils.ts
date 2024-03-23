@@ -51,7 +51,7 @@ function isResponsiveConfig<T>(prop: ResponsiveProp<T>): prop is ResponsiveConfi
  */
 export function useResponsiveClass<T>(twKey: string, prop: ResponsiveProp<T>) {
 	return React.useMemo(() => {
-		if (!prop) return;
+		if (prop === undefined || prop === null) return;
 
 		if (isResponsiveConfig(prop)) {
 			return Object.entries(prop).reduce((acc, [key, value]) => {

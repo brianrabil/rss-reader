@@ -20,6 +20,8 @@ export {
 	PanelLeftClose,
 	PanelLeftOpen,
 	Rss,
+	Sun,
+	Moon,
 } from "lucide-react";
 
 interface IconProps {
