@@ -71,7 +71,7 @@ export async function LeftPanel() {
 					</Avatar>
 					<div className="flex flex-col justify-center">
 						<Text.P>{user?.name}</Text.P>
-						<Text.Muted size="xs">{user?.email}</Text.Muted>
+						<Text.Muted className="text-xs">{user?.email}</Text.Muted>
 					</div>
 				</div>
 			</div>

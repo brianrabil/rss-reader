@@ -1,16 +1,9 @@
 "use client";
 
-import { Button } from "@/components/ui/button";
 import { Label } from "@/components/ui/label";
-import { Stack } from "@/components/stack";
-import * as Text from "@/components/text";
-import Link from "next/link";
-import { Checkbox } from "@/components/ui/checkbox";
 import { Input } from "@/components/ui/input";
 import { Avatar, AvatarImage } from "@/components/ui/avatar";
-import { auth } from "@/lib/auth";
 import { updateUser } from "@/lib/actions";
-import { toast } from "sonner";
 import type { User } from "@rss-reader/database";
 import { SubmitButton } from "@/components/submit-button";
 import { Separator } from "@/components/ui/separator";
@@ -18,8 +11,8 @@ import { Separator } from "@/components/ui/separator";
 export function ProfileForm({ user }: { user: User | null }) {
 	return (
 		<form action={updateUser}>
-			<Stack direction="col" gapY={5} align="start">
-				<Stack gap={2} align="center">
+			<div className="flex flex-col gap-y-5 items-start">
+				<div className="flex gap-2 items-center">
 					<Avatar>
 						<AvatarImage
 							alt="profile pic"
@@ -35,7 +28,7 @@ export function ProfileForm({ user }: { user: User | null }) {
 							defaultValue={user?.image ?? undefined}
 						/>
 					</div>
-				</Stack>
+				</div>
 
 				<div className="grid w-full max-w-sm items-center gap-1.5">
 					<Label id="username">Username</Label>
@@ -59,7 +52,7 @@ export function ProfileForm({ user }: { user: User | null }) {
 				</div>
 				<Separator />
 				<SubmitButton>Save</SubmitButton>
-			</Stack>
+			</div>
 		</form>
 	);
 }

@@ -1,12 +1,7 @@
 import * as React from "react";
-import { cn, type ResponsiveProp, useResponsiveClass } from "@/lib/utils";
+import { cn } from "@/lib/utils";
 
 interface TextProps {
-	/**
-	 * HTML element or React component
-	 * @default "span"
-	 */
-	readonly as?: React.ElementType;
 	/**
 	 * Additional class names
 	 * @default ""
@@ -17,182 +12,110 @@ interface TextProps {
 	 * @default ""
 	 */
 	readonly children?: React.ReactNode;
-	/**
-	 * Text size
-	 * @default "md"
-	 */
-	readonly size?: ResponsiveProp<
-		"xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "5xl" | "6xl"
-	>;
-	/**
-	 * Text weight
-	 * @default "normal"
-	 */
-	readonly weight?: "light" | "normal" | "medium" | "semibold" | "bold" | "extrabold" | "black";
-	/**
-	 * Text tracking
-	 * @default "normal"
-	 */
-	readonly tracking?: "tight" | "normal" | "wide";
-	/**
-	 * Text italic
-	 * @default false
-	 */
-	readonly italic?: boolean;
-	/**
-	 * Text color
-	 * @default "foreground"
-	 */
-	readonly color?:
-		| "primary"
-		| "accent"
-		| "muted"
-		| "destructive"
-		| "primary-foreground"
-		| "accent-foreground"
-		| "muted-foreground"
-		| "destructive-foreground"
-		| "foreground";
-	/**
-	 * Screen readers only
-	 */
-	readonly "sr-only"?: boolean;
-	/**
-	 * Truncate text after a certain number of lines.
-	 * @default "none"
-	 */
-	readonly truncate?: 1 | 2 | 3 | 4 | 5 | 6 | "none";
 }
 
-function TextBase({
-	as: Tag = "span",
-	children,
-	className,
-	color = "foreground",
-	italic,
-	size: $size = "md",
-	tracking = "normal",
-	weight = "normal",
-	"sr-only": srOnly,
-	truncate: lineClamp = "none",
-	...restProps
-}: TextProps) {
-	const size = useResponsiveClass("text", $size);
+export function H1({ children, className }: TextProps) {
 	return (
-		<Tag
+		<h1
 			className={cn(
-				size,
-				`font-${weight}`,
-				`tracking-${tracking}`,
-				`text-${color}`,
-				`line-clamp-${lineClamp}`,
-				italic && "italic",
-				srOnly && "sr-only",
+				"scroll-m-20 text-foreground text-4xl lg:text-5xl tracking-tight font-extrabold",
 				className
 			)}
-			{...restProps}
 		>
 			{children}
-		</Tag>
+		</h1>
 	);
 }
 
-export function H1({ ...props }: TextProps) {
-	props.as ??= "h1";
-	props.color ??= "foreground";
-	props.size ??= { base: "4xl", lg: "5xl" };
-	props.tracking ??= "tight";
-	props.weight ??= "extrabold";
-	return <TextBase className="scroll-m-20" {...props} />;
+export function H2({ children, className }: TextProps) {
+	return (
+		<h2
+			className={cn(
+				"text-h2 text-foreground text-3xl tracking-tight font-semibold scroll-m-20 border-b pb-2 first:mt-0",
+				className
+			)}
+		>
+			{children}
+		</h2>
+	);
 }
 
-export function H2({ ...props }: TextProps) {
-	props.as ??= "h2";
-	props.color ??= "foreground";
-	props.size ??= "3xl";
-	props.tracking ??= "tight";
-	props.weight ??= "semibold";
-	return <TextBase className="scroll-m-20 border-b pb-2 first:mt-0" {...props} />;
+export function H3({ children, className }: TextProps) {
+	return (
+		<h3
+			className={cn("scroll-m-20 text-foreground text-2xl tracking-tight font-semibold", className)}
+		>
+			{children}
+		</h3>
+	);
 }
 
-export function H3({ ...props }: TextProps) {
-	props.as ??= "h3";
-	props.color ??= "foreground";
-	props.size ??= "2xl";
-	props.tracking ??= "tight";
-	props.weight ??= "semibold";
-	return <TextBase className="scroll-m-20" {...props} />;
+export function H4({ children, className }: TextProps) {
+	return (
+		<h4
+			className={cn("scroll-m-20 text-foreground text-xl tracking-tight font-semibold", className)}
+		>
+			{children}
+		</h4>
+	);
 }
 
-export function H4({ ...props }: TextProps) {
-	props.as ??= "h4";
-	props.color ??= "foreground";
-	props.size ??= "xl";
-	props.tracking ??= "tight";
-	props.weight ??= "semibold";
-	return <TextBase className="scroll-m-20" {...props} />;
+export function P({ children, className }: TextProps) {
+	return (
+		<p
+			className={cn(
+				"text-foreground text-md tracking-normal font-normal leading-7 [&:not(:first-child)]:mt-6",
+				className
+			)}
+		>
+			{children}
+		</p>
+	);
 }
 
-export function P({ ...props }: TextProps) {
-	props.as ??= "p";
-	props.color ??= "foreground";
-	props.size ??= "md";
-	props.tracking ??= "normal";
-	props.weight ??= "normal";
-	return <TextBase className="leading-7 [&:not(:first-child)]:mt-6" {...props} />;
+export function Blockquote({ children, className }: TextProps) {
+	return (
+		<blockquote
+			className={cn(
+				"mt-6 border-l-2 pl-6 text-foreground text-md tracking-normal font-normal italic",
+				className
+			)}
+		>
+			{children}
+		</blockquote>
+	);
 }
 
-export function Blockquote({ ...props }: TextProps) {
-	props.as ??= "blockquote";
-	props.color ??= "foreground";
-	props.italic ??= true;
-	props.size ??= "md";
-	props.tracking ??= "normal";
-	props.weight ??= "normal";
-	return <TextBase className="mt-6 border-l-2 pl-6" {...props} />;
+export function Lead({ children, className }: TextProps) {
+	return (
+		<p className={cn("text-muted-foreground text-xl tracking-normal font-normal", className)}>
+			{children}
+		</p>
+	);
 }
 
-export function Lead({ ...props }: TextProps) {
-	props.as ??= "p";
-	props.color ??= "muted-foreground";
-	props.size ??= "xl";
-	props.tracking ??= "normal";
-	props.weight ??= "normal";
-	return <TextBase {...props} />;
+export function Large({ children, className }: TextProps) {
+	return (
+		<span className={cn("text-foreground text-lg tracking-normal font-semibold", className)}>
+			{children}
+		</span>
+	);
 }
 
-export function Large({ ...props }: TextProps) {
-	props.as ??= "span";
-	props.color ??= "foreground";
-	props.size ??= "lg";
-	props.tracking ??= "normal";
-	props.weight ??= "semibold";
-	return <TextBase {...props} />;
+export function Small({ children, className }: TextProps) {
+	return (
+		<small
+			className={cn("leading-none text-foreground text-sm tracking-normal font-medium", className)}
+		>
+			{children}
+		</small>
+	);
 }
 
-export function Small({ ...props }: TextProps) {
-	props.as ??= "small";
-	props.color ??= "foreground";
-	props.size ??= "sm";
-	props.tracking ??= "normal";
-	props.weight ??= "medium";
-	return <TextBase className="leading-none" {...props} />;
-}
-
-export function Muted({ ...props }: TextProps) {
-	props.as ??= "span";
-	props.color ??= "muted-foreground";
-	props.size ??= "sm";
-	props.tracking ??= "normal";
-	props.weight ??= "normal";
-	return <TextBase {...props} />;
-}
-
-export function Span({ ...props }: TextProps) {
-	props.as ??= "span";
-	props.color ??= "foreground";
-	props.size ??= "md";
-	props.tracking ??= "normal";
-	props.weight ??= "normal";
-	return <TextBase {...props} />;
+export function Muted({ children, className }: TextProps) {
+	return (
+		<span className={cn("text-muted-foreground text-sm tracking-normal font-normal", className)}>
+			{children}
+		</span>
+	);
 }

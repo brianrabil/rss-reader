@@ -171,3 +171,24 @@ export async function updateUser(formData: FormData) {
 
 	return user;
 }
+
+export async function getSubscriptions() {
+	"use server";
+
+	const session = await auth();
+	const userId = session?.user?.id;
+
+	if (!userId) {
+		logger.error("❌ User not authenticated"); // Log an error if the user is not authenticated
+		throw new Error("User not authenticated");
+	}
+
+	const subscriptions = await prisma.user.findUnique({
+		where: { id: userId },
+		include: {
+			feeds: true,
+		},
+	});
+
+	return subscriptions;
+}

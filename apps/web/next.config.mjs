@@ -15,6 +15,9 @@ const nextConfig = {
 	cleanDistDir: true,
 	transpilePackages: ["@rss-reader/ui"],
 	output: "standalone",
+	experimental: {
+		typedRoutes: true,
+	},
 };
 
 // export default withSuperEnv(nextConfig);

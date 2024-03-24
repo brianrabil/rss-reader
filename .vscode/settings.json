@@ -21,6 +21,7 @@
 		"storyshots",
 		"storysource",
 		"tailwindcss",
+		"tanstack",
 		"tslog"
 	],
 	"editor.formatOnSave": true,

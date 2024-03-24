@@ -1,3 +1,5 @@
+"use server";
+
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
@@ -13,7 +15,6 @@ import {
 	DropdownMenuSeparator,
 	DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
-import { Stack } from "@/components/stack";
 
 export default async function FeedPage() {
 	const articles = await getAllArticles();
@@ -24,9 +25,9 @@ export default async function FeedPage() {
 					!!article.feed && (
 						<Card key={article.guid}>
 							<CardHeader>
-								<Stack direction="col" align="start" className="w-full" gap={2}>
-									<Stack className="w-full" justify="between">
-										<Stack gap={2}>
+								<div className="flex flex-col items-start w-full gap-2">
+									<div className="w-full flex justify-between">
+										<div className="flex gap-2">
 											{article.feed.favicon && (
 												// eslint-disable-next-line @next/next/no-img-element
 												<img
@@ -35,7 +36,7 @@ export default async function FeedPage() {
 													alt={`${article.feed.title} favicon`}
 												/>
 											)}
-											<Link href={`feed/${article.feed.id}`}>
+											<Link href={`/articles/${article.feed.id}`}>
 												<Text.Small>{article.feed.title}</Text.Small>
 											</Link>
 											{article.pubDate && (
@@ -43,12 +44,12 @@ export default async function FeedPage() {
 													&middot; {formatDistanceToNow(article.pubDate, { addSuffix: true })}
 												</Text.Muted>
 											)}
-										</Stack>
+										</div>
 										<DropdownMenu>
 											<DropdownMenuTrigger asChild>
 												<Button variant="ghost" size="icon" className="text-muted-foreground">
 													<Icon.EllipsisVertical className="h-4" />
-													<Text.Span sr-only>Toggle feed item menu</Text.Span>
+													<span className="sr-only">Toggle feed item menu</span>
 												</Button>
 											</DropdownMenuTrigger>
 											<DropdownMenuContent align="end">
@@ -60,13 +61,13 @@ export default async function FeedPage() {
 												<DropdownMenuItem>Logout</DropdownMenuItem>
 											</DropdownMenuContent>
 										</DropdownMenu>
-									</Stack>
+									</div>
 									<CardTitle>
-										<Link href={`feed/items/${article.id}`}>
+										<Link href={`/articles/${article.id}`}>
 											<Text.H3 className="hover:underline">{article.title}</Text.H3>
 										</Link>
 									</CardTitle>
-								</Stack>
+								</div>
 							</CardHeader>
 							<CardContent>
 								{!!article.imageUrl && (
@@ -77,19 +78,19 @@ export default async function FeedPage() {
 										src={article.imageUrl}
 									/>
 								)}
-								<Text.Muted truncate={1}>{article.content}</Text.Muted>
+								<Text.Muted className="line-clamp-1">{article.content}</Text.Muted>
 							</CardContent>
 							<CardFooter>
-								<Stack align="start">
+								<div className="flex items-start gap-1.5">
 									<Button size="icon" variant="ghost" className="text-muted-foreground">
-										<Icon.Bookmark className="h-5 " />
-										<Text.Span sr-only>Bookmark</Text.Span>
+										<Icon.Bookmark className="h-5" />
+										<span className="sr-only">Bookmark</span>
 									</Button>
 									<Button size="icon" variant="ghost" className="text-muted-foreground">
 										<Icon.Share className="h-5" />
-										<Text.Span sr-only>Share</Text.Span>
+										<span className="sr-only">Share</span>
 									</Button>
-								</Stack>
+								</div>
 							</CardFooter>
 						</Card>
 					)
