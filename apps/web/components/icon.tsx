@@ -22,6 +22,10 @@ export {
 	Rss,
 	Sun,
 	Moon,
+	Home,
+	Bell,
+	ThumbsDown,
+	ThumbsUp,
 } from "lucide-react";
 
 interface IconProps {

@@ -83,6 +83,14 @@ export default async function FeedPage() {
 							<CardFooter>
 								<div className="flex items-start gap-1.5">
 									<Button size="icon" variant="ghost" className="text-muted-foreground">
+										<Icon.ThumbsUp className="h-5" />
+										<span className="sr-only">Link</span>
+									</Button>
+									<Button size="icon" variant="ghost" className="text-muted-foreground">
+										<Icon.ThumbsDown className="h-5" />
+										<span className="sr-only">Dislike</span>
+									</Button>
+									<Button size="icon" variant="ghost" className="text-muted-foreground">
 										<Icon.Bookmark className="h-5" />
 										<span className="sr-only">Bookmark</span>
 									</Button>
