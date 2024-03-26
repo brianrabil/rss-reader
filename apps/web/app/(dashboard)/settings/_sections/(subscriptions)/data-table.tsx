@@ -12,10 +12,18 @@ import {
 import { Button } from "@/components/ui/button";
 import { unsubscribeFeed } from "@/lib/actions/rss";
 import type { Feed } from "@rss-reader/database";
+import { toast } from "sonner";
 
 export const dynamic = "force-dynamic";
 
 const columns: ColumnDef<Feed>[] = [
+	{
+		accessorKey: "favicon",
+		header: () => null,
+		cell(props) {
+			return <img src={props.getValue<string>()} alt="favicon" className="w-6 h-6" />;
+		},
+	},
 	{
 		accessorKey: "title",
 		header: "Title",
@@ -23,16 +31,25 @@ const columns: ColumnDef<Feed>[] = [
 	{
 		accessorKey: "id",
 		header: () => null,
-		cell(props) {
-			return (
-				<form action={unsubscribeFeed}>
-					<input name="id" className="hidden" defaultValue={props.getValue<string>()} />
-					<Button type="submit" variant="outline">
-						Unsubscribe
-					</Button>
-				</form>
-			);
-		},
+		cell: (props) => (
+			<form
+				className="flex justify-end w-full"
+				action={(formData) =>
+					unsubscribeFeed(formData)
+						.then(() => toast.success("Unsubscribed successfully."))
+						.catch(() => toast.error("Failed to unsubscribe."))
+				}
+			>
+				<input
+					name="id"
+					className="w-0 hidden pointer-events-none select-none"
+					defaultValue={props.getValue<string>()}
+				/>
+				<Button type="submit" variant="ghost">
+					Unsubscribe
+				</Button>
+			</form>
+		),
 	},
 ];
 

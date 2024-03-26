@@ -3,10 +3,9 @@
 import Link, { LinkProps } from "next/link";
 import * as Icon from "@/components/icon";
 import { Button } from "@/components/ui/button";
-import { Avatar, AvatarImage } from "@/components/ui/avatar";
-import * as Text from "@/components/text";
 import { getUser } from "@/lib/actions/user";
-import { LucideIcon } from "lucide-react";
+import { LucideIcon, User } from "lucide-react";
+import { UserMenu } from "@/app/(dashboard)/user-menu";
 
 const navItems: { name: string; icon: LucideIcon; href: LinkProps<string>["href"] }[] = [
 	{
@@ -69,18 +68,7 @@ export async function LeftPanel() {
 							))}
 						</nav>
 					</div>
-					<div className="px-4 flex-0 overflow-auto py-3 gap-x-2 flex items-center gx-2">
-						<Avatar>
-							<AvatarImage
-								alt="profile pic"
-								src={user?.image ?? `https://avatar.vercel.sh/${user?.email}`}
-							/>
-						</Avatar>
-						<div className="flex flex-col justify-center">
-							<Text.P>{user?.name}</Text.P>
-							<Text.Muted className="text-xs">{user?.email}</Text.Muted>
-						</div>
-					</div>
+					{user && <UserMenu user={user} />}
 				</div>
 			</div>
 		</div>
