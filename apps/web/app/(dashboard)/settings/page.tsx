@@ -2,7 +2,7 @@
 
 import * as Text from "@/components/text";
 import Link from "next/link";
-import { getUser } from "@/lib/actions";
+import { getUser } from "@/lib/actions/user";
 import { ProfileSection } from "@/app/(dashboard)/settings/_sections/(profile)/section";
 import { SubscriptionsSection } from "@/app/(dashboard)/settings/_sections/(subscriptions)/section";
 

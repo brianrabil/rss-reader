@@ -4,7 +4,7 @@ import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/componen
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import * as Icon from "@/components/icon";
-import { getAllArticles } from "@/lib/actions";
+import { getAllArticles } from "@/lib/actions/rss";
 import * as Text from "@/components/text";
 import { formatDistanceToNow } from "date-fns";
 import {

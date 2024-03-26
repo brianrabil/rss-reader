@@ -23,7 +23,7 @@ import {
 	FormMessage,
 } from "@/components/ui/form";
 import { Input } from "@/components/ui/input";
-import { createUser } from "@/lib/actions";
+import { createUser } from "@/lib/actions/user";
 
 const formSchema = z
 	.object({

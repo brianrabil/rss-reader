@@ -3,7 +3,7 @@
 import { Label } from "@/components/ui/label";
 import { Input } from "@/components/ui/input";
 import { Avatar, AvatarImage } from "@/components/ui/avatar";
-import { updateUser } from "@/lib/actions";
+import { updateUser } from "@/lib/actions/user";
 import type { User } from "@rss-reader/database";
 import { SubmitButton } from "@/components/submit-button";
 import { Separator } from "@/components/ui/separator";

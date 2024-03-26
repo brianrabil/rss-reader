@@ -1,7 +1,6 @@
 "use client";
 
 import { ColumnDef, flexRender, getCoreRowModel, useReactTable } from "@tanstack/react-table";
-
 import {
 	Table,
 	TableBody,
@@ -10,13 +9,34 @@ import {
 	TableHeader,
 	TableRow,
 } from "@/components/ui/table";
+import { Button } from "@/components/ui/button";
+import { unsubscribeFeed } from "@/lib/actions/rss";
+import type { Feed } from "@rss-reader/database";
 
-interface DataTableProps<TData, TValue> {
-	columns: ColumnDef<TData, TValue>[];
-	data: TData[];
-}
+export const dynamic = "force-dynamic";
 
-export function DataTable<TData, TValue>({ columns, data }: DataTableProps<TData, TValue>) {
+const columns: ColumnDef<Feed>[] = [
+	{
+		accessorKey: "title",
+		header: "Title",
+	},
+	{
+		accessorKey: "id",
+		header: () => null,
+		cell(props) {
+			return (
+				<form action={unsubscribeFeed}>
+					<input name="id" className="hidden" defaultValue={props.getValue<string>()} />
+					<Button type="submit" variant="outline">
+						Unsubscribe
+					</Button>
+				</form>
+			);
+		},
+	},
+];
+
+export function DataTable({ data }: { data: Feed[] }) {
 	const table = useReactTable({
 		data,
 		columns,

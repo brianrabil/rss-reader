@@ -26,6 +26,7 @@ export {
 	Bell,
 	ThumbsDown,
 	ThumbsUp,
+	Trash,
 } from "lucide-react";
 
 interface IconProps {

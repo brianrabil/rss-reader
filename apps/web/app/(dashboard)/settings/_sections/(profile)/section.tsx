@@ -1,7 +1,7 @@
 "use server";
 
 import { CardTitle, CardDescription, CardHeader, CardContent, Card } from "@/components/ui/card";
-import { getUser } from "@/lib/actions";
+import { getUser } from "@/lib/actions/user";
 import { ProfileForm } from "@/app/(dashboard)/settings/_sections/(profile)/form";
 
 export async function ProfileSection() {

@@ -5,7 +5,7 @@ import * as Icon from "@/components/icon";
 import { Button } from "@/components/ui/button";
 import { Avatar, AvatarImage } from "@/components/ui/avatar";
 import * as Text from "@/components/text";
-import { getUser } from "@/lib/actions";
+import { getUser } from "@/lib/actions/user";
 import { LucideIcon } from "lucide-react";
 
 const navItems: { name: string; icon: LucideIcon; href: LinkProps<string>["href"] }[] = [

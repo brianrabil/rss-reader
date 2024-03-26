@@ -2,11 +2,11 @@
 
 import { CardTitle, CardDescription, CardHeader, CardContent, Card } from "@/components/ui/card";
 import { DataTable } from "./data-table";
-import { columns } from "./columns";
-import { getSubscriptions } from "@/lib/actions";
+import { getSubscriptions } from "@/lib/actions/rss";
 
 export async function SubscriptionsSection() {
 	const user = await getSubscriptions();
+	const feeds = user?.feeds ?? [];
 
 	return (
 		<Card>
@@ -15,7 +15,7 @@ export async function SubscriptionsSection() {
 				<CardDescription>Manage your subscriptions.</CardDescription>
 			</CardHeader>
 			<CardContent>
-				<DataTable columns={columns} data={user?.feeds} />
+				<DataTable data={feeds} />
 			</CardContent>
 		</Card>
 	);

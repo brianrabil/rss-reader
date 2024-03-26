@@ -21,7 +21,7 @@ import {
 } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { auth } from "@/lib/auth";
-import { subscribeFeed } from "@/lib/actions";
+import { subscribeFeed } from "@/lib/actions/rss";
 import { prisma } from "@/lib/database";
 
 export default async function DiscoverPage({ searchParams }) {
