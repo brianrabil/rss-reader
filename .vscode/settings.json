@@ -4,7 +4,7 @@
 		"apos",
 		"autofilter",
 		"clsx",
-		"doesn",
+		"cnnnews",
 		"fontsource",
 		"hookform",
 		"jetpack",
@@ -15,6 +15,7 @@
 		"pino",
 		"roboto",
 		"rssfeeds",
+		"rsshub",
 		"Signin",
 		"Signup",
 		"sonner",
@@ -22,9 +23,15 @@
 		"storysource",
 		"tailwindcss",
 		"tanstack",
-		"tslog",
-		"unsubscription"
+		"tslog"
 	],
 	"editor.formatOnSave": true,
-	"typescript.tsdk": "node_modules/typescript/lib"
+	"typescript.tsdk": "node_modules/typescript/lib",
+	"material-icon-theme.files.associations": {
+		"tsconfig.base.json": "tsconfig",
+		"tsconfig.express.json": "tsconfig",
+		"tsconfig.nextjs.json": "tsconfig",
+		"tsconfig.react-library.json": "tsconfig",
+		"tsconfig.ts-node.json": "tsconfig"
+	}
 }

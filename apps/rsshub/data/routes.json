@@ -1,0 +1,5177 @@
+[
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=rent.591.com.tw",
+    "channel": "591 Rental house",
+    "url": "rent.591.com.tw",
+    "path": "/:country/rent/:query?",
+    "categories": [
+      "other"
+    ],
+    "parameters": {
+      "country": "Country code. Only tw is supported now",
+      "query": "Query Parameters"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=1x.com",
+    "channel": "1x.com",
+    "url": "1x.com",
+    "path": "/:category{.+}?",
+    "categories": [
+      "design",
+      "picture"
+    ],
+    "parameters": {
+      "category": "Category, Latest Awarded by default"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=7mmtv.tv",
+    "channel": "7mmtv",
+    "url": "7mmtv.tv",
+    "path": "/:language?/:category?/:type?",
+    "categories": [
+      "multimedia"
+    ],
+    "parameters": {
+      "language": "Language, see below, `en` as English by default",
+      "category": "Category, see below, `censored_list` as Censored by default",
+      "type": "Server, see below, all server by default"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=91porn.com",
+    "channel": "91porn",
+    "url": "91porn.com",
+    "path": "/author/:uid/:lang?",
+    "categories": [
+      "multimedia"
+    ],
+    "parameters": {
+      "uid": "Author ID, can be found in URL",
+      "lang": "Language, see above, `en_US` by default "
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=91porn.com",
+    "channel": "91porn",
+    "url": "91porn.com",
+    "path": "/:lang?",
+    "categories": [
+      "multimedia"
+    ],
+    "parameters": {
+      "lang": "Language, see below, `en_US` by default "
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=abc.net.au",
+    "channel": "ABC News",
+    "url": "abc.net.au",
+    "path": "/:category{.+}?",
+    "categories": [
+      "traditional-media"
+    ],
+    "parameters": {
+      "category": "Category, can be found in the URL, can also be filled in with the `documentId` in the source code of the page, `news/justin` as **Just In** by default"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=pubs.acs.org",
+    "channel": "Unknown",
+    "url": "pubs.acs.org",
+    "path": "/journal/:id",
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=aeaweb.org",
+    "channel": "American Economic Association",
+    "url": "aeaweb.org",
+    "path": "/:id",
+    "categories": [
+      "journal"
+    ],
+    "parameters": {
+      "id": "Journal id, can be found in URL"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=www.aiea.org",
+    "channel": "Asian Innovation and Entrepreneurship Association",
+    "url": "www.aiea.org",
+    "path": "/seminars/:period",
+    "categories": [
+      "study"
+    ],
+    "parameters": {
+      "period": "Time frame"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=pubs.aip.org",
+    "channel": "American Institute of Physics",
+    "url": "pubs.aip.org",
+    "path": "/:pub/:jrn",
+    "categories": [
+      "journal"
+    ],
+    "parameters": {
+      "pub": "Publisher id",
+      "jrn": "Journal id"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=alistapart.com",
+    "channel": "A List Apart",
+    "url": "alistapart.com",
+    "path": "/:topic",
+    "categories": [
+      "programming"
+    ],
+    "parameters": {
+      "topic": "Any Topic or from the table below. Defaults to All Articles"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=www.alternativeto.net",
+    "channel": "AlternativeTo",
+    "url": "www.alternativeto.net",
+    "path": "/platform/:name/:routeParams?",
+    "categories": [
+      "programming"
+    ],
+    "parameters": {
+      "name": "Platform name",
+      "routeParams": "Filters of software type"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=www.alternativeto.net",
+    "channel": "AlternativeTo",
+    "url": "www.alternativeto.net",
+    "path": "/software/:name/:routeParams?",
+    "categories": [
+      "programming"
+    ],
+    "parameters": {
+      "name": "Software name",
+      "routeParams": "Filters of software type"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=annualreviews.org",
+    "channel": "Annual Reviews",
+    "url": "annualreviews.org",
+    "path": "/:id",
+    "categories": [
+      "journal"
+    ],
+    "parameters": {
+      "id": "Journal id, can be found in URL"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=apkpure.com",
+    "channel": "APKPure",
+    "url": "apkpure.com",
+    "path": "/versions/:pkg/:region?",
+    "categories": [
+      "program-update"
+    ],
+    "parameters": {
+      "pkg": "Package name",
+      "region": "Region code, `en` by default"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=apnews.com",
+    "channel": "AP News",
+    "url": "apnews.com",
+    "path": "/topics/:topic?",
+    "categories": [
+      "traditional-media"
+    ],
+    "parameters": {
+      "topic": "Topic name, can be found in URL. For example: the topic name of AP Top News [https://apnews.com/apf-topnews](https://apnews.com/apf-topnews) is `apf-topnews`, `trending-news` by default"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=install.appcenter.ms",
+    "channel": "App Center",
+    "url": "install.appcenter.ms",
+    "path": "/release/:user/:app/:distribution_group",
+    "categories": [
+      "program-update"
+    ],
+    "parameters": {
+      "user": "User",
+      "app": "App name",
+      "distribution_group": "Distribution group"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=apps.apple.com",
+    "channel": "Apple",
+    "url": "apps.apple.com",
+    "path": "/apps/update/:country/:id/:platform?",
+    "categories": [
+      "program-update"
+    ],
+    "parameters": {
+      "country": "App Store Country, obtain from the app URL, see below",
+      "id": "App id, obtain from the app URL",
+      "platform": "App Platform, see below, all by default"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=apps.apple.com",
+    "channel": "Apple",
+    "url": "apps.apple.com",
+    "path": "/exchange_repair/:country?",
+    "categories": [
+      "other"
+    ],
+    "parameters": {
+      "country": "country code in apple.com URL (exception: for `United States` please use `us`), default to China `cn`"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=appleinsider.com",
+    "channel": "AppleInsider",
+    "url": "appleinsider.com",
+    "path": "/:category?",
+    "categories": [
+      "new-media"
+    ],
+    "parameters": {
+      "category": "Category, see below, News by default"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=apps.apple.com",
+    "channel": "App Store/Mac App Store",
+    "url": "apps.apple.com",
+    "path": "/iap/:country/:id",
+    "categories": [
+      "program-update"
+    ],
+    "parameters": {
+      "country": "App Store Country, obtain from the app URL https://apps.apple.com/us/app/id953286746, in this case, `us`",
+      "id": "App Store app id, obtain from the app URL https://apps.apple.com/us/app/id953286746, in this case, `id953286746`"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=apps.apple.com",
+    "channel": "App Store/Mac App Store",
+    "url": "apps.apple.com",
+    "path": "/price/:country/:type/:id",
+    "categories": [
+      "program-update"
+    ],
+    "parameters": {
+      "country": "App Store Country, obtain from the app URL https://apps.apple.com/us/app/id1152443474, in this case, `us`",
+      "type": "App type，either `iOS` or `mac`",
+      "id": "App Store app id, obtain from the app URL https://apps.apple.com/us/app/id1152443474, in this case, `id1152443474`"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=arcteryx.com",
+    "channel": "Arcteryx",
+    "url": "arcteryx.com",
+    "path": "/new-arrivals/:country/:gender",
+    "categories": [
+      "shopping"
+    ],
+    "parameters": {
+      "country": "country",
+      "gender": "gender"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=arcteryx.com",
+    "channel": "Arcteryx",
+    "url": "arcteryx.com",
+    "path": "/outlet/:country/:gender",
+    "categories": [
+      "shopping"
+    ],
+    "parameters": {
+      "country": "country",
+      "gender": "gender"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=www.artstation.com",
+    "channel": "ArtStation",
+    "url": "www.artstation.com",
+    "path": "/:handle",
+    "categories": [
+      "picture"
+    ],
+    "parameters": {
+      "handle": "Artist handle, can be found in URL"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=asus.com.cn",
+    "channel": "ASUS",
+    "url": "asus.com.cn",
+    "path": "/bios/:model",
+    "categories": [
+      "program-update"
+    ],
+    "parameters": {
+      "model": "Model, can be found in product page"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=atcoder.jp",
+    "channel": "AtCoder",
+    "url": "atcoder.jp",
+    "path": "/contest/:language?/:rated?/:category?/:keyword?",
+    "categories": [
+      "programming"
+    ],
+    "parameters": {
+      "language": "Language, `jp` as Japanese or `en` as English, English by default",
+      "rated": "Rated Range, see below, all by default",
+      "category": "Category, see below, all by default",
+      "keyword": "Keyword"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=atcoder.jp",
+    "channel": "AtCoder",
+    "url": "atcoder.jp",
+    "path": "/post/:language?/:keyword?",
+    "categories": [
+      "programming"
+    ],
+    "parameters": {
+      "language": "Language, `jp` as Japanese or `en` as English, English by default",
+      "keyword": "Keyword"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=bandcamp.com",
+    "channel": "Bandcamp",
+    "url": "bandcamp.com",
+    "path": "/tag/:tag?",
+    "categories": [
+      "multimedia"
+    ],
+    "parameters": {
+      "tag": "Tag, can be found in URL"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=www.behance.net",
+    "channel": "Behance",
+    "url": "www.behance.net",
+    "path": "/:user/:type?",
+    "categories": [
+      "design"
+    ],
+    "parameters": {
+      "user": "username",
+      "type": "type, `projects` or `appreciated`, `projects` by default"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=bioone.org",
+    "channel": "BioOne",
+    "url": "bioone.org",
+    "path": "/journals/:journal?",
+    "categories": [
+      "journal"
+    ],
+    "parameters": {
+      "journal": "Journals, can be found in URL"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=bitbucket.com",
+    "channel": "Bitbucket",
+    "url": "bitbucket.com",
+    "path": "/commits/:workspace/:repo_slug",
+    "categories": [
+      "programming"
+    ],
+    "parameters": {
+      "workspace": "Workspace",
+      "repo_slug": "Repository"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=bitbucket.com",
+    "channel": "Bitbucket",
+    "url": "bitbucket.com",
+    "path": "/tags/:workspace/:repo_slug",
+    "categories": [
+      "programming"
+    ],
+    "parameters": {
+      "workspace": "Workspace",
+      "repo_slug": "Repository"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=news.blizzard.com",
+    "channel": "Blizzard",
+    "url": "news.blizzard.com",
+    "path": "/news/:language?/:category?",
+    "categories": [
+      "game"
+    ],
+    "parameters": {
+      "language": "Language code, see below, en-US by default",
+      "category": "Category, see below, All News by default"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=www.bloomberg.com",
+    "channel": "Bloomberg",
+    "url": "www.bloomberg.com",
+    "path": "/authors/:id/:slug/:source?",
+    "categories": [
+      "finance"
+    ],
+    "parameters": {
+      "id": "Author ID, can be found in URL",
+      "slug": "Author Slug, can be found in URL",
+      "source": "Data source, either `api` or `rss`,`api` by default"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=bluestacks.com",
+    "channel": "BlueStacks",
+    "url": "bluestacks.com",
+    "path": "/release/5",
+    "categories": [
+      "program-update"
+    ],
+    "parameters": {},
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=bsky.app",
+    "channel": "Bluesky (bsky)",
+    "url": "bsky.app",
+    "path": "/profile/:handle",
+    "categories": [
+      "social-media"
+    ],
+    "parameters": {
+      "handle": "User handle, can be found in URL"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=caareviews.org",
+    "channel": "caa.reviews",
+    "url": "caareviews.org",
+    "path": "/book",
+    "categories": [
+      "journal"
+    ],
+    "parameters": {},
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=caareviews.org",
+    "channel": "caa.reviews",
+    "url": "caareviews.org",
+    "path": "/essay",
+    "categories": [
+      "journal"
+    ],
+    "parameters": {},
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=caareviews.org",
+    "channel": "caa.reviews",
+    "url": "caareviews.org",
+    "path": "/exhibition",
+    "categories": [
+      "journal"
+    ],
+    "parameters": {},
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=caixinglobal.com",
+    "channel": "Caixin Global",
+    "url": "caixinglobal.com",
+    "path": "/latest",
+    "categories": [
+      "traditional-media"
+    ],
+    "parameters": {},
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=cbc.ca",
+    "channel": "Canadian Broadcasting Corporation",
+    "url": "cbc.ca",
+    "path": "/topics/:topic?",
+    "categories": [
+      "traditional-media"
+    ],
+    "parameters": {
+      "topic": "Channel,`Top Stories` by default. For secondary channel like `canada/toronto`, use `-` to replace `/`"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=search.cnbc.com",
+    "channel": "CNBC",
+    "url": "search.cnbc.com",
+    "path": "/rss/:id?",
+    "categories": [
+      "traditional-media"
+    ],
+    "parameters": {
+      "id": "Channel ID, can be found in Official RSS URL, `100003114` (Top News) by default"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=cncf.io",
+    "channel": "CNCF",
+    "url": "cncf.io",
+    "path": "/:cate?",
+    "categories": [
+      "programming"
+    ],
+    "parameters": {
+      "cate": "blog by default"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=codeforces.com",
+    "channel": "Codeforces",
+    "url": "codeforces.com",
+    "path": "/contests",
+    "categories": [
+      "programming"
+    ],
+    "parameters": {},
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=codeforces.com",
+    "channel": "Codeforces",
+    "url": "codeforces.com",
+    "path": "/recent-actions/:minrating?",
+    "categories": [
+      "programming"
+    ],
+    "parameters": {
+      "minrating": "The minimum blog/comment rating required. Default: 1"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=comicskingdom.com",
+    "channel": "Comics Kingdom",
+    "url": "comicskingdom.com",
+    "path": "/:name",
+    "categories": [
+      "anime"
+    ],
+    "parameters": {
+      "name": "URL path of the strip on comicskingdom.com"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=coomer.party",
+    "channel": "Coomer",
+    "url": "coomer.party",
+    "path": "/artist/:id",
+    "categories": [
+      "multimedia"
+    ],
+    "parameters": {
+      "id": "Artist id, can be found in URL"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=blog.csdn.net",
+    "channel": "CSDN",
+    "url": "blog.csdn.net",
+    "path": "/blog/:user",
+    "categories": [
+      "blog"
+    ],
+    "parameters": {
+      "user": "`user` is the username of a CSDN blog which can be found in the url of the home page"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=iolaw.cssn.cn",
+    "channel": "Chinese Social Science Net",
+    "url": "iolaw.cssn.cn",
+    "path": "/iolaw/:section?",
+    "categories": [
+      "study"
+    ],
+    "parameters": {
+      "section": "Section ID, can be found in the URL. For example, the Section ID of URL `http://iolaw.cssn.cn/zxzp/` is `zxzp`. The default value is `zxzp`"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=curius.app",
+    "channel": "Curius",
+    "url": "curius.app",
+    "path": "/links/:name",
+    "categories": [
+      "social-media"
+    ],
+    "parameters": {
+      "name": "Username, can be found in URL"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=dblp.org",
+    "channel": "DBLP",
+    "url": "dblp.org",
+    "path": "/:field",
+    "categories": [
+      "study"
+    ],
+    "parameters": {
+      "field": "Research field"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=discord.com",
+    "channel": "Discord",
+    "url": "discord.com",
+    "path": "/channel/:channelId",
+    "categories": [
+      "social-media"
+    ],
+    "parameters": {
+      "channelId": "Channel ID"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=undefined",
+    "channel": "Discourse",
+    "path": "/:configId/notifications/:fulltext?",
+    "categories": [
+      "bbs"
+    ],
+    "parameters": {
+      "configId": "Environment variable configuration id, see above",
+      "fulltext": "Fetch the content if the notification points to a post. This is disabled by default, set it to `1` to enable it."
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=undefined",
+    "channel": "Discourse",
+    "path": "/:configId/posts",
+    "categories": [
+      "bbs"
+    ],
+    "parameters": {
+      "configId": "Environment variable configuration id, see above"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=dlsite.com",
+    "channel": "DLsite",
+    "url": "dlsite.com",
+    "path": "/campaign/:type/:free?",
+    "categories": [
+      "anime"
+    ],
+    "parameters": {
+      "type": "Type, see table above",
+      "free": "Free only, empty means false, other value means true"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=dlsite.com",
+    "channel": "DLsite",
+    "url": "dlsite.com",
+    "path": "/new/:type",
+    "categories": [
+      "anime"
+    ],
+    "parameters": {
+      "type": "Type, see table below"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=dlsite.com",
+    "channel": "DLsite",
+    "url": "dlsite.com",
+    "path": "/ci-en/:id/article",
+    "categories": [
+      "anime"
+    ],
+    "parameters": {
+      "id": "Creator id, can be found in URL"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=dn.com",
+    "channel": "DN.com",
+    "url": "dn.com",
+    "path": "/:language/news/:category?",
+    "categories": [
+      "new-media"
+    ],
+    "parameters": {
+      "language": "Language, see below",
+      "category": "Category, see below, The Latest by default"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=dnaindia.com",
+    "channel": "DNA India",
+    "url": "dnaindia.com",
+    "path": [
+      "/:category",
+      "/topic/:topic"
+    ],
+    "categories": [
+      "traditional-media"
+    ],
+    "parameters": {
+      "category": "Find it in the URL, or tables below"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=dnaindia.com",
+    "channel": "DNA India",
+    "url": "dnaindia.com",
+    "path": [
+      "/:category",
+      "/topic/:topic"
+    ],
+    "categories": [
+      "traditional-media"
+    ],
+    "parameters": {
+      "category": "Find it in the URL, or tables below"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=hub.docker.com",
+    "channel": "Docker Hub",
+    "url": "hub.docker.com",
+    "path": "/build/:owner/:image/:tag?",
+    "categories": [
+      "program-update"
+    ],
+    "parameters": {
+      "owner": "Image owner",
+      "image": "Image name",
+      "tag": "Image tag，default to latest"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=hub.docker.com",
+    "channel": "Docker Hub",
+    "url": "hub.docker.com",
+    "path": "/tag/:owner/:image/:limits?",
+    "categories": [
+      "program-update"
+    ],
+    "parameters": {
+      "owner": "Image owner",
+      "image": "Image name",
+      "limits": "Tag count, 10 by default"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=dribbble.com",
+    "channel": "Dribbble",
+    "url": "dribbble.com",
+    "path": "/keyword/:keyword",
+    "categories": [
+      "design"
+    ],
+    "parameters": {
+      "keyword": "desired keyword"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=dribbble.com",
+    "channel": "Dribbble",
+    "url": "dribbble.com",
+    "path": "/popular/:timeframe?",
+    "categories": [
+      "design"
+    ],
+    "parameters": {
+      "timeframe": "support the following values: week, month, year and ever"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=dribbble.com",
+    "channel": "Dribbble",
+    "url": "dribbble.com",
+    "path": "/user/:name",
+    "categories": [
+      "design"
+    ],
+    "parameters": {
+      "name": "username, available in user's homepage URL"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=cn.eagle.cool",
+    "channel": "Eagle",
+    "url": "cn.eagle.cool",
+    "path": "/blog/:cate?/:language?",
+    "categories": [
+      "design"
+    ],
+    "parameters": {
+      "cate": "Category, get by URL, `all` by default",
+      "language": "Language, `cn`, `tw`, `en`, `en` by default"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=cn.eagle.cool",
+    "channel": "Eagle",
+    "url": "cn.eagle.cool",
+    "path": "/changelog/:language?",
+    "categories": [
+      "program-update"
+    ],
+    "parameters": {
+      "language": "Language, see list, default to be `cn`"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=economist.com",
+    "channel": "The Economist",
+    "url": "economist.com",
+    "path": "/:endpoint",
+    "categories": [
+      "traditional-media"
+    ],
+    "parameters": {
+      "endpoint": "Category name, can be found on the [official page](https://www.economist.com/rss). For example, https://www.economist.com/china/rss.xml to china"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=economist.com",
+    "channel": "The Economist",
+    "url": "economist.com",
+    "path": "/global-business-review/:language?",
+    "categories": [
+      "traditional-media"
+    ],
+    "parameters": {
+      "language": "Language, `en`, `cn`, `tw` are supported, support multiple options, default to cn-en"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=undefined",
+    "channel": "E-Hentai",
+    "path": "/favorites/:favcat?/:order?/:page?/:routeParams?",
+    "categories": [
+      "picture"
+    ],
+    "parameters": {
+      "favcat": "Favorites folder number",
+      "order": "`posted`(Sort by gallery release time) , `favorited`(Sort by time added to favorites)",
+      "page": "Page number",
+      "routeParams": "Additional parameters, see the table above"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=undefined",
+    "channel": "E-Hentai",
+    "path": "/search/:params?/:page?/:routeParams?",
+    "categories": [
+      "picture"
+    ],
+    "parameters": {
+      "params": "Search parameters. You can copy the content after `https://e-hentai.org/?`",
+      "page": "Page number",
+      "routeParams": "Additional parameters, see the table above"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=undefined",
+    "channel": "E-Hentai",
+    "path": "/tag/:tag/:page?/:routeParams?",
+    "categories": [
+      "picture"
+    ],
+    "parameters": {
+      "tag": "Tag",
+      "page": "Page number",
+      "routeParams": "Additional parameters, see the table above"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=store.epicgames.com",
+    "channel": "Epic Games Store",
+    "url": "store.epicgames.com",
+    "path": "/freegames/:locale?/:country?",
+    "categories": [
+      "game"
+    ],
+    "parameters": {
+      "locale": "Locale, en_US by default",
+      "country": "Country, US by default"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=f-droid.org",
+    "channel": "F-Droid",
+    "url": "f-droid.org",
+    "path": "/apprelease/:app",
+    "categories": [
+      "program-update"
+    ],
+    "parameters": {
+      "app": "App's package name"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=fantia.jp",
+    "channel": "Fantia",
+    "url": "fantia.jp",
+    "path": "/user/:id",
+    "categories": [
+      "picture"
+    ],
+    "parameters": {
+      "id": "User id, can be found in user profile URL"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=farmatters.com",
+    "channel": "Farmatters",
+    "url": "farmatters.com",
+    "path": [
+      "/exclusive/:locale?",
+      "/news/:locale?",
+      "/:locale?",
+      "/:type/:id/:locale?"
+    ],
+    "categories": [
+      "new-media"
+    ],
+    "parameters": {
+      "locale": "Locale, `zh-CN` or `en-US`, `zh-CN` by default"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=farmatters.com",
+    "channel": "Farmatters",
+    "url": "farmatters.com",
+    "path": [
+      "/exclusive/:locale?",
+      "/news/:locale?",
+      "/:locale?",
+      "/:type/:id/:locale?"
+    ],
+    "categories": [
+      "new-media"
+    ],
+    "parameters": {
+      "locale": "Locale, `zh-CN` or `en-US`, `zh-CN` by default"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=farmatters.com",
+    "channel": "Farmatters",
+    "url": "farmatters.com",
+    "path": [
+      "/exclusive/:locale?",
+      "/news/:locale?",
+      "/:locale?",
+      "/:type/:id/:locale?"
+    ],
+    "categories": [
+      "new-media"
+    ],
+    "parameters": {
+      "locale": "Locale, `zh-CN` or `en-US`, `zh-CN` by default"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=farmatters.com",
+    "channel": "Farmatters",
+    "url": "farmatters.com",
+    "path": [
+      "/exclusive/:locale?",
+      "/news/:locale?",
+      "/:locale?",
+      "/:type/:id/:locale?"
+    ],
+    "categories": [
+      "new-media"
+    ],
+    "parameters": {
+      "locale": "Locale, `zh-CN` or `en-US`, `zh-CN` by default"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=fda.gov",
+    "channel": "U.S. Food and Drug Administration",
+    "url": "fda.gov",
+    "path": "/cdrh/:titleOnly?",
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=finviz.com",
+    "channel": "finviz",
+    "url": "finviz.com",
+    "path": "/:category?",
+    "categories": [
+      "finance"
+    ],
+    "parameters": {
+      "category": "Category, see below, News by default"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=finviz.com",
+    "channel": "finviz",
+    "url": "finviz.com",
+    "path": "/news/:ticker",
+    "categories": [
+      "finance"
+    ],
+    "parameters": {
+      "ticker": "The stock ticker"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=monitor.firefox.com",
+    "channel": "Mozilla",
+    "url": "monitor.firefox.com",
+    "path": "/addons/:id",
+    "categories": [
+      "program-update"
+    ],
+    "parameters": {
+      "id": "Add-ons id, can be found in add-ons url"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=followin.io",
+    "channel": "Followin",
+    "url": "followin.io",
+    "path": "/:categoryId?/:lang?",
+    "categories": [
+      "finance"
+    ],
+    "parameters": {
+      "categoryId": "Category ID, see table below, `1` by default",
+      "lang": "Language, see table below, `en` by default"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=followin.io",
+    "channel": "Followin",
+    "url": "followin.io",
+    "path": "/kol/:kolId/:lang?",
+    "categories": [
+      "finance"
+    ],
+    "parameters": {
+      "kolId": "KOL ID, can be found in URL",
+      "lang": "Language, see table above, `en` by default"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=followin.io",
+    "channel": "Followin",
+    "url": "followin.io",
+    "path": "/news/:lang?",
+    "categories": [
+      "finance"
+    ],
+    "parameters": {
+      "lang": "Language, see table above, `en` by default"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=followin.io",
+    "channel": "Followin",
+    "url": "followin.io",
+    "path": "/tag/:tagId/:lang?",
+    "categories": [
+      "finance"
+    ],
+    "parameters": {
+      "tagId": "Tag ID, can be found in URL",
+      "lang": "Language, see table above, `en` by default"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=followin.io",
+    "channel": "Followin",
+    "url": "followin.io",
+    "path": "/topic/:topicId/:lang?",
+    "categories": [
+      "finance"
+    ],
+    "parameters": {
+      "topicId": "Topic ID, can be found in URL",
+      "lang": "Language, see table above, `en` by default"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=foresightnews.pro",
+    "channel": "Foresight News",
+    "url": "foresightnews.pro",
+    "path": "/article",
+    "categories": [
+      "new-media"
+    ],
+    "parameters": {},
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=foresightnews.pro",
+    "channel": "Foresight News",
+    "url": "foresightnews.pro",
+    "path": "/",
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=foresightnews.pro",
+    "channel": "Foresight News",
+    "url": "foresightnews.pro",
+    "path": "/news",
+    "categories": [
+      "new-media"
+    ],
+    "parameters": {},
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=fosshub.com",
+    "channel": "FossHub",
+    "url": "fosshub.com",
+    "path": "/:id",
+    "categories": [
+      "program-update"
+    ],
+    "parameters": {
+      "id": "Software id, can be found in URL"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=freecomputerbooks.com",
+    "channel": "Free Computer Books",
+    "url": "freecomputerbooks.com",
+    "path": "/:category?",
+    "categories": [
+      "reading"
+    ],
+    "parameters": {
+      "category": "A category id., which should be the HTML file name (but **without** the `.html` suffix) in the URL path of a book list page."
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=ftchinese.com",
+    "channel": "Financial Times",
+    "url": "ftchinese.com",
+    "path": "/myft/:key",
+    "categories": [
+      "traditional-media"
+    ],
+    "parameters": {
+      "key": "the last part of myFT personal RSS address"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=fx-markets.com",
+    "channel": "FX Markets",
+    "url": "fx-markets.com",
+    "path": "/:channel",
+    "categories": [
+      "finance"
+    ],
+    "parameters": {
+      "channel": "channel, can be found in the navi bar links at the home page"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=gamersecret.com",
+    "channel": "Gamer Secret",
+    "url": "gamersecret.com",
+    "path": "/:type?/:category?",
+    "categories": [
+      "game"
+    ],
+    "parameters": {
+      "type": "Type, see below, Latest News by default",
+      "category": "Category, see below"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=github.com",
+    "channel": "GitHub",
+    "url": "github.com",
+    "path": "/comments/:user/:repo/:number?",
+    "categories": [
+      "programming"
+    ],
+    "parameters": {
+      "user": "User / Org name",
+      "repo": "Repo name",
+      "number": "Issue or pull number (if omitted: all)"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=github.com",
+    "channel": "GitHub",
+    "url": "github.com",
+    "path": "/contributors/:user/:repo/:order?/:anon?",
+    "categories": [
+      "programming"
+    ],
+    "parameters": {
+      "user": "User name",
+      "repo": "Repo name",
+      "order": "Sort order by commit numbers, desc and asc (descending by default)",
+      "anon": "Show anonymous users. Defaults to no, use any values for yes."
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=github.com",
+    "channel": "GitHub",
+    "url": "github.com",
+    "path": "/issue/:user/:repo/:state?/:labels?",
+    "categories": [
+      "programming"
+    ],
+    "parameters": {
+      "user": "GitHub username",
+      "repo": "GitHub repo name",
+      "state": "the state of the issues. Can be either `open`, `closed`, or `all`. Default: `open`.",
+      "labels": "a list of comma separated label names"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=github.com",
+    "channel": "GitHub",
+    "url": "github.com",
+    "path": "/pull/:user/:repo/:state?/:labels?",
+    "categories": [
+      "programming"
+    ],
+    "parameters": {
+      "user": "User name",
+      "repo": "Repo name",
+      "state": "the state of pull requests. Can be either `open`, `closed`, or `all`. Default: `open`.",
+      "labels": "a list of comma separated label names"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=github.com",
+    "channel": "GitHub",
+    "url": "github.com",
+    "path": "/pulse/:user/:repo/:period?",
+    "categories": [
+      "programming"
+    ],
+    "parameters": {
+      "user": "User name",
+      "repo": "Repo name",
+      "period": "Time frame, selected from a repository's Pulse/Insights page. Possible values are: `daily`, `halfweekly`, `weekly`, or `monthly`. Default: `weekly`. If your RSS client supports it, consider aligning the polling frequency of the feed to the period."
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=github.com",
+    "channel": "GitHub",
+    "url": "github.com",
+    "path": "/search/:query/:sort?/:order?",
+    "categories": [
+      "programming"
+    ],
+    "parameters": {
+      "query": "search keyword",
+      "sort": "Sort options (default to bestmatch)",
+      "order": "Sort order, desc and asc (desc descending by default)"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=github.com",
+    "channel": "GitHub",
+    "url": "github.com",
+    "path": "/starred_repos/:user",
+    "categories": [
+      "programming"
+    ],
+    "parameters": {
+      "user": "User name"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=github.com",
+    "channel": "GitHub",
+    "url": "github.com",
+    "path": "/topics/:name/:qs?",
+    "categories": [
+      "programming"
+    ],
+    "parameters": {
+      "name": "Topic name, which can be found in the URL of the corresponding [Topics Page](https://github.com/topics/framework)",
+      "qs": "Query string, like `l=php&o=desc&s=stars`. Details listed as follows:"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=github.com",
+    "channel": "GitHub",
+    "url": "github.com",
+    "path": "/trending/:since/:language/:spoken_language?",
+    "categories": [
+      "programming"
+    ],
+    "parameters": {
+      "since": "time frame, available in [Trending page](https://github.com/trending/javascript?since=monthly) 's URL, possible values are: `daily`, `weekly` or `monthly`",
+      "language": "the feed language, available in [Trending page](https://github.com/trending/javascript?since=monthly) 's URL, don't filter option is `any`",
+      "spoken_language": "natural language, available in [Trending page](https://github.com/trending/javascript?since=monthly) 's URL"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=github.com",
+    "channel": "GitHub",
+    "url": "github.com",
+    "path": "/wiki/:user/:repo/:page?",
+    "categories": [
+      "programming"
+    ],
+    "parameters": {
+      "user": "User / Org name",
+      "repo": "Repo name",
+      "page": "Page slug, can be found in URL, empty means Home"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=gofans.cn",
+    "channel": "GoFans",
+    "url": "gofans.cn",
+    "path": "/:kind?",
+    "categories": [
+      "program-update"
+    ],
+    "parameters": {
+      "kind": "Platform, either `macos` or `ios`, empty means both (default)"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=www.google.com",
+    "channel": "Google",
+    "url": "www.google.com",
+    "path": "/album/:id",
+    "categories": [
+      "picture"
+    ],
+    "parameters": {
+      "id": "album ID, can be found in URL, for example, `https://photos.app.goo.gl/msFFnAzKmQmWj76EA` to `msFFnAzKmQmWj76EA`"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=www.google.com",
+    "channel": "Google",
+    "url": "www.google.com",
+    "path": "/doodles/:language?",
+    "categories": [
+      "picture"
+    ],
+    "parameters": {
+      "language": "Language, default to `zh-CN`, for other language values, you can get it from [Google Doodles official website](https://www.google.com/doodles)"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=www.google.com",
+    "channel": "Google",
+    "url": "www.google.com",
+    "path": "/chrome/extension/:id",
+    "categories": [
+      "program-update"
+    ],
+    "parameters": {
+      "id": "Extension id, can be found in extension url"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=www.google.com",
+    "channel": "Google",
+    "url": "www.google.com",
+    "path": "/fonts/:sort?",
+    "categories": [
+      "design"
+    ],
+    "parameters": {
+      "sort": "Sorting type, see below, default to `date`"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=www.google.com",
+    "channel": "Google",
+    "url": "www.google.com",
+    "path": "/news/:category/:locale",
+    "categories": [
+      "new-media"
+    ],
+    "parameters": {
+      "category": "Category Title",
+      "locale": "locales, could be found behind `?`, including `hl`, `gl`, and `ceid` as parameters"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=www.google.com",
+    "channel": "Google",
+    "url": "www.google.com",
+    "path": "/scholar/:query",
+    "categories": [
+      "journal"
+    ],
+    "parameters": {
+      "query": "query statement which supports「Basic」and「Advanced」modes"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=www.google.com",
+    "channel": "Google",
+    "url": "www.google.com",
+    "path": "/search/:keyword/:language?",
+    "categories": [
+      "other"
+    ],
+    "parameters": {
+      "keyword": "Keyword",
+      "language": "Accept-Language. Example: zh-CN,zh;q=0.9,en;q=0.8,ja;q=0.7"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=greasyfork.org",
+    "channel": "Greasy Fork",
+    "url": "greasyfork.org",
+    "path": "/scripts/:script/feedback",
+    "categories": [
+      "program-update"
+    ],
+    "parameters": {
+      "script": "Script id, can be found in URL"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=greasyfork.org",
+    "channel": "Greasy Fork",
+    "url": "greasyfork.org",
+    "path": [
+      "/:language/:domain?",
+      "/scripts/sort/:sort/:language?"
+    ],
+    "categories": [
+      "program-update"
+    ],
+    "parameters": {
+      "language": "language, located on the top right corner of Greasy Fork's search page, set to `all` for including all languages",
+      "domain": "the script's target domain"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=greasyfork.org",
+    "channel": "Greasy Fork",
+    "url": "greasyfork.org",
+    "path": [
+      "/:language/:domain?",
+      "/scripts/sort/:sort/:language?"
+    ],
+    "categories": [
+      "program-update"
+    ],
+    "parameters": {
+      "language": "language, located on the top right corner of Greasy Fork's search page, set to `all` for including all languages",
+      "domain": "the script's target domain"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=greasyfork.org",
+    "channel": "Greasy Fork",
+    "url": "greasyfork.org",
+    "path": "/scripts/:script/versions",
+    "categories": [
+      "program-update"
+    ],
+    "parameters": {
+      "script": "Script id, can be found in URL"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=grist.org",
+    "channel": "Grist",
+    "url": "grist.org",
+    "path": "/series/:series",
+    "categories": [
+      "new-media"
+    ],
+    "parameters": {
+      "series": "Find in the URL which has /series/"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=grist.org",
+    "channel": "Grist",
+    "url": "grist.org",
+    "path": "/topic/:topic",
+    "categories": [
+      "new-media"
+    ],
+    "parameters": {
+      "topic": "Any Topic from Table below"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=gumroad.com",
+    "channel": "Gumroad",
+    "url": "gumroad.com",
+    "path": "/:username/:products",
+    "categories": [
+      "shopping"
+    ],
+    "parameters": {
+      "username": "username, can be found in URL",
+      "products": "products name, can be found in URL"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=hackmd.io",
+    "channel": "HackMD",
+    "url": "hackmd.io",
+    "path": "/profile/:path",
+    "categories": [
+      "programming"
+    ],
+    "parameters": {
+      "path": "userpath or teampath"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=syosetu.org",
+    "channel": "hameln",
+    "url": "syosetu.org",
+    "path": "/chapter/:id",
+    "categories": [
+      "reading"
+    ],
+    "parameters": {
+      "id": "Novel id, can be found in URL"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=www.health.harvard.edu",
+    "channel": "Harvard Health Publishing",
+    "url": "www.health.harvard.edu",
+    "path": "/health/blog",
+    "categories": [
+      "new-media"
+    ],
+    "parameters": {},
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=hbr.org",
+    "channel": "Harvard Business Review",
+    "url": "hbr.org",
+    "path": "/topic/:topic?/:type?",
+    "categories": [
+      "new-media"
+    ],
+    "parameters": {
+      "topic": "Topic, can be found in URL, Leadership by default",
+      "type": "Type, see below, Latest by default"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=www.hotukdeals.com",
+    "channel": "hotukdeals",
+    "url": "www.hotukdeals.com",
+    "path": "/:type",
+    "categories": [
+      "shopping"
+    ],
+    "parameters": {
+      "type": "should be one of highlights, hot, new, discussed"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=hoyolab.com",
+    "channel": "HoYoLAB",
+    "url": "hoyolab.com",
+    "path": "/news/:language/:gids/:type",
+    "categories": [
+      "game"
+    ],
+    "parameters": {
+      "language": "Language",
+      "gids": "Game ID",
+      "type": "Announcement type"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=ianspriggs.com",
+    "channel": "Ian Spriggss",
+    "url": "ianspriggs.com",
+    "path": "/:category?",
+    "categories": [
+      "blog"
+    ],
+    "parameters": {
+      "category": "Category, see below, 3D PORTRAITS by default"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=icac.org.hk",
+    "channel": "Hong Kong Independent Commission Against Corruption 香港廉政公署",
+    "url": "icac.org.hk",
+    "path": "/news/:lang?",
+    "categories": [
+      "government"
+    ],
+    "parameters": {
+      "lang": "Language, default to `sc`. Supprot `en`(English), `sc`(Simplified Chinese) and `tc`(Traditional Chinese)"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=www.ieee.org",
+    "channel": "IEEE Xplore",
+    "url": "www.ieee.org",
+    "path": "/journal/:journal/earlyaccess/:sortType?",
+    "categories": [
+      "journal"
+    ],
+    "parameters": {
+      "journal": "Issue code, the number of the `isnumber` in the URL",
+      "sortType": "Sort Type, default: `vol-only-seq`, the part of the URL after `sortType`"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=indiansinkuwait.com",
+    "channel": "Indians in Kuwait",
+    "url": "indiansinkuwait.com",
+    "path": "/latest",
+    "categories": [
+      "new-media"
+    ],
+    "parameters": {},
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=pubsonline.informs.org",
+    "channel": "INFORMS",
+    "url": "pubsonline.informs.org",
+    "path": "/:category?",
+    "categories": [
+      "journal"
+    ],
+    "parameters": {
+      "category": "Category, can be found in the url of the page, `orsc` by default"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=inoreader.com",
+    "channel": "Inoreader",
+    "url": "inoreader.com",
+    "path": "/rss/:user/:tag",
+    "categories": [
+      "reading"
+    ],
+    "parameters": {
+      "user": "user id, the interger after user/ in the example URL",
+      "tag": "tag, the string after tag/ in the example URL"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=www.instagram.com",
+    "channel": "Instagram",
+    "url": "www.instagram.com",
+    "path": "/:category/:key",
+    "categories": [
+      "social-media"
+    ],
+    "parameters": {
+      "category": "Feed category, see table above",
+      "key": "Username / Hashtag name"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=www.instagram.com",
+    "channel": "Instagram",
+    "url": "www.instagram.com",
+    "path": "/2/:category/:key",
+    "categories": [
+      "social-media"
+    ],
+    "parameters": {
+      "category": "Feed category, see table below",
+      "key": "Username / Hashtag name"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=instructables.com",
+    "channel": "Instructables",
+    "url": "instructables.com",
+    "path": "/projects/:category?",
+    "categories": [
+      "other"
+    ],
+    "parameters": {
+      "category": "Category, empty by default, can be found in URL or see the table below"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=ipsw.me",
+    "channel": "IPSW.me",
+    "url": "ipsw.me",
+    "path": "/index/:ptype/:pname",
+    "categories": [
+      "program-update"
+    ],
+    "parameters": {
+      "ptype": "Fill in ipsws or otas to get different versions of firmware",
+      "pname": "Product name, `http://rsshub.app/ipsw/index/ipsws/iPod`, if you fill in the iPad, follow the entire iPad series(ptype default to ipsws).`http://rsshub.app/ipsw/index/ipsws/iPhone11,8`, if you fill in the specific iPhone11,8, submit to the ipsws firmware information of this model"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=issuehunt.io",
+    "channel": "Issue Hunt",
+    "url": "issuehunt.io",
+    "path": "/funded/:username/:repo",
+    "categories": [
+      "programming"
+    ],
+    "parameters": {
+      "username": "Github user/org",
+      "repo": "Repository name"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=itch.io",
+    "channel": "itch.io",
+    "url": "itch.io",
+    "path": "/devlog/:user/:id",
+    "categories": [
+      "game"
+    ],
+    "parameters": {
+      "user": "User id, can be found in URL",
+      "id": "Item id, can be found in URL"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=itch.io",
+    "channel": "itch.io",
+    "url": "itch.io",
+    "path": "/posts/:topic/:id",
+    "categories": [
+      "game"
+    ],
+    "parameters": {
+      "topic": "Topic id, can be found in URL",
+      "id": "Topic name, can be found in URL"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=trackings.post.japanpost.jp",
+    "channel": "Japanpost 日本郵便",
+    "url": "trackings.post.japanpost.jp",
+    "path": "/track/:reqCode/:locale?",
+    "categories": [
+      "other"
+    ],
+    "parameters": {
+      "reqCode": "Package Number",
+      "locale": "Language, default to japanese `ja`"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=javlibrary.com",
+    "channel": "JAVLibrary",
+    "url": "javlibrary.com",
+    "path": "/bestreviews/:language?/:mode?",
+    "categories": [
+      "multimedia"
+    ],
+    "parameters": {
+      "language": "Language, see below, Japanese by default, as `ja`",
+      "mode": "Mode, see below, Last Month by default, as `1`"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=javlibrary.com",
+    "channel": "JAVLibrary",
+    "url": "javlibrary.com",
+    "path": "/videos/maker/:maker?/:language?/:mode?",
+    "categories": [
+      "multimedia"
+    ],
+    "parameters": {
+      "maker": "Maker, S1 NO.1 STYLE by default, as `arlq`",
+      "language": "Language, see below, Japanese by default, as `ja`",
+      "mode": "Mode, see below, videos with comments (by date) by default, as `1`"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=javlibrary.com",
+    "channel": "JAVLibrary",
+    "url": "javlibrary.com",
+    "path": "/star/:id/:language?/:mode?",
+    "categories": [
+      "multimedia"
+    ],
+    "parameters": {
+      "id": "Star id, can be found in URL",
+      "language": "Language, see below, Japanese by default, as `ja`",
+      "mode": "Mode, see below, videos with comments (by date) by default, as `1`"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=jornada.com.mx",
+    "channel": "La Jornada",
+    "url": "jornada.com.mx",
+    "path": "/:date?/:category?",
+    "categories": [
+      "traditional-media"
+    ],
+    "parameters": {
+      "date": "Date string, must be in format of `YYYY-MM-DD`. You can get today's news using `today`",
+      "category": "Category, refer to the table below"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=jseea.cn",
+    "channel": "Unknown",
+    "url": "jseea.cn",
+    "path": "/news/:type?",
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=world.kbs.co.kr",
+    "channel": "KBS",
+    "url": "world.kbs.co.kr",
+    "path": "/news/:category?/:language?",
+    "categories": [
+      "new-media"
+    ],
+    "parameters": {
+      "category": "Category, can be found in Url as `id`, all by default",
+      "language": "Language, see below, e as English by default"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=world.kbs.co.kr",
+    "channel": "KBS",
+    "url": "world.kbs.co.kr",
+    "path": "/today/:language?",
+    "categories": [
+      "new-media"
+    ],
+    "parameters": {
+      "language": "Language, see below, e as English by default"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=kemono.su",
+    "channel": "Kemono",
+    "url": "kemono.su",
+    "path": "/:source?/:id?",
+    "categories": [
+      "anime"
+    ],
+    "parameters": {
+      "source": "Source, see below, Posts by default",
+      "id": "User id, can be found in URL"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=kimlaw.or.kr",
+    "channel": "The Korea Institute of Marine Law",
+    "url": "kimlaw.or.kr",
+    "path": "/thesis",
+    "categories": [
+      "study"
+    ],
+    "parameters": {},
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=kuwaitlocal.com",
+    "channel": "Kuwait Local",
+    "url": "kuwaitlocal.com",
+    "path": "/:category?",
+    "categories": [
+      "new-media"
+    ],
+    "parameters": {
+      "category": "Category name, can be found in URL, `latest` by default"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=layoffs.fyi",
+    "channel": "Layoffs.fyi",
+    "url": "layoffs.fyi",
+    "path": "/",
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=undefined",
+    "channel": "Lemmy",
+    "path": "/:community/:sort?",
+    "categories": [
+      "social-media"
+    ],
+    "parameters": {
+      "community": "Lemmmy community, for example technology@lemmy.world",
+      "sort": "Sort by, defaut to Active"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=today.line.me",
+    "channel": "LINE",
+    "url": "today.line.me",
+    "path": "/today/:edition/publisher/:id",
+    "categories": [
+      "new-media"
+    ],
+    "parameters": {
+      "edition": "Edition, see table above",
+      "id": "Channel ID, can be found in URL"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=today.line.me",
+    "channel": "LINE",
+    "url": "today.line.me",
+    "path": "/today/:edition?/:tab?",
+    "categories": [
+      "new-media"
+    ],
+    "parameters": {
+      "edition": "Edition, see below, Taiwan by default",
+      "tab": "Tag, can be found in URL, `top` by default"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=www.lofter.com",
+    "channel": "Lofter",
+    "url": "www.lofter.com",
+    "path": "/user/:name?",
+    "categories": [
+      "social-media"
+    ],
+    "parameters": {
+      "name": "Lofter user name, can be found in the URL"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=www.lovelive-anime.jp",
+    "channel": "lovelive-anime",
+    "url": "www.lovelive-anime.jp",
+    "path": "/news/:option?",
+    "categories": [
+      "anime"
+    ],
+    "parameters": {
+      "option": "Crawl full text when `option` is `detail`."
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=www.lovelive-anime.jp",
+    "channel": "lovelive-anime",
+    "url": "www.lovelive-anime.jp",
+    "path": "/topics/:abbr/:category?/:option?",
+    "categories": [
+      "anime"
+    ],
+    "parameters": {
+      "abbr": "The path to the Love Live series of sub-projects on the official website is detailed in the table below",
+      "category": "The official website lists the Topics category, `category` is `detail` when crawling the full text, other categories see the following table for details",
+      "option": "Crawl full text when `option` is `detail`."
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=macmenubar.com",
+    "channel": "MacMenuBar",
+    "url": "macmenubar.com",
+    "path": "/recently/:category?",
+    "categories": [
+      "blog"
+    ],
+    "parameters": {
+      "category": "Category path name, seperate by comma, default is all categories. Category path name can be found in url"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=macupdate.com",
+    "channel": "MacUpdate",
+    "url": "macupdate.com",
+    "path": "/app/:appId/:appSlug?",
+    "categories": [
+      "program-update"
+    ],
+    "parameters": {
+      "appId": "Application unique ID, can be found in URL",
+      "appSlug": "Application slug, can be found in URL"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=magazinelib.com",
+    "channel": "MagazineLib",
+    "url": "magazinelib.com",
+    "path": "/latest-magazine/:query?",
+    "categories": [
+      "reading"
+    ],
+    "parameters": {
+      "query": "query, search page querystring"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=mangadex.org",
+    "channel": "Unknown",
+    "url": "mangadex.org",
+    "path": "/:id/:lang?",
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=mastodon.social",
+    "channel": "Mastodon",
+    "url": "mastodon.social",
+    "path": "/acct/:acct/statuses/:only_media?",
+    "categories": [
+      "social-media"
+    ],
+    "parameters": {
+      "acct": "Webfinger account URI, like `user@host`",
+      "only_media": "whether only display media content, default to false, any value to true"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=mastodon.social",
+    "channel": "Mastodon",
+    "url": "mastodon.social",
+    "path": "/timeline/:site/:only_media?",
+    "categories": [
+      "social-media"
+    ],
+    "parameters": {
+      "site": "instance address, only domain, no `http://` or `https://` protocol header",
+      "only_media": "whether only display media content, default to false, any value to true"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=mastodon.social",
+    "channel": "Mastodon",
+    "url": "mastodon.social",
+    "path": "/remote/:site/:only_media?",
+    "categories": [
+      "social-media"
+    ],
+    "parameters": {
+      "site": "instance address, only domain, no `http://` or `https://` protocol header",
+      "only_media": "whether only display media content, default to false, any value to true"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=www.mdpi.com",
+    "channel": "MDPI",
+    "url": "www.mdpi.com",
+    "path": "/:journal",
+    "categories": [
+      "journal"
+    ],
+    "parameters": {
+      "journal": "Journal Name, get it from the journal homepage"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=www.metmuseum.org",
+    "channel": "Unknown",
+    "url": "www.metmuseum.org",
+    "path": "/exhibitions/:state?",
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=microsoftedge.microsoft.com",
+    "channel": "Microsoft Edge",
+    "url": "microsoftedge.microsoft.com",
+    "path": "/edge/addon/:crxid",
+    "categories": [
+      "program-update"
+    ],
+    "parameters": {
+      "crxid": "Addon id, can be found in addon url"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=mindmeister.com",
+    "channel": "MindMeister",
+    "url": "mindmeister.com",
+    "path": "/:category?/:language?",
+    "categories": [
+      "study"
+    ],
+    "parameters": {
+      "category": "Categories, see the table below, `mind-map-examples` by default",
+      "language": "Languages, see the table below, `en` by default"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=miniflux.app",
+    "channel": "MiniFlux",
+    "url": "miniflux.app",
+    "path": "/entry/:feeds/:parameters?",
+    "categories": [
+      "other"
+    ],
+    "parameters": {
+      "feeds": "Subscribe source ID or get all.",
+      "parameters": "Filter and set parameters, use `&` to connect multiple."
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=miniflux.app",
+    "channel": "MiniFlux",
+    "url": "miniflux.app",
+    "path": "/subscription/:parameters?",
+    "categories": [
+      "other"
+    ],
+    "parameters": {
+      "parameters": "Category name or category ID or/and subscription source name or subscription source ID"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=misskey.io",
+    "channel": "Misskey",
+    "url": "misskey.io",
+    "path": "/notes/featured/:site",
+    "categories": [
+      "social-media"
+    ],
+    "parameters": {
+      "site": "instance address, domain only, without `http://` or `https://` protocol header"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=miui.com",
+    "channel": "MIUI",
+    "url": "miui.com",
+    "path": "/:device/:type?/:region?",
+    "categories": [
+      "program-update"
+    ],
+    "parameters": {
+      "device": "the device `codename` eg. `aries` for Mi 2S",
+      "type": "type",
+      "region": "Region, default to `cn`"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=www.mixcloud.com",
+    "channel": "Mixcloud",
+    "url": "www.mixcloud.com",
+    "path": "/:username/:type?",
+    "categories": [
+      "multimedia"
+    ],
+    "parameters": {
+      "username": "Username, can be found in URL",
+      "type": "Type, see below, uploads by default"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=modrinth.com",
+    "channel": "Modrinth",
+    "url": "modrinth.com",
+    "path": "/project/:id/versions/:routeParams?",
+    "categories": [
+      "game"
+    ],
+    "parameters": {
+      "id": "Id or slug of the Modrinth project",
+      "routeParams": "Extra route params. See the table below for options"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=myfigurecollection.net",
+    "channel": "MyFigureCollection",
+    "url": "myfigurecollection.net",
+    "path": "/activity/:category?/:language?/:latestAdditions?/:latestEdits?/:latestAlerts?/:latestPictures?",
+    "categories": [
+      "shopping"
+    ],
+    "parameters": {
+      "category": "Category, Figures by default",
+      "language": "Language, as above, `en` by default",
+      "latestAdditions": "Latest Additions, on as `1` by default, off as `0`",
+      "latestEdits": "Changes, on as `1` by default, off as `0`",
+      "latestAlerts": "Alerts, on as `1` by default, off as `0`",
+      "latestPictures": "Pictures, on as `1` by default, off as `0`"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=dev.mysql.com",
+    "channel": "MySQL",
+    "url": "dev.mysql.com",
+    "path": "/release/:version?",
+    "categories": [
+      "programming"
+    ],
+    "parameters": {
+      "version": "Version, see below, 8.0 by default"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=apod.nasa.gov",
+    "channel": "NASA Astronomy Picture of the Day",
+    "url": "apod.nasa.gov",
+    "path": "/apod-cn",
+    "categories": [
+      "picture"
+    ],
+    "parameters": {},
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=apod.nasa.gov",
+    "channel": "NASA Astronomy Picture of the Day",
+    "url": "apod.nasa.gov",
+    "path": "/apod-ncku",
+    "categories": [
+      "picture"
+    ],
+    "parameters": {},
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=apod.nasa.gov",
+    "channel": "NASA Astronomy Picture of the Day",
+    "url": "apod.nasa.gov",
+    "path": "/apod",
+    "categories": [
+      "picture"
+    ],
+    "parameters": {},
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=www.nationalgeographic.com",
+    "channel": "National Geographic",
+    "url": "www.nationalgeographic.com",
+    "path": "/latest-stories",
+    "categories": [
+      "travel"
+    ],
+    "parameters": {},
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=nature.com",
+    "channel": "Nature Journal",
+    "url": "nature.com",
+    "path": "/cover",
+    "categories": [
+      "journal"
+    ],
+    "parameters": {},
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=nature.com",
+    "channel": "Nature Journal",
+    "url": "nature.com",
+    "path": "/highlight/:journal?",
+    "categories": [
+      "journal"
+    ],
+    "parameters": {
+      "journal": "short name for a journal, `nature` by default"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=nature.com",
+    "channel": "Nature Journal",
+    "url": "nature.com",
+    "path": "/news-and-comment/:journal?",
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=nature.com",
+    "channel": "Nature Journal",
+    "url": "nature.com",
+    "path": "/news",
+    "categories": [
+      "journal"
+    ],
+    "parameters": {},
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=nature.com",
+    "channel": "Nature Journal",
+    "url": "nature.com",
+    "path": "/research/:journal?",
+    "categories": [
+      "journal"
+    ],
+    "parameters": {
+      "journal": "short name for a journal, `nature` by default"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=nature.com",
+    "channel": "Nature Journal",
+    "url": "nature.com",
+    "path": "/siteindex",
+    "categories": [
+      "journal"
+    ],
+    "parameters": {},
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=nautil.us",
+    "channel": "Nautilus",
+    "url": "nautil.us",
+    "path": "/topic/:tid",
+    "categories": [
+      "new-media"
+    ],
+    "parameters": {
+      "tid": "topic"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=nber.org",
+    "channel": "National Bureau of Economic Research",
+    "url": "nber.org",
+    "path": [
+      "/papers",
+      "/news"
+    ],
+    "categories": [
+      "journal"
+    ],
+    "parameters": {},
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=nber.org",
+    "channel": "National Bureau of Economic Research",
+    "url": "nber.org",
+    "path": [
+      "/papers",
+      "/news"
+    ],
+    "categories": [
+      "journal"
+    ],
+    "parameters": {},
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=ndss-symposium.org",
+    "channel": "Network and Distributed System Security (NDSS) Symposium",
+    "url": "ndss-symposium.org",
+    "path": "/ndss",
+    "categories": [
+      "journal"
+    ],
+    "parameters": {},
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=neatdownloadmanager.com",
+    "channel": "Neat Download Manager",
+    "url": "neatdownloadmanager.com",
+    "path": "/download/:os?",
+    "categories": [
+      "program-update"
+    ],
+    "parameters": {
+      "os": "Operating system, windows or macos, all by default"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=nhentai.net",
+    "channel": "nhentai",
+    "url": "nhentai.net",
+    "path": "/:key/:keyword/:mode?",
+    "categories": [
+      "anime"
+    ],
+    "parameters": {
+      "key": "Filter term, can be: `parody`, `character`, `tag`, `artist`, `group`, `language` or `category`",
+      "keyword": "Filter value",
+      "mode": "mode, `simple` to only show cover, `detail` to show all pages, `torrent` to include Magnet URI, need login, refer to [Route-specific Configurations](/install/#configuration-route-specific-configurations), default to `simple`"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=nhentai.net",
+    "channel": "nhentai",
+    "url": "nhentai.net",
+    "path": "/search/:keyword/:mode?",
+    "categories": [
+      "anime"
+    ],
+    "parameters": {
+      "keyword": "Keywords for search. You can copy the content after `q=` after searching on the original website, or you can enter it directly. See the [official website](https://nhentai.net/info/) for details",
+      "mode": "mode, `simple` to only show cover, `detail` to show all pages, `torrent` to include Magnet URI, need login, refer to [Route-specific Configurations](/install/#configuration-route-specific-configurations), default to `simple`"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=www3.nhk.or.jp",
+    "channel": "NHK",
+    "url": "www3.nhk.or.jp",
+    "path": "/news/:lang?",
+    "categories": [
+      "traditional-media"
+    ],
+    "parameters": {
+      "lang": "Language, see below, `en` by default"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=nodejs.org",
+    "channel": "Node.js",
+    "url": "nodejs.org",
+    "path": "/blog/:language?",
+    "categories": [
+      "programming"
+    ],
+    "parameters": {
+      "language": "Language, see below, en by default"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=notefolio.net",
+    "channel": "Notefolio",
+    "url": "notefolio.net",
+    "path": "/search/:category?/:order?/:time?/:query?",
+    "categories": [
+      "design"
+    ],
+    "parameters": {
+      "category": "Category, see below, `all` by default",
+      "order": "Order, `pick` as Notefolio Pick, `published` as Newest, `like` as like, `pick` by default",
+      "time": "Time, `all` as All the time, `one-day` as Latest 24 hours, `week` as Latest week, `month` as Latest month, `three-month` as Latest 3 months, `all` by default",
+      "query": "Keyword, empty by default"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=notion.so",
+    "channel": "Notion",
+    "url": "notion.so",
+    "path": "/database/:databaseId",
+    "categories": [
+      "other"
+    ],
+    "parameters": {
+      "databaseId": "Database ID"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=npr.org",
+    "channel": "National Public Radio",
+    "url": "npr.org",
+    "path": "/:endpoint?",
+    "categories": [
+      "traditional-media"
+    ],
+    "parameters": {
+      "endpoint": "Channel ID, can be found in Official RSS URL, `1001` by default"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=oo-software.com",
+    "channel": "O&O Software",
+    "url": "oo-software.com",
+    "path": "/changelog/:id",
+    "categories": [
+      "program-update"
+    ],
+    "parameters": {
+      "id": "Software id, see below, shutup10 by default, can be found in URL"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=openai.com",
+    "channel": "OpenAI",
+    "url": "openai.com",
+    "path": "/blog/:tag?",
+    "categories": [
+      "new-media"
+    ],
+    "parameters": {
+      "tag": "Tag, see below, All by default"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=openwrt.org",
+    "channel": "Unknown",
+    "url": "openwrt.org",
+    "path": "/releases/:brand/:model",
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=orcid.org",
+    "channel": "ORCID",
+    "url": "orcid.org",
+    "path": "/:id",
+    "categories": [
+      "study"
+    ],
+    "parameters": {
+      "id": "Open Researcher and Contributor ID"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=osu.ppy.sh",
+    "channel": "osu!",
+    "url": "osu.ppy.sh",
+    "path": "/packs/:type?",
+    "categories": [
+      "game"
+    ],
+    "parameters": {
+      "type": "pack type, default to `standard`, can choose from `featured`, `tournament`, `loved`, `chart`, `theme` and `artist`"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=otobanana.com",
+    "channel": "OTOBANANA",
+    "url": "otobanana.com",
+    "path": "/user/:id/cast",
+    "categories": [
+      "multimedia"
+    ],
+    "parameters": {
+      "id": "User ID, can be found in URL"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=otobanana.com",
+    "channel": "OTOBANANA",
+    "url": "otobanana.com",
+    "path": "/user/:id/livestream",
+    "categories": [
+      "multimedia"
+    ],
+    "parameters": {
+      "id": "User ID, can be found in URL"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=otobanana.com",
+    "channel": "OTOBANANA",
+    "url": "otobanana.com",
+    "path": "/user/:id",
+    "categories": [
+      "multimedia"
+    ],
+    "parameters": {
+      "id": "User ID, can be found in URL"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=academic.oup.com",
+    "channel": "Oxford University Press",
+    "url": "academic.oup.com",
+    "path": "/journals/:name",
+    "categories": [
+      "journal"
+    ],
+    "parameters": {
+      "name": "short name for a journal, can be found in URL"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=outage.report",
+    "channel": "Outage.Report",
+    "url": "outage.report",
+    "path": "/:name/:count?",
+    "categories": [
+      "forecast"
+    ],
+    "parameters": {
+      "name": "Service name, spelling format must be consistent with URL",
+      "count": "Counting threshold, will only be written in RSS if the number of people who report to stop serving is not less than this number"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=parliament.go.th",
+    "channel": "Thailand Parliament",
+    "url": "parliament.go.th",
+    "path": "/section77/:type?",
+    "categories": [
+      "government"
+    ],
+    "parameters": {
+      "type": "Type of hearing status, see below"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=patagonia.com",
+    "channel": "Patagonia",
+    "url": "patagonia.com",
+    "path": "/new-arrivals/:category",
+    "categories": [
+      "shopping"
+    ],
+    "parameters": {
+      "category": "category, see below"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=penguinrandomhouse.com",
+    "channel": "Penguin Random House",
+    "url": "penguinrandomhouse.com",
+    "path": "/articles",
+    "categories": [
+      "reading"
+    ],
+    "parameters": {},
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=penguinrandomhouse.com",
+    "channel": "Penguin Random House",
+    "url": "penguinrandomhouse.com",
+    "path": "/the-read-down",
+    "categories": [
+      "reading"
+    ],
+    "parameters": {},
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=phoronix.com",
+    "channel": "Phoronix",
+    "url": "phoronix.com",
+    "path": "/:category?/:topic?",
+    "categories": [
+      "new-media"
+    ],
+    "parameters": {
+      "category": "Category",
+      "topic": "Topic. You may find available parameters from their navigator links. E.g. to subscribe to `https://www.phoronix.com/reviews/Operating+Systems`, fill in the path `/phoronix/reviews/Operating+Systems`"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=www.picuki.com",
+    "channel": "Instagram",
+    "url": "www.picuki.com",
+    "path": "/profile/:id/:functionalFlag?",
+    "categories": [
+      "social-media"
+    ],
+    "parameters": {
+      "id": "Instagram id",
+      "functionalFlag": "functional flag, see the table below"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=pixabay.com",
+    "channel": "Pixabay",
+    "url": "pixabay.com",
+    "path": "/search/:q/:order?",
+    "categories": [
+      "picture"
+    ],
+    "parameters": {
+      "q": "Search term",
+      "order": "Order, `popular` or `latest`, `latest` by default"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=www.pixiv.net",
+    "channel": "pixiv",
+    "url": "www.pixiv.net",
+    "path": "/user/bookmarks/:id",
+    "categories": [
+      "social-media"
+    ],
+    "parameters": {
+      "id": "user id, available in user's homepage URL"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=www.pixiv.net",
+    "channel": "pixiv",
+    "url": "www.pixiv.net",
+    "path": "/user/novels/:id",
+    "categories": [
+      "social-media"
+    ],
+    "parameters": {
+      "id": "User id, available in user's homepage URL"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=www.pixiv.net",
+    "channel": "pixiv",
+    "url": "www.pixiv.net",
+    "path": "/search/:keyword/:order?/:mode?",
+    "categories": [
+      "social-media"
+    ],
+    "parameters": {
+      "keyword": "keyword",
+      "order": "rank mode, empty or other for time order, popular for popular order",
+      "mode": "filte R18 content"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=www.pixiv.net",
+    "channel": "pixiv",
+    "url": "www.pixiv.net",
+    "path": "/user/:id",
+    "categories": [
+      "social-media"
+    ],
+    "parameters": {
+      "id": "user id, available in user's homepage URL"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=plurk.com",
+    "channel": "Plurk",
+    "url": "plurk.com",
+    "path": "/news/:lang?",
+    "categories": [
+      "social-media"
+    ],
+    "parameters": {
+      "lang": "Language, see the table above, `en` by default"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=plurk.com",
+    "channel": "Plurk",
+    "url": "plurk.com",
+    "path": "/search/:keyword",
+    "categories": [
+      "social-media"
+    ],
+    "parameters": {
+      "keyword": "Search keyword"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=plurk.com",
+    "channel": "Plurk",
+    "url": "plurk.com",
+    "path": "/top/:category?/:lang?",
+    "categories": [
+      "social-media"
+    ],
+    "parameters": {
+      "category": "Category, see the table below, `topReplurks` by default",
+      "lang": "Language, see the table below, `en` by default"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=plurk.com",
+    "channel": "Plurk",
+    "url": "plurk.com",
+    "path": "/topic/:topic",
+    "categories": [
+      "social-media"
+    ],
+    "parameters": {
+      "topic": "Topic ID, can be found in URL"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=plurk.com",
+    "channel": "Plurk",
+    "url": "plurk.com",
+    "path": "/user/:user",
+    "categories": [
+      "social-media"
+    ],
+    "parameters": {
+      "user": "User ID, can be found in URL"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=pnas.org",
+    "channel": "Proceedings of The National Academy of Sciences",
+    "url": "pnas.org",
+    "path": "/:topicPath{.+}?",
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=pornhub.com",
+    "channel": "PornHub",
+    "url": "pornhub.com",
+    "path": "/:language?/category_url/:url?",
+    "categories": [
+      "multimedia"
+    ],
+    "parameters": {
+      "language": "language, see below",
+      "url": "relative path after `pornhub.com/`, need to be URL encoded"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=pornhub.com",
+    "channel": "PornHub",
+    "url": "pornhub.com",
+    "path": "/category/:caty",
+    "categories": [
+      "multimedia"
+    ],
+    "parameters": {
+      "caty": "category, see [categories](https://www.pornhub.com/webmasters/categories)"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=pornhub.com",
+    "channel": "PornHub",
+    "url": "pornhub.com",
+    "path": "/:language?/model/:username/:sort?",
+    "categories": [
+      "multimedia"
+    ],
+    "parameters": {
+      "language": "language, see below",
+      "username": "username, part of the url e.g. `pornhub.com/model/stacy-starando`",
+      "sort": "sorting method, see below"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=pornhub.com",
+    "channel": "PornHub",
+    "url": "pornhub.com",
+    "path": "/:language?/pornstar/:username/:sort?",
+    "categories": [
+      "multimedia"
+    ],
+    "parameters": {
+      "language": "language, see below",
+      "username": "username, part of the url e.g. `pornhub.com/pornstar/june-liu`",
+      "sort": "sorting method, see below"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=pornhub.com",
+    "channel": "PornHub",
+    "url": "pornhub.com",
+    "path": "/:language?/users/:username",
+    "categories": [
+      "multimedia"
+    ],
+    "parameters": {
+      "language": "language, see below",
+      "username": "username, part of the url e.g. `pornhub.com/users/pornhubmodels`"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=www.playstation.com",
+    "channel": "PlayStation Store",
+    "url": "www.playstation.com",
+    "path": "/monthly-games",
+    "categories": [
+      "game"
+    ],
+    "parameters": {},
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=ici.radio-canada.ca",
+    "channel": "Radio-Canada.ca",
+    "url": "ici.radio-canada.ca",
+    "path": "/latest/:language?",
+    "categories": [
+      "new-media"
+    ],
+    "parameters": {
+      "language": "Language, see below, English by default"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=rarehistoricalphotos.com",
+    "channel": "Rare Historical Photos",
+    "url": "rarehistoricalphotos.com",
+    "path": "/",
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=rattibha.com",
+    "channel": "Rattibha",
+    "url": "rattibha.com",
+    "path": "/user/:user",
+    "categories": [
+      "social-media"
+    ],
+    "parameters": {
+      "user": "Twitter username, without @"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=rawkuma.com",
+    "channel": "Rawkuma",
+    "url": "rawkuma.com",
+    "path": "/manga/:id",
+    "categories": [
+      "anime"
+    ],
+    "parameters": {
+      "id": "Manga ID, can be found in URL"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=reuters.com",
+    "channel": "Reuters 路透社",
+    "url": "reuters.com",
+    "path": "/:category/:topic?",
+    "categories": [
+      "traditional-media"
+    ],
+    "parameters": {
+      "category": "find it in the URL, or tables below",
+      "topic": "find it in the URL, or tables below"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=routledge.com",
+    "channel": "Routledge",
+    "url": "routledge.com",
+    "path": "/:bookName/book-series/:bookId",
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=pubs.rsc.org",
+    "channel": "Royal Society of Chemistry",
+    "url": "pubs.rsc.org",
+    "path": "/journal/:id/:category?",
+    "categories": [
+      "journal"
+    ],
+    "parameters": {
+      "id": "Journal id, can be found in URL",
+      "category": "Category, see below, All Recent Articles by default"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=docs.rsshub.app",
+    "channel": "RSSHub",
+    "url": "docs.rsshub.app",
+    "path": "/routes/:lang?",
+    "categories": [
+      "program-update"
+    ],
+    "parameters": {
+      "lang": "Language, `zh` means Chinese docs, other values or null means English docs, `en` by default"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=docs.rsshub.app",
+    "channel": "RSSHub",
+    "url": "docs.rsshub.app",
+    "path": "/transform/html/:url/:routeParams",
+    "categories": [
+      "other"
+    ],
+    "parameters": {
+      "url": "`encodeURIComponent`ed URL address",
+      "routeParams": "Transformation rules, requires URL encode"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=docs.rsshub.app",
+    "channel": "RSSHub",
+    "url": "docs.rsshub.app",
+    "path": "/transform/json/:url/:routeParams",
+    "categories": [
+      "other"
+    ],
+    "parameters": {
+      "url": "`encodeURIComponent`ed URL address",
+      "routeParams": "Transformation rules, requires URL encode"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=science.org",
+    "channel": "Science Magazine",
+    "url": "science.org",
+    "path": "/blogs/:name?",
+    "categories": [
+      "journal"
+    ],
+    "parameters": {
+      "name": "Short name for the blog, get this from the url. Defaults to pipeline"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=science.org",
+    "channel": "Science Magazine",
+    "url": "science.org",
+    "path": "/cover",
+    "categories": [
+      "journal"
+    ],
+    "parameters": {},
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=science.org",
+    "channel": "Science Magazine",
+    "url": "science.org",
+    "path": "/current/:journal?",
+    "categories": [
+      "journal"
+    ],
+    "parameters": {
+      "journal": "Short name for a journal"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=science.org",
+    "channel": "Science Magazine",
+    "url": "science.org",
+    "path": "/early/:journal?",
+    "categories": [
+      "journal"
+    ],
+    "parameters": {
+      "journal": "Short name for a journal"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=sciencedirect.com",
+    "channel": "ScienceDirect",
+    "url": "sciencedirect.com",
+    "path": "/journal/:id",
+    "categories": [
+      "journal"
+    ],
+    "parameters": {
+      "id": "Journal id, can be found in URL"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=scmp.com",
+    "channel": "Corona Virus Disease 2019",
+    "url": "scmp.com",
+    "path": "/:category_id",
+    "categories": [
+      "traditional-media"
+    ],
+    "parameters": {
+      "category_id": "Category"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=scmp.com",
+    "channel": "Corona Virus Disease 2019",
+    "url": "scmp.com",
+    "path": "/topics/:topic",
+    "categories": [
+      "traditional-media"
+    ],
+    "parameters": {
+      "topic": "Topic, can be found in URL"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=seekingalpha.com",
+    "channel": "Seeking Alpha",
+    "url": "seekingalpha.com",
+    "path": "/:symbol/:category?",
+    "categories": [
+      "finance"
+    ],
+    "parameters": {
+      "symbol": "Stock symbol",
+      "category": "Category, see below, `news` by default"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=sensortower.com",
+    "channel": "Sensor Tower",
+    "url": "sensortower.com",
+    "path": "/blog/:language?",
+    "categories": [
+      "new-media"
+    ],
+    "parameters": {
+      "language": "Language, see below, English by default"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=shopback.com.tw",
+    "channel": "ShopBack",
+    "url": "shopback.com.tw",
+    "path": "/:store",
+    "categories": [
+      "shopping"
+    ],
+    "parameters": {
+      "store": "Store, can be found in URL"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=www.shoppingdesign.com.tw",
+    "channel": "Shopping Design",
+    "url": "www.shoppingdesign.com.tw",
+    "path": "/posts",
+    "categories": [
+      "design"
+    ],
+    "parameters": {},
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=sigsac.org",
+    "channel": "ACM Special Interest Group on Security Audit and Control",
+    "url": "sigsac.org",
+    "path": "/ccs",
+    "categories": [
+      "journal"
+    ],
+    "parameters": {},
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=skysports.com",
+    "channel": "Sky Sports",
+    "url": "skysports.com",
+    "path": "/news/:team",
+    "categories": [
+      "new-media"
+    ],
+    "parameters": {
+      "team": "Team id, can be found in URL to the team page"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=smashingmagazine.com",
+    "channel": "Smashing Magazine",
+    "url": "smashingmagazine.com",
+    "path": "/:category?",
+    "categories": [
+      "programming"
+    ],
+    "parameters": {
+      "category": "Find in URL or Table below"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=www.sourceforge.net",
+    "channel": "SourceForge",
+    "url": "www.sourceforge.net",
+    "path": "/:routeParams?",
+    "categories": [
+      "program-update"
+    ],
+    "parameters": {
+      "routeParams": "route params, see below"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=open.spotify.com",
+    "channel": "Spotify",
+    "url": "open.spotify.com",
+    "path": "/saved/:limit?",
+    "categories": [
+      "multimedia"
+    ],
+    "parameters": {
+      "limit": "Track count, 50 by default"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=www.springer.com",
+    "channel": "Springer",
+    "url": "www.springer.com",
+    "path": "/journal/:journal",
+    "categories": [
+      "journal"
+    ],
+    "parameters": {
+      "journal": "Journal Code, the number in the URL from the journal homepage"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=store.steampowered.com",
+    "channel": "Steam",
+    "url": "store.steampowered.com",
+    "path": "/search/:params",
+    "categories": [
+      "game"
+    ],
+    "parameters": {
+      "params": "Query parameters for a Steam Store search."
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=blog.stratechery.com",
+    "channel": "Stratechery by Ben Thompson",
+    "url": "blog.stratechery.com",
+    "path": "/",
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=swissinfo.ch",
+    "channel": "swissinfo",
+    "url": "swissinfo.ch",
+    "path": "/:language?/:category?",
+    "categories": [
+      "new-media"
+    ],
+    "parameters": {
+      "language": "Language, eng by default",
+      "category": "Category, Latest News by default"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=ncode.syosetu.com",
+    "channel": "syosetu",
+    "url": "ncode.syosetu.com",
+    "path": "/chapter/:id",
+    "categories": [
+      "reading"
+    ],
+    "parameters": {
+      "id": "Novel id, can be found in URL"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=tass.com",
+    "channel": "Russian News Agency TASS",
+    "url": "tass.com",
+    "path": "/:category?",
+    "categories": [
+      "traditional-media"
+    ],
+    "parameters": {
+      "category": "Category, can be found in URL, `politics` by default"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=techcrunch.com",
+    "channel": "TechCrunch",
+    "url": "techcrunch.com",
+    "path": "/news",
+    "categories": [
+      "new-media"
+    ],
+    "parameters": {},
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=telecompaper.com",
+    "channel": "Telecompaper",
+    "url": "telecompaper.com",
+    "path": "/news/:caty/:year?/:country?/:type?",
+    "categories": [
+      "journal"
+    ],
+    "parameters": {
+      "caty": "Category, see table below",
+      "year": "Year. The year in respective category page filter, `all` for unlimited year, empty by default",
+      "country": "Country or continent, `all` for unlimited country or continent, empty by default",
+      "type": "Type, can be found in the `Types` filter, `all` for unlimited type, unlimited by default"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=telecompaper.com",
+    "channel": "Telecompaper",
+    "url": "telecompaper.com",
+    "path": "/search/:keyword?/:company?/:sort?/:period?",
+    "categories": [
+      "journal"
+    ],
+    "parameters": {
+      "keyword": "Keyword",
+      "company": "Company name, empty by default",
+      "sort": "Sorting, see table below, `Date Descending` by default",
+      "period": "Date selection, Last 12 months by default"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=t.me",
+    "channel": "Telegram",
+    "url": "t.me",
+    "path": "/channel/:username/:routeParams?",
+    "categories": [
+      "social-media"
+    ],
+    "parameters": {
+      "username": "channel username",
+      "routeParams": "extra parameters, see the table below"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=t.me",
+    "channel": "Telegram",
+    "url": "t.me",
+    "path": "/stickerpack/:name",
+    "categories": [
+      "social-media"
+    ],
+    "parameters": {
+      "name": "Sticker Pack name, available in the sharing URL"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=mp.weixin.qq.com",
+    "channel": "王者荣耀",
+    "url": "mp.weixin.qq.com",
+    "path": "/qq/sdk/changelog/:platform",
+    "categories": [
+      "program-update"
+    ],
+    "parameters": {
+      "platform": "平台，iOS / Android"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=undefined",
+    "channel": "Unknown",
+    "path": "/:id",
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=www.theatlantic.com",
+    "channel": "The Atlantic",
+    "url": "www.theatlantic.com",
+    "path": "/:category",
+    "categories": [
+      "traditional-media"
+    ],
+    "parameters": {
+      "category": "category, see below"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=thehindu.com",
+    "channel": "The Hindu",
+    "url": "thehindu.com",
+    "path": "/topic/:topic",
+    "categories": [
+      "traditional-media"
+    ],
+    "parameters": {
+      "topic": "Topic slug, can be found in URL."
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=themoviedb.org",
+    "channel": "The Movie Database",
+    "url": "themoviedb.org",
+    "path": "/collection/:id/:lang?",
+    "categories": [
+      "multimedia"
+    ],
+    "parameters": {
+      "id": "Collection ID",
+      "lang": "Language"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=themoviedb.org",
+    "channel": "The Movie Database",
+    "url": "themoviedb.org",
+    "path": "/tv/:id/seasons/:seasonNumber/episodes/:lang?",
+    "categories": [
+      "multimedia"
+    ],
+    "parameters": {
+      "id": "TV show ID",
+      "seasonNumber": "Season number",
+      "lang": "Language"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=themoviedb.org",
+    "channel": "The Movie Database",
+    "url": "themoviedb.org",
+    "path": "/tv/:id/seasons/:lang?",
+    "categories": [
+      "multimedia"
+    ],
+    "parameters": {
+      "id": "TV show ID",
+      "lang": "Language"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=themoviedb.org",
+    "channel": "The Movie Database",
+    "url": "themoviedb.org",
+    "path": "/:mediaType/:sheet/:lang?",
+    "categories": [
+      "multimedia"
+    ],
+    "parameters": {
+      "mediaType": "`movie` or `tv`",
+      "sheet": "Sheet, see below",
+      "lang": "Language"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=themoviedb.org",
+    "channel": "The Movie Database",
+    "url": "themoviedb.org",
+    "path": "/trending/:mediaType/:timeWindow/:lang?",
+    "categories": [
+      "multimedia"
+    ],
+    "parameters": {
+      "mediaType": "`movie` or `tv`",
+      "timeWindow": "`day` or `week`",
+      "lang": "Language"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=theverge.com",
+    "channel": "The Verge",
+    "url": "theverge.com",
+    "path": "/:hub?",
+    "categories": [
+      "new-media"
+    ],
+    "parameters": {
+      "hub": "Hub, see below, All Posts by default"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=thoughtco.com",
+    "channel": "ThoughtCo",
+    "url": "thoughtco.com",
+    "path": "/:category?",
+    "categories": [
+      "new-media"
+    ],
+    "parameters": {
+      "category": "Category id, see below"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=threads.net",
+    "channel": "Threads",
+    "url": "threads.net",
+    "path": "/:user/:routeParams?",
+    "categories": [
+      "social-media"
+    ],
+    "parameters": {
+      "user": "Username",
+      "routeParams": "Extra parameters, see the table below"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=thwiki.cc",
+    "channel": "THBWiki",
+    "url": "thwiki.cc",
+    "path": "/calendar/:before?/:after?",
+    "categories": [
+      "anime"
+    ],
+    "parameters": {
+      "before": "From how many days ago (default 30)",
+      "after": "To how many days after (default 30)"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=tiktok.com",
+    "channel": "TikTok",
+    "url": "tiktok.com",
+    "path": "/user/:user/:iframe?",
+    "categories": [
+      "social-media"
+    ],
+    "parameters": {
+      "user": "User ID, including @",
+      "iframe": "Use the official iframe to embed the video, which allows you to view the video if the default option does not work. Default to `false`"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=tokeninsight.com",
+    "channel": "TokenInsight",
+    "url": "tokeninsight.com",
+    "path": "/blog/:lang?",
+    "categories": [
+      "finance"
+    ],
+    "parameters": {
+      "lang": "Language, see below, Chinese by default"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=tokeninsight.com",
+    "channel": "TokenInsight",
+    "url": "tokeninsight.com",
+    "path": "/bulletin/:lang?",
+    "categories": [
+      "finance"
+    ],
+    "parameters": {
+      "lang": "Language, see below, Chinese by default"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=tokeninsight.com",
+    "channel": "TokenInsight",
+    "url": "tokeninsight.com",
+    "path": "/report/:lang?",
+    "categories": [
+      "finance"
+    ],
+    "parameters": {
+      "lang": "Language, see below, Chinese by default"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=trendingpapers.com",
+    "channel": "Trending Papers",
+    "url": "trendingpapers.com",
+    "path": "/papers/:category?/:time?/:cited?",
+    "categories": [
+      "journal"
+    ],
+    "parameters": {
+      "category": "Category of papers, can be found in URL. `All categories` by default.",
+      "time": "Time like `24 hours` to specify the duration of ranking, can be found in URL. `Since beginning` by default.",
+      "cited": "Cited or uncited papers, can be found in URL. `Cited and uncited papers` by default."
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=tribalfootball.com",
+    "channel": "Tribal Football",
+    "url": "tribalfootball.com",
+    "path": "/",
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=trow.cc",
+    "channel": "The Ring of Wonder",
+    "url": "trow.cc",
+    "path": "/portal",
+    "categories": [
+      "bbs"
+    ],
+    "parameters": {},
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=tvtropes.org",
+    "channel": "TV Tropes",
+    "url": "tvtropes.org",
+    "path": "/featured/:category?",
+    "categories": [
+      "other"
+    ],
+    "parameters": {
+      "category": "Category, see below, Today's Featured Trope by default"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=www.twitch.tv",
+    "channel": "Twitch",
+    "url": "www.twitch.tv",
+    "path": "/video/:login/:filter?",
+    "categories": [
+      "live"
+    ],
+    "parameters": {
+      "login": "Twitch username",
+      "filter": "Video type, Default to all"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=twitter.com",
+    "channel": "Twitter",
+    "url": "twitter.com",
+    "path": "/keyword/:keyword/:routeParams?",
+    "categories": [
+      "social-media"
+    ],
+    "parameters": {
+      "keyword": "keyword",
+      "routeParams": "extra parameters, see the table above"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=twitter.com",
+    "channel": "Twitter",
+    "url": "twitter.com",
+    "path": "/likes/:id/:routeParams?",
+    "categories": [
+      "social-media"
+    ],
+    "parameters": {
+      "id": "username",
+      "routeParams": "extra parameters, see the table above"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=twitter.com",
+    "channel": "Twitter",
+    "url": "twitter.com",
+    "path": "/list/:id/:routeParams?",
+    "categories": [
+      "social-media"
+    ],
+    "parameters": {
+      "id": "username",
+      "name": "list name",
+      "routeParams": "extra parameters, see the table above"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=twitter.com",
+    "channel": "Twitter",
+    "url": "twitter.com",
+    "path": "/media/:id/:routeParams?",
+    "categories": [
+      "social-media"
+    ],
+    "parameters": {
+      "id": "username; in particular, if starts with `+`, it will be recognized as a [unique ID](https://github.com/DIYgod/RSSHub/issues/12221), e.g. `+44196397`",
+      "routeParams": "extra parameters, see the table above."
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=twitter.com",
+    "channel": "Twitter",
+    "url": "twitter.com",
+    "path": "/trends/:woeid?",
+    "categories": [
+      "social-media"
+    ],
+    "parameters": {
+      "woeid": "Yahoo! Where On Earth ID. default to woeid=1 (World Wide)"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=twitter.com",
+    "channel": "Twitter",
+    "url": "twitter.com",
+    "path": "/tweet/:id/status/:status/:original?",
+    "categories": [
+      "social-media"
+    ],
+    "parameters": {
+      "id": "username; in particular, if starts with `+`, it will be recognized as a [unique ID](https://github.com/DIYgod/RSSHub/issues/12221), e.g. `+44196397`",
+      "status": "tweet ID",
+      "original": "extra parameters, data type of return, if the value is not `0`/`false` and `config.isPackage` is `true`, return the original data of twitter"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=twitter.com",
+    "channel": "Twitter",
+    "url": "twitter.com",
+    "path": "/user/:id/:routeParams?",
+    "categories": [
+      "social-media"
+    ],
+    "parameters": {
+      "id": "username; in particular, if starts with `+`, it will be recognized as a [unique ID](https://github.com/DIYgod/RSSHub/issues/12221), e.g. `+44196397`",
+      "routeParams": "extra parameters, see the table above; particularly when `routeParams=exclude_replies`, replies are excluded; `routeParams=exclude_rts` excludes retweets,`routeParams=exclude_rts_replies` exclude replies and retweets; for default include all."
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=u3c3.com",
+    "channel": "U9A9",
+    "url": "u3c3.com",
+    "path": [
+      "/search/:keyword/:preview?",
+      "/:type?/:preview?"
+    ],
+    "categories": [
+      "multimedia"
+    ],
+    "parameters": {
+      "keyword": "Search keyword",
+      "preview": "Show image preview, off by default, non empty value means on"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=u3c3.com",
+    "channel": "U9A9",
+    "url": "u3c3.com",
+    "path": [
+      "/search/:keyword/:preview?",
+      "/:type?/:preview?"
+    ],
+    "categories": [
+      "multimedia"
+    ],
+    "parameters": {
+      "keyword": "Search keyword",
+      "preview": "Show image preview, off by default, non empty value means on"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=u9a9.com",
+    "channel": "Unknown",
+    "url": "u9a9.com",
+    "path": [
+      "/:preview?",
+      "/search/:keyword/:preview?"
+    ],
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=u9a9.com",
+    "channel": "Unknown",
+    "url": "u9a9.com",
+    "path": [
+      "/:preview?",
+      "/search/:keyword/:preview?"
+    ],
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=www.uber.com",
+    "channel": "Uber 优步",
+    "url": "www.uber.com",
+    "path": "/blog/:maxPage?",
+    "categories": [
+      "blog"
+    ],
+    "parameters": {
+      "maxPage": "max number of pages to retrieve, default to 1 page at most"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=journals.uchicago.edu",
+    "channel": "The University of Chicago Press: Journals",
+    "url": "journals.uchicago.edu",
+    "path": "/journals/current/:journal",
+    "categories": [
+      "journal"
+    ],
+    "parameters": {
+      "journal": "Journal id, can be found in URL. [Browse journals by title](https://www.journals.uchicago.edu/action/showPublications)"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=www.uniqlo.com",
+    "channel": "Uniqlo",
+    "url": "www.uniqlo.com",
+    "path": "/new/:country/:category",
+    "categories": [
+      "shopping"
+    ],
+    "parameters": {
+      "country": "currently only supports sg, us, jp",
+      "category": "supports `men` `women`, `kids`, `baby`"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=rss.uptimerobot.com",
+    "channel": "Uptime Robot",
+    "url": "rss.uptimerobot.com",
+    "path": "/rss/:id/:routeParams?",
+    "categories": [
+      "forecast"
+    ],
+    "parameters": {
+      "id": "the last part of your RSS URL (e.g. `u358785-e4323652448755805d668f1a66506f2f` for `https://rss.uptimerobot.com/u358785-e4323652448755805d668f1a66506f2f`)",
+      "routeParams": "extra parameters, see the table below"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=urbandictionary.com",
+    "channel": "Urban Dictionary",
+    "url": "urbandictionary.com",
+    "path": "/random",
+    "categories": [
+      "other"
+    ],
+    "parameters": {},
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=gixnetwork.org",
+    "channel": "University of Washington",
+    "url": "gixnetwork.org",
+    "path": "/gix/news/:category",
+    "categories": [
+      "university"
+    ],
+    "parameters": {
+      "category": "Blog Type"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=verfgh.baden-wuerttemberg.de",
+    "channel": "Constitutional Court of Baden-Württemberg (Germany)",
+    "url": "verfgh.baden-wuerttemberg.de",
+    "path": "/press/:keyword?",
+    "categories": [
+      "government"
+    ],
+    "parameters": {
+      "keyword": "Keyword"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=vimeo.com",
+    "channel": "Vimeo",
+    "url": "vimeo.com",
+    "path": "/category/:category/:staffpicks?",
+    "categories": [
+      "social-media"
+    ],
+    "parameters": {
+      "category": "Category name can get from url like `documentary` in [https://vimeo.com/categories/documentary/videos](https://vimeo.com/categories/documentary/videos) ",
+      "staffpicks": "type `staffpicks` to sort with staffpicks"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=vimeo.com",
+    "channel": "Vimeo",
+    "url": "vimeo.com",
+    "path": "/channel/:channel",
+    "categories": [
+      "social-media"
+    ],
+    "parameters": {
+      "channel": "channel name can get from url like `bestoftheyear` in  [https://vimeo.com/channels/bestoftheyear/videos](https://vimeo.com/channels/bestoftheyear/videos) ."
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=vimeo.com",
+    "channel": "Vimeo",
+    "url": "vimeo.com",
+    "path": "/user/:username/:cat?",
+    "categories": [
+      "social-media"
+    ],
+    "parameters": {
+      "username": "In this example [https://vimeo.com/filmsupply](https://vimeo.com/filmsupply)  is `filmsupply`",
+      "cat": "deafult for all latest videos, others categories in this example such as `Docmentary`, `Narrative`, `Drama`. Set `picks` for promote orders, just orderd like web page. When `picks` added, published date won't show up"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=vom.mn",
+    "channel": "Voice of Mongolia 蒙古之声",
+    "url": "vom.mn",
+    "path": "/featured/:lang?",
+    "categories": [
+      "traditional-media"
+    ],
+    "parameters": {
+      "lang": "Language, see the table below, `mn` by default"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=wallhaven.cc",
+    "channel": "wallhaven",
+    "url": "wallhaven.cc",
+    "path": [
+      "/search/:filter?/:needDetails?",
+      "/:filter?/:needDetails?"
+    ],
+    "categories": [
+      "picture"
+    ],
+    "parameters": {
+      "filter": "Filter, empty by default",
+      "needDetails": "Need Details, `true`/`yes` as yes, no by default"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=wallhaven.cc",
+    "channel": "wallhaven",
+    "url": "wallhaven.cc",
+    "path": [
+      "/search/:filter?/:needDetails?",
+      "/:filter?/:needDetails?"
+    ],
+    "categories": [
+      "picture"
+    ],
+    "parameters": {
+      "filter": "Filter, empty by default",
+      "needDetails": "Need Details, `true`/`yes` as yes, no by default"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=support.wdc.com",
+    "channel": "Western Digital",
+    "url": "support.wdc.com",
+    "path": "/download/:id?",
+    "categories": [
+      "program-update"
+    ],
+    "parameters": {
+      "id": "Software id, can be found in URL, 279 as Western Digital Dashboard by default"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=web.dev",
+    "channel": "web.dev",
+    "url": "web.dev",
+    "path": "/series/:seriesName",
+    "categories": [
+      "programming"
+    ],
+    "parameters": {
+      "seriesName": "topic name in the series section"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=whitehouse.gov",
+    "channel": "The White House",
+    "url": "whitehouse.gov",
+    "path": "/briefing-room/:category?",
+    "categories": [
+      "government"
+    ],
+    "parameters": {
+      "category": "Category, see below, all by default"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=whitehouse.gov",
+    "channel": "The White House",
+    "url": "whitehouse.gov",
+    "path": "/ostp",
+    "categories": [
+      "government"
+    ],
+    "parameters": {},
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=who.int",
+    "channel": "World Health Organization | WHO",
+    "url": "who.int",
+    "path": "/news-room/:category?/:language?",
+    "categories": [
+      "government"
+    ],
+    "parameters": {
+      "category": "Category, see below, Feature stories by default",
+      "language": "Language, see below, English by default"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=who.int",
+    "channel": "World Health Organization | WHO",
+    "url": "who.int",
+    "path": "/news/:language?",
+    "categories": [
+      "government"
+    ],
+    "parameters": {
+      "language": "Language, see below, English by default"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=who.int",
+    "channel": "World Health Organization | WHO",
+    "url": "who.int",
+    "path": "/speeches/:language?",
+    "categories": [
+      "government"
+    ],
+    "parameters": {
+      "language": "Language, see below, English by default"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=winstall.app",
+    "channel": "winstall",
+    "url": "winstall.app",
+    "path": "/:appId",
+    "categories": [
+      "program-update"
+    ],
+    "parameters": {
+      "appId": "Application ID"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=wise.com",
+    "channel": "Wise",
+    "url": "wise.com",
+    "path": "/pair/:source/:target",
+    "categories": [
+      "other"
+    ],
+    "parameters": {
+      "source": "Base currency abbreviation",
+      "target": "Quote currency abbreviation"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=wmc-bj.net",
+    "channel": "World Meteorological Centre Beijing",
+    "url": "wmc-bj.net",
+    "path": "/publish/:category{.+}?",
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=x-mol.com",
+    "channel": "X-MOL",
+    "url": "x-mol.com",
+    "path": "/news/:tag?",
+    "categories": [
+      "study"
+    ],
+    "parameters": {
+      "tag": "Tag number, can be obtained from news list URL. Empty value means news index."
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=hk.news.yahoo.com",
+    "channel": "Yahoo",
+    "url": "hk.news.yahoo.com",
+    "path": "/news/:region/:category?",
+    "categories": [
+      "new-media"
+    ],
+    "parameters": {
+      "region": "Region, see the table below",
+      "category": "Category, see the table below"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=www.yoasobi-music.jp",
+    "channel": "Yoasobi Official",
+    "url": "www.yoasobi-music.jp",
+    "path": "/info/:category?",
+    "categories": [
+      "live"
+    ],
+    "parameters": {
+      "category": "`news`, `biography`"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=www.yoasobi-music.jp",
+    "channel": "Yoasobi Official",
+    "url": "www.yoasobi-music.jp",
+    "path": "/live",
+    "categories": [
+      "live"
+    ],
+    "parameters": {},
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=www.yoasobi-music.jp",
+    "channel": "Yoasobi Official",
+    "url": "www.yoasobi-music.jp",
+    "path": "/media",
+    "categories": [
+      "live"
+    ],
+    "parameters": {},
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=charts.youtube.com",
+    "channel": "YouTube Live",
+    "url": "charts.youtube.com",
+    "path": "/channel/:id/:embed?",
+    "categories": [
+      "social-media"
+    ],
+    "parameters": {
+      "id": "YouTube channel id",
+      "embed": "Default to embed the video, set to any value to disable embedding"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=charts.youtube.com",
+    "channel": "YouTube Live",
+    "url": "charts.youtube.com",
+    "path": "/charts/:category?/:country?/:embed?",
+    "categories": [
+      "social-media"
+    ],
+    "parameters": {
+      "category": "Chart, see table below, default to `TopVideos`",
+      "country": "Country Code, see table below, default to global",
+      "embed": "Default to embed the video, set to any value to disable embedding"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=charts.youtube.com",
+    "channel": "YouTube Live",
+    "url": "charts.youtube.com",
+    "path": "/community/:handle",
+    "categories": [
+      "social-media"
+    ],
+    "parameters": {
+      "handle": "YouTube handles or channel id"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=charts.youtube.com",
+    "channel": "YouTube Live",
+    "url": "charts.youtube.com",
+    "path": "/live/:username/:embed?",
+    "categories": [
+      "live"
+    ],
+    "parameters": {
+      "username": "YouTuber id",
+      "embed": "Default to embed the video, set to any value to disable embedding"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=charts.youtube.com",
+    "channel": "YouTube Live",
+    "url": "charts.youtube.com",
+    "path": "/playlist/:id/:embed?",
+    "categories": [
+      "social-media"
+    ],
+    "parameters": {
+      "id": "YouTube playlist id",
+      "embed": "Default to embed the video, set to any value to disable embedding"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=charts.youtube.com",
+    "channel": "YouTube Live",
+    "url": "charts.youtube.com",
+    "path": "/subscriptions/:embed?",
+    "categories": [
+      "social-media"
+    ],
+    "parameters": {
+      "embed": "Default to embed the video, set to any value to disable embedding"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=charts.youtube.com",
+    "channel": "YouTube Live",
+    "url": "charts.youtube.com",
+    "path": "/user/:username/:embed?",
+    "categories": [
+      "social-media"
+    ],
+    "parameters": {
+      "username": "YouTuber id",
+      "embed": "Default to embed the video, set to any value to disable embedding"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=zagg.com",
+    "channel": "Zagg",
+    "url": "zagg.com",
+    "path": "/new-arrivals/:query?",
+    "categories": [
+      "shopping"
+    ],
+    "parameters": {
+      "query": "query, search page querystring"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=www.zhihu.com",
+    "channel": "知乎",
+    "url": "www.zhihu.com",
+    "path": "/daily/section/:sectionId",
+    "categories": [
+      "social-media"
+    ],
+    "parameters": {
+      "sectionId": "合集 id，可在 https://news-at.zhihu.com/api/7/sections 找到"
+    },
+    "lang": [
+      "en"
+    ]
+  },
+  {
+    "favicon": "https://www.google.com/s2/favicons?domain=zodgame.xyz",
+    "channel": "ZodGame",
+    "url": "zodgame.xyz",
+    "path": "/forum/:fid?",
+    "categories": [
+      "bbs"
+    ],
+    "parameters": {
+      "fid": "forum id, can be found in URL"
+    },
+    "lang": [
+      "en"
+    ]
+  }
+]

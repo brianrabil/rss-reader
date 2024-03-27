@@ -1,5 +1,5 @@
 {
-	"extends": "@rss-reader/tsconfig/nextjs.json",
+	"extends": "@rss-reader/tsconfig/tsconfig.nextjs.json",
 	"compilerOptions": {
 		"plugins": [{ "name": "next" }],
 		"paths": {

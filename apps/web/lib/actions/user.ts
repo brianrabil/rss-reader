@@ -7,6 +7,7 @@ import { signIn } from "next-auth/react";
 import { auth } from "../auth";
 import { prisma } from "@/lib/database";
 import { z } from "zod";
+import { revalidatePath } from "next/cache";
 
 type CreateUser = Pick<User, "email" | "password">;
 
@@ -100,6 +101,8 @@ export async function updateUser(formData: FormData) {
 			email: validatedFields.data.email,
 		},
 	});
+
+	revalidatePath("/");
 
 	return user;
 }

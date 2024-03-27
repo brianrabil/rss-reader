@@ -7,10 +7,17 @@ import { updateUser } from "@/lib/actions/user";
 import type { User } from "@rss-reader/database";
 import { SubmitButton } from "@/components/submit-button";
 import { Separator } from "@/components/ui/separator";
+import { toast } from "sonner";
 
 export function ProfileForm({ user }: { user: User | null }) {
 	return (
-		<form action={updateUser}>
+		<form
+			action={(formData) =>
+				updateUser(formData)
+					.then(() => toast.success("Profile updated"))
+					.catch(() => toast.error("Failed to update profile"))
+			}
+		>
 			<div className="flex flex-col gap-y-5 items-start">
 				<div className="flex gap-2 items-center">
 					<Avatar>

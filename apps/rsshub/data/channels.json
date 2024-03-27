@@ -1,0 +1,8303 @@
+[
+  {
+    "name": "中国军网",
+    "url": "81rc.81.cn",
+    "routes": [
+      "/81rc/*"
+    ]
+  },
+  {
+    "name": "网易公开课",
+    "url": "163.com",
+    "routes": [
+      "/ds/:id",
+      "/dy/:id",
+      "/dy2/:id",
+      "/exclusive/:id?",
+      "/renjian/:category?",
+      "/today/:need_content?",
+      "/music/artist/songs/:id",
+      "/music/artist/:id",
+      "/music/djradio/:id",
+      "/music/playlist/:id",
+      "/music/user/events/:id",
+      "/music/user/playlist/:uid",
+      "/music/user/playrecords/:uid/:type?",
+      "/news/rank/:category?/:type?/:time?",
+      "/news/special/:type?",
+      "/open/vip"
+    ]
+  },
+  {
+    "name": "591 Rental house",
+    "url": "rent.591.com.tw",
+    "routes": [
+      "/:country/rent/:query?"
+    ]
+  },
+  {
+    "name": "2048 核基地",
+    "url": "hjd2048.com",
+    "routes": [
+      "/:id?"
+    ]
+  },
+  {
+    "name": "8264",
+    "url": "8264.com",
+    "routes": [
+      "/list/:id?"
+    ]
+  },
+  {
+    "name": "12306",
+    "url": "kyfw.12306.cn",
+    "routes": [
+      "/:date/:from/:to/:type?",
+      "/zxdt/:id?"
+    ]
+  },
+  {
+    "name": "0818 团",
+    "url": "0818tuan.com",
+    "routes": [
+      "/:listId?"
+    ]
+  },
+  {
+    "name": "141JAV",
+    "url": "141jav.com",
+    "routes": [
+      "/{.*}?"
+    ]
+  },
+  {
+    "name": "141PPV",
+    "url": "141ppv.com",
+    "routes": [
+      "/{.*}?"
+    ]
+  },
+  {
+    "name": "禁漫天堂",
+    "url": "18comic.org",
+    "routes": [
+      "/album/:id",
+      "/blogs/:category?",
+      "/:category?/:time?/:order?/:keyword?",
+      "/search/:option?/:category?/:keyword?/:time?/:order?"
+    ]
+  },
+  {
+    "name": "19 楼",
+    "url": "19lou.com",
+    "routes": [
+      "/:city?"
+    ]
+  },
+  {
+    "name": "BT 之家 1LOU 站",
+    "url": "1lou.me",
+    "routes": [
+      "/:path?"
+    ]
+  },
+  {
+    "name": "一亩三分地",
+    "url": "blog.1point3acres.com",
+    "routes": [
+      "/blog/:category?",
+      "/category/:id?/:type?/:order?",
+      "/offer/:year?/:major?/:school?",
+      "/section/:id?/:type?/:order?",
+      "/post/:type?/:order?",
+      "/thread/:type?/:order?",
+      "/user/:id/posts",
+      "/user/:id/threads"
+    ]
+  },
+  {
+    "name": "1x.com",
+    "url": "1x.com",
+    "routes": [
+      "/:category{.+}?"
+    ]
+  },
+  {
+    "name": "游戏星辰",
+    "url": "www.2023game.com",
+    "routes": [
+      "/:category?/:tab?"
+    ]
+  },
+  {
+    "name": "二次元虫洞",
+    "url": "2cycd.com",
+    "routes": [
+      "/:fid/:sort?"
+    ]
+  },
+  {
+    "name": "36kr",
+    "url": "36kr.com",
+    "routes": [
+      "/hot-list/:category?",
+      "/:category/:subCategory?/:keyword?"
+    ]
+  },
+  {
+    "name": "3DMGame",
+    "url": "3dmgame.com",
+    "routes": [
+      "/games/:name/:type?",
+      "/news/:category?"
+    ]
+  },
+  {
+    "name": "3k-Switch游戏库",
+    "url": "www.3kns.com",
+    "routes": [
+      "/:filters?/:order?"
+    ]
+  },
+  {
+    "name": "423Down",
+    "url": "www.423down.com",
+    "routes": [
+      "/:category/:type?"
+    ]
+  },
+  {
+    "name": "4Gamers",
+    "url": "www.4gamers.com.tw",
+    "routes": [
+      "/",
+      "/category/:category",
+      "/tag/:tag",
+      "/topic/:topic"
+    ]
+  },
+  {
+    "name": "4k 世界",
+    "url": "4ksj.com",
+    "routes": [
+      "/:id?"
+    ]
+  },
+  {
+    "name": "500px 摄影社区",
+    "url": "500px.com.cn",
+    "routes": [
+      "/tribe/set/:id",
+      "/user/works/:id"
+    ]
+  },
+  {
+    "name": "经济 50 人论坛",
+    "url": "50forum.org.cn",
+    "routes": [
+      "/"
+    ]
+  },
+  {
+    "name": "52hrtt 华人头条",
+    "url": "52hrtt.com",
+    "routes": [
+      "/:area?/:type?",
+      "/symposium/:id?/:classId?"
+    ]
+  },
+  {
+    "name": "明月中文网",
+    "url": "56kog.com",
+    "routes": [
+      "/class/:category?",
+      "/top/:category?"
+    ]
+  },
+  {
+    "name": "5EPLAY",
+    "url": "csgo.5eplay.com",
+    "routes": [
+      "/article"
+    ]
+  },
+  {
+    "name": "留园网",
+    "url": "club.6parkbbs.com",
+    "routes": [
+      "/:id?/:type?/:keyword?",
+      "/news/:site?/:id?/:keyword?"
+    ]
+  },
+  {
+    "name": "6v 电影",
+    "url": "hao6v.cc",
+    "routes": [
+      "/latestMovies",
+      "/latestTVSeries"
+    ]
+  },
+  {
+    "name": "78 动漫",
+    "url": "78dm.net",
+    "routes": [
+      "*"
+    ]
+  },
+  {
+    "name": "7mmtv",
+    "url": "7mmtv.tv",
+    "routes": [
+      "/:language?/:category?/:type?"
+    ]
+  },
+  {
+    "name": "8KCosplay",
+    "url": "8kcosplay.com",
+    "routes": [
+      "/cat/:cat{.+}?",
+      "/",
+      "/tag/:tag"
+    ]
+  },
+  {
+    "name": "8 视界",
+    "url": "8world.com",
+    "routes": [
+      "*"
+    ]
+  },
+  {
+    "name": "91porn",
+    "url": "91porn.com",
+    "routes": [
+      "/author/:uid/:lang?",
+      "/:lang?"
+    ]
+  },
+  {
+    "name": "MM 范",
+    "url": "95mm.org",
+    "routes": [
+      "/category/:category",
+      "/tab/:tab?",
+      "/tag/:tag"
+    ]
+  },
+  {
+    "name": "9To5",
+    "url": "9to5toys.com",
+    "routes": [
+      "/:subsite/:tag?"
+    ]
+  },
+  {
+    "name": "A9VG 电玩部落",
+    "url": "a9vg.com",
+    "routes": [
+      "/"
+    ]
+  },
+  {
+    "name": "論盡媒體 AllAboutMacau Media",
+    "url": "aamacau.com",
+    "routes": [
+      "/:category?/:id?"
+    ]
+  },
+  {
+    "name": "ABC News",
+    "url": "abc.net.au",
+    "routes": [
+      "/:category{.+}?"
+    ]
+  },
+  {
+    "name": "链新闻 ABMedia",
+    "url": "www.abmedia.io",
+    "routes": [
+      "/:category?",
+      "/index"
+    ]
+  },
+  {
+    "name": "A 姐分享",
+    "url": "nsfw.abskoop.com",
+    "routes": [
+      "/",
+      "/nsfw"
+    ]
+  },
+  {
+    "name": "AcFun",
+    "url": "www.acfun.cn",
+    "routes": [
+      "/article/:categoryId/:sortType?/:timeRange?",
+      "/bangumi/:id",
+      "/user/video/:uid"
+    ]
+  },
+  {
+    "name": "ACG17",
+    "url": "acg17.com",
+    "routes": [
+      "/post/all"
+    ]
+  },
+  {
+    "name": "中华全国专利代理师协会",
+    "url": "acpaa.cn",
+    "routes": [
+      "/:id?/:name?"
+    ]
+  },
+  {
+    "name": "Unknown",
+    "url": "pubs.acs.org",
+    "routes": [
+      "/journal/:id"
+    ]
+  },
+  {
+    "name": "American Economic Association",
+    "url": "aeaweb.org",
+    "routes": [
+      "/:id"
+    ]
+  },
+  {
+    "name": "AEON",
+    "url": "aeon.aeon.co",
+    "routes": [
+      "/category/:category",
+      "/:type"
+    ]
+  },
+  {
+    "name": "爱发电",
+    "url": "afdian.net",
+    "routes": [
+      "/dynamic/:uid?",
+      "/explore/:type/:category?"
+    ]
+  },
+  {
+    "name": "AGE 动漫",
+    "url": "agemys.cc",
+    "routes": [
+      "/detail/:id",
+      "/update"
+    ]
+  },
+  {
+    "name": "电獭少女",
+    "url": "agirls.aotter.net",
+    "routes": [
+      "/:category?",
+      "/topic_list",
+      "/topic/:topic"
+    ]
+  },
+  {
+    "name": "AG⓪RA",
+    "url": "agorahub.github.io",
+    "routes": [
+      "/:category?",
+      "/pen0"
+    ]
+  },
+  {
+    "name": "安徽建筑大学",
+    "url": "news.ahjzu.edu.cn",
+    "routes": [
+      "/news"
+    ]
+  },
+  {
+    "name": "AI 财经社",
+    "url": "www.aicaijing.com",
+    "routes": [
+      "/:category?/:id?"
+    ]
+  },
+  {
+    "name": "Asian Innovation and Entrepreneurship Association",
+    "url": "www.aiea.org",
+    "routes": [
+      "/seminars/:period"
+    ]
+  },
+  {
+    "name": "极术社区",
+    "url": "www.aijishu",
+    "routes": [
+      "/:type/:name?"
+    ]
+  },
+  {
+    "name": "AInvest",
+    "url": "ainvest.com",
+    "routes": [
+      "/article",
+      "/news"
+    ]
+  },
+  {
+    "name": "American Institute of Physics",
+    "url": "pubs.aip.org",
+    "routes": [
+      "/:pub/:jrn"
+    ]
+  },
+  {
+    "name": "中国国际航空公司",
+    "url": "www.airchina.com.cn",
+    "routes": [
+      "/announcement"
+    ]
+  },
+  {
+    "name": "爱思想",
+    "url": "aisixiang.com",
+    "routes": [
+      "/column/:id",
+      "/thinktank/:id/:type?",
+      "/ranking/:id?/:period?",
+      "/toplist/:id?/:period?",
+      "/zhuanti/:id"
+    ]
+  },
+  {
+    "name": "阿基米德 FM",
+    "url": "m.ajmide.com",
+    "routes": [
+      "/:id"
+    ]
+  },
+  {
+    "name": "阿里研究院",
+    "url": "aliresearch.com",
+    "routes": [
+      "/information/:type?"
+    ]
+  },
+  {
+    "name": "A List Apart",
+    "url": "alistapart.com",
+    "routes": [
+      "/",
+      "/:topic"
+    ]
+  },
+  {
+    "name": "阿里云",
+    "url": "developer.aliyun.com",
+    "routes": [
+      "/database_month",
+      "/notice/:type?",
+      "/developer/group/:type"
+    ]
+  },
+  {
+    "name": "Aljazeera 半岛电视台",
+    "url": "aljazeera.com",
+    "routes": [
+      "*"
+    ]
+  },
+  {
+    "name": "艾莱资讯",
+    "url": "rail.ally.net.cn",
+    "routes": [
+      "/rail/:category?/:topic?"
+    ]
+  },
+  {
+    "name": "AlternativeTo",
+    "url": "www.alternativeto.net",
+    "routes": [
+      "/platform/:name/:routeParams?",
+      "/software/:name/:routeParams?"
+    ]
+  },
+  {
+    "name": "Amazon",
+    "url": "amazon.com",
+    "routes": [
+      "/awsblogs/:locale?",
+      "/kindle/software-updates"
+    ]
+  },
+  {
+    "name": "Android",
+    "url": "developer.android.com",
+    "routes": [
+      "/platform-tools-releases"
+    ]
+  },
+  {
+    "name": "Annual Reviews",
+    "url": "annualreviews.org",
+    "routes": [
+      "/:id"
+    ]
+  },
+  {
+    "name": "安全客",
+    "url": "anquanke.com",
+    "routes": [
+      "/:category/:fulltext?"
+    ]
+  },
+  {
+    "name": "Apache",
+    "url": "apisix.apache.org",
+    "routes": [
+      "/apisix/blog"
+    ]
+  },
+  {
+    "name": "支流科技",
+    "url": "apiseven.com",
+    "routes": [
+      "/blog"
+    ]
+  },
+  {
+    "name": "APKPure",
+    "url": "apkpure.com",
+    "routes": [
+      "/versions/:pkg/:region?"
+    ]
+  },
+  {
+    "name": "AP News",
+    "url": "apnews.com",
+    "routes": [
+      "/topics/:topic?"
+    ]
+  },
+  {
+    "name": "App Center",
+    "url": "install.appcenter.ms",
+    "routes": [
+      "/release/:user/:app/:distribution_group"
+    ]
+  },
+  {
+    "name": "Apple",
+    "url": "apps.apple.com",
+    "routes": [
+      "/apps/update/:country/:id/:platform?",
+      "/exchange_repair/:country?"
+    ]
+  },
+  {
+    "name": "AppleInsider",
+    "url": "appleinsider.com",
+    "routes": [
+      "/:category?"
+    ]
+  },
+  {
+    "name": "App Store/Mac App Store",
+    "url": "apps.apple.com",
+    "routes": [
+      "/iap/:country/:id",
+      "/price/:country/:type/:id",
+      "/xianmian"
+    ]
+  },
+  {
+    "name": "AppsTorrent",
+    "url": "appstorrent.ru",
+    "routes": [
+      "/programs"
+    ]
+  },
+  {
+    "name": "Aqara",
+    "url": "aqara.com",
+    "routes": [
+      "/community/:id?/:keyword?",
+      "/cn/news",
+      "*",
+      "/:region/:type?"
+    ]
+  },
+  {
+    "name": "Arcteryx",
+    "url": "arcteryx.com",
+    "routes": [
+      "/new-arrivals/:country/:gender",
+      "/outlet/:country/:gender",
+      "/regear/new-arrivals"
+    ]
+  },
+  {
+    "name": "明日方舟",
+    "url": "ak.arknights.jp",
+    "routes": [
+      "/announce/:platform?/:group?",
+      "/japan",
+      "/news"
+    ]
+  },
+  {
+    "name": "ArtStation",
+    "url": "www.artstation.com",
+    "routes": [
+      "/:handle"
+    ]
+  },
+  {
+    "name": "Asian to lick",
+    "url": "asiantolick.com",
+    "routes": [
+      "/:category{.+}?"
+    ]
+  },
+  {
+    "name": "ASUS",
+    "url": "asus.com.cn",
+    "routes": [
+      "/bios/:model",
+      "/gpu-tweak"
+    ]
+  },
+  {
+    "name": "AtCoder",
+    "url": "atcoder.jp",
+    "routes": [
+      "/contest/:language?/:rated?/:category?/:keyword?",
+      "/post/:language?/:keyword?"
+    ]
+  },
+  {
+    "name": "中国汽车工业协会统计信息网",
+    "url": "auto-stats.org.cn",
+    "routes": [
+      "/:category?"
+    ]
+  },
+  {
+    "name": "北京智源人工智能研究院",
+    "url": "hub.baai.ac.cn",
+    "routes": [
+      "/hub/comments",
+      "/hub/events",
+      "/hub/:tagId/:sort?/:range?",
+      "/hub/:tagId/:sort?",
+      "/hub/:sort?"
+    ]
+  },
+  {
+    "name": "Backlinko",
+    "url": "backlinko.com",
+    "routes": [
+      "/blog"
+    ]
+  },
+  {
+    "name": "Bad.news",
+    "url": "bad.news",
+    "routes": [
+      "*"
+    ]
+  },
+  {
+    "name": "百度",
+    "url": "www.baidu.com",
+    "routes": [
+      "/search/:keyword",
+      "/top/:board?",
+      "/gushitong/index",
+      "/tieba/forum/good/:kw/:cid?/:sortBy?",
+      "/tieba/forum/:kw/:sortBy?",
+      "/tieba/post/:id",
+      "/tieba/post/lz/:id",
+      "/tieba/search/:qw/:routeParams?",
+      "/tieba/user/:uid"
+    ]
+  },
+  {
+    "name": "Bandcamp",
+    "url": "bandcamp.com",
+    "routes": [
+      "/live",
+      "/tag/:tag?",
+      "/weekly"
+    ]
+  },
+  {
+    "name": "アニメ新番組",
+    "url": "bangumi.moe",
+    "routes": [
+      "/moe/*",
+      "/online",
+      "/tv/calendar/today",
+      "/tv/topic/:id",
+      "/tv/group/:id",
+      "/tv/followrank",
+      "/tv/person/:id",
+      "/tv/subject/:id/:type?/:showOriginalName?",
+      "/tv/user/blog/:id",
+      "/tv/user/wish/:id"
+    ]
+  },
+  {
+    "name": "包子漫画",
+    "url": "www.baozimh.com",
+    "routes": [
+      "/comic/:name"
+    ]
+  },
+  {
+    "name": "巴伦周刊中文版",
+    "url": "barronschina.com.cn",
+    "routes": [
+      "/:id?"
+    ]
+  },
+  {
+    "name": "北京市科学技术协会",
+    "url": "bast.net.cn",
+    "routes": [
+      "*"
+    ]
+  },
+  {
+    "name": "BBC",
+    "url": "bbc.com",
+    "routes": [
+      "/:site?/:channel?"
+    ]
+  },
+  {
+    "name": "BBC News Labs",
+    "url": "bbcnewslabs.co.uk",
+    "routes": [
+      "/news"
+    ]
+  },
+  {
+    "name": "哔嘀影视",
+    "url": "52bdys.com",
+    "routes": [
+      "/:caty?/:type?/:area?/:year?/:order?"
+    ]
+  },
+  {
+    "name": "Behance",
+    "url": "www.behance.net",
+    "routes": [
+      "/:user/:type?"
+    ]
+  },
+  {
+    "name": "Bellroy",
+    "url": "bellroy.com",
+    "routes": [
+      "/new-releases"
+    ]
+  },
+  {
+    "name": "本地宝",
+    "url": "bendibao.com",
+    "routes": [
+      "/news/:city"
+    ]
+  },
+  {
+    "name": "番组放送",
+    "url": "bgmlist.com",
+    "routes": [
+      "/onair/:lang?"
+    ]
+  },
+  {
+    "name": "BigQuant",
+    "url": "bigquant.com",
+    "routes": [
+      "/collections"
+    ]
+  },
+  {
+    "name": "Bilibili",
+    "url": "www.bilibili.com",
+    "routes": [
+      "/app/:id?",
+      "/user/article/:uid",
+      "/audio/:id",
+      "/bangumi/media/:mediaid",
+      "/user/coin/:uid/:disableEmbed?",
+      "/video/danmaku/:bvid/:pid?",
+      "/user/dynamic/:uid/:routeParams?",
+      "/fav/:uid/:fid/:disableEmbed?",
+      "/user/followers/:uid/:loginUid",
+      "/followings/article/:uid",
+      "/followings/dynamic/:uid/:routeParams?",
+      "/followings/video/:uid/:disableEmbed?",
+      "/user/followings/:uid/:loginUid",
+      "/hot-search",
+      "/user/like/:uid/:disableEmbed?",
+      "/link/news/:product",
+      "/live/area/:areaID/:order",
+      "/live/room/:roomID",
+      "/live/search/:key/:order",
+      "/mall/ip/:id",
+      "/mall/new/:category?",
+      "/manga/followings/:uid/:limits?",
+      "/manga/update/:comicid",
+      "/video/page/:bvid/:disableEmbed?",
+      "/partion/ranking/:tid/:days?/:disableEmbed?",
+      "/partion/:tid/:disableEmbed?",
+      "/platform/:area?/:p_type?/:uid?",
+      "/popular/all",
+      "/ranking/:rid?/:day?/:arc_type?/:disableEmbed?",
+      "/readlist/:listid",
+      "/video/reply/:bvid",
+      "/user/bangumi/:uid/:type?",
+      "/user/channel/:uid/:sid/:disableEmbed?",
+      "/user/collection/:uid/:sid/:disableEmbed?/:sortReverse?/:page?",
+      "/user/fav/:uid/:disableEmbed?",
+      "/user/video-all/:uid/:disableEmbed?",
+      "/user/video/:uid/:disableEmbed?",
+      "/vsearch/:kw/:order?/:disableEmbed?/:tid?",
+      "/watchlater/:uid/:disableEmbed?",
+      "/weekly/:disableEmbed?"
+    ]
+  },
+  {
+    "name": "Bing",
+    "url": "cn.bing.com",
+    "routes": [
+      "/",
+      "/search/:keyword"
+    ]
+  },
+  {
+    "name": "biodiscover.com 生物探索",
+    "url": "www.biodiscover.com",
+    "routes": [
+      "/:channel?"
+    ]
+  },
+  {
+    "name": "BioOne",
+    "url": "bioone.org",
+    "routes": [
+      "/featured",
+      "/journals/:journal?"
+    ]
+  },
+  {
+    "name": "笔趣阁",
+    "url": "xbiquwx.la",
+    "routes": [
+      "*"
+    ]
+  },
+  {
+    "name": "北京理工大学",
+    "url": "cs.bit.edu.cn",
+    "routes": [
+      "/rszhaopin",
+      "/yjs",
+      "/cs",
+      "/jwc"
+    ]
+  },
+  {
+    "name": "Bitbucket",
+    "url": "bitbucket.com",
+    "routes": [
+      "/commits/:workspace/:repo_slug",
+      "/tags/:workspace/:repo_slug"
+    ]
+  },
+  {
+    "name": "Bitmovin",
+    "url": "bitmovin.com",
+    "routes": [
+      "/blog"
+    ]
+  },
+  {
+    "name": "北京林业大学",
+    "url": "graduate.bjfu.edu.cn",
+    "routes": [
+      "/grs",
+      "/kjc",
+      "/it/:type",
+      "/jwc/:type",
+      "/news/:type"
+    ]
+  },
+  {
+    "name": "北京天文馆",
+    "url": "bjp.org.cn",
+    "routes": [
+      "/apod"
+    ]
+  },
+  {
+    "name": "北京社科网",
+    "url": "bjsk.org.cn",
+    "routes": [
+      "/:path?",
+      "/keti/:id?"
+    ]
+  },
+  {
+    "name": "北京无线电协会",
+    "url": "www.bjwxdxh.org.cn",
+    "routes": [
+      "/:type?"
+    ]
+  },
+  {
+    "name": "北极星电力网",
+    "url": "guangfu.bjx.com.cn",
+    "routes": [
+      "/huanbao",
+      "/gf/:type"
+    ]
+  },
+  {
+    "name": "Blizzard",
+    "url": "news.blizzard.com",
+    "routes": [
+      "/news/:language?/:category?"
+    ]
+  },
+  {
+    "name": "技术头条",
+    "url": "blogread.cn",
+    "routes": [
+      "/newest"
+    ]
+  },
+  {
+    "name": "Bloomberg",
+    "url": "www.bloomberg.com",
+    "routes": [
+      "/authors/:id/:slug/:source?",
+      "/:site",
+      "/"
+    ]
+  },
+  {
+    "name": "BlueStacks",
+    "url": "bluestacks.com",
+    "routes": [
+      "/release/5"
+    ]
+  },
+  {
+    "name": "BADAN METEOROLOGI, KLIMATOLOGI, DAN GEOFISIKA(Indonesian)",
+    "url": "bmkg.go.id",
+    "routes": [
+      "/earthquake",
+      "/news"
+    ]
+  },
+  {
+    "name": "北京师范大学",
+    "url": "bs.bnu.edu.cn",
+    "routes": [
+      "/bs/:category?",
+      "/dwxgb/:category/:type",
+      "/fdy/:path{.+}?",
+      "/jwb",
+      "/lib/:category?"
+    ]
+  },
+  {
+    "name": "中国银行",
+    "url": "boc.cn",
+    "routes": [
+      "/whpj/:format?"
+    ]
+  },
+  {
+    "name": "书伴",
+    "url": "bookfere.com",
+    "routes": [
+      "/:category"
+    ]
+  },
+  {
+    "name": "Booru",
+    "url": "mmda.booru.org",
+    "routes": [
+      "/mmda/tags/:tags?"
+    ]
+  },
+  {
+    "name": "Boss 设计",
+    "url": "bossdesign.cn",
+    "routes": [
+      "/:category?"
+    ]
+  },
+  {
+    "name": "Brave",
+    "url": "brave.com",
+    "routes": [
+      "/latest"
+    ]
+  },
+  {
+    "name": "Brooklyn Museum 纽约布鲁克林博物馆",
+    "url": "www.brooklynmuseum.org",
+    "routes": [
+      "/exhibitions/:state?"
+    ]
+  },
+  {
+    "name": "北京证券交易所",
+    "url": "bse.cn",
+    "routes": [
+      "/:category?/:keyword?"
+    ]
+  },
+  {
+    "name": "Bluesky (bsky)",
+    "url": "bsky.app",
+    "routes": [
+      "/keyword/:keyword",
+      "/profile/:handle"
+    ]
+  },
+  {
+    "name": "BT 之家",
+    "url": "btbtt20.com",
+    "routes": [
+      "/:category?"
+    ]
+  },
+  {
+    "name": "北京航空航天大学",
+    "url": "news.buaa.edu.cn",
+    "routes": [
+      "/sme/:path{.+}?",
+      "/news/:type"
+    ]
+  },
+  {
+    "name": "不良林",
+    "url": "bulianglin.com",
+    "routes": [
+      "/"
+    ]
+  },
+  {
+    "name": "北京邮电大学",
+    "url": "bupt.edu.cn",
+    "routes": [
+      "/rczp"
+    ]
+  },
+  {
+    "name": "字节点击",
+    "url": "byteclicks.com",
+    "routes": [
+      "/",
+      "/tag/:tag"
+    ]
+  },
+  {
+    "name": "ui.dev",
+    "url": "bytes.dev",
+    "routes": [
+      "/"
+    ]
+  },
+  {
+    "name": "C114 通信网",
+    "url": "c114.com.cn",
+    "routes": [
+      "/roll"
+    ]
+  },
+  {
+    "name": "中国人工智能学会",
+    "url": "caai.cn",
+    "routes": [
+      "/:caty"
+    ]
+  },
+  {
+    "name": "中国汽车工业协会",
+    "url": "caam.org.cn",
+    "routes": [
+      "/:category?"
+    ]
+  },
+  {
+    "name": "caa.reviews",
+    "url": "caareviews.org",
+    "routes": [
+      "/book",
+      "/essay",
+      "/exhibition"
+    ]
+  },
+  {
+    "name": "全国港澳研究会",
+    "url": "cahkms.org",
+    "routes": [
+      "/:category?"
+    ]
+  },
+  {
+    "name": "财经网",
+    "url": "roll.caijing.com.cn",
+    "routes": [
+      "/roll"
+    ]
+  },
+  {
+    "name": "财新博客",
+    "url": "caixin.com",
+    "routes": [
+      "/article",
+      "/blog/:column?",
+      "/:column/:category",
+      "/database",
+      "/k",
+      "/latest",
+      "/weekly"
+    ]
+  },
+  {
+    "name": "Caixin Global",
+    "url": "caixinglobal.com",
+    "routes": [
+      "/latest"
+    ]
+  },
+  {
+    "name": "中国管理现代化研究会",
+    "url": "cste.org.cn",
+    "routes": [
+      "/:id?"
+    ]
+  },
+  {
+    "name": "参考消息",
+    "url": "cankaoxiaoxi.com",
+    "routes": [
+      "/column/:id?",
+      "/:id?"
+    ]
+  },
+  {
+    "name": "動漫狂",
+    "url": "cartoonmad.com",
+    "routes": [
+      "/comic/:id"
+    ]
+  },
+  {
+    "name": "中国科学院",
+    "url": "www.cas.cn",
+    "routes": [
+      "/cg/:caty?",
+      "/genetics/:path{.+}",
+      "/ia/yjs",
+      "/iee/kydt",
+      "/is/:path{.+}",
+      "/mesalab/kb",
+      "/sim/kyjz"
+    ]
+  },
+  {
+    "name": "中国科学学与科技政策研究会",
+    "url": "casssp.org.cn",
+    "routes": [
+      "/news/:category?"
+    ]
+  },
+  {
+    "name": "中国科学技术协会",
+    "url": "cast.org.cn",
+    "routes": [
+      "/:column/:subColumn/:category?"
+    ]
+  },
+  {
+    "name": "中国农业大学",
+    "url": "ciee.cau.edu.cn",
+    "routes": [
+      "/ele",
+      "/yjs"
+    ]
+  },
+  {
+    "name": "加美财经",
+    "url": "caus.com",
+    "routes": [
+      "/:category?"
+    ]
+  },
+  {
+    "name": "纪妖",
+    "url": "cbaigui.com",
+    "routes": [
+      "*"
+    ]
+  },
+  {
+    "name": "Canadian Broadcasting Corporation",
+    "url": "cbc.ca",
+    "routes": [
+      "/topics/:topic?"
+    ]
+  },
+  {
+    "name": "中国银行保险监督管理委员会",
+    "url": "cbirc.gov.cn",
+    "routes": [
+      "/:category?"
+    ]
+  },
+  {
+    "name": "第一财经杂志",
+    "url": "cbnweek.com",
+    "routes": [
+      "/"
+    ]
+  },
+  {
+    "name": "Macau Independent Commission Against Corruption 澳门廉政公署",
+    "url": "ccac.org.mo",
+    "routes": [
+      "/news/:type/:lang?"
+    ]
+  },
+  {
+    "name": "中国计算机学会",
+    "url": "ccf.org.cn",
+    "routes": [
+      "/news/:category?",
+      "/ccfcv/:channel/:category",
+      "/tfbd/:caty/:id"
+    ]
+  },
+  {
+    "name": "华中师范大学",
+    "url": "ccnu.91wllm.com",
+    "routes": [
+      "/career",
+      "/cs",
+      "/wu",
+      "/yjs"
+    ]
+  },
+  {
+    "name": "消费者报道",
+    "url": "www.ccreports.com.cn",
+    "routes": [
+      "/article"
+    ]
+  },
+  {
+    "name": "央视新闻",
+    "url": "news.cctv.com",
+    "routes": [
+      "/:category",
+      "/photo/jx",
+      "/lm/:id?",
+      "/xwlb"
+    ]
+  },
+  {
+    "name": "国家药品审评网站",
+    "url": "www.cde.org.cn",
+    "routes": [
+      "/:channel/:category",
+      "/xxgk/:category",
+      "/zdyz/:category"
+    ]
+  },
+  {
+    "name": "国家高端智库 / 综合开发研究院",
+    "url": "cdi.com.cn",
+    "routes": [
+      "/:id?"
+    ]
+  },
+  {
+    "name": "成都住建蓉 e 办",
+    "url": "zw.cdzjryb.com",
+    "routes": [
+      "/zw/projectList"
+    ]
+  },
+  {
+    "name": "中国光大银行",
+    "url": "cebbank.com",
+    "routes": [
+      "/quotation/all",
+      "/quotation/history/:type"
+    ]
+  },
+  {
+    "name": "中国期货业协会",
+    "url": "cfachina.org",
+    "routes": [
+      "/servicesupport/analygarden/:program?"
+    ]
+  },
+  {
+    "name": "中国期货市场监控中心",
+    "url": "cfmmc.com",
+    "routes": [
+      "/:id{.+}?"
+    ]
+  },
+  {
+    "name": "中国环球电视网",
+    "url": "cgtn.com",
+    "routes": [
+      "/podcast/:category/:id"
+    ]
+  },
+  {
+    "name": "链捕手 ChainCatcher",
+    "url": "chaincatcher.com",
+    "routes": [
+      "/",
+      "/news"
+    ]
+  },
+  {
+    "name": "唱吧",
+    "url": "changba.com",
+    "routes": [
+      "/:userid"
+    ]
+  },
+  {
+    "name": "超星",
+    "url": "chaoxing.com",
+    "routes": [
+      "/qk/:id/:needContent?"
+    ]
+  },
+  {
+    "name": "差评",
+    "url": "chaping.cn",
+    "routes": [
+      "/banner",
+      "/news/:caty?",
+      "/newsflash"
+    ]
+  },
+  {
+    "name": "通識・現代中國",
+    "url": "chiculture.org.hk",
+    "routes": [
+      "/topic/:category?"
+    ]
+  },
+  {
+    "name": "China.com 中华网",
+    "url": "finance.china.com",
+    "routes": [
+      "/finance/:category?",
+      "/news/:category?",
+      "/news/military"
+    ]
+  },
+  {
+    "name": "中华人民共和国学位证书查询",
+    "url": "chinadegrees.com.cn",
+    "routes": [
+      "/:province?"
+    ]
+  },
+  {
+    "name": "有据",
+    "url": "chinafactcheck.com",
+    "routes": [
+      "/"
+    ]
+  },
+  {
+    "name": "中国钢铁工业协会",
+    "url": "chinaisa.org.cn",
+    "routes": [
+      "/:id?"
+    ]
+  },
+  {
+    "name": "中国货币网",
+    "url": "chinamoney.com.cn",
+    "routes": [
+      "/:channelId?"
+    ]
+  },
+  {
+    "name": "中国新闻网",
+    "url": "chinanews.com.cn",
+    "routes": [
+      "/"
+    ]
+  },
+  {
+    "name": "中国智库网",
+    "url": "www.chinathinktanks.org.cn",
+    "routes": [
+      "/:id"
+    ]
+  },
+  {
+    "name": "投中网",
+    "url": "chinaventure.com.cn",
+    "routes": [
+      "/news/:id?"
+    ]
+  },
+  {
+    "name": "中国作家网",
+    "url": "chinawriter.com.cn",
+    "routes": [
+      "/:id{.+}?"
+    ]
+  },
+  {
+    "name": "中国研究生招生信息网",
+    "url": "yz.chsi.com.cn",
+    "routes": [
+      "/hotnews",
+      "/kydt",
+      "/kyzx/:type"
+    ]
+  },
+  {
+    "name": "川流",
+    "url": "chuanliu.org",
+    "routes": [
+      "/nice"
+    ]
+  },
+  {
+    "name": "中国兴业银行",
+    "url": "cib.com.cn",
+    "routes": [
+      "/whpj/:format?"
+    ]
+  },
+  {
+    "name": "中国收入分配研究院",
+    "url": "ciidbnu.org",
+    "routes": [
+      "/:id?"
+    ]
+  },
+  {
+    "name": "Civitai",
+    "url": "civitai.com",
+    "routes": [
+      "/discussions/:modelId",
+      "/models"
+    ]
+  },
+  {
+    "name": "刺猬猫",
+    "url": "wap.ciweimao.com",
+    "routes": [
+      "/chapter/:id"
+    ]
+  },
+  {
+    "name": "ClickMe",
+    "url": "clickme.net",
+    "routes": [
+      "/:site/:grouping/:name"
+    ]
+  },
+  {
+    "name": "云原生社区",
+    "url": "cloudnative.to",
+    "routes": [
+      "/blog"
+    ]
+  },
+  {
+    "name": "财联社",
+    "url": "cls.cn",
+    "routes": [
+      "/depth/:category?",
+      "/hot",
+      "/telegraph/:category?"
+    ]
+  },
+  {
+    "name": "中国气象局",
+    "url": "weather.cma.cn",
+    "routes": [
+      "/channel/:id?"
+    ]
+  },
+  {
+    "name": "国家药品监督管理局医疗器械技术审评中心",
+    "url": "www.cmde.org.cn",
+    "routes": [
+      "/:cate{.+}?"
+    ]
+  },
+  {
+    "name": "cmpxchg8b",
+    "url": "lock.cmpxchg8b.com",
+    "routes": [
+      "/articles"
+    ]
+  },
+  {
+    "name": "健康界",
+    "url": "cn-healthcare.com",
+    "routes": [
+      "/index"
+    ]
+  },
+  {
+    "name": "中央通讯社",
+    "url": "cna.com.tw",
+    "routes": [
+      "/:id?",
+      "/web/:id?"
+    ]
+  },
+  {
+    "name": "CNBC",
+    "url": "search.cnbc.com",
+    "routes": [
+      "/rss/:id?"
+    ]
+  },
+  {
+    "name": "cnBeta.COM",
+    "url": "cnbeta.com.tw",
+    "routes": [
+      "/:type/:id",
+      "/"
+    ]
+  },
+  {
+    "name": "博客园",
+    "url": "www.cnblogs.com",
+    "routes": [
+      "/aggsite/topdiggs",
+      "/aggsite/topviews",
+      "/aggsite/headline",
+      "/cate/:type",
+      "/pick"
+    ]
+  },
+  {
+    "name": "CNCF",
+    "url": "cncf.io",
+    "routes": [
+      "/:cate?",
+      "/reports"
+    ]
+  },
+  {
+    "name": "中国国家应急广播",
+    "url": "cneb.gov.cn",
+    "routes": [
+      "/yjxw/:category?",
+      "/yjxx/*"
+    ]
+  },
+  {
+    "name": "CnGal",
+    "url": "www.cngal.org",
+    "routes": [
+      "/entry/:id",
+      "/weekly"
+    ]
+  },
+  {
+    "name": "南湖清风",
+    "url": "cnjxol.com",
+    "routes": [
+      "/:category?/:id?"
+    ]
+  },
+  {
+    "name": "中国知网",
+    "url": "navi.cnki.net",
+    "routes": [
+      "/author/:code",
+      "/journals/debut/:name",
+      "/journals/:name"
+    ]
+  },
+  {
+    "name": "中国炼焦行业协会",
+    "url": "cnljxh.com",
+    "routes": [
+      "/:category?/:id?"
+    ]
+  },
+  {
+    "name": "理论网",
+    "url": "paper.cntheory.com",
+    "routes": [
+      "/paper/:id?"
+    ]
+  },
+  {
+    "name": "CNTV",
+    "url": "navi.cctv.com",
+    "routes": [
+      "/:column"
+    ]
+  },
+  {
+    "name": "Codeforces",
+    "url": "codeforces.com",
+    "routes": [
+      "/contests",
+      "/recent-actions/:minrating?"
+    ]
+  },
+  {
+    "name": "CoinDesk Consensus Magazine",
+    "url": "coindesk.com",
+    "routes": [
+      "/consensus-magazine"
+    ]
+  },
+  {
+    "name": "Comicat",
+    "url": "comicat.org",
+    "routes": [
+      "/search/:keyword"
+    ]
+  },
+  {
+    "name": "Comics Kingdom",
+    "url": "comicskingdom.com",
+    "routes": [
+      "/:name"
+    ]
+  },
+  {
+    "name": "消费者委员会",
+    "url": "consumer.org.hk",
+    "routes": [
+      "/:category?/:language?/:keyword?",
+      "/shopping-guide/:category?/:language?"
+    ]
+  },
+  {
+    "name": "禁忌书屋",
+    "url": "cool18.com",
+    "routes": [
+      "/:id?/:type?/:keyword?"
+    ]
+  },
+  {
+    "name": "酷安",
+    "url": "coolapk.com",
+    "routes": [
+      "/dyh/:dyhId",
+      "/hot/:type?/:period?",
+      "/huati/:tag",
+      "/toutiao/:type?",
+      "/tuwen/:type?",
+      "/tuwen-xinxian",
+      "/user/:uid/dynamic"
+    ]
+  },
+  {
+    "name": "Coomer",
+    "url": "coomer.party",
+    "routes": [
+      "/artist/:id",
+      "/posts"
+    ]
+  },
+  {
+    "name": "拷贝漫画",
+    "url": "copymanga.com",
+    "routes": [
+      "/comic/:id/:chapterCnt?"
+    ]
+  },
+  {
+    "name": "台湾行政院消费者保护会",
+    "url": "cpc.ey.gov.tw",
+    "routes": [
+      "/:type?"
+    ]
+  },
+  {
+    "name": "CPUID",
+    "url": "cpuid.com",
+    "routes": [
+      "/news"
+    ]
+  },
+  {
+    "name": "重庆燃气",
+    "url": "cqgas.cn",
+    "routes": [
+      "/tqtz"
+    ]
+  },
+  {
+    "name": "重庆文理学院",
+    "url": "www.cqwu.net",
+    "routes": [
+      "/news/:type?"
+    ]
+  },
+  {
+    "name": "中国无线电协会业余无线电分会",
+    "url": "www.crac.org.cn",
+    "routes": [
+      "/:type?"
+    ]
+  },
+  {
+    "name": "CCC 創作集",
+    "url": "creative-comic.tw",
+    "routes": [
+      "/book/:id/:coverOnly?/:quality?"
+    ]
+  },
+  {
+    "name": "Crossbell",
+    "url": "crossbell.io",
+    "routes": [
+      "/feeds/following/:characterId",
+      "/notes/character/:characterId",
+      "/notes",
+      "/notes/source/:source"
+    ]
+  },
+  {
+    "name": "中证网",
+    "url": "cs.com.cn",
+    "routes": [
+      "/:category{.+}?",
+      "/video/:category?",
+      "/news/zzkx",
+      "/zzkx"
+    ]
+  },
+  {
+    "name": "CSDN",
+    "url": "blog.csdn.net",
+    "routes": [
+      "/blog/:user"
+    ]
+  },
+  {
+    "name": "Chinese Social Science Net",
+    "url": "iolaw.cssn.cn",
+    "routes": [
+      "/iolaw/:section?"
+    ]
+  },
+  {
+    "name": "中国技术经济学会",
+    "url": "cste.org.cn",
+    "routes": [
+      "/:id?"
+    ]
+  },
+  {
+    "name": "中南大学",
+    "url": "career.csu.edu.cn",
+    "routes": [
+      "/career",
+      "/cse/:type?",
+      "/mail/:type?"
+    ]
+  },
+  {
+    "name": "華視",
+    "url": "news.cts.com.tw",
+    "routes": [
+      "/:category"
+    ]
+  },
+  {
+    "name": "中国传媒大学",
+    "url": "yz.cuc.edu.cn",
+    "routes": [
+      "/yz"
+    ]
+  },
+  {
+    "name": "CuriousCat",
+    "url": "curiouscat.live",
+    "routes": [
+      "/user/:id"
+    ]
+  },
+  {
+    "name": "Curius",
+    "url": "curius.app",
+    "routes": [
+      "/links/:name"
+    ]
+  },
+  {
+    "name": "天下雜誌",
+    "url": "cw.com.tw",
+    "routes": [
+      "/author/:channel",
+      "/master/:channel",
+      "/sub/:channel",
+      "/today"
+    ]
+  },
+  {
+    "name": "创业邦",
+    "url": "cyzone.cn",
+    "routes": [
+      "/author/:id",
+      "/channel/:id?",
+      "/:id?",
+      "/label/:name"
+    ]
+  },
+  {
+    "name": "新蓝网（浙江广播电视集团）",
+    "url": "cztv.com",
+    "routes": [
+      "/zjxwlb/daily",
+      "/zjxwlb"
+    ]
+  },
+  {
+    "name": "大河财立方",
+    "url": "dahecube.com",
+    "routes": [
+      "/:type?"
+    ]
+  },
+  {
+    "name": "Daily.dev",
+    "url": "daily.dev",
+    "routes": [
+      "/discussed",
+      "/",
+      "/upvoted"
+    ]
+  },
+  {
+    "name": "大麦网",
+    "url": "search.damai.cn",
+    "routes": [
+      "/activity/:city/:category/:subcategory/:keyword?"
+    ]
+  },
+  {
+    "name": "喷嚏",
+    "url": "dapenti.com",
+    "routes": [
+      "/subject/:id",
+      "/tugua"
+    ]
+  },
+  {
+    "name": "Darwin Awards",
+    "url": "darwinawards.com",
+    "routes": [
+      "/all",
+      "/"
+    ]
+  },
+  {
+    "name": "大眼仔旭",
+    "url": "dayanzai.me",
+    "routes": [
+      "/:category/:fulltext?"
+    ]
+  },
+  {
+    "name": "dbaplus社群",
+    "url": "dbaplus.cn",
+    "routes": [
+      "/"
+    ]
+  },
+  {
+    "name": "DBLP",
+    "url": "dblp.org",
+    "routes": [
+      "/:field"
+    ]
+  },
+  {
+    "name": "Dcard",
+    "url": "www.dcard.tw",
+    "routes": [
+      "/:section/:type?"
+    ]
+  },
+  {
+    "name": "DCFever",
+    "url": "dcfever.com",
+    "routes": [
+      "/news/:type?",
+      "/reviews/:type?",
+      "/trading/search/:keyword/:mainCat?",
+      "/trading/:id"
+    ]
+  },
+  {
+    "name": "雨苁博客",
+    "url": "ddosi.org",
+    "routes": [
+      "/category/:category?",
+      "/"
+    ]
+  },
+  {
+    "name": "Deadline",
+    "url": "deadline.com",
+    "routes": [
+      "/"
+    ]
+  },
+  {
+    "name": "得到",
+    "url": "dedao.cn",
+    "routes": [
+      "/:category?",
+      "/knowledge/:topic?/:type?",
+      "/list/:category?",
+      "/user/:id/:type?"
+    ]
+  },
+  {
+    "name": "deeplearning.ai",
+    "url": "www.deeplearning.ai",
+    "routes": [
+      "/thebatch"
+    ]
+  },
+  {
+    "name": "DeepMind",
+    "url": "deepmind.com",
+    "routes": [
+      "/blog"
+    ]
+  },
+  {
+    "routes": []
+  },
+  {
+    "name": "Delta Lake",
+    "url": "delta.io",
+    "routes": [
+      "/blog"
+    ]
+  },
+  {
+    "name": "DevolverDigital",
+    "url": "devolverdigital.com",
+    "routes": [
+      "/blog"
+    ]
+  },
+  {
+    "name": "东莞教研网",
+    "url": "dgjyw.com",
+    "routes": [
+      "*"
+    ]
+  },
+  {
+    "name": "东华大学",
+    "url": "gs.dhu.edu.cn",
+    "routes": [
+      "/jiaowu/news/:type?",
+      "/news/xsxx",
+      "/xxgk/news",
+      "/yjs/news/:type?",
+      "/yjs/zs/:type?"
+    ]
+  },
+  {
+    "name": "电动邦",
+    "url": "diandong.com",
+    "routes": [
+      "/news/:cate?"
+    ]
+  },
+  {
+    "name": "二柄 APP",
+    "url": "diershoubing.com",
+    "routes": [
+      "/news"
+    ]
+  },
+  {
+    "name": "Discord",
+    "url": "discord.com",
+    "routes": [
+      "/channel/:channelId"
+    ]
+  },
+  {
+    "name": "Discourse",
+    "routes": [
+      "/:configId/notifications/:fulltext?",
+      "/:configId/posts"
+    ]
+  },
+  {
+    "name": "Discuz",
+    "routes": [
+      "/:ver{[7x]}/:cid{[0-9]{2}}/:link{.+}",
+      "/:ver{[7x]}/:link{.+}",
+      "/:link{.+}"
+    ]
+  },
+  {
+    "name": "EU Disinfo Lab",
+    "url": "disinfo.eu",
+    "routes": [
+      "/publications"
+    ]
+  },
+  {
+    "name": "WizTree",
+    "url": "diskanalyzer.com",
+    "routes": [
+      "/whats-new"
+    ]
+  },
+  {
+    "name": "Distill",
+    "url": "distill.pub",
+    "routes": [
+      "/"
+    ]
+  },
+  {
+    "name": "DL NEWS",
+    "url": "dlnews.com",
+    "routes": [
+      "/:category?"
+    ]
+  },
+  {
+    "name": "DLsite",
+    "url": "dlsite.com",
+    "routes": [
+      "/campaign/:type/:free?",
+      "*",
+      "/new/:type",
+      "/ci-en/:id/article"
+    ]
+  },
+  {
+    "name": "动漫之家",
+    "url": "news.dmzj.com",
+    "routes": [
+      "/news/:category?"
+    ]
+  },
+  {
+    "name": "DN.com",
+    "url": "dn.com",
+    "routes": [
+      "/:language/news/:category?"
+    ]
+  },
+  {
+    "name": "DNA India",
+    "url": "dnaindia.com",
+    "routes": [
+      "/:category",
+      "/topic/:topic"
+    ]
+  },
+  {
+    "name": "Docker Hub",
+    "url": "hub.docker.com",
+    "routes": [
+      "/build/:owner/:image/:tag?",
+      "/tag/:owner/:image/:limits?"
+    ]
+  },
+  {
+    "name": "印记中文",
+    "url": "docschina.org",
+    "routes": [
+      "/weekly/:category?"
+    ]
+  },
+  {
+    "name": "Thailand Department of Lands",
+    "url": "announce.dol.go.th",
+    "routes": [
+      "/announce/:owner?/:province?/:office?"
+    ]
+  },
+  {
+    "name": "DoMP4 影视",
+    "url": "domp4.cc",
+    "routes": [
+      "/detail/:id",
+      "/latest/:type?"
+    ]
+  },
+  {
+    "name": "懂球帝",
+    "url": "m.dongqiudi.com",
+    "routes": [
+      "/daily",
+      "/player_news/:id",
+      "/result/:team",
+      "/special/:id",
+      "/team_news/:team",
+      "/top_news/:id?"
+    ]
+  },
+  {
+    "name": "Dorohedoro",
+    "url": "dorohedoro.net",
+    "routes": [
+      "/news"
+    ]
+  },
+  {
+    "name": "豆瓣",
+    "url": "www.douban.com",
+    "routes": [
+      "/book/latest/:type?",
+      "/book/rank/:type?",
+      "/channel/:id/subject/:nav",
+      "/channel/:id/:nav?",
+      "/commercialpress/latest",
+      "/event/hot/:locationId",
+      "/bookstore",
+      "/celebrity/:id/:sort?",
+      "/movie/classification/:sort?/:score?/:tags?",
+      "/:id/discussion",
+      "/doulist/:id",
+      "/explore/column/:id",
+      "/explore",
+      "/group/:groupid/:type?",
+      "/jobs/:type",
+      "/movie/later",
+      "/music/latest/:area?",
+      "/list/:type?/:routeParams?",
+      "/movie/playing",
+      "/movie/playing/:score",
+      "/recommended/:type?/:routeParams?",
+      "/replied/:uid",
+      "/replies/:uid",
+      "/topic/:id/:sort?",
+      "/movie/ustop",
+      "/movie/weekly/:type?",
+      "/people/:userid/status/:routeParams?",
+      "/people/:userid/wish/:routeParams?"
+    ]
+  },
+  {
+    "name": "抖音直播",
+    "url": "douyin.com",
+    "routes": [
+      "/hashtag/:cid/:routeParams?",
+      "/live/:rid",
+      "/user/:uid/:routeParams?"
+    ]
+  },
+  {
+    "name": "斗鱼直播",
+    "url": "www.douyu.com",
+    "routes": [
+      "/group/:id/:sort?",
+      "/post/:id",
+      "/room/:id"
+    ]
+  },
+  {
+    "name": "Dribbble",
+    "url": "dribbble.com",
+    "routes": [
+      "/keyword/:keyword",
+      "/popular/:timeframe?",
+      "/user/:name"
+    ]
+  },
+  {
+    "name": "DT 财经",
+    "url": "dtcj.com",
+    "routes": [
+      "/datahero/:category?",
+      "/datainsight/:id?"
+    ]
+  },
+  {
+    "name": "多抓鱼",
+    "url": "duozhuayu.com",
+    "routes": [
+      "/search/:wd"
+    ]
+  },
+  {
+    "name": "樊登读书",
+    "url": "card.dushu.io",
+    "routes": [
+      "/fuzhou"
+    ]
+  },
+  {
+    "name": "大连理工大学",
+    "url": "dutdice.dlut.edu.cn",
+    "routes": [
+      "/*/*",
+      "/:0?"
+    ]
+  },
+  {
+    "name": "东西智库",
+    "url": "dx2025.com",
+    "routes": [
+      "/:type?/:category?"
+    ]
+  },
+  {
+    "name": "丁香园",
+    "url": "dxy.cn",
+    "routes": [
+      "/bbs/special/:specialId",
+      "/bbs/profile/thread/:userId"
+    ]
+  },
+  {
+    "name": "E-Hentai",
+    "url": "e-hentai.org",
+    "routes": [
+      "/:what?/:id?/:needTorrents?/:needImages?"
+    ]
+  },
+  {
+    "name": "Eagle",
+    "url": "cn.eagle.cool",
+    "routes": [
+      "/blog/:cate?/:language?",
+      "/changelog/:language?"
+    ]
+  },
+  {
+    "name": "地震速报",
+    "url": "www.ceic.ac.cn",
+    "routes": [
+      "/ceic/:type?",
+      "/:region?"
+    ]
+  },
+  {
+    "name": "东方网",
+    "url": "mini.eastday.com",
+    "routes": [
+      "/24/:category?",
+      "/portrait",
+      "/sh"
+    ]
+  },
+  {
+    "name": "东方财富",
+    "url": "data.eastmoney.com",
+    "routes": [
+      "/report/:category",
+      "/search/:keyword",
+      "/ttjj/user/:uid"
+    ]
+  },
+  {
+    "name": "East China Normal University 华东师范大学",
+    "url": "acm.ecnu.edu.cn",
+    "routes": [
+      "/acm/contest/:category?",
+      "/yjs"
+    ]
+  },
+  {
+    "name": "The Economist",
+    "url": "economist.com",
+    "routes": [
+      "/espresso",
+      "/:endpoint",
+      "/global-business-review/:language?"
+    ]
+  },
+  {
+    "name": "华东理工大学",
+    "url": "e.ecust.edu.cn",
+    "routes": [
+      "/jxjy/news",
+      "/yjs",
+      "/jwc/:category?"
+    ]
+  },
+  {
+    "name": "e 公司",
+    "url": "egsea.com",
+    "routes": [
+      "/flash"
+    ]
+  },
+  {
+    "name": "E-Hentai",
+    "routes": [
+      "/favorites/:favcat?/:order?/:page?/:routeParams?",
+      "/search/:params?/:page?/:routeParams?",
+      "/tag/:tag/:page?/:routeParams?"
+    ]
+  },
+  {
+    "name": "Ekantipur / कान्तिपुर (Nepal)",
+    "url": "ekantipur.com",
+    "routes": [
+      "/:channel?"
+    ]
+  },
+  {
+    "name": "Elastic 中文社区",
+    "url": "elasticsearch.cn",
+    "routes": [
+      "/:params?"
+    ]
+  },
+  {
+    "name": "电鸭社区",
+    "url": "eleduck.com",
+    "routes": [
+      "/jobs",
+      "/posts/:id?"
+    ]
+  },
+  {
+    "name": "ELSEVIER",
+    "url": "www.sciencedirect.com",
+    "routes": [
+      "/:journal/vol/:issue",
+      "/:journal/:issue",
+      "/:journal/latest",
+      "/:journal"
+    ]
+  },
+  {
+    "name": "中国驻外使领馆",
+    "url": "ca.china-embassy.org",
+    "routes": [
+      "/:country/:city?"
+    ]
+  },
+  {
+    "name": "Epic Games Store",
+    "url": "store.epicgames.com",
+    "routes": [
+      "/freegames/:locale?/:country?"
+    ]
+  },
+  {
+    "name": "ePrice",
+    "url": "eprice.com.tw",
+    "routes": [
+      "/:region?"
+    ]
+  },
+  {
+    "name": "Eventernote",
+    "url": "www.eventernote.com",
+    "routes": [
+      "/actors/:name/:id"
+    ]
+  },
+  {
+    "name": "F-Droid",
+    "url": "f-droid.org",
+    "routes": [
+      "/apprelease/:app"
+    ]
+  },
+  {
+    "name": "ファミ通",
+    "url": "famitsu.com",
+    "routes": [
+      "/category/:category?"
+    ]
+  },
+  {
+    "name": "Fansly",
+    "url": "fansly.com",
+    "routes": [
+      "/user/:username",
+      "/tag/:tag"
+    ]
+  },
+  {
+    "name": "Fantia",
+    "url": "fantia.jp",
+    "routes": [
+      "/search/:type?/:caty?/:period?/:order?/:rating?/:keyword?",
+      "/user/:id"
+    ]
+  },
+  {
+    "name": "追新番",
+    "url": "fanxinzhui.com",
+    "routes": [
+      "/"
+    ]
+  },
+  {
+    "name": "Farmatters",
+    "url": "farmatters.com",
+    "routes": [
+      "/exclusive/:locale?",
+      "/news/:locale?",
+      "/:locale?",
+      "/:type/:id/:locale?"
+    ]
+  },
+  {
+    "name": "法布财经",
+    "url": "fastbull.cn",
+    "routes": [
+      "/express-news",
+      "/news",
+      "/"
+    ]
+  },
+  {
+    "name": "U.S. Food and Drug Administration",
+    "url": "fda.gov",
+    "routes": [
+      "/cdrh/:titleOnly?"
+    ]
+  },
+  {
+    "name": "威锋",
+    "url": "feng.com",
+    "routes": [
+      "/forum/:id/:type?"
+    ]
+  },
+  {
+    "name": "FINAL FANTASY XIV 最终幻想 14",
+    "url": "eu.finalfantasyxiv.com",
+    "routes": [
+      "/global/:lang/:type?",
+      "/ff14_global/:lang/:type?",
+      "/zh/:type?",
+      "/ff14_zh/:type?"
+    ]
+  },
+  {
+    "name": "风之动漫",
+    "url": "manhua.fffdm.com",
+    "routes": [
+      "/manhua/:id/:cdn?"
+    ]
+  },
+  {
+    "name": "Finology Insider",
+    "url": "insider.finology.in",
+    "routes": [
+      "/bullets",
+      "/most-viewed/:time",
+      "/:category",
+      "/tag/:topic"
+    ]
+  },
+  {
+    "name": "finviz",
+    "url": "finviz.com",
+    "routes": [
+      "/:category?",
+      "/news/:ticker"
+    ]
+  },
+  {
+    "name": "Infuse",
+    "url": "firecore.com",
+    "routes": [
+      "/:os"
+    ]
+  },
+  {
+    "name": "Mozilla",
+    "url": "monitor.firefox.com",
+    "routes": [
+      "/addons/:id",
+      "/breaches",
+      "/release/:platform?"
+    ]
+  },
+  {
+    "name": "Fisher Spb",
+    "url": "fisher.spb.ru",
+    "routes": [
+      "/news"
+    ]
+  },
+  {
+    "name": "fish shell",
+    "url": "fishshell.com",
+    "routes": [
+      "/"
+    ]
+  },
+  {
+    "name": "福建考试报名网",
+    "url": "fjksbm.com",
+    "routes": [
+      "/:category?"
+    ]
+  },
+  {
+    "name": "飞客茶馆",
+    "url": "flyert.com",
+    "routes": [
+      "/creditcard/:bank",
+      "/preferential"
+    ]
+  },
+  {
+    "name": "Focus Taiwan",
+    "url": "focustaiwan.tw",
+    "routes": [
+      "/:category?"
+    ]
+  },
+  {
+    "name": "Followin",
+    "url": "followin.io",
+    "routes": [
+      "/:categoryId?/:lang?",
+      "/kol/:kolId/:lang?",
+      "/news/:lang?",
+      "/tag/:tagId/:lang?",
+      "/topic/:topicId/:lang?"
+    ]
+  },
+  {
+    "name": "Foresight News",
+    "url": "foresightnews.pro",
+    "routes": [
+      "/article",
+      "/column/:id",
+      "/",
+      "/news"
+    ]
+  },
+  {
+    "name": "十年之约",
+    "url": "www.foreverblog.cn",
+    "routes": [
+      "/feeds"
+    ]
+  },
+  {
+    "name": "Fortnite",
+    "url": "fortnite.com",
+    "routes": [
+      "/news/:options?"
+    ]
+  },
+  {
+    "name": "财富中文网",
+    "url": "fortunechina.com",
+    "routes": [
+      "/:category?"
+    ]
+  },
+  {
+    "name": "FossHub",
+    "url": "fosshub.com",
+    "routes": [
+      "/:id"
+    ]
+  },
+  {
+    "name": "免費資源網路社群",
+    "url": "free.com.tw",
+    "routes": [
+      "/"
+    ]
+  },
+  {
+    "name": "FreeBuf",
+    "url": "freebuf.com",
+    "routes": [
+      "/articles/:type"
+    ]
+  },
+  {
+    "name": "Free Computer Books",
+    "url": "freecomputerbooks.com",
+    "routes": [
+      "/:category?"
+    ]
+  },
+  {
+    "name": "自由微信",
+    "url": "freewechat.com",
+    "routes": [
+      "/profile/:id"
+    ]
+  },
+  {
+    "name": "Financial Times",
+    "url": "ftchinese.com",
+    "routes": [
+      "/:language/:channel?",
+      "/myft/:key"
+    ]
+  },
+  {
+    "name": "福利吧",
+    "url": "fuliba2023.net",
+    "routes": [
+      "/latest"
+    ]
+  },
+  {
+    "name": "Furstar",
+    "url": "furstar.jp",
+    "routes": [
+      "/archive/:lang?",
+      "/artists/:lang?",
+      "/characters/:lang?"
+    ]
+  },
+  {
+    "name": "Futubull 富途牛牛",
+    "url": "news.futunn.com",
+    "routes": [
+      "/highlights",
+      "/main",
+      "/"
+    ]
+  },
+  {
+    "name": "FX Markets",
+    "url": "fx-markets.com",
+    "routes": [
+      "/:channel"
+    ]
+  },
+  {
+    "name": "汇通网",
+    "url": "fx678.com",
+    "routes": [
+      "/kx"
+    ]
+  },
+  {
+    "name": "纷享销客 CRM",
+    "url": "fxiaoke.com",
+    "routes": [
+      "/crm/:type"
+    ]
+  },
+  {
+    "name": "福州地铁",
+    "url": "www.fzmtr.com",
+    "routes": [
+      "/announcements"
+    ]
+  },
+  {
+    "name": "GameApps.hk 香港手机游戏网",
+    "url": "gameapps.hk",
+    "routes": [
+      "/"
+    ]
+  },
+  {
+    "name": "遊戲基地 Gamebase",
+    "url": "news.gamebase.com.tw",
+    "routes": [
+      "/news/:type?/:category?"
+    ]
+  },
+  {
+    "name": "游戏基因",
+    "url": "news.gamegene.cn",
+    "routes": [
+      "/news"
+    ]
+  },
+  {
+    "name": "巴哈姆特電玩資訊站",
+    "url": "acg.gamer.com.tw",
+    "routes": [
+      "/gnn/:category?",
+      "/hot/:bsn",
+      "/ani/anime/:sn",
+      "/ani/new_anime"
+    ]
+  },
+  {
+    "name": "全球游戏交流中心",
+    "url": "www.gamer520.com",
+    "routes": [
+      "/:category?/:order?"
+    ]
+  },
+  {
+    "name": "Gamer Secret",
+    "url": "gamersecret.com",
+    "routes": [
+      "/:type?/:category?"
+    ]
+  },
+  {
+    "name": "卡卡洛普",
+    "url": "news.gamme.com.tw",
+    "routes": [
+      "/:domain/:category?",
+      "/:domain/tag/:tag"
+    ]
+  },
+  {
+    "name": "机核网",
+    "url": "gcores.com",
+    "routes": [
+      "/category/:category",
+      "/collections/:collection",
+      "/radios/:category?",
+      "/tag/:tag/:category?"
+    ]
+  },
+  {
+    "name": "广东省食品药品审评认证技术协会",
+    "url": "gdsrx.org.cn",
+    "routes": [
+      "/:id?"
+    ]
+  },
+  {
+    "name": "广东工业大学",
+    "url": "oas.gdut.edu.cn",
+    "routes": [
+      "/oa_news/:type?"
+    ]
+  },
+  {
+    "name": "格隆汇",
+    "url": "gelonghui.com",
+    "routes": [
+      "/home/:tag?",
+      "/hot-article/:type?",
+      "/keyword/:keyword",
+      "/live",
+      "/subject/:id",
+      "/user/:id"
+    ]
+  },
+  {
+    "name": "Geocaching",
+    "url": "geocaching.com",
+    "routes": [
+      "/blogs"
+    ]
+  },
+  {
+    "name": "趨勢科技防詐達人",
+    "url": "getdr.com",
+    "routes": [
+      "/"
+    ]
+  },
+  {
+    "name": "正版中国",
+    "url": "getitfree.cn",
+    "routes": [
+      "/:filter{.+}?"
+    ]
+  },
+  {
+    "name": "GETTR",
+    "url": "gettr.com",
+    "routes": [
+      "/user/:id"
+    ]
+  },
+  {
+    "name": "少女前线",
+    "url": "sunborngame.com",
+    "routes": [
+      "/news/:category?"
+    ]
+  },
+  {
+    "name": "gihyo.jp",
+    "url": "gihyo.jp",
+    "routes": [
+      "/list/group/:id"
+    ]
+  },
+  {
+    "name": "Gitee",
+    "url": "gitee.com",
+    "routes": [
+      "/commits/:owner/:repo",
+      "/events/:owner/:repo",
+      "/releases/:owner/:repo",
+      "/events/:username"
+    ]
+  },
+  {
+    "name": "GitHub",
+    "url": "github.com",
+    "routes": [
+      "/branches/:user/:repo",
+      "/comments/:user/:repo/:number?",
+      "/contributors/:user/:repo/:order?/:anon?",
+      "/file/:user/:repo/:branch/:filepath{.+}",
+      "/user/followers/:user",
+      "/gist/:gistId",
+      "/issue/:user/:repo/:state?/:labels?",
+      "/notifications",
+      "/pull/:user/:repo/:state?/:labels?",
+      "/pulse/:user/:repo/:period?",
+      "/repos/:user",
+      "/search/:query/:sort?/:order?",
+      "/stars/:user/:repo",
+      "/starred_repos/:user",
+      "/topics/:name/:qs?",
+      "/trending/:since/:language/:spoken_language?",
+      "/wiki/:user/:repo/:page?"
+    ]
+  },
+  {
+    "name": "Gitpod",
+    "url": "gitpod.io",
+    "routes": [
+      "/blog",
+      "/changelog"
+    ]
+  },
+  {
+    "name": "环球法律评论",
+    "url": "globallawreview.org",
+    "routes": [
+      "/"
+    ]
+  },
+  {
+    "name": "GoCN",
+    "url": "gocn.vip",
+    "routes": [
+      "/jobs",
+      "/",
+      "/news",
+      "/topics"
+    ]
+  },
+  {
+    "name": "GoFans",
+    "url": "gofans.cn",
+    "routes": [
+      "/:kind?"
+    ]
+  },
+  {
+    "name": "Gogoanimehd",
+    "url": "developer.anitaku.to",
+    "routes": [
+      "/recent-releases"
+    ]
+  },
+  {
+    "name": "Google",
+    "url": "www.google.com",
+    "routes": [
+      "/album/:id",
+      "/alerts/:keyword",
+      "/citations/:id",
+      "/doodles/:language?",
+      "/chrome/extension/:id",
+      "/fonts/:sort?",
+      "/news/:category/:locale",
+      "/scholar/:query",
+      "/search/:keyword/:language?"
+    ]
+  },
+  {
+    "name": "中国人民银行",
+    "url": "kjt.ah.gov.cn",
+    "routes": [
+      "/anhui/kjt/*",
+      "/beijing/bjedu/gh/:urlPath?",
+      "/beijing/bphc/*",
+      "/beijing/jw/tzgg",
+      "/beijing/kw/:channel",
+      "/caac/cjwt/:category?",
+      "/cac/*",
+      "/ccdi/*",
+      "/chinamine-safety/xw/:category{.+}?",
+      "/chinamine-safety/zfxxgk/:category{.+}?",
+      "/chinatax/latest",
+      "/chongqing/gzw/:category{.+}?",
+      "/chongqing/rsks",
+      "/chongqing/sydwgkzp/:year?",
+      "/cmse/fxrw",
+      "/cmse/*",
+      "/cnnic/*",
+      "/csrc/auditstatus/:apply_id",
+      "/csrc/news/:suffix{.+}?",
+      "/customs/list/:gchannel?",
+      "/dianbai/*",
+      "/forestry/gjlckjdjt/:category?",
+      "/gaozhou/*",
+      "/guangdong/tqyb/sncsyjxh",
+      "/guangdong/tqyb/tfxtq",
+      "/gz/:channel/:category",
+      "/hebei/czt/xwdt/:category?",
+      "/huazhou/*",
+      "/huizhou/zwgk/:category?",
+      "/hunan/changsha/major-email",
+      "/immiau/news",
+      "/jgjcndrc/:id?",
+      "/jinan/healthcommission/medical_exam_notice",
+      "/maoming/*",
+      "/maonan/:category",
+      "/mee/ywdt/:category?",
+      "/mem/gk/sgcc/:category?",
+      "/fmprc/:category?",
+      "/mfa/wjdt/:category?",
+      "/mgs/*",
+      "/miit/wjfb/:ministry",
+      "/miit/wjgs",
+      "/miit/yjzj",
+      "/miit/zcjd",
+      "/miit/zcwj",
+      "/mmht/*",
+      "/moa/:suburl{.+}",
+      "/moa/sjzxfb/:category{.+}?",
+      "/moa/zdscxx/:category{.+}?",
+      "/moe/:type",
+      "/moe/s78/:column",
+      "/mof/bond/:category?",
+      "/mofcom/article/:suffix{.+}",
+      "/moj/lfyjzj",
+      "/moj/aac/news/:type?",
+      "/mot/:category{.+}?",
+      "/ndrc/fggz/:category{.+}?",
+      "/ndrc/xwdt/:category{.+}?",
+      "/nea/sjzz/ghs",
+      "/news/:uid",
+      "/nifdc/:path{.+}?",
+      "/nmpa/*",
+      "/nopss/*",
+      "/npc/:caty",
+      "/nrta/dsj/:category?",
+      "/nrta/news/:category?",
+      "/nsfc/*",
+      "/pbc/goutongjiaoliu",
+      "/pbc/gzlw",
+      "/pbc/tradeAnnouncement",
+      "/pbc/zcyj",
+      "/safe/business/:site?",
+      "/safe/complaint/:site?",
+      "/samr/xgzlyhd/:category?/:department?",
+      "/sasac/:path{.+}",
+      "/sdb/*",
+      "/shaanxi/kjt/:id?",
+      "/shanghai/rsj/ksxm",
+      "/shanghai/wgj/:page?",
+      "/shanghai/wsjkw/yqtb",
+      "/shanghai/yjj/*",
+      "/shenzhen/hrss/szksy/:caty/:page?",
+      "/shenzhen/xxgk/zfxxgj/:caty",
+      "/shenzhen/zjj/xxgk/:caty",
+      "/shenzhen/zzb/:caty/:page?",
+      "/sichuan/deyang/govpublicinfo/:countyName/:infoType?",
+      "/sichuan/deyang/mztoday/:infoType?",
+      "/stats/*",
+      "/suzhou/doc",
+      "/suzhou/fg/:category{.+}?",
+      "/suzhou/news/:uid",
+      "/taiyuan/rsj/:caty/:page?",
+      "/wuhan/sy/whyw",
+      "/xinyi/*",
+      "/xuzhou/hrss/:category?",
+      "/zhejiang/gwy/:category?/:column?",
+      "/zhengce/govall/:advance?",
+      "/zhengce/zuixin",
+      "/zhengce/:category{.+}?",
+      "/zhengce/wenjian/:pcodeJiguan?",
+      "/zhengce/zhengceku/:department"
+    ]
+  },
+  {
+    "name": "Greasy Fork",
+    "url": "greasyfork.org",
+    "routes": [
+      "/scripts/:script/feedback",
+      "/:language/:domain?",
+      "/scripts/sort/:sort/:language?",
+      "/scripts/:script/versions"
+    ]
+  },
+  {
+    "name": "Grist",
+    "url": "grist.org",
+    "routes": [
+      "/featured",
+      "/",
+      "/series/:series",
+      "/topic/:topic"
+    ]
+  },
+  {
+    "name": "Grub Street",
+    "url": "grubstreet.com",
+    "routes": [
+      "/"
+    ]
+  },
+  {
+    "name": "观察者网",
+    "url": "guancha.cn",
+    "routes": [
+      "/headline",
+      "/:category?",
+      "/member/:category?",
+      "/personalpage/:uid",
+      "/topic/:id/:order?"
+    ]
+  },
+  {
+    "name": "逛丢",
+    "url": "guangdiu.com",
+    "routes": [
+      "/cheaps/:query?",
+      "/:query?",
+      "/rank",
+      "/search/:query?"
+    ]
+  },
+  {
+    "name": "广州地铁",
+    "url": "www.gzmtr.com",
+    "routes": [
+      "/news"
+    ]
+  },
+  {
+    "name": "观海新闻",
+    "url": "guanhai.com.cn",
+    "routes": [
+      "/"
+    ]
+  },
+  {
+    "name": "骨朵数据",
+    "url": "data.guduodata.com",
+    "routes": [
+      "/daily"
+    ]
+  },
+  {
+    "name": "Gumroad",
+    "url": "gumroad.com",
+    "routes": [
+      "/:username/:products"
+    ]
+  },
+  {
+    "name": "果壳网",
+    "url": "guokr.com",
+    "routes": [
+      "/column/:channel",
+      "/scientific"
+    ]
+  },
+  {
+    "name": "广西民族大学",
+    "url": "ai.gxmzu.edu.cn",
+    "routes": [
+      "/aitzgg",
+      "/libzxxx",
+      "/yjszsgg"
+    ]
+  },
+  {
+    "name": "广州日报",
+    "url": "gzdaily.cn",
+    "routes": [
+      "/app/:column?"
+    ]
+  },
+  {
+    "name": "广州大学",
+    "url": "yjsy.gzhu.edu.cn",
+    "routes": [
+      "/yjs"
+    ]
+  },
+  {
+    "name": "Hacker News",
+    "url": "ycombinator.com",
+    "routes": [
+      "/:section?/:type?/:user?"
+    ]
+  },
+  {
+    "name": "HACKER TALK 黑客说",
+    "url": "hackertalk.net",
+    "routes": [
+      "/"
+    ]
+  },
+  {
+    "name": "Hacking8",
+    "url": "hacking8.com",
+    "routes": [
+      "/:category?",
+      "/search/:keyword?"
+    ]
+  },
+  {
+    "name": "HackMD",
+    "url": "hackmd.io",
+    "routes": [
+      "/profile/:path"
+    ]
+  },
+  {
+    "name": "HackYourNews",
+    "url": "hackyournews.com",
+    "routes": [
+      "/"
+    ]
+  },
+  {
+    "name": "河南财政金融学院",
+    "url": "www.hafu.edu.cn",
+    "routes": [
+      "/news/:type?"
+    ]
+  },
+  {
+    "name": "客家電視台",
+    "url": "hakkatv.org.tw",
+    "routes": [
+      "/news/:type?"
+    ]
+  },
+  {
+    "name": "hameln",
+    "url": "syosetu.org",
+    "routes": [
+      "/chapter/:id"
+    ]
+  },
+  {
+    "name": "Harvard Health Publishing",
+    "url": "www.health.harvard.edu",
+    "routes": [
+      "/health/blog"
+    ]
+  },
+  {
+    "name": "hashnode",
+    "url": "hashnode.dev",
+    "routes": [
+      "/blog/:username"
+    ]
+  },
+  {
+    "name": "欢乐书客",
+    "url": "hbooker.com",
+    "routes": [
+      "/chapter/:id"
+    ]
+  },
+  {
+    "name": "Harvard Business Review",
+    "url": "hbr.org",
+    "routes": [
+      "/topic/:topic?/:type?"
+    ]
+  },
+  {
+    "name": "杭州电子科技大学",
+    "url": "computer.hdu.edu.cn",
+    "routes": [
+      "/cs",
+      "/cs/pg"
+    ]
+  },
+  {
+    "name": "河北网络广播电视台",
+    "url": "web.cmc.hebtv.com",
+    "routes": [
+      "/nbszxd"
+    ]
+  },
+  {
+    "name": "白话区块链",
+    "url": "hellobtc.com",
+    "routes": [
+      "/information/:channel?",
+      "/kepu/:channel?",
+      "/news"
+    ]
+  },
+  {
+    "name": "HelloGitHub",
+    "url": "hellogithub.com",
+    "routes": [
+      "/article/:sort?/:id?",
+      "/:sort?/:id?",
+      "/ranking/:type?",
+      "/report/:type?",
+      "/month",
+      "/volume"
+    ]
+  },
+  {
+    "name": "Hex-Rays",
+    "url": "hex-rays.com",
+    "routes": [
+      "/news"
+    ]
+  },
+  {
+    "name": "HiFeng'Blog",
+    "url": "hicairo.com",
+    "routes": [
+      "/"
+    ]
+  },
+  {
+    "name": "Sakamichi Series 坂道系列官网资讯",
+    "url": "hinatazaka46.com",
+    "routes": [
+      "/blog/:id?/:page?",
+      "/news"
+    ]
+  },
+  {
+    "name": "哈尔滨工业大学",
+    "url": "jwc.hit.edu.cn",
+    "routes": [
+      "/hitgs",
+      "/jwc",
+      "/today/:category"
+    ]
+  },
+  {
+    "name": "哈尔滨工业大学（深圳）",
+    "url": "hitsz.edu.cn",
+    "routes": [
+      "/article/:category?"
+    ]
+  },
+  {
+    "name": "哈尔滨工业大学（威海）",
+    "url": "hitwh.edu.cn",
+    "routes": [
+      "/today"
+    ]
+  },
+  {
+    "name": "珠海网",
+    "url": "hizh.cn",
+    "routes": [
+      "/:column?"
+    ]
+  },
+  {
+    "name": "香港 01",
+    "url": "hk01.com",
+    "routes": [
+      "/channel/:id?",
+      "/hot",
+      "/issue/:id?",
+      "/latest",
+      "/tag/:id?",
+      "/zone/:id?"
+    ]
+  },
+  {
+    "name": "信报财经新闻",
+    "url": "hkej.com",
+    "routes": [
+      "/:category?"
+    ]
+  },
+  {
+    "name": "HKEPC",
+    "url": "hkepc.com",
+    "routes": [
+      "/:category?"
+    ]
+  },
+  {
+    "name": "香港经济日报",
+    "url": "china.hket.com",
+    "routes": [
+      "/:category?"
+    ]
+  },
+  {
+    "name": "HKJunkCall 資訊中心",
+    "url": "hkjunkcall.com",
+    "routes": [
+      "/"
+    ]
+  },
+  {
+    "name": "黑龙江中医药大学",
+    "url": "yjsy.hljucm.net",
+    "routes": [
+      "/yjsy/:category?"
+    ]
+  },
+  {
+    "name": "湖南日报",
+    "url": "voc.com.cn",
+    "routes": [
+      "/:id?"
+    ]
+  },
+  {
+    "name": "湖南大学",
+    "url": "scc.hnu.edu.cn",
+    "routes": [
+      "/careers"
+    ]
+  },
+  {
+    "name": "Hong Kong Department of Health 香港卫生署",
+    "url": "dh.gov.hk",
+    "routes": [
+      "/chp/:category?/:language?",
+      "/dh/:language?"
+    ]
+  },
+  {
+    "name": "全球主机监控",
+    "url": "stock.hostmonit.com",
+    "routes": [
+      "/cloudflareyes/:type?",
+      "/cloudflareyesv6"
+    ]
+  },
+  {
+    "name": "hotukdeals",
+    "url": "www.hotukdeals.com",
+    "routes": [
+      "/hottest",
+      "/:type"
+    ]
+  },
+  {
+    "name": "后续",
+    "url": "houxu.app",
+    "routes": [
+      "/events",
+      "/featured",
+      "/index",
+      "/",
+      "/lives/:id",
+      "/memory"
+    ]
+  },
+  {
+    "name": "Howtoforge Linux Tutorials",
+    "url": "howtoforge.com",
+    "routes": [
+      "/"
+    ]
+  },
+  {
+    "name": "HoYoLAB",
+    "url": "hoyolab.com",
+    "routes": [
+      "/news/:language/:gids/:type"
+    ]
+  },
+  {
+    "name": "Hpoi 手办维基",
+    "url": "www.hpoi.net",
+    "routes": [
+      "/items/all/:order?",
+      "/bannerItem",
+      "/items/character/:id/:order?",
+      "/info/:type?",
+      "/user/:user_id/:caty",
+      "/items/work/:id/:order?"
+    ]
+  },
+  {
+    "name": "哈尔滨工程大学",
+    "url": "yjsy.hrbeu.edu.cn",
+    "routes": [
+      "/gx/card/:column/:id?",
+      "/gx/list/:column/:id?",
+      "/job/bigemploy",
+      "/job/calendar",
+      "/job/list/:id",
+      "/uae/:id",
+      "/ugs/news/:author?/:category?",
+      "/yjsy/list/:id"
+    ]
+  },
+  {
+    "name": "哈尔滨理工大学",
+    "url": "jwzx.hrbust.edu.cn",
+    "routes": [
+      "/jwzx/:type?/:page?"
+    ]
+  },
+  {
+    "name": "环球网",
+    "url": "huanqiu.com",
+    "routes": [
+      "/news/:category?"
+    ]
+  },
+  {
+    "name": "Huggingface",
+    "url": "huggingface.co",
+    "routes": [
+      "/blog-zh",
+      "/daily-papers"
+    ]
+  },
+  {
+    "name": "湖南人事考试网",
+    "url": "rsks.hunanpea.com",
+    "routes": [
+      "/rsks/:guid"
+    ]
+  },
+  {
+    "name": "湖南农业大学",
+    "url": "gfxy.hunau.edu.cn",
+    "routes": [
+      "/ied/:type?/:category?/:page?",
+      "/jwc/:category?/:page?",
+      "/gfxy/:category?/:page?",
+      "/xky/:category?/:page?"
+    ]
+  },
+  {
+    "name": "火线",
+    "url": "zone.huoxian.cn",
+    "routes": [
+      "/zone"
+    ]
+  },
+  {
+    "name": "虎扑",
+    "url": ".hupu.com",
+    "routes": [
+      "/all/:id?",
+      "/bbs/:id?/:order?",
+      "/bxj/:id?/:order?",
+      "/dept/:category?",
+      "/:category?"
+    ]
+  },
+  {
+    "name": "华中科技大学",
+    "url": "aia.hust.edu.cn",
+    "routes": [
+      "/yjs",
+      "/aia/news",
+      "/auto/news",
+      "/aia/notice/:type?",
+      "/auto/notice/:type?"
+    ]
+  },
+  {
+    "name": "虎嗅",
+    "url": "huxiu.com",
+    "routes": [
+      "/briefcolumn/:id",
+      "/article",
+      "/channel/:id?",
+      "/club/:id",
+      "/collection/:id",
+      "/author/:id/:type?",
+      "/member/:id/:type?",
+      "/moment",
+      "/search/:keyword",
+      "/tag/:id"
+    ]
+  },
+  {
+    "name": "Ian Spriggss",
+    "url": "ianspriggs.com",
+    "routes": [
+      "/:category?"
+    ]
+  },
+  {
+    "name": "Hong Kong Independent Commission Against Corruption 香港廉政公署",
+    "url": "icac.org.hk",
+    "routes": [
+      "/news/:lang?"
+    ]
+  },
+  {
+    "name": "中国工商银行",
+    "url": "icbc.com.cn",
+    "routes": [
+      "/whpj/:format?"
+    ]
+  },
+  {
+    "name": "iDaily",
+    "url": "idai.ly",
+    "routes": [
+      "/today/:language?",
+      "/:language?"
+    ]
+  },
+  {
+    "name": "IDOLY PRIDE 偶像荣耀",
+    "url": "idolypride.jp",
+    "routes": [
+      "/news"
+    ]
+  },
+  {
+    "name": "IEEE Xplore",
+    "url": "www.ieee.org",
+    "routes": [
+      "/journal/:journal/earlyaccess/:sortType?",
+      "/:journal/latest/vol/:sortType?",
+      "/journal/:journal/:sortType?",
+      "/:journal/latest/date/:sortType?",
+      "/journal/:journal/recent/:sortType?"
+    ]
+  },
+  {
+    "name": "IEEE Computer Society",
+    "url": "ieee-security.org",
+    "routes": [
+      "/security-privacy"
+    ]
+  },
+  {
+    "name": "IELTS 雅思",
+    "url": "ielts.neea.cn",
+    "routes": [
+      "/"
+    ]
+  },
+  {
+    "name": "凤凰网",
+    "url": "feng.ifeng.com",
+    "routes": [
+      "/feng/:id/:type",
+      "/news/*"
+    ]
+  },
+  {
+    "name": "iFi audio",
+    "url": "ifi-audio.com",
+    "routes": [
+      "/download/:val/:id"
+    ]
+  },
+  {
+    "name": "爱果果",
+    "url": "iguoguo.net",
+    "routes": [
+      "/html5"
+    ]
+  },
+  {
+    "name": "人人都是自媒体",
+    "url": "www.iiilab.com",
+    "routes": [
+      "/"
+    ]
+  },
+  {
+    "name": "IKEA",
+    "url": "ikea.com",
+    "routes": [
+      "/cn/family_offers",
+      "/cn/low_price",
+      "/cn/new",
+      "/gb/new",
+      "/gb/offer"
+    ]
+  },
+  {
+    "name": "ImageMagick",
+    "url": "imagemagick.org",
+    "routes": [
+      "/changelog"
+    ]
+  },
+  {
+    "name": "米课",
+    "url": "imiker.com",
+    "routes": [
+      "/ask/jinghua"
+    ]
+  },
+  {
+    "name": "Indians in Kuwait",
+    "url": "indiansinkuwait.com",
+    "routes": [
+      "/latest"
+    ]
+  },
+  {
+    "name": "indienova 独立游戏",
+    "url": "indienova.com",
+    "routes": [
+      "/:type",
+      "/column/:columnId",
+      "/gamedb/recent",
+      "/usergames"
+    ]
+  },
+  {
+    "name": "中国新闻周刊",
+    "url": "inewsweek.cn",
+    "routes": [
+      "/:channel"
+    ]
+  },
+  {
+    "name": "InfoQ 中文",
+    "url": "infoq.cn",
+    "routes": [
+      "/recommend",
+      "/topic/:id"
+    ]
+  },
+  {
+    "name": "INFORMS",
+    "url": "pubsonline.informs.org",
+    "routes": [
+      "/:category?"
+    ]
+  },
+  {
+    "name": "infzm",
+    "routes": [
+      "/:id"
+    ]
+  },
+  {
+    "name": "Inoreader",
+    "url": "inoreader.com",
+    "routes": [
+      "/html_clip/:user/:tag",
+      "/rss/:user/:tag"
+    ]
+  },
+  {
+    "name": "Instagram",
+    "url": "www.instagram.com",
+    "routes": [
+      "/:category/:key",
+      "/2/:category/:key"
+    ]
+  },
+  {
+    "name": "Instructables",
+    "url": "instructables.com",
+    "routes": [
+      "/projects/:category?"
+    ]
+  },
+  {
+    "name": "子方有料",
+    "url": "ippa.top",
+    "routes": [
+      "/"
+    ]
+  },
+  {
+    "name": "IPSW.me",
+    "url": "ipsw.me",
+    "routes": [
+      "/index/:ptype/:pname"
+    ]
+  },
+  {
+    "name": "齐鲁网",
+    "url": "v.iqilu.com",
+    "routes": [
+      "/v/:category{.+}?"
+    ]
+  },
+  {
+    "name": "爱奇艺",
+    "url": "iq.com",
+    "routes": [
+      "/album/:id",
+      "/user/video/:uid"
+    ]
+  },
+  {
+    "name": "爱 Q 生活网",
+    "url": "iqnew.com",
+    "routes": [
+      "/latest"
+    ]
+  },
+  {
+    "name": "艾瑞",
+    "url": "www.iresearch.com.cn",
+    "routes": [
+      "/report",
+      "/weekly/:category?"
+    ]
+  },
+  {
+    "name": "Issue Hunt",
+    "url": "issuehunt.io",
+    "routes": [
+      "/funded/:username/:repo"
+    ]
+  },
+  {
+    "name": "itch.io",
+    "url": "itch.io",
+    "routes": [
+      "/devlog/:user/:id",
+      "*",
+      "/posts/:topic/:id"
+    ]
+  },
+  {
+    "name": "iThome 台灣",
+    "url": "ithome.com",
+    "routes": [
+      "/:caty",
+      "/ranking/:type",
+      "/tag/:name",
+      "/zt/:id",
+      "/tw/feeds/:category"
+    ]
+  },
+  {
+    "name": "iwara",
+    "url": "ecchi.iwara.tv",
+    "routes": [
+      "/users/:username?/:type?",
+      "/subscriptions"
+    ]
+  },
+  {
+    "name": "西瓜视频",
+    "url": "ixigua.com",
+    "routes": [
+      "/user/video/:uid/:disableEmbed?"
+    ]
+  },
+  {
+    "name": "煎蛋",
+    "url": "jandan.net",
+    "routes": [
+      "/",
+      "/:category"
+    ]
+  },
+  {
+    "name": "Japanpost 日本郵便",
+    "url": "trackings.post.japanpost.jp",
+    "routes": [
+      "/track/:reqCode/:locale?"
+    ]
+  },
+  {
+    "name": "JavBus",
+    "url": "www.javbus.com",
+    "routes": [
+      "*"
+    ]
+  },
+  {
+    "name": "JavDB",
+    "url": "javdb.com",
+    "routes": [
+      "/actors/:id/:filter?",
+      "/home/:category?/:sort?/:filter?",
+      "/:category?/:sort?/:filter?",
+      "/lists/:id/:filter?/:sort?",
+      "/makers/:id/:filter?",
+      "/rankings/:category?/:time?",
+      "/search/:keyword?/:filter?/:sort?",
+      "/series/:id/:filter?",
+      "/tags/:query?/:category?"
+    ]
+  },
+  {
+    "name": "JAVLibrary",
+    "url": "javlibrary.com",
+    "routes": [
+      "/videos/bestrated/:language?/:mode?",
+      "/bestrated/:language?/:mode?",
+      "/bestreviews/:language?/:mode?",
+      "/videos/genre/:genre?/:language?/:mode?",
+      "/genre/:genre?/:language?/:mode?",
+      "/videos/maker/:maker?/:language?/:mode?",
+      "/videos/mostwanted/:language?/:mode?",
+      "/mostwanted/:language?/:mode?",
+      "/videos/newentries/:language?",
+      "/newentries/:language?",
+      "/videos/newrelease/:language?/:mode?",
+      "/newrelease/:language?/:mode?",
+      "/star/:id/:language?/:mode?",
+      "/videos/update/:language?",
+      "/update/:language?",
+      "/users/:id/:type/:language?",
+      "/:type/:id/:language?"
+    ]
+  },
+  {
+    "name": "京东",
+    "url": "item.jd.com",
+    "routes": [
+      "/price/:id"
+    ]
+  },
+  {
+    "name": "纽约犹太人博物馆",
+    "url": "thejewishmuseum.org",
+    "routes": [
+      "/exhibitions"
+    ]
+  },
+  {
+    "name": "简书",
+    "url": "www.jianshu.com",
+    "routes": [
+      "/collection/:id",
+      "/home",
+      "/user/:id"
+    ]
+  },
+  {
+    "name": "交流岛资源网",
+    "url": "jiaoliudao.com",
+    "routes": [
+      "/"
+    ]
+  },
+  {
+    "name": "界面新闻",
+    "url": "jiemian.com",
+    "routes": [
+      "/list/:id",
+      "/:category{.+}?"
+    ]
+  },
+  {
+    "name": "即刻",
+    "url": "m.okjike.com",
+    "routes": [
+      "/topic/text/:id",
+      "/topic/:id/:showUid?",
+      "/user/:id"
+    ]
+  },
+  {
+    "name": "金十数据",
+    "url": "jin10.com",
+    "routes": [
+      "/:important?",
+      "/topic/:id"
+    ]
+  },
+  {
+    "name": "金色财经",
+    "url": "jinse.cn",
+    "routes": [
+      "/:category?",
+      "/lives/:category?",
+      "/timeline/:category?"
+    ]
+  },
+  {
+    "name": "集思录",
+    "url": "jisilu.cn",
+    "routes": [
+      "/:category?/:sort?/:day?"
+    ]
+  },
+  {
+    "name": "晋江文学城",
+    "url": "jjwxc.net",
+    "routes": [
+      "/author/:id?",
+      "/book/:id?"
+    ]
+  },
+  {
+    "name": "La Jornada",
+    "url": "jornada.com.mx",
+    "routes": [
+      "/:date?/:category?"
+    ]
+  },
+  {
+    "name": "江苏海洋大学",
+    "url": "www.jou.edu.cn",
+    "routes": [
+      "/tzgg",
+      "/yztzgg"
+    ]
+  },
+  {
+    "name": "极品性感美女",
+    "url": "www.jpxgmn.com",
+    "routes": [
+      "/search/:kw",
+      "/tab/:tab?",
+      "/weekly"
+    ]
+  },
+  {
+    "name": "Unknown",
+    "url": "jseea.cn",
+    "routes": [
+      "/news/:type?"
+    ]
+  },
+  {
+    "name": "吉首大学",
+    "url": "jsu.edu.cn",
+    "routes": [
+      "/cxzx/:types?",
+      "/jwc/:types?",
+      "/stxy",
+      "/rjxy",
+      "/notice"
+    ]
+  },
+  {
+    "name": "掘金",
+    "url": "juejin.cn",
+    "routes": [
+      "/books",
+      "/category/:category",
+      "/collection/:collectionId",
+      "/column/:id",
+      "/collections/:userId",
+      "/pins/:type?",
+      "/posts/:id",
+      "/tag/:tag",
+      "/trending/:category/:type"
+    ]
+  },
+  {
+    "name": "JUMP",
+    "url": "switch.jumpvg.com",
+    "routes": [
+      "/discount/:platform/:filter?/:countries?"
+    ]
+  },
+  {
+    "name": "仮面ライダ",
+    "url": "kamen-rider-official.com",
+    "routes": [
+      "/news/:category?"
+    ]
+  },
+  {
+    "name": "Kantar Worldpanel",
+    "url": "kantarworldpanel.com",
+    "routes": [
+      "/:region?/:category{.+}?"
+    ]
+  },
+  {
+    "name": "靠谱新闻",
+    "url": "kaopu.news",
+    "routes": [
+      "/news/:language?"
+    ]
+  },
+  {
+    "name": "KBS",
+    "url": "world.kbs.co.kr",
+    "routes": [
+      "/news/:category?/:language?",
+      "/today/:language?"
+    ]
+  },
+  {
+    "name": "Korean Central News Agency (KCNA) 朝鲜中央通讯社",
+    "url": "www.kcna.kp",
+    "routes": [
+      "/:lang/:category?"
+    ]
+  },
+  {
+    "name": "贝壳研究院",
+    "url": "www.research.ke.com",
+    "routes": [
+      "/researchResults"
+    ]
+  },
+  {
+    "name": "Keep",
+    "url": "gotokeep.com",
+    "routes": [
+      "/user/:id"
+    ]
+  },
+  {
+    "name": "KeePass",
+    "url": "keepass.info",
+    "routes": [
+      "/"
+    ]
+  },
+  {
+    "name": "Kemono",
+    "url": "kemono.su",
+    "routes": [
+      "/:source?/:id?"
+    ]
+  },
+  {
+    "name": "中国科普博览",
+    "url": "live.kepu.net.cn",
+    "routes": [
+      "/live"
+    ]
+  },
+  {
+    "name": "其乐",
+    "url": "keylol.com",
+    "routes": [
+      "*"
+    ]
+  },
+  {
+    "name": "The Korea Institute of Marine Law",
+    "url": "kimlaw.or.kr",
+    "routes": [
+      "/thesis"
+    ]
+  },
+  {
+    "name": "Kong API 网关平台",
+    "url": "konghq.com",
+    "routes": [
+      "/blog-posts"
+    ]
+  },
+  {
+    "name": "快递 100",
+    "url": "kuaidi100.com",
+    "routes": [
+      "/track/:number/:id/:phone?",
+      "/company"
+    ]
+  },
+  {
+    "name": "Kun Cheng",
+    "url": "kunchengblog.com",
+    "routes": [
+      "/essay"
+    ]
+  },
+  {
+    "name": "Kuwait Local",
+    "url": "kuwaitlocal.com",
+    "routes": [
+      "/:category?"
+    ]
+  },
+  {
+    "name": "共同网",
+    "url": "china.kyodonews.net",
+    "routes": [
+      "/:language?/:keyword?"
+    ]
+  },
+  {
+    "name": "来漫画",
+    "url": "www.laimanhua8.com",
+    "routes": [
+      "/:id"
+    ]
+  },
+  {
+    "name": "荒岛",
+    "url": "lala.im",
+    "routes": [
+      "/"
+    ]
+  },
+  {
+    "name": "浪 Play 直播",
+    "url": "lang.live",
+    "routes": [
+      "/live/room/:id"
+    ]
+  },
+  {
+    "name": "蓝桥云课",
+    "url": "lanqiao.cn",
+    "routes": [
+      "/author/:uid",
+      "/courses/:sort/:tag",
+      "/questions/:id"
+    ]
+  },
+  {
+    "name": "老虎社区",
+    "url": "laohu8.com",
+    "routes": [
+      "/personal/:id"
+    ]
+  },
+  {
+    "name": "晚点 LatePost",
+    "url": "latepost.com",
+    "routes": [
+      "/:proma?"
+    ]
+  },
+  {
+    "name": "Layoffs.fyi",
+    "url": "layoffs.fyi",
+    "routes": [
+      "/"
+    ]
+  },
+  {
+    "name": "登链社区",
+    "url": "learnblockchain.cn",
+    "routes": [
+      "/posts/:cid/:sort?"
+    ]
+  },
+  {
+    "name": "LearnKu",
+    "url": "learnku.com",
+    "routes": [
+      "/:community/:category?"
+    ]
+  },
+  {
+    "name": "LeetCode",
+    "url": "leetcode.com",
+    "routes": [
+      "/articles",
+      "/dailyquestion/cn",
+      "/dailyquestion/en",
+      "/dailyquestion/solution/cn",
+      "/dailyquestion/solution/en"
+    ]
+  },
+  {
+    "name": "雷峰网",
+    "url": "leiphone.com",
+    "routes": [
+      "/:do?/:keyword?",
+      "/newsflash"
+    ]
+  },
+  {
+    "name": "Lemmy",
+    "routes": [
+      "/:community/:sort?"
+    ]
+  },
+  {
+    "name": "旅法师营地",
+    "url": "www.iyingdi.com",
+    "routes": [
+      "/home",
+      "/old_home",
+      "/tag/:tagId?",
+      "/user/:id?"
+    ]
+  },
+  {
+    "name": "三联生活周刊",
+    "url": "lifeweek.com.cn",
+    "routes": [
+      "/channel/:id",
+      "/tag/:id"
+    ]
+  },
+  {
+    "name": "轻之国度",
+    "url": "lightNovel.us",
+    "routes": [
+      "/:keywords/:security_key?"
+    ]
+  },
+  {
+    "name": "LINE",
+    "url": "today.line.me",
+    "routes": [
+      "/today/:edition/publisher/:id",
+      "/today/:edition?/:tab?"
+    ]
+  },
+  {
+    "name": "LinkedIn 领英中国",
+    "url": "linkedin.com",
+    "routes": [
+      "/jobs/:job_types/:exp_levels/:keywords?",
+      "/cn/jobs/:keywords?"
+    ]
+  },
+  {
+    "name": "Link Research",
+    "url": "linkresearcher",
+    "routes": [
+      "/:params"
+    ]
+  },
+  {
+    "name": "哔哩轻小说",
+    "url": "linovelib.com",
+    "routes": [
+      "/novel/:id",
+      "/volume/:id"
+    ]
+  },
+  {
+    "name": "Liquipedia",
+    "url": "liquipedia.net",
+    "routes": [
+      "/counterstrike/matches/:team",
+      "/dota2/matches/:id"
+    ]
+  },
+  {
+    "name": "Literotica",
+    "url": "literotica.com",
+    "routes": [
+      "/category/:category",
+      "/new"
+    ]
+  },
+  {
+    "name": "木木博客",
+    "url": "liulinblog.com",
+    "routes": [
+      "/:params{.+}?",
+      "/itnews/:channel"
+    ]
+  },
+  {
+    "name": "Live Universal Awareness Map",
+    "url": "liveuamap.com",
+    "routes": [
+      "/:region?"
+    ]
+  },
+  {
+    "name": "龙空",
+    "url": "lkong.com",
+    "routes": [
+      "/forum/:id?/:digest?",
+      "/thread/:id"
+    ]
+  },
+  {
+    "name": "Lofter",
+    "url": "www.lofter.com",
+    "routes": [
+      "/tag/:name?/:type?",
+      "/user/:name?"
+    ]
+  },
+  {
+    "name": "罗戈网",
+    "url": "logclub.com",
+    "routes": [
+      "/:category{.+}?",
+      "/lc_report/:id?",
+      "/report/:id?"
+    ]
+  },
+  {
+    "name": "LogoNews 标志情报局",
+    "url": "logonews.cn",
+    "routes": [
+      "/work/tags/:tag",
+      "/tag/:tag",
+      "*"
+    ]
+  },
+  {
+    "name": "英雄联盟",
+    "url": "lol.garena.tw",
+    "routes": [
+      "/news/:category?"
+    ]
+  },
+  {
+    "name": "LA UOSC社区",
+    "url": "loongarch.org",
+    "routes": [
+      "/post/:type?"
+    ]
+  },
+  {
+    "name": "lovelive-anime",
+    "url": "www.lovelive-anime.jp",
+    "routes": [
+      "/news/:option?",
+      "/schedules/:serie?/:category?",
+      "/topics/:abbr/:category?/:option?"
+    ]
+  },
+  {
+    "name": "乐山师范学院",
+    "url": "lsnu.edu.cn",
+    "routes": [
+      "/jiaowc/tzgg/:category?"
+    ]
+  },
+  {
+    "name": "洛谷",
+    "url": "luogu.com.cn",
+    "routes": [
+      "/contest",
+      "/daily/:id?",
+      "/user/blog/:name",
+      "/user/feed/:uid"
+    ]
+  },
+  {
+    "name": "土猛的员外",
+    "url": "luxiangdong.com",
+    "routes": [
+      "/archive"
+    ]
+  },
+  {
+    "name": "LVV2",
+    "url": "lvv2.com",
+    "routes": [
+      "/news/:channel/:sort?",
+      "/top/:channel/:sort?"
+    ]
+  },
+  {
+    "name": "LiSA",
+    "url": "www.sonymusic.co.jp",
+    "routes": [
+      "/disco",
+      "/info"
+    ]
+  },
+  {
+    "name": "四月网",
+    "url": "news.m4.cn",
+    "routes": [
+      "/:id?/:category{.+}?"
+    ]
+  },
+  {
+    "name": "Macfilos",
+    "url": "macfilos.com",
+    "routes": [
+      "/blog"
+    ]
+  },
+  {
+    "name": "MacMenuBar",
+    "url": "macmenubar.com",
+    "routes": [
+      "/recently/:category?"
+    ]
+  },
+  {
+    "name": "MacUpdate",
+    "url": "macupdate.com",
+    "routes": [
+      "/app/:appId/:appSlug?"
+    ]
+  },
+  {
+    "name": "MagazineLib",
+    "url": "magazinelib.com",
+    "routes": [
+      "/latest-magazine/:query?"
+    ]
+  },
+  {
+    "name": "Email",
+    "routes": [
+      "/imap/:email/:folder{.+}?"
+    ]
+  },
+  {
+    "name": "Unknown",
+    "url": "mangadex.org",
+    "routes": [
+      "/:id/:lang?"
+    ]
+  },
+  {
+    "name": "看漫画",
+    "url": "www.manhuagui.com",
+    "routes": [
+      "/comic/:id/:chapterCnt?",
+      "/:domain?/comic/:id/:chapterCnt?",
+      "/subscribe"
+    ]
+  },
+  {
+    "name": "Mastodon",
+    "url": "mastodon.social",
+    "routes": [
+      "/account_id/:site/:account_id/statuses/:only_media?",
+      "/acct/:acct/statuses/:only_media?",
+      "/timeline/:site/:only_media?",
+      "/remote/:site/:only_media?"
+    ]
+  },
+  {
+    "name": "麦肯锡",
+    "url": "mckinsey.com.cn",
+    "routes": [
+      "/cn/:category?"
+    ]
+  },
+  {
+    "name": "MDPI",
+    "url": "www.mdpi.com",
+    "routes": [
+      "/:journal"
+    ]
+  },
+  {
+    "name": "中国的中古",
+    "url": "medieval-china.club",
+    "routes": [
+      "/"
+    ]
+  },
+  {
+    "name": "Medium",
+    "url": "medium.com",
+    "routes": [
+      "/following/:user",
+      "/for-you/:user",
+      "/list/:user/:catalogId",
+      "/tag/:user/:tag"
+    ]
+  },
+  {
+    "name": "梅斯医学 MedSci",
+    "url": "medsci.cn",
+    "routes": [
+      "/:sid?/:tid?"
+    ]
+  },
+  {
+    "name": "Metacritic",
+    "url": "metacritic.com",
+    "routes": [
+      "/:type?/:sort?/:filter?"
+    ]
+  },
+  {
+    "name": "Meteor",
+    "url": "meteor.today",
+    "routes": [
+      "/boards",
+      "/:board?"
+    ]
+  },
+  {
+    "name": "Unknown",
+    "url": "www.metmuseum.org",
+    "routes": [
+      "/exhibitions/:state?"
+    ]
+  },
+  {
+    "name": "小米",
+    "url": "mi.com",
+    "routes": [
+      "/crowdfunding",
+      "/golden"
+    ]
+  },
+  {
+    "name": "Microsoft Edge",
+    "url": "microsoftedge.microsoft.com",
+    "routes": [
+      "/edge/addon/:crxid"
+    ]
+  },
+  {
+    "name": "米哈游",
+    "url": "genshin.hoyoverse.com",
+    "routes": [
+      "/bbs/follow-list/:uid",
+      "/bbs/img-ranking/:game/:routeParams?",
+      "/bbs/official/:gids/:type?/:page_size?/:last_id?",
+      "/bbs/timeline",
+      "/bbs/user-post/:uid",
+      "/sr/:location?/:category?",
+      "/ys/:location?/:category?"
+    ]
+  },
+  {
+    "name": "MindMeister",
+    "url": "mindmeister.com",
+    "routes": [
+      "/:category?/:language?"
+    ]
+  },
+  {
+    "name": "Minecraft",
+    "url": "minecraft.net",
+    "routes": [
+      "/version"
+    ]
+  },
+  {
+    "name": "Ming Pao 明报",
+    "url": "mingpao.com",
+    "routes": [
+      "/:type?/:category?"
+    ]
+  },
+  {
+    "name": "MiniFlux",
+    "url": "miniflux.app",
+    "routes": [
+      "/entry/:feeds/:parameters?",
+      "/subscription/:parameters?"
+    ]
+  },
+  {
+    "name": "Mirror",
+    "url": "mirror.xyz",
+    "routes": [
+      "/:id"
+    ]
+  },
+  {
+    "name": "MissAV.com",
+    "url": "missav.com",
+    "routes": [
+      "/new"
+    ]
+  },
+  {
+    "name": "Misskey",
+    "url": "misskey.io",
+    "routes": [
+      "/notes/featured/:site"
+    ]
+  },
+  {
+    "name": "麻省理工科技评论",
+    "url": "mittrchina.com",
+    "routes": [
+      "/:type?"
+    ]
+  },
+  {
+    "name": "MIUI",
+    "url": "miui.com",
+    "routes": [
+      "/:device/:type?/:region?"
+    ]
+  },
+  {
+    "name": "Mixcloud",
+    "url": "www.mixcloud.com",
+    "routes": [
+      "/:username/:type?"
+    ]
+  },
+  {
+    "name": "墨天轮",
+    "url": "modb.pro",
+    "routes": [
+      "/topic/:id"
+    ]
+  },
+  {
+    "name": "ModelScope 魔搭社区",
+    "url": "modelscope.cn",
+    "routes": [
+      "/community",
+      "/datasets",
+      "/models",
+      "/studios"
+    ]
+  },
+  {
+    "name": "摩点",
+    "url": "modian.com",
+    "routes": [
+      "/zhongchou/:category?/:sort?/:status?"
+    ]
+  },
+  {
+    "name": "Modrinth",
+    "url": "modrinth.com",
+    "routes": [
+      "/project/:id/versions/:routeParams?"
+    ]
+  },
+  {
+    "name": "台灣衛生福利部",
+    "url": "mohw.gov.tw",
+    "routes": [
+      "/clarification"
+    ]
+  },
+  {
+    "name": "Mox.moe",
+    "url": "mox.moe",
+    "routes": [
+      "/:category?"
+    ]
+  },
+  {
+    "name": "移动支付网",
+    "url": "mpaypass.com.cn",
+    "routes": [
+      "/main/:type?",
+      "/news"
+    ]
+  },
+  {
+    "name": "新华每日电讯",
+    "url": "mrdx.cn",
+    "routes": [
+      "/today"
+    ]
+  },
+  {
+    "name": "华储网",
+    "url": "mrm.com.cn",
+    "routes": [
+      "/:category?"
+    ]
+  },
+  {
+    "name": "管理世界",
+    "url": "mwm.net.cn",
+    "routes": [
+      "/:category?"
+    ]
+  },
+  {
+    "name": "快科技",
+    "url": "m.mydrivers.com",
+    "routes": [
+      "/cid/:id?",
+      "/zhibo",
+      "/:category{.+}?",
+      "/rank/:range?"
+    ]
+  },
+  {
+    "name": "MyFigureCollection",
+    "url": "myfigurecollection.net",
+    "routes": [
+      "/activity/:category?/:language?/:latestAdditions?/:latestEdits?/:latestAlerts?/:latestPictures?",
+      "/:category?/:language?"
+    ]
+  },
+  {
+    "name": "MyGoPen",
+    "url": "mygopen.com",
+    "routes": [
+      "/:label?"
+    ]
+  },
+  {
+    "name": "MyMusicSheet",
+    "url": "mymusicsheet.com",
+    "routes": [
+      "/user/sheets/:username/:iso?/:freeOnly?"
+    ]
+  },
+  {
+    "name": "MySQL",
+    "url": "dev.mysql.com",
+    "routes": [
+      "/release/:version?"
+    ]
+  },
+  {
+    "name": "NASA Astronomy Picture of the Day",
+    "url": "apod.nasa.gov",
+    "routes": [
+      "/apod-cn",
+      "/apod-ncku",
+      "/apod"
+    ]
+  },
+  {
+    "name": "国家地理",
+    "url": "nationalgeographic.com",
+    "routes": [
+      "/dailyphoto",
+      "/dailyselection",
+      "/:cat/:type?"
+    ]
+  },
+  {
+    "name": "National Geographic",
+    "url": "www.nationalgeographic.com",
+    "routes": [
+      "/latest-stories"
+    ]
+  },
+  {
+    "name": "Nature Journal",
+    "url": "nature.com",
+    "routes": [
+      "/cover",
+      "/highlight/:journal?",
+      "/news-and-comment/:journal?",
+      "/news",
+      "/research/:journal?",
+      "/siteindex"
+    ]
+  },
+  {
+    "name": "Nautilus",
+    "url": "nautil.us",
+    "routes": [
+      "/topic/:tid"
+    ]
+  },
+  {
+    "name": "每经网",
+    "url": "nbd.com.cn",
+    "routes": [
+      "/daily",
+      "/:id?"
+    ]
+  },
+  {
+    "name": "National Bureau of Economic Research",
+    "url": "nber.org",
+    "routes": [
+      "/papers",
+      "/news"
+    ]
+  },
+  {
+    "name": "国家气候中心",
+    "url": "cmdp.ncc-cma.net",
+    "routes": [
+      "/cmdp/image/:id{.+}?"
+    ]
+  },
+  {
+    "name": "华北电力大学",
+    "url": "yjsy.ncepu.edu.cn",
+    "routes": [
+      "/master/:type"
+    ]
+  },
+  {
+    "name": "南昌大学",
+    "url": "jwc.ncu.edu.cn",
+    "routes": [
+      "/jwc"
+    ]
+  },
+  {
+    "name": "华北水利水电大学",
+    "url": "ncwu.edu.cn",
+    "routes": [
+      "/notice"
+    ]
+  },
+  {
+    "name": "Network and Distributed System Security (NDSS) Symposium",
+    "url": "ndss-symposium.org",
+    "routes": [
+      "/ndss"
+    ]
+  },
+  {
+    "name": "Neat Download Manager",
+    "url": "neatdownloadmanager.com",
+    "routes": [
+      "/download/:os?"
+    ]
+  },
+  {
+    "name": "NEEA 中国教育考试网",
+    "url": "jlpt.neea.cn",
+    "routes": [
+      "/:type?",
+      "/jlpt"
+    ]
+  },
+  {
+    "name": "东北师范大学",
+    "url": "sohac.nenu.edu.cn",
+    "routes": [
+      "/sohac/*",
+      "/yjsy/*"
+    ]
+  },
+  {
+    "name": "Netflav",
+    "url": "netflav.com",
+    "routes": [
+      "/"
+    ]
+  },
+  {
+    "name": "东北大学",
+    "url": "neunews.neu.edu.cn",
+    "routes": [
+      "/bmie/:type",
+      "/news/:type"
+    ]
+  },
+  {
+    "name": "New Museum 纽约新美术馆",
+    "url": "www.newmuseum.org",
+    "routes": [
+      "/exhibitions"
+    ]
+  },
+  {
+    "name": "新榜",
+    "url": "newrank.cn",
+    "routes": [
+      "/douyin/:dyid",
+      "/wechat/:wxid"
+    ]
+  },
+  {
+    "name": "小黑盒",
+    "url": "news.cn",
+    "routes": [
+      "/xhsxw",
+      "/whxw"
+    ]
+  },
+  {
+    "name": "上下游 News&Market",
+    "url": "newsmarket.com.tw",
+    "routes": [
+      "/:category?"
+    ]
+  },
+  {
+    "name": "NEW 字幕组",
+    "url": "newzmz.com",
+    "routes": [
+      "/:id?/:downLinkType?"
+    ]
+  },
+  {
+    "name": "壹蘋新聞網",
+    "url": "tw.nextapple.com",
+    "routes": [
+      "/realtime/:category?"
+    ]
+  },
+  {
+    "name": "NGA",
+    "url": "bbs.nga.cn",
+    "routes": [
+      "/forum/:fid/:recommend?",
+      "/post/:tid/:authorId?"
+    ]
+  },
+  {
+    "name": "NGOCN",
+    "url": "ngocn2.org",
+    "routes": [
+      "/:category?"
+    ]
+  },
+  {
+    "name": "nhentai",
+    "url": "nhentai.net",
+    "routes": [
+      "/:key/:keyword/:mode?",
+      "/search/:keyword/:mode?"
+    ]
+  },
+  {
+    "name": "NHK",
+    "url": "www3.nhk.or.jp",
+    "routes": [
+      "/news_web_easy",
+      "/news/:lang?"
+    ]
+  },
+  {
+    "name": "鸟哥笔记",
+    "url": "niaogebiji.com",
+    "routes": [
+      "/cat/:cat",
+      "/",
+      "/today"
+    ]
+  },
+  {
+    "name": "国家金融与发展实验室",
+    "url": "www.nifd.cn",
+    "routes": [
+      "/research/:categoryGuid?"
+    ]
+  },
+  {
+    "name": "The Nikkei 日本経済新聞",
+    "url": "asia.nikkei.com",
+    "routes": [
+      "/",
+      "/index",
+      "/:category/:article_type?",
+      "/asia",
+      "/cn/*"
+    ]
+  },
+  {
+    "name": "Nintendo",
+    "url": "nintendo.com",
+    "routes": [
+      "/direct",
+      "/eshop/cn",
+      "/eshop/hk",
+      "/eshop/jp",
+      "/eshop/us",
+      "/news/china",
+      "/news",
+      "/system-update"
+    ]
+  },
+  {
+    "name": "走进日本",
+    "url": "www.nippon.com",
+    "routes": [
+      "/:category?"
+    ]
+  },
+  {
+    "name": "南京鼓楼医院",
+    "url": "njglyy.com",
+    "routes": [
+      "/ygbjypx"
+    ]
+  },
+  {
+    "name": "南京工程学院",
+    "url": "jwc.njit.edu.cn",
+    "routes": [
+      "/jwc/:type?",
+      "/tzgg"
+    ]
+  },
+  {
+    "name": "南京师范大学",
+    "url": "ceai.njnu.edu.cn",
+    "routes": [
+      "/ceai/:type",
+      "/jwc/:type"
+    ]
+  },
+  {
+    "name": "南京大学",
+    "url": "admission.nju.edu.cn",
+    "routes": [
+      "/admission",
+      "/dafls",
+      "/exchangesys/:type",
+      "/gra",
+      "/hospital",
+      "/hqjt",
+      "/itsc",
+      "/jjc",
+      "/jw/:type",
+      "/rczp/:type",
+      "/scit/:type",
+      "/zbb/:type",
+      "/zcc"
+    ]
+  },
+  {
+    "name": "南京中医药大学",
+    "url": "lib.njucm.edu.cn",
+    "routes": [
+      "/grabszs"
+    ]
+  },
+  {
+    "name": "南京邮电大学",
+    "url": "jwc.njupt.edu.cn",
+    "routes": [
+      "/jwc/:type?"
+    ]
+  },
+  {
+    "name": "南京理工大学",
+    "url": "jwc.njust.edu.cn",
+    "routes": [
+      "/cwc/:type?",
+      "/dgxg/:type?",
+      "/eo/:grade?/:type?",
+      "/eoe/:type?",
+      "/gs/:type?",
+      "/jwc/:type?"
+    ]
+  },
+  {
+    "name": "南京晓庄学院",
+    "url": "lib.njxzc.edu.cn",
+    "routes": [
+      "/tzgg",
+      "/libtzgg"
+    ]
+  },
+  {
+    "name": "中国国家图书馆",
+    "url": "read.nlc.cn",
+    "routes": [
+      "/read/:type?"
+    ]
+  },
+  {
+    "name": "NL Times",
+    "url": "nltimes.nl",
+    "routes": [
+      "/news/:category?"
+    ]
+  },
+  {
+    "name": "中央气象台",
+    "url": "nmc.cn",
+    "routes": [
+      "/weatheralarm/:province?"
+    ]
+  },
+  {
+    "name": "内蒙古广播电视台",
+    "url": "nmtv.cn",
+    "routes": [
+      "/column/:id?"
+    ]
+  },
+  {
+    "name": "Node.js",
+    "url": "nodejs.org",
+    "routes": [
+      "/blog/:language?"
+    ]
+  },
+  {
+    "name": "Sakamichi Series 坂道系列官网资讯",
+    "url": "news.nogizaka46.com",
+    "routes": [
+      "/blog/:id?",
+      "/news"
+    ]
+  },
+  {
+    "name": "NOSEC 安全讯息平台",
+    "url": "nosec.org",
+    "routes": [
+      "/:keykind?"
+    ]
+  },
+  {
+    "name": "Not a Tesla App",
+    "url": "notateslaapp.com",
+    "routes": [
+      "/ota"
+    ]
+  },
+  {
+    "name": "Notefolio",
+    "url": "notefolio.net",
+    "routes": [
+      "/search/:category?/:order?/:time?/:query?"
+    ]
+  },
+  {
+    "name": "Notion",
+    "url": "notion.so",
+    "routes": [
+      "/database/:databaseId"
+    ]
+  },
+  {
+    "name": "Now 新聞",
+    "url": "news.now.com",
+    "routes": [
+      "/news/:category?/:id?"
+    ]
+  },
+  {
+    "name": "牛客网",
+    "url": "nowcoder.com",
+    "routes": [
+      "/discuss/:type/:order",
+      "/experience/:tagId",
+      "/jobcenter/:recruitType?/:city?/:type?/:order?/:latest?",
+      "/recommend",
+      "/schedule/:propertyId?/:typeId?"
+    ]
+  },
+  {
+    "name": "NPM",
+    "url": "npmjs.com",
+    "routes": [
+      "package/:name{(@[a-z0-9-~][a-z0-9-._~]*/)?[a-z0-9-~][a-z0-9-._~]*}"
+    ]
+  },
+  {
+    "name": "National Public Radio",
+    "url": "npr.org",
+    "routes": [
+      "/:endpoint?"
+    ]
+  },
+  {
+    "name": "NT动漫",
+    "url": "www.ntdm9.com",
+    "routes": [
+      "/video/:id"
+    ]
+  },
+  {
+    "name": "新唐人电视台",
+    "url": "www.ntdtv.com",
+    "routes": [
+      "/:language/:id"
+    ]
+  },
+  {
+    "name": "Nanjing University of the Arts 南京艺术学院",
+    "url": "index.nua.edu.cn",
+    "routes": [
+      "/dc/:type",
+      "/gra/:type",
+      "/index/:type",
+      "/lib/:type",
+      "/sxw/:type"
+    ]
+  },
+  {
+    "name": "南京航空航天大学",
+    "url": "aao.nuaa.edu.cn",
+    "routes": [
+      "/cae/:type/:getDescription?",
+      "/cs/:type/:getDescription?",
+      "/jwc/:type/:getDescription?",
+      "/yjsy/:type/:getDescription?"
+    ]
+  },
+  {
+    "name": "南京信息工程大学",
+    "url": "bulletin.nuist.edu.cn",
+    "routes": [
+      "/bulletin/:category?",
+      "/cas/:category?",
+      "/jwc/:category?",
+      "/scs/:category?",
+      "/sese/:category?",
+      "/xgc",
+      "/yjs/*",
+      "/lib"
+    ]
+  },
+  {
+    "name": "西北农林科技大学",
+    "url": "nwafu.edu.cn",
+    "routes": [
+      "/:type?"
+    ]
+  },
+  {
+    "name": "Nyaa",
+    "url": "nyaa.si",
+    "routes": [
+      "/search/:query?",
+      "/user/:username?",
+      "/user/:username/search/:query?",
+      "/sukebei/search/:query?",
+      "/sukebei/user/:username?",
+      "/sukebei/user/:username/search/:query?"
+    ]
+  },
+  {
+    "name": "The New York Times 纽约时报",
+    "url": "nytimes.com",
+    "routes": [
+      "/book/:category?",
+      "/daily_briefing_chinese",
+      "/:lang?"
+    ]
+  },
+  {
+    "name": "巨量算数 - 算数指数",
+    "url": "trendinsight.oceanengine.com",
+    "routes": [
+      "/index/:keyword/:channel?"
+    ]
+  },
+  {
+    "name": "Odaily 星球日报",
+    "url": "odaily.news",
+    "routes": [
+      "/activity",
+      "/newsflash",
+      "/:id?",
+      "/search/news/:keyword",
+      "/user/:id"
+    ]
+  },
+  {
+    "name": "南方都市报",
+    "url": "oeeee.com",
+    "routes": [
+      "/web/:channel",
+      "/app/channel/:id",
+      "/app/reporter/:id"
+    ]
+  },
+  {
+    "name": "隆众资讯",
+    "url": "oilchem.net",
+    "routes": [
+      "/:type?/:category?/:subCategory?"
+    ]
+  },
+  {
+    "name": "东网",
+    "url": "hk.on.cc",
+    "routes": [
+      "/:language/:channel?",
+      "/money18/:id?"
+    ]
+  },
+  {
+    "name": "我不是盐神",
+    "url": "onehu.xyz",
+    "routes": [
+      "/"
+    ]
+  },
+  {
+    "name": "Onet",
+    "url": "wiadomosci.onet.pl",
+    "routes": [
+      "/news"
+    ]
+  },
+  {
+    "name": "O&O Software",
+    "url": "oo-software.com",
+    "routes": [
+      "/changelog/:id"
+    ]
+  },
+  {
+    "name": "OpenAI",
+    "url": "openai.com",
+    "routes": [
+      "/blog/:tag?",
+      "/chatgpt/release-notes",
+      "/research"
+    ]
+  },
+  {
+    "name": "Unknown",
+    "url": "openwrt.org",
+    "routes": [
+      "/releases/:brand/:model"
+    ]
+  },
+  {
+    "name": "ORCID",
+    "url": "orcid.org",
+    "routes": [
+      "/:id"
+    ]
+  },
+  {
+    "name": "俺の 3D エロ動画 (oreno3d)",
+    "url": "oreno3d.com",
+    "routes": [
+      "/authors/:authorid/:sort/:pagelimit?",
+      "/characters/:characterid/:sort/:pagelimit?",
+      "/origins/:originid/:sort/:pagelimit?",
+      "/search/:keyword/:sort/:pagelimit?",
+      "/tags/:tagid/:sort/:pagelimit?"
+    ]
+  },
+  {
+    "name": "开源中国",
+    "url": "oschina.net",
+    "routes": [
+      "/news/:category?",
+      "/topic/:topic",
+      "/u/:uid",
+      "/user/:id"
+    ]
+  },
+  {
+    "name": "oshwhub 立创开源硬件平台",
+    "url": "oshwhub.com",
+    "routes": [
+      "/:sortType?"
+    ]
+  },
+  {
+    "name": "osu!",
+    "url": "osu.ppy.sh",
+    "routes": [
+      "/packs/:type?"
+    ]
+  },
+  {
+    "name": "OTOBANANA",
+    "url": "otobanana.com",
+    "routes": [
+      "/user/:id/cast",
+      "/user/:id/livestream",
+      "/user/:id"
+    ]
+  },
+  {
+    "name": "中国海洋大学",
+    "url": "it.ouc.edu.cn",
+    "routes": [
+      "/hqsz",
+      "/it/postgraduate",
+      "/it/tx/:id?",
+      "/it/:type?",
+      "/jwc",
+      "/jwgl",
+      "/yjs"
+    ]
+  },
+  {
+    "name": "Oxford University Press",
+    "url": "academic.oup.com",
+    "routes": [
+      "/journals/:name"
+    ]
+  },
+  {
+    "name": "Outage.Report",
+    "url": "outage.report",
+    "routes": [
+      "/:name/:count?"
+    ]
+  },
+  {
+    "name": "PANews",
+    "url": "panewslab.com",
+    "routes": [
+      "/author/:id",
+      "/column/:id",
+      "/:category?",
+      "/news",
+      "/newsflash",
+      "/topic/:id"
+    ]
+  },
+  {
+    "name": "Cool Papers",
+    "url": "papers.cool",
+    "routes": [
+      "/:category{.+}?"
+    ]
+  },
+  {
+    "name": "Paradigm",
+    "url": "paradigm.xyz",
+    "routes": [
+      "/writing"
+    ]
+  },
+  {
+    "name": "Thailand Parliament",
+    "url": "parliament.go.th",
+    "routes": [
+      "/section77/:type?"
+    ]
+  },
+  {
+    "name": "Patagonia",
+    "url": "patagonia.com",
+    "routes": [
+      "/new-arrivals/:category"
+    ]
+  },
+  {
+    "name": "Paul Graham",
+    "url": "paulgraham.com",
+    "routes": [
+      "/articles",
+      "/essays",
+      "/"
+    ]
+  },
+  {
+    "name": "Penguin Random House",
+    "url": "penguinrandomhouse.com",
+    "routes": [
+      "/articles",
+      "/the-read-down"
+    ]
+  },
+  {
+    "name": "人民网",
+    "url": "people.com.cn",
+    "routes": [
+      "/:site?/:category{.+}?",
+      "/liuyan/:id/:state?",
+      "/xjpjh/:keyword?/:year?"
+    ]
+  },
+  {
+    "name": "PeoPo 公民新聞",
+    "url": "peopo.org",
+    "routes": [
+      "/topic/:topicId?"
+    ]
+  },
+  {
+    "name": "Phoronix",
+    "url": "phoronix.com",
+    "routes": [
+      "/:category?/:topic?"
+    ]
+  },
+  {
+    "name": "便宜VPS网",
+    "url": "pianyivps.com",
+    "routes": [
+      "/"
+    ]
+  },
+  {
+    "name": "片源网",
+    "url": "pianyuan.org",
+    "routes": [
+      "/index/:media?",
+      "/indexers/pianyuan/results/search/api"
+    ]
+  },
+  {
+    "name": "Instagram",
+    "url": "picnob.com",
+    "routes": [
+      "/user/:id"
+    ]
+  },
+  {
+    "name": "Instagram",
+    "url": "www.picuki.com",
+    "routes": [
+      "/profile/:id/:functionalFlag?"
+    ]
+  },
+  {
+    "name": "Pikabu",
+    "url": "pikabu.ru",
+    "routes": [
+      "/:type/:name",
+      "/user/:name"
+    ]
+  },
+  {
+    "name": "品葱",
+    "url": "pincong.rocks",
+    "routes": [
+      "/hot/:category?",
+      "/category/:category?/:sort?",
+      "/topic/:topic"
+    ]
+  },
+  {
+    "name": "品玩",
+    "url": "pingwest.com",
+    "routes": [
+      "/status",
+      "/tag/:tag/:type/:option?",
+      "/user/:uid/:type?/:option?"
+    ]
+  },
+  {
+    "name": "Pixabay",
+    "url": "pixabay.com",
+    "routes": [
+      "/search/:q/:order?"
+    ]
+  },
+  {
+    "name": "pixiv",
+    "url": "www.pixiv.net",
+    "routes": [
+      "/user/bookmarks/:id",
+      "/user/illustfollows",
+      "/user/novels/:id",
+      "/ranking/:mode/:date?",
+      "/search/:keyword/:order?/:mode?",
+      "/user/:id"
+    ]
+  },
+  {
+    "name": "中国互联网联合辟谣平台",
+    "url": "piyao.org.cn",
+    "routes": [
+      "/jrpy"
+    ]
+  },
+  {
+    "name": "PKMer",
+    "url": "pkmer.cn",
+    "routes": [
+      "/recent"
+    ]
+  },
+  {
+    "name": "北京大学",
+    "url": "admission.pku.edu.cn",
+    "routes": [
+      "/eecs/:type?",
+      "/hr/:category?",
+      "/nsd/gd",
+      "/admission/sszs",
+      "/bbs/hot",
+      "/cls/announcement",
+      "/cls/lecture",
+      "/rccp/mzyt",
+      "/scc/recruit/:type?",
+      "/ss/admission",
+      "/ss/notice",
+      "/ss/pgadmin"
+    ]
+  },
+  {
+    "name": "PLAYNO.1 玩樂達人",
+    "url": "stno1.playno1.com",
+    "routes": [
+      "/av/:catid?",
+      "/st/:catid?"
+    ]
+  },
+  {
+    "name": "电脑玩物",
+    "url": "playpcesor.com",
+    "routes": [
+      "/"
+    ]
+  },
+  {
+    "name": "Plurk",
+    "url": "plurk.com",
+    "routes": [
+      "/anonymous",
+      "/hotlinks",
+      "/news/:lang?",
+      "/search/:keyword",
+      "/top/:category?/:lang?",
+      "/topic/:topic",
+      "/user/:user"
+    ]
+  },
+  {
+    "name": "Proceedings of The National Academy of Sciences",
+    "url": "pnas.org",
+    "routes": [
+      "/:topicPath{.+}?"
+    ]
+  },
+  {
+    "name": "PornHub",
+    "url": "pornhub.com",
+    "routes": [
+      "/:language?/category_url/:url?",
+      "/category/:caty",
+      "/:language?/model/:username/:sort?",
+      "/:language?/pornstar/:username/:sort?",
+      "/search/:keyword",
+      "/:language?/users/:username"
+    ]
+  },
+  {
+    "name": "Postman",
+    "url": "postman.com",
+    "routes": [
+      "/release-notes"
+    ]
+  },
+  {
+    "name": "PRINCESS CONNECT! Re Dive プリンセスコネクト！Re Dive",
+    "url": "priconne-redive.jp",
+    "routes": [
+      "/news/:server?"
+    ]
+  },
+  {
+    "name": "Product Hunt",
+    "url": "www.producthunt.com",
+    "routes": [
+      "/today"
+    ]
+  },
+  {
+    "name": "PlayStation Store",
+    "url": "www.playstation.com",
+    "routes": [
+      "/monthly-games",
+      "/trophy/:id"
+    ]
+  },
+  {
+    "name": "公視新聞網",
+    "url": "news.pts.org.tw",
+    "routes": [
+      "/curations",
+      "*",
+      "/live/:id",
+      "/projects"
+    ]
+  },
+  {
+    "name": "PubMed",
+    "url": "pubmed.ncbi.nlm.nih.gov",
+    "routes": [
+      "/trending/:filters?"
+    ]
+  },
+  {
+    "name": "北京协和医学院",
+    "url": "mdadmission.pumc.edu.cn",
+    "routes": [
+      "/mdadmission"
+    ]
+  },
+  {
+    "name": "PuTTY",
+    "url": "www.chiark.greenend.org.uk",
+    "routes": [
+      "/changes"
+    ]
+  },
+  {
+    "name": "PwC Strategy&",
+    "url": "strategyand.pwc.com",
+    "routes": [
+      "/strategyand/sustainability"
+    ]
+  },
+  {
+    "name": "量子位",
+    "url": "qbitai.com",
+    "routes": [
+      "/category/:category",
+      "/tag/:tag"
+    ]
+  },
+  {
+    "name": "qBittorrent",
+    "url": "qbittorrent.org",
+    "routes": [
+      "/news"
+    ]
+  },
+  {
+    "name": "青岛大学",
+    "url": "jwc.qdu.edu.cn",
+    "routes": [
+      "/houqin",
+      "/jwc"
+    ]
+  },
+  {
+    "name": "千篇网",
+    "url": "qianp.com",
+    "routes": [
+      "/news/:path{.+}?"
+    ]
+  },
+  {
+    "name": "前瞻网",
+    "url": "qianzhan.com",
+    "routes": [
+      "/analyst/column/:type?",
+      "/analyst/rank/:type?"
+    ]
+  },
+  {
+    "name": "起点",
+    "url": "book.qidian.com",
+    "routes": [
+      "/author/:id",
+      "/chapter/:id",
+      "/forum/:id",
+      "/free-next/:type?",
+      "/free/:type?"
+    ]
+  },
+  {
+    "name": "蜻蜓 FM",
+    "url": "qingting.fm",
+    "routes": [
+      "/channel/:id",
+      "/podcast/:id"
+    ]
+  },
+  {
+    "name": "奇葩买家秀",
+    "url": "qipamaijia.com",
+    "routes": [
+      "/:cate?"
+    ]
+  },
+  {
+    "name": "汽油价格网",
+    "url": "qiyoujiage.com",
+    "routes": [
+      "/:path{.+}"
+    ]
+  },
+  {
+    "name": "齐鲁工业大学",
+    "url": "qlu.edu.cn",
+    "routes": [
+      "/notice"
+    ]
+  },
+  {
+    "name": "全民健康网",
+    "url": "qm120.com",
+    "routes": [
+      "/news/:category?"
+    ]
+  },
+  {
+    "name": "QooApp",
+    "url": "apps.qoo-app.com",
+    "routes": [
+      "/news/:lang?",
+      "/apps/:lang?/card/:id",
+      "/apps/:lang?/comment/:id",
+      "/apps/:lang?/note/:id",
+      "/apps/:lang?/post/:id",
+      "/notes/:lang?/note/:id",
+      "/notes/:lang?/topic/:topic",
+      "/notes/:lang?/user/:uid",
+      "/user/:lang?/appComment/:uid"
+    ]
+  },
+  {
+    "name": "腾讯新闻较真查证平台",
+    "url": "ac.qq.com",
+    "routes": [
+      "/ac/comic/:id?",
+      "/ac/rank/:type?/:time?",
+      "/fact",
+      "/kg/reply/:playId",
+      "/kg/:userId"
+    ]
+  },
+  {
+    "name": "秋爸日字",
+    "url": "qq88.info",
+    "routes": [
+      "/:category?"
+    ]
+  },
+  {
+    "name": "早报网",
+    "url": "qqorw.cn",
+    "routes": [
+      "/:category?"
+    ]
+  },
+  {
+    "name": "QuestMobile",
+    "url": "questmobile.com.cn",
+    "routes": [
+      "/report/:industry?/:label?"
+    ]
+  },
+  {
+    "name": "Quicker",
+    "url": "getquicker.net",
+    "routes": [
+      "/qa/:category?/:state?",
+      "/share/:category?",
+      "/user/:category/:id",
+      "/update",
+      "/versions"
+    ]
+  },
+  {
+    "name": "青岛科技大学",
+    "url": "jw.qust.edu.cn",
+    "routes": [
+      "/jw"
+    ]
+  },
+  {
+    "name": "和风天气",
+    "url": "qweather.com",
+    "routes": [
+      "/3days/:location",
+      "/now/:location"
+    ]
+  },
+  {
+    "name": "云听",
+    "url": "radio.cn",
+    "routes": [
+      "/album/:id",
+      "/:id",
+      "/zhibo/:id"
+    ]
+  },
+  {
+    "name": "Radio-Canada.ca",
+    "url": "ici.radio-canada.ca",
+    "routes": [
+      "/latest/:language?"
+    ]
+  },
+  {
+    "name": "Rare Historical Photos",
+    "url": "rarehistoricalphotos.com",
+    "routes": [
+      "/"
+    ]
+  },
+  {
+    "name": "Rattibha",
+    "url": "rattibha.com",
+    "routes": [
+      "/user/:user"
+    ]
+  },
+  {
+    "name": "Rawkuma",
+    "url": "rawkuma.com",
+    "routes": [
+      "/manga/:id"
+    ]
+  },
+  {
+    "name": "Reactiflux",
+    "url": "reactiflux.com",
+    "routes": [
+      "/transcripts"
+    ]
+  },
+  {
+    "name": "ui.dev",
+    "url": "bytes.dev",
+    "routes": [
+      "/"
+    ]
+  },
+  {
+    "name": "Readhub",
+    "url": "readhub.cn",
+    "routes": [
+      "/daily",
+      "/:category?"
+    ]
+  },
+  {
+    "name": "RemNote",
+    "url": "remnote.com",
+    "routes": [
+      "/changelog"
+    ]
+  },
+  {
+    "name": "ResearchGate",
+    "url": "researchgate.net",
+    "routes": [
+      "/publications/:id"
+    ]
+  },
+  {
+    "name": "Reuters 路透社",
+    "url": "reuters.com",
+    "routes": [
+      "/:category/:topic?",
+      "/investigates"
+    ]
+  },
+  {
+    "name": "Radio Free Asia (RFA) 自由亚洲电台",
+    "url": "rfa.org",
+    "routes": [
+      "/:language?/:channel?/:subChannel?"
+    ]
+  },
+  {
+    "name": "Radio France Internationale 法国国际广播电台",
+    "url": "rfi.fr",
+    "routes": [
+      "/:path{.+}?"
+    ]
+  },
+  {
+    "name": "恩山无线论坛",
+    "url": "right.com.cn",
+    "routes": [
+      "/forum/:id?"
+    ]
+  },
+  {
+    "name": "Rodong Sinmun 劳动新闻",
+    "url": "rodong.rep.kp",
+    "routes": [
+      "/news/:language?"
+    ]
+  },
+  {
+    "name": "Routledge",
+    "url": "routledge.com",
+    "routes": [
+      "/:bookName/book-series/:bookId"
+    ]
+  },
+  {
+    "name": "Royal Society of Chemistry",
+    "url": "pubs.rsc.org",
+    "routes": [
+      "/journal/:id/:category?"
+    ]
+  },
+  {
+    "name": "RSSHub",
+    "url": "docs.rsshub.app",
+    "routes": [
+      "/routes/:lang?",
+      "/transform/html/:url/:routeParams",
+      "/transform/json/:url/:routeParams",
+      "/transform/sitemap/:url/:routeParams?"
+    ]
+  },
+  {
+    "name": "软餐",
+    "url": "ruancan.com",
+    "routes": [
+      "/category/:category?",
+      "/",
+      "/search/:keyword?",
+      "/user/:id"
+    ]
+  },
+  {
+    "name": "中国人民大学",
+    "url": "hr.ruc.edu.cn",
+    "routes": [
+      "/hr/:category?"
+    ]
+  },
+  {
+    "name": "跑野大爆炸",
+    "url": "runtrail.cn",
+    "routes": [
+      "/"
+    ]
+  },
+  {
+    "name": "Rust 语言中文社区",
+    "url": "rustcc.cn",
+    "routes": [
+      "/jobs",
+      "/news"
+    ]
+  },
+  {
+    "name": "Sakamichi Series 坂道系列官网资讯",
+    "url": "sakurazaka46.com",
+    "routes": [
+      "/blog/:id?/:page?",
+      "/news"
+    ]
+  },
+  {
+    "name": "Samsung",
+    "url": "research.samsung.com",
+    "routes": [
+      "/research/blog"
+    ]
+  },
+  {
+    "name": "Saraba1st",
+    "url": "bbs.saraba1st.com",
+    "routes": [
+      "/digest/:tid",
+      "/thread/:tid"
+    ]
+  },
+  {
+    "name": "上海社会科学院",
+    "url": "gs.sass.org.cn",
+    "routes": [
+      "/gs/:type"
+    ]
+  },
+  {
+    "name": "华南农业大学",
+    "url": "yzb.scau.edu.cn",
+    "routes": [
+      "/yzb",
+      "/yjsy"
+    ]
+  },
+  {
+    "name": "Science Magazine",
+    "url": "science.org",
+    "routes": [
+      "/blogs/:name?",
+      "/cover",
+      "/current/:journal?",
+      "/early/:journal?"
+    ]
+  },
+  {
+    "name": "ScienceDirect",
+    "url": "sciencedirect.com",
+    "routes": [
+      "/journal/:id"
+    ]
+  },
+  {
+    "name": "科学网",
+    "url": "blog.sciencenet.cn",
+    "routes": [
+      "/blog/:type?/:time?/:sort?",
+      "/user/:id"
+    ]
+  },
+  {
+    "name": "Corona Virus Disease 2019",
+    "url": "scmp.com",
+    "routes": [
+      "/coronavirus",
+      "/:category_id",
+      "/topics/:topic"
+    ]
+  },
+  {
+    "name": "华南师范大学",
+    "url": "cs.scnu.edu.cn",
+    "routes": [
+      "/jw",
+      "/library",
+      "/ss",
+      "/yjs",
+      "/cs/match"
+    ]
+  },
+  {
+    "name": "四川广播电视台",
+    "url": "sctv.com",
+    "routes": [
+      "/programme/:id?/:limit?/:isFull?"
+    ]
+  },
+  {
+    "name": "华南理工大学",
+    "url": "jw.scut.edu.cn",
+    "routes": [
+      "/yjs",
+      "/jwc/news",
+      "/jwc/notice/:category?",
+      "/jwc/school/:category?",
+      "/scet/notice",
+      "/seie/news_center",
+      "/smae/:category?"
+    ]
+  },
+  {
+    "name": "四川职业技术学院",
+    "url": "scvtc.edu.cn",
+    "routes": [
+      "/xygg"
+    ]
+  },
+  {
+    "name": "山东大学（威海）",
+    "url": "xinwen.wh.sdu.edu.cn",
+    "routes": [
+      "/cmse/:type?",
+      "/cs/:type?",
+      "/epe/:type?",
+      "/mech/:type?",
+      "/sc/:type?",
+      "/wh/jwc/:column?",
+      "/wh/news/:column?"
+    ]
+  },
+  {
+    "name": "山东科技大学",
+    "url": "sdust.edu.cn",
+    "routes": [
+      "/yjsy/zhaosheng/:id?"
+    ]
+  },
+  {
+    "name": "山东省教育招生考试院",
+    "url": "sdzk.cn",
+    "routes": [
+      "/:bcid?/:cid?"
+    ]
+  },
+  {
+    "name": "SecIN 信息安全技术社区",
+    "url": "sec-in.com",
+    "routes": [
+      "/"
+    ]
+  },
+  {
+    "name": "SecWiki - 安全维基",
+    "url": "www.sec-wiki.com",
+    "routes": [
+      "/weekly"
+    ]
+  },
+  {
+    "name": "安全内参",
+    "url": "secrss.com",
+    "routes": [
+      "/author/:author",
+      "/category/:category?"
+    ]
+  },
+  {
+    "name": "Seeking Alpha",
+    "url": "seekingalpha.com",
+    "routes": [
+      "/:symbol/:category?"
+    ]
+  },
+  {
+    "name": "SEGA",
+    "url": "pjsekai.sega.jp",
+    "routes": [
+      "/maimaidx/news",
+      "/pjsekai/news"
+    ]
+  },
+  {
+    "name": "SegmentFault",
+    "url": "segmentfault.com",
+    "routes": [
+      "/blogs/:tag",
+      "/channel/:name",
+      "/user/:name"
+    ]
+  },
+  {
+    "name": "色花堂",
+    "url": "sehuatang.net",
+    "routes": [
+      "/bt/:subforumid?",
+      "/picture/:subforumid",
+      "/:subforumid?/:type?",
+      "/:subforumid?",
+      "",
+      "/user/:uid"
+    ]
+  },
+  {
+    "name": "Sensor Tower",
+    "url": "sensortower.com",
+    "routes": [
+      "/blog/:language?"
+    ]
+  },
+  {
+    "name": "三立新聞網",
+    "url": "setn.com",
+    "routes": [
+      "/:category?"
+    ]
+  },
+  {
+    "name": "东南大学",
+    "url": "cse.seu.edu.cn",
+    "routes": [
+      "/yjs",
+      "/cse/:type?",
+      "/radio/academic",
+      "/yzb/:type"
+    ]
+  },
+  {
+    "name": "SF 轻小说",
+    "url": "book.sfacg.com",
+    "routes": [
+      "/novel/chapter/:id"
+    ]
+  },
+  {
+    "name": "上海文化广场",
+    "url": "www.shcstheatre.com",
+    "routes": [
+      "/programs"
+    ]
+  },
+  {
+    "name": "上海电力大学",
+    "url": "bwc.shiep.edu.cn",
+    "routes": [
+      "/:type/:id?"
+    ]
+  },
+  {
+    "name": "上海外国语大学",
+    "url": "news.shisu.edu.cn",
+    "routes": [
+      "/news/:category"
+    ]
+  },
+  {
+    "name": "上海市教育考试院",
+    "url": "www.shmeea.edu.cn",
+    "routes": [
+      "/:id?",
+      "/self-study"
+    ]
+  },
+  {
+    "name": "上海海事大学",
+    "url": "jwc.shmtu.edu.cn",
+    "routes": [
+      "/jwc/:type",
+      "/portal/:type",
+      "/www/:type"
+    ]
+  },
+  {
+    "name": "上海东方艺术中心",
+    "url": "shoac.com.cn",
+    "routes": [
+      "/recent-show"
+    ]
+  },
+  {
+    "name": "ShopBack",
+    "url": "shopback.com.tw",
+    "routes": [
+      "/:store"
+    ]
+  },
+  {
+    "name": "Shopping Design",
+    "url": "www.shoppingdesign.com.tw",
+    "routes": [
+      "/posts"
+    ]
+  },
+  {
+    "name": "秀动网",
+    "url": "www.showstart.com",
+    "routes": [
+      "/artist/:id",
+      "/brand/:id",
+      "/event/:cityCode/:showStyle?",
+      "/search/:type/:keyword?"
+    ]
+  },
+  {
+    "name": "上海大学",
+    "url": "jwb.shu.edu.cn",
+    "routes": [
+      "/:type?",
+      "/jwc/:type?",
+      "/jwb/:type?"
+    ]
+  },
+  {
+    "name": "水果派",
+    "url": "shuiguopai.com",
+    "routes": [
+      "/"
+    ]
+  },
+  {
+    "name": "四川农业大学",
+    "url": "dky.sicau.edu.cn",
+    "routes": [
+      "/dky/:category?",
+      "/yan/:category?",
+      "/zsjy/:category?"
+    ]
+  },
+  {
+    "name": "ACM Special Interest Group on Security Audit and Control",
+    "url": "sigsac.org",
+    "routes": [
+      "/ccs"
+    ]
+  },
+  {
+    "name": "簡訊設計",
+    "url": "blog.simpleinfo.cc",
+    "routes": [
+      "/:category?"
+    ]
+  },
+  {
+    "name": "新浪",
+    "url": "finance.sina.com.cn",
+    "routes": [
+      "/csj",
+      "/discovery/:type",
+      "/rollnews/:lid?",
+      "/sports/:type?",
+      "/finance/china/:lid?",
+      "/finance/stock/usstock/:cids?"
+    ]
+  },
+  {
+    "name": "星洲网",
+    "url": "sinchew.com.my",
+    "routes": [
+      "*"
+    ]
+  },
+  {
+    "name": "第一会所",
+    "url": "sis001.com",
+    "routes": [
+      "/forum/:id?"
+    ]
+  },
+  {
+    "name": "上海交通大学",
+    "url": "bjwb.seiee.sjtu.edu.cn",
+    "routes": [
+      "/gs/:type/:num?",
+      "/jwc/:type?",
+      "/tongqu/:type?",
+      "/yzb/zkxx/:type"
+    ]
+  },
+  {
+    "name": "Sky Sports",
+    "url": "skysports.com",
+    "routes": [
+      "/news/:team"
+    ]
+  },
+  {
+    "name": "慢雾科技",
+    "url": "slowmist.com",
+    "routes": [
+      "/:type?"
+    ]
+  },
+  {
+    "name": "Smashing Magazine",
+    "url": "smashingmagazine.com",
+    "routes": [
+      "/:category?"
+    ]
+  },
+  {
+    "name": "什么值得买",
+    "url": "post.smzdm.com",
+    "routes": [
+      "/article/:uid",
+      "/baoliao/:uid",
+      "/haowen/fenlei/:name/:sort?",
+      "/haowen/:day?",
+      "/keyword/:keyword",
+      "/ranking/:rank_type/:rank_id/:hour"
+    ]
+  },
+  {
+    "name": "Snow Peak",
+    "url": "snowpeak.com",
+    "routes": [
+      "/us/new-arrivals"
+    ]
+  },
+  {
+    "name": "SoBooks",
+    "url": "sobooks.net",
+    "routes": [
+      "/date/:date?",
+      "/:category?",
+      "/tag/:id?"
+    ]
+  },
+  {
+    "name": "搜狗",
+    "url": "www.sogou.com",
+    "routes": [
+      "/doodles",
+      "/search/:keyword"
+    ]
+  },
+  {
+    "name": "搜狐号",
+    "url": "sohu.com",
+    "routes": [
+      "/mp/:id"
+    ]
+  },
+  {
+    "name": "Solidot",
+    "url": "www.solidot.org",
+    "routes": [
+      "/:type?"
+    ]
+  },
+  {
+    "name": "Sony",
+    "url": "sony.com",
+    "routes": [
+      "/downloads/:productType/:productId"
+    ]
+  },
+  {
+    "name": "希望之声",
+    "url": "soundofhope.org",
+    "routes": [
+      "/:channel/:id"
+    ]
+  },
+  {
+    "name": "SourceForge",
+    "url": "www.sourceforge.net",
+    "routes": [
+      "/:routeParams?"
+    ]
+  },
+  {
+    "name": "南方网",
+    "url": "nfapp.southcn.com",
+    "routes": [
+      "/nfapp/column/:column?",
+      "/nfapp/reporter/:reporter"
+    ]
+  },
+  {
+    "name": "Spotify",
+    "url": "open.spotify.com",
+    "routes": [
+      "/artist/:id",
+      "/top/artists",
+      "/playlist/:id",
+      "/saved/:limit?",
+      "/show/:id",
+      "/top/tracks"
+    ]
+  },
+  {
+    "name": "Springer",
+    "url": "www.springer.com",
+    "routes": [
+      "/journal/:journal"
+    ]
+  },
+  {
+    "name": "Sputnik News 俄罗斯卫星通讯社",
+    "url": "sputniknews.cn",
+    "routes": [
+      "/:category?/:language?"
+    ]
+  },
+  {
+    "name": "新乡医学院三全学院",
+    "url": "sqmc.edu.cn",
+    "routes": [
+      "/www/:category?"
+    ]
+  },
+  {
+    "name": "上海证券交易所",
+    "url": "bond.sse.com.cn",
+    "routes": [
+      "/convert/:query?",
+      "/disclosure/:query?",
+      "/inquire",
+      "/lawandrules/:slug?",
+      "/renewal"
+    ]
+  },
+  {
+    "name": "澳门卫生局",
+    "url": "www.ssm.gov.mo",
+    "routes": [
+      "/news"
+    ]
+  },
+  {
+    "name": "少数派 sspai",
+    "url": "sspai.com",
+    "routes": [
+      "/activity/:slug",
+      "/author/:id",
+      "/bookmarks/:slug",
+      "/column/:id",
+      "/index",
+      "/matrix",
+      "/series/:id",
+      "/series",
+      "/shortcuts",
+      "/tag/:keyword",
+      "/topic/:id",
+      "/topics"
+    ]
+  },
+  {
+    "name": "上海第二工业大学",
+    "url": "jwc.sspu.edu.cn",
+    "routes": [
+      "/jwc/:listId",
+      "/pe/:id?"
+    ]
+  },
+  {
+    "name": "創新拿鐵",
+    "url": "startuplatte.com",
+    "routes": [
+      "/:category?"
+    ]
+  },
+  {
+    "name": "四川工商学院",
+    "url": "stbu.edu.cn",
+    "routes": [
+      "/jsjxy",
+      "/xyxw"
+    ]
+  },
+  {
+    "name": "证券时报网",
+    "url": "stcn.com",
+    "routes": [
+      "/:id?"
+    ]
+  },
+  {
+    "name": "中国科技网",
+    "url": "digitalpaper.stdaily.com",
+    "routes": [
+      "/digitalpaper"
+    ]
+  },
+  {
+    "name": "Steam",
+    "url": "store.steampowered.com",
+    "routes": [
+      "/search/:params"
+    ]
+  },
+  {
+    "name": "星島日報",
+    "url": "std.stheadline.com",
+    "routes": [
+      "/std/realtime/:category{.+}?"
+    ]
+  },
+  {
+    "name": "Stock Edge",
+    "url": "web.stockedge.com",
+    "routes": [
+      "/daily-updates/news"
+    ]
+  },
+  {
+    "name": "風傳媒",
+    "url": "storm.mg",
+    "routes": [
+      "/:category?/:id?"
+    ]
+  },
+  {
+    "name": "故事 FM",
+    "url": "storyfm.cn",
+    "routes": [
+      "/episodes",
+      "/index"
+    ]
+  },
+  {
+    "name": "Stratechery by Ben Thompson",
+    "url": "blog.stratechery.com",
+    "routes": [
+      "/"
+    ]
+  },
+  {
+    "name": "Go 语言中文网",
+    "url": "studygolang.com",
+    "routes": [
+      "/go/:id?",
+      "/jobs",
+      "/weekly"
+    ]
+  },
+  {
+    "name": "Sub HD",
+    "url": "subhd.tv",
+    "routes": [
+      "/:type?/:category?"
+    ]
+  },
+  {
+    "name": "SupChina",
+    "url": "supchina.com",
+    "routes": [
+      "/",
+      "/podcasts"
+    ]
+  },
+  {
+    "name": "Surfshark",
+    "url": "surfshark.com",
+    "routes": [
+      "/blog/:category{.+}?"
+    ]
+  },
+  {
+    "name": "南方科技大学",
+    "url": "biddingoffice.sustech.edu.cn",
+    "routes": [
+      "/bidding",
+      "/newshub-zh",
+      "/yjs"
+    ]
+  },
+  {
+    "name": "swissinfo",
+    "url": "swissinfo.ch",
+    "routes": [
+      "/:language?/:category?"
+    ]
+  },
+  {
+    "name": "西南交通大学",
+    "url": "ctt.swjtu.edu.cn",
+    "routes": [
+      "/jwc",
+      "/jyzpxx",
+      "/xg/:code?",
+      "/jtys/yjs"
+    ]
+  },
+  {
+    "name": "西南石油大学",
+    "url": "swpu.edu.cn",
+    "routes": [
+      "/bgw/:code",
+      "/cjxy/:code",
+      "/dean/:code",
+      "/dxy/:code",
+      "/is/:code",
+      "/scs/:code"
+    ]
+  },
+  {
+    "name": "syosetu",
+    "url": "ncode.syosetu.com",
+    "routes": [
+      "/chapter/:id"
+    ]
+  },
+  {
+    "name": "中山大学",
+    "url": "cse.sysu.edu.cn",
+    "routes": [
+      "/cse",
+      "/ygafz/:type?"
+    ]
+  },
+  {
+    "name": "深圳证券交易所",
+    "url": "szse.cn",
+    "routes": [
+      "/inquire/:category?/:select?/:keyword?",
+      "/notice",
+      "/projectdynamic/:type?/:stage?/:status?",
+      "/rule"
+    ]
+  },
+  {
+    "name": "深圳大学",
+    "url": "yz.szu.edu.cn",
+    "routes": [
+      "/yz/:type?"
+    ]
+  },
+  {
+    "name": "草榴社区",
+    "url": "t66y.com",
+    "routes": [
+      "/:id/:type?",
+      "/post/:tid"
+    ]
+  },
+  {
+    "name": "Tableau",
+    "url": "public.tableau.com",
+    "routes": [
+      "/viz-of-the-day"
+    ]
+  },
+  {
+    "name": "Taiwan News 台灣英文新聞",
+    "url": "taiwannews.com.tw",
+    "routes": [
+      "/hot/:lang?"
+    ]
+  },
+  {
+    "name": "唐书房",
+    "url": "tangshufang.com",
+    "routes": [
+      "/:category?"
+    ]
+  },
+  {
+    "name": "淘宝众筹",
+    "url": "izhongchou.taobao.com",
+    "routes": [
+      "/zhongchou/:type?"
+    ]
+  },
+  {
+    "name": "淘股吧",
+    "url": "taoguba.com.cn",
+    "routes": [
+      "/blog/:id",
+      "/user/:id",
+      "/index",
+      "/:category?"
+    ]
+  },
+  {
+    "name": "TapTap 中国",
+    "url": "taptap.com",
+    "routes": [
+      "/changelog/:id/:lang?",
+      "/intl/changelog/:id/:lang?",
+      "/review/:id/:order?/:lang?",
+      "/intl/review/:id/:order?/:lang?",
+      "/topic/:id/:type?/:sort?/:lang?"
+    ]
+  },
+  {
+    "name": "Russian News Agency TASS",
+    "url": "tass.com",
+    "routes": [
+      "/:category?"
+    ]
+  },
+  {
+    "name": "TechCrunch",
+    "url": "techcrunch.com",
+    "routes": [
+      "/news"
+    ]
+  },
+  {
+    "name": "深潮 TechFlow",
+    "url": "techflowpost.com",
+    "routes": [
+      "/express",
+      "/newsflash",
+      "/"
+    ]
+  },
+  {
+    "name": "TechPowerUp",
+    "url": "techpowerup.com",
+    "routes": [
+      "/",
+      "/review/:keyword?"
+    ]
+  },
+  {
+    "name": "Telecompaper",
+    "url": "telecompaper.com",
+    "routes": [
+      "/news/:caty/:year?/:country?/:type?",
+      "/search/:keyword?/:company?/:sort?/:period?"
+    ]
+  },
+  {
+    "name": "Telegram",
+    "url": "t.me",
+    "routes": [
+      "/blog",
+      "/channel/:username/:routeParams?",
+      "/stickerpack/:name"
+    ]
+  },
+  {
+    "name": "王者荣耀",
+    "url": "mp.weixin.qq.com",
+    "routes": [
+      "/news/author/:mid",
+      "/news/coronavirus/data/:province?/:city?",
+      "/news/coronavirus/total",
+      "/pvp/newsindex/:type",
+      "/qq/sdk/changelog/:platform"
+    ]
+  },
+  {
+    "name": "特斯拉中国",
+    "url": "tesla.cn",
+    "routes": [
+      "/cx/:category?/:city?",
+      "/price"
+    ]
+  },
+  {
+    "name": "Unknown",
+    "routes": [
+      "/:id"
+    ]
+  },
+  {
+    "name": "台灣事實查核中心",
+    "url": "tfc-taiwan.org.tw",
+    "routes": [
+      "/",
+      "/category/:id{.+}",
+      "/info",
+      "/report",
+      "/topic/:id"
+    ]
+  },
+  {
+    "name": "电玩巴士 TGBUS",
+    "url": "tgbus.com",
+    "routes": [
+      "/list/:category"
+    ]
+  },
+  {
+    "name": "The Atlantic",
+    "url": "www.theatlantic.com",
+    "routes": [
+      "/:category"
+    ]
+  },
+  {
+    "name": "律动",
+    "url": "rszhaopin.theblockbeats.info",
+    "routes": [
+      "/:channel?"
+    ]
+  },
+  {
+    "name": "貓奴日常",
+    "url": "thecatcity.com",
+    "routes": [
+      "/:term?"
+    ]
+  },
+  {
+    "name": "封面新闻",
+    "url": "thecover.cn",
+    "routes": [
+      "/channel/:id?"
+    ]
+  },
+  {
+    "name": "The Hindu",
+    "url": "thehindu.com",
+    "routes": [
+      "/topic/:topic"
+    ]
+  },
+  {
+    "name": "端传媒",
+    "url": "theinitium.com",
+    "routes": [
+      "/:model?/:type?/:language?"
+    ]
+  },
+  {
+    "name": "The Movie Database",
+    "url": "themoviedb.org",
+    "routes": [
+      "/collection/:id/:lang?",
+      "/tv/:id/seasons/:seasonNumber/episodes/:lang?",
+      "/tv/:id/seasons/:lang?",
+      "/:mediaType/:sheet/:lang?",
+      "/trending/:mediaType/:timeWindow/:lang?"
+    ]
+  },
+  {
+    "name": "The News Lens 關鍵評論",
+    "url": "thenewslens.com",
+    "routes": [
+      "*"
+    ]
+  },
+  {
+    "name": "澎湃新闻",
+    "url": "thepaper.cn",
+    "routes": [
+      "/channel/:id",
+      "/factpaper/:status?",
+      "/featured",
+      "/list/:id",
+      "/sidebar/:sec?",
+      "/839studio/:id",
+      "/839studio"
+    ]
+  },
+  {
+    "name": "The Verge",
+    "url": "theverge.com",
+    "routes": [
+      "/:hub?"
+    ]
+  },
+  {
+    "name": "ThoughtCo",
+    "url": "thoughtco.com",
+    "routes": [
+      "/:category?"
+    ]
+  },
+  {
+    "name": "Threads",
+    "url": "threads.net",
+    "routes": [
+      "/:user/:routeParams?"
+    ]
+  },
+  {
+    "name": "THBWiki",
+    "url": "thwiki.cc",
+    "routes": [
+      "/calendar/:before?/:after?"
+    ]
+  },
+  {
+    "name": "TikTok",
+    "url": "tiktok.com",
+    "routes": [
+      "/user/:user/:iframe?"
+    ]
+  },
+  {
+    "name": "时刻新闻",
+    "url": "timednews.com",
+    "routes": [
+      "/news/:type?"
+    ]
+  },
+  {
+    "name": "停水通知",
+    "url": "swj.dl.gov.cn",
+    "routes": [
+      "/changsha/:channelId?",
+      "/dalian",
+      "/dongguan",
+      "/guangzhou",
+      "/hangzhou",
+      "/nanjing",
+      "/shenzhen",
+      "/wuhan/:channelId?",
+      "/xian",
+      "/xiaoshan",
+      "/yangjiang"
+    ]
+  },
+  {
+    "name": "听听 FM",
+    "url": "mobile.tingtingfm.com",
+    "routes": [
+      "/program/:programId"
+    ]
+  },
+  {
+    "name": "腾讯研究院",
+    "url": "tisi.org",
+    "routes": [
+      "/latest"
+    ]
+  },
+  {
+    "name": "Tianjin University 天津大学",
+    "url": "cic.tju.edu.cn",
+    "routes": [
+      "/cic/:type?",
+      "/news/:type?",
+      "/oaa/:type?",
+      "/yzb/:type?"
+    ]
+  },
+  {
+    "name": "TokenInsight",
+    "url": "tokeninsight.com",
+    "routes": [
+      "/blog/:lang?",
+      "/bulletin/:lang?",
+      "/report/:lang?"
+    ]
+  },
+  {
+    "name": "同济大学",
+    "url": "bksy.tongji.edu.cn",
+    "routes": [
+      "/bks",
+      "/yjs",
+      "/sse/:type?"
+    ]
+  },
+  {
+    "name": "東立出版社",
+    "url": "tongli.com.tw",
+    "routes": [
+      "/news/:type"
+    ]
+  },
+  {
+    "name": "理想生活实验室",
+    "url": "toodaylab.com",
+    "routes": [
+      "/:params{.+}?"
+    ]
+  },
+  {
+    "name": "今日热榜",
+    "url": "tophub.today",
+    "routes": [
+      "/:id",
+      "/list/:id"
+    ]
+  },
+  {
+    "name": "TOPYS",
+    "url": "topys.cn",
+    "routes": [
+      "/:keyword?"
+    ]
+  },
+  {
+    "name": "TradingView",
+    "url": "tradingview.com",
+    "routes": [
+      "/blog/:category{.+}?",
+      "/desktop",
+      "/pine/:version?"
+    ]
+  },
+  {
+    "name": "Transcript Forest",
+    "url": "www.transcriptforest.com",
+    "routes": [
+      "/:channel?"
+    ]
+  },
+  {
+    "name": "热搜聚合",
+    "url": "so.toutiao.com",
+    "routes": [
+      "/:keywords/:numberOfDays?"
+    ]
+  },
+  {
+    "name": "Trending Papers",
+    "url": "trendingpapers.com",
+    "routes": [
+      "/papers/:category?/:time?/:cited?"
+    ]
+  },
+  {
+    "name": "Tribal Football",
+    "url": "tribalfootball.com",
+    "routes": [
+      "/"
+    ]
+  },
+  {
+    "name": "The Ring of Wonder",
+    "url": "trow.cc",
+    "routes": [
+      "/portal"
+    ]
+  },
+  {
+    "name": "无线新闻",
+    "url": "tvb.com",
+    "routes": [
+      "/news/:category?/:language?"
+    ]
+  },
+  {
+    "name": "TV Tropes",
+    "url": "tvtropes.org",
+    "routes": [
+      "/featured/:category?"
+    ]
+  },
+  {
+    "name": "Twitch",
+    "url": "www.twitch.tv",
+    "routes": [
+      "/live/:login",
+      "/schedule/:login",
+      "/video/:login/:filter?"
+    ]
+  },
+  {
+    "name": "Twitter",
+    "url": "twitter.com",
+    "routes": [
+      "/home/:routeParams?",
+      "/keyword/:keyword/:routeParams?",
+      "/likes/:id/:routeParams?",
+      "/list/:id/:routeParams?",
+      "/media/:id/:routeParams?",
+      "/trends/:woeid?",
+      "/tweet/:id/status/:status/:original?",
+      "/user/:id/:routeParams?"
+    ]
+  },
+  {
+    "name": "報導者",
+    "url": "twreporter.org",
+    "routes": [
+      "/category/:category",
+      "/newest"
+    ]
+  },
+  {
+    "name": "通信人家园",
+    "url": "txrjy.com",
+    "routes": [
+      "/fornumtopic/:channel?"
+    ]
+  },
+  {
+    "name": "太原师范学院",
+    "url": "tynu.edu.cn",
+    "routes": [
+      "/"
+    ]
+  },
+  {
+    "name": "Typora",
+    "url": "typora.io",
+    "routes": [
+      "/changelog/dev",
+      "/changelog"
+    ]
+  },
+  {
+    "name": "U9A9",
+    "url": "u3c3.com",
+    "routes": [
+      "/search/:keyword/:preview?",
+      "/:type?/:preview?"
+    ]
+  },
+  {
+    "name": "Unknown",
+    "url": "u9a9.com",
+    "routes": [
+      "/:preview?",
+      "/search/:keyword/:preview?"
+    ]
+  },
+  {
+    "name": "Uber 优步",
+    "url": "www.uber.com",
+    "routes": [
+      "/blog/:maxPage?"
+    ]
+  },
+  {
+    "name": "中国科学院大学",
+    "url": "ai.ucas.ac.cn",
+    "routes": [
+      "/ai",
+      "/job/:type?"
+    ]
+  },
+  {
+    "name": "The University of Chicago Press: Journals",
+    "url": "journals.uchicago.edu",
+    "routes": [
+      "/journals/current/:journal"
+    ]
+  },
+  {
+    "name": "聯合新聞網",
+    "url": "udn.com",
+    "routes": [
+      "/news/breakingnews/:id",
+      "/global/:category?",
+      "/global/tag/:tag?"
+    ]
+  },
+  {
+    "name": "电子科技大学",
+    "url": "gr.uestc.edu.cn",
+    "routes": [
+      "/auto",
+      "/cqe/:type?",
+      "/gr",
+      "/jwc/:type?",
+      "/news/:type?",
+      "/scse",
+      "/sice",
+      "/sise/:type?"
+    ]
+  },
+  {
+    "name": "对外经济贸易大学",
+    "url": "hr.uibe.edu.cn",
+    "routes": [
+      "/hr/:category?/:type?"
+    ]
+  },
+  {
+    "name": "乌拉邦",
+    "url": "www.ulapia.com",
+    "routes": [
+      "/reports/:category?",
+      "/research/latest"
+    ]
+  },
+  {
+    "name": "Uniqlo",
+    "url": "www.uniqlo.com",
+    "routes": [
+      "/new/:country/:category"
+    ]
+  },
+  {
+    "name": "Unraid",
+    "url": "unraid.net",
+    "routes": [
+      "/community-apps"
+    ]
+  },
+  {
+    "name": "Unusual Whales",
+    "url": "unusualwhales.com",
+    "routes": [
+      "/news"
+    ]
+  },
+  {
+    "name": "中国石油大学（华东）",
+    "url": "computer.upc.edu.cn",
+    "routes": [
+      "/jsj/:type",
+      "/main/:type",
+      "/yjs"
+    ]
+  },
+  {
+    "name": "Uptime Robot",
+    "url": "rss.uptimerobot.com",
+    "routes": [
+      "/rss/:id/:routeParams?"
+    ]
+  },
+  {
+    "name": "裏垢女子まとめ",
+    "url": "uraaka-joshi.com",
+    "routes": [
+      "/:id",
+      "/"
+    ]
+  },
+  {
+    "name": "Urban Dictionary",
+    "url": "urbandictionary.com",
+    "routes": [
+      "/random"
+    ]
+  },
+  {
+    "name": "USENIX",
+    "url": "usenix.org",
+    "routes": [
+      "/loginonline",
+      "/usenix-security-sympoium"
+    ]
+  },
+  {
+    "name": "Panda",
+    "url": "usepanda.com",
+    "routes": [
+      "/feeds/:id"
+    ]
+  },
+  {
+    "name": "北京科技大学",
+    "url": "gs.ustb.edu.cn",
+    "routes": [
+      "/tj/news/:type?",
+      "/yjsy/news/:type",
+      "/yzxc/tzgg"
+    ]
+  },
+  {
+    "name": "中国科学技术大学",
+    "url": "ustc.edu.cn",
+    "routes": [
+      "/eeis/:type?",
+      "/gs/:type?",
+      "/news/:type?",
+      "/job/:category?",
+      "/jwc/:type?",
+      "/sist/:type?"
+    ]
+  },
+  {
+    "name": "苏州科技大学",
+    "url": "jwch.usts.edu.cn",
+    "routes": [
+      "/jwch/:type?"
+    ]
+  },
+  {
+    "name": "UNTAG",
+    "url": "utgd.net",
+    "routes": [
+      "/:category?",
+      "/timeline",
+      "/topic/:topic?"
+    ]
+  },
+  {
+    "name": "University of Washington",
+    "url": "gixnetwork.org",
+    "routes": [
+      "/gix/news/:category"
+    ]
+  },
+  {
+    "name": "v1tx",
+    "url": "v1tx.com",
+    "routes": [
+      "/"
+    ]
+  },
+  {
+    "name": "V2EX",
+    "url": "v2ex.com",
+    "routes": [
+      "/post/:postid",
+      "/tab/:tabid",
+      "/topics/:type"
+    ]
+  },
+  {
+    "name": "V2rayShare",
+    "url": "v2rayshare.com",
+    "routes": [
+      "/"
+    ]
+  },
+  {
+    "name": "VCB-Studio",
+    "url": "vcb-s.com",
+    "routes": [
+      "/category/:cate",
+      "/"
+    ]
+  },
+  {
+    "name": "Constitutional Court of Baden-Württemberg (Germany)",
+    "url": "verfgh.baden-wuerttemberg.de",
+    "routes": [
+      "/press/:keyword?"
+    ]
+  },
+  {
+    "name": "Vimeo",
+    "url": "vimeo.com",
+    "routes": [
+      "/category/:category/:staffpicks?",
+      "/channel/:channel",
+      "/user/:username/:cat?"
+    ]
+  },
+  {
+    "name": "方格子",
+    "url": "vocus.cc",
+    "routes": [
+      "/publication/:id",
+      "/user/:id"
+    ]
+  },
+  {
+    "name": "Voice of Mongolia 蒙古之声",
+    "url": "vom.mn",
+    "routes": [
+      "/featured/:lang?"
+    ]
+  },
+  {
+    "name": "wallhaven",
+    "url": "wallhaven.cc",
+    "routes": [
+      "/search/:filter?/:needDetails?",
+      "/:filter?/:needDetails?"
+    ]
+  },
+  {
+    "name": "WallpaperHub",
+    "url": "wallpaperhub.app",
+    "routes": [
+      "/"
+    ]
+  },
+  {
+    "name": "华尔街见闻",
+    "url": "wallstreetcn.com",
+    "routes": [
+      "/hot/:period?",
+      "/live/:category?/:score?",
+      "/news/:category?",
+      "/:category?"
+    ]
+  },
+  {
+    "name": "湾区日报",
+    "url": "wanqu.co",
+    "routes": [
+      "/news"
+    ]
+  },
+  {
+    "name": "War Thunder",
+    "url": "warthunder.com",
+    "routes": [
+      "/news"
+    ]
+  },
+  {
+    "name": "Western Digital",
+    "url": "support.wdc.com",
+    "routes": [
+      "/download/:id?"
+    ]
+  },
+  {
+    "name": "web.dev",
+    "url": "web.dev",
+    "routes": [
+      "/articles",
+      "/blog",
+      "/series/:seriesName"
+    ]
+  },
+  {
+    "name": "Web3Caff",
+    "url": "web3caff.com",
+    "routes": [
+      "*"
+    ]
+  },
+  {
+    "name": "微信小程序",
+    "url": "posts.careerengine.us",
+    "routes": [
+      "/announce",
+      "/ce/:id",
+      "/data258/:id?",
+      "/ershicimi/:id",
+      "/mp/homepage/:biz/:hid/:cid?",
+      "/mp/msgalbum/:biz/:aid",
+      "/sogou/:id",
+      "/tgchannel/:id/:mpName?/:searchQueryType?",
+      "/uread/:userid",
+      "/wechat2rss/:id"
+    ]
+  },
+  {
+    "name": "新假期周刊",
+    "url": "weekendhk.com",
+    "routes": [
+      "/"
+    ]
+  },
+  {
+    "name": "微博绿洲",
+    "url": "weibo.com",
+    "routes": [
+      "/friends/:routeParams?",
+      "/group/:gid/:gname?/:routeParams?",
+      "/keyword/:keyword/:routeParams?",
+      "/super_index/:id/:type?/:routeParams?",
+      "/timeline/:uid/:feature?/:routeParams?",
+      "/user/:uid/:routeParams?",
+      "/oasis/user/:userid",
+      "/search/hot/:fulltext?"
+    ]
+  },
+  {
+    "name": "轻小说文库",
+    "url": "www.wenku8.net",
+    "routes": [
+      "/chapter/:id",
+      "/:category?",
+      "/volume/:id"
+    ]
+  },
+  {
+    "name": "WFDF",
+    "url": "wfdf.sport",
+    "routes": [
+      "/news"
+    ]
+  },
+  {
+    "name": "潍坊学院",
+    "url": "jwc.wfu.edu.cn",
+    "routes": [
+      "/jwc",
+      "/news/:type?"
+    ]
+  },
+  {
+    "name": "The White House",
+    "url": "whitehouse.gov",
+    "routes": [
+      "/briefing-room/:category?",
+      "/ostp"
+    ]
+  },
+  {
+    "name": "World Health Organization | WHO",
+    "url": "who.int",
+    "routes": [
+      "/news-room/:category?/:language?",
+      "/news/:language?",
+      "/speeches/:language?"
+    ]
+  },
+  {
+    "name": "武汉大学",
+    "url": "cs.whu.edu.cn",
+    "routes": [
+      "/cs/:type",
+      "/hyxt/:category{.+}?",
+      "/news/:category{.+}?",
+      "/gs/:type?"
+    ]
+  },
+  {
+    "name": "维基新闻",
+    "url": "zh.wikinews.org",
+    "routes": [
+      "/latest"
+    ]
+  },
+  {
+    "name": "winstall",
+    "url": "winstall.app",
+    "routes": [
+      "/:appId"
+    ]
+  },
+  {
+    "name": "Wise",
+    "url": "wise.com",
+    "routes": [
+      "/pair/:source/:target"
+    ]
+  },
+  {
+    "name": "WziFile",
+    "url": "antibody-software.com",
+    "routes": [
+      "/updates"
+    ]
+  },
+  {
+    "name": "World Meteorological Centre Beijing",
+    "url": "wmc-bj.net",
+    "routes": [
+      "/publish/:category{.+}?"
+    ]
+  },
+  {
+    "name": "完美世界电竞",
+    "url": "wmpvp.com",
+    "routes": [
+      "/news/:type"
+    ]
+  },
+  {
+    "name": "紳士漫畫",
+    "url": "wnacg.org",
+    "routes": [
+      "/",
+      "/category/:cid",
+      "/tag/:tag"
+    ]
+  },
+  {
+    "name": "世界新聞網",
+    "url": "worldjournal.com",
+    "routes": [
+      "/:path{.+}?"
+    ]
+  },
+  {
+    "name": "人人都是产品经理",
+    "url": "woshipm.com",
+    "routes": [
+      "/popular/:range?",
+      "/user_article/:id",
+      "/wen"
+    ]
+  },
+  {
+    "name": "The Wall Street Journal (WSJ) 华尔街日报",
+    "url": "cn.wsj.com",
+    "routes": [
+      "/:lang/:category?"
+    ]
+  },
+  {
+    "name": "武昌首义学院",
+    "url": "www.wsyu.edu.cn",
+    "routes": [
+      "/news/:type?"
+    ]
+  },
+  {
+    "name": "武汉纺织大学",
+    "url": "wtu.91wllm.com",
+    "routes": [
+      "/:type",
+      "/job/:type"
+    ]
+  },
+  {
+    "name": "乌有之乡",
+    "url": "wyzxwk.com",
+    "routes": [
+      "/article/:id?"
+    ]
+  },
+  {
+    "name": "温州大学",
+    "url": "wzu.edu.cn",
+    "routes": [
+      "/news/:type?"
+    ]
+  },
+  {
+    "name": "X-MOL",
+    "url": "x-mol.com",
+    "routes": [
+      "/news/:tag?",
+      "/paper/:type/:magazine"
+    ]
+  },
+  {
+    "name": "小刀娱乐网",
+    "url": "xd.x6d.com",
+    "routes": [
+      "/:id?"
+    ]
+  },
+  {
+    "name": "西安财经大学",
+    "url": "jiaowu.xaufe.edu.cn",
+    "routes": [
+      "/jiaowu/:category?"
+    ]
+  },
+  {
+    "name": "西安理工大学",
+    "url": "index.xaut.edu.cn",
+    "routes": [
+      "/index/:category?",
+      "/jwc/:category?",
+      "/rsc/:category?"
+    ]
+  },
+  {
+    "name": "盒心光环",
+    "url": "xboxfan.com",
+    "routes": [
+      "/news"
+    ]
+  },
+  {
+    "name": "小黑盒",
+    "url": "xiaoheihe.cn",
+    "routes": [
+      "/discount/:platform",
+      "/news",
+      "/user/:id"
+    ]
+  },
+  {
+    "name": "小红书",
+    "url": "xiaohongshu.com",
+    "routes": [
+      "/board/:board_id",
+      "/user/:user_id/notes/fulltext",
+      "/user/:user_id/:category"
+    ]
+  },
+  {
+    "name": "小米有品",
+    "url": "xiaomiyoupin.com",
+    "routes": [
+      "/crowdfunding",
+      "/latest"
+    ]
+  },
+  {
+    "name": "小特社区",
+    "url": "xiaote.com",
+    "routes": [
+      "/news"
+    ]
+  },
+  {
+    "name": "小宇宙",
+    "url": "xiaoyuzhoufm.com",
+    "routes": [
+      "/",
+      "/podcast/:id"
+    ]
+  },
+  {
+    "name": "小专栏",
+    "url": "xiaozhuanlan.com",
+    "routes": [
+      "/column/:id"
+    ]
+  },
+  {
+    "name": "西安电子科技大学",
+    "url": "jwc.xidian.edu.cn",
+    "routes": [
+      "/jwc/:category?"
+    ]
+  },
+  {
+    "name": "喜马拉雅",
+    "url": "ximalaya.com",
+    "routes": [
+      "/:type/:id/:all?",
+      "/:type/:id/:all/:shownote?"
+    ]
+  },
+  {
+    "name": "新片场",
+    "url": "xinpianchang.com",
+    "routes": [
+      "/discover/:params?",
+      "/:params?",
+      "/rank/:category?"
+    ]
+  },
+  {
+    "name": "西安交通大学",
+    "url": "2yuan.xjtu.edu.cn",
+    "routes": [
+      "/dean/:subpath{.+}",
+      "/ee/:id?",
+      "/international/:subpath{.+}",
+      "/job/:subpath?",
+      "/std/:category?",
+      "/2yuan/news/:id?",
+      "/dyyy/:path{.+}",
+      "/gs/tzgg"
+    ]
+  },
+  {
+    "name": "新快报",
+    "url": "xkb.com.cn",
+    "routes": [
+      "/:channel"
+    ]
+  },
+  {
+    "name": "X 漫画",
+    "url": "xmanhua.com",
+    "routes": [
+      "/:uid"
+    ]
+  },
+  {
+    "name": "厦门网",
+    "url": "epaper.xmnn.cn",
+    "routes": [
+      "/epaper/:id?",
+      "/news/:category{.+}?"
+    ]
+  },
+  {
+    "name": "厦门理工大学",
+    "url": "jwc.xmut.edu.cn",
+    "routes": [
+      "/jwc/bkjw/:category?",
+      "/jwc/yjjw/:category?"
+    ]
+  },
+  {
+    "name": "司机社",
+    "url": "xsijishe.com",
+    "routes": [
+      "/forum/:fid",
+      "/rank/:type"
+    ]
+  },
+  {
+    "name": "雪球",
+    "url": "danjuanapp.com",
+    "routes": [
+      "/column/:id",
+      "/favorite/:id",
+      "/fund/:id",
+      "/hots",
+      "/snb/:id",
+      "/stock_comments/:id",
+      "/stock_info/:id/:type?",
+      "/today",
+      "/user_stock/:id",
+      "/user/:id/:type?"
+    ]
+  },
+  {
+    "name": "虎皮椒",
+    "url": "www.xunhupay.com",
+    "routes": [
+      "/blog"
+    ]
+  },
+  {
+    "name": "新语丝",
+    "url": "xys.org",
+    "routes": [
+      "/new"
+    ]
+  },
+  {
+    "name": "中文播客榜",
+    "url": "xyzrank.com",
+    "routes": [
+      "/:category?"
+    ]
+  },
+  {
+    "name": "Yahoo",
+    "url": "hk.news.yahoo.com",
+    "routes": [
+      "/news/:region/:category?",
+      "/news/providers/:region",
+      "/news/provider/:region/:providerId",
+      "/news/en/:category?"
+    ]
+  },
+  {
+    "name": "长江大学",
+    "url": "yangtzeu.edu.cn",
+    "routes": [
+      "/dongke/*"
+    ]
+  },
+  {
+    "name": "羊城晚报金羊网",
+    "url": "xwlb.com.cn",
+    "routes": [
+      "/:node"
+    ]
+  },
+  {
+    "name": "甬哥侃侃侃YouTube教程摘要随笔",
+    "url": "ygkkk.blogspot.com",
+    "routes": [
+      "/"
+    ]
+  },
+  {
+    "name": "第一财经",
+    "url": "yicai.com",
+    "routes": [
+      "/author/:id?",
+      "/brief",
+      "/dt/:column?/:category?",
+      "/feed/:id?",
+      "/headline",
+      "/latest",
+      "/news/:id?",
+      "/video/:id?",
+      "/vip/:id?"
+    ]
+  },
+  {
+    "name": "月幕 Galgame",
+    "url": "ymgal.games",
+    "routes": [
+      "/article/:type?",
+      "/game/release"
+    ]
+  },
+  {
+    "name": "Yoasobi Official",
+    "url": "www.yoasobi-music.jp",
+    "routes": [
+      "/info/:category?",
+      "/live",
+      "/media"
+    ]
+  },
+  {
+    "name": "Yomiuri Shimbun 読売新聞",
+    "url": "www.yomiuri.co.jp",
+    "routes": [
+      "/:category?"
+    ]
+  },
+  {
+    "name": "日本語多読道場",
+    "url": "yomujp.com",
+    "routes": [
+      "/:level?"
+    ]
+  },
+  {
+    "name": "优酷",
+    "url": "i.youku.com",
+    "routes": [
+      "/channel/:channelId/:embed?"
+    ]
+  },
+  {
+    "name": "YouTube Live",
+    "url": "charts.youtube.com",
+    "routes": [
+      "/channel/:id/:embed?",
+      "/charts/:category?/:country?/:embed?",
+      "/community/:handle",
+      "/c/:username/:embed?",
+      "/live/:username/:embed?",
+      "/playlist/:id/:embed?",
+      "/subscriptions/:embed?",
+      "/user/:username/:embed?"
+    ]
+  },
+  {
+    "name": "有知有行",
+    "url": "youzhiyouxing.cn",
+    "routes": [
+      "/materials/:id?"
+    ]
+  },
+  {
+    "name": "语雀",
+    "url": "yuque.com",
+    "routes": [
+      "/:name/:book"
+    ]
+  },
+  {
+    "name": "游讯网",
+    "url": "yxdown.com",
+    "routes": [
+      "/news/:category?",
+      "/recommend"
+    ]
+  },
+  {
+    "name": "游戏打折情报",
+    "url": "yxdzqb.com",
+    "routes": [
+      "/:type"
+    ]
+  },
+  {
+    "name": "游戏日报",
+    "url": "news.yxrb.net",
+    "routes": [
+      "/:category?"
+    ]
+  },
+  {
+    "name": "人人影视",
+    "url": "yysub.net",
+    "routes": [
+      "/article/:type?",
+      "/today"
+    ]
+  },
+  {
+    "name": "游研社",
+    "url": "yystv.cn",
+    "routes": [
+      "/category/:category",
+      "/docs"
+    ]
+  },
+  {
+    "name": "Zagg",
+    "url": "zagg.com",
+    "routes": [
+      "/new-arrivals/:query?"
+    ]
+  },
+  {
+    "name": "ZAKER",
+    "url": "myzaker.com",
+    "routes": [
+      "/:type/:id?"
+    ]
+  },
+  {
+    "name": "联合早报",
+    "url": "www.zaobao.com",
+    "routes": [
+      "/:type?/:section?",
+      "/interactive-graphics",
+      "/realtime/:section?",
+      "/znews/:section?"
+    ]
+  },
+  {
+    "name": "前端早早聊",
+    "url": "www.zaozao.run",
+    "routes": [
+      "/article/:type?"
+    ]
+  },
+  {
+    "name": "浙江中医药大学",
+    "url": "jwc.zcmu.edu.cn",
+    "routes": [
+      "/jwc/:type?",
+      "/yxy/:type?"
+    ]
+  },
+  {
+    "name": "站酷",
+    "url": "www.zcool.com.cn",
+    "routes": [
+      "/discover/:query?/:subCate?/:hasVideo?/:city?/:college?/:recommendLevel?/:sort?",
+      "/top/:type",
+      "/user/:uid"
+    ]
+  },
+  {
+    "name": "直播吧",
+    "url": "zhibo8.cc",
+    "routes": [
+      "/forum/:id",
+      "/luxiang/:category?",
+      "/more/:category?",
+      "/post/:id"
+    ]
+  },
+  {
+    "name": "知乎",
+    "url": "www.zhihu.com",
+    "routes": [
+      "/people/activities/:id",
+      "/people/answers/:id",
+      "/collection/:id/:getAll?",
+      "/daily/section/:sectionId",
+      "/daily",
+      "/hot/:category?",
+      "/hotlist",
+      "/posts/:usertype/:id",
+      "/question/:questionId/:sortBy?",
+      "/timeline",
+      "/topic/:topicId/:isTop?",
+      "/weekly",
+      "/zhuanlan/:id",
+      "/bookstore/newest",
+      "/pin/daily",
+      "/pin/hotlist",
+      "/people/pins/:id",
+      "/xhu/people/activities/:hexId",
+      "/xhu/people/answers/:hexId",
+      "/xhu/collection/:id",
+      "/xhu/people/posts/:hexId",
+      "/xhu/question/:questionId/:sortBy?",
+      "/xhu/topic/:topicId",
+      "/xhu/zhuanlan/:id"
+    ]
+  },
+  {
+    "name": "智通财经网",
+    "url": "zhitongcaijing.com",
+    "routes": [
+      "/:id?/:category?"
+    ]
+  },
+  {
+    "name": "知园",
+    "url": "zhiy.cc",
+    "routes": [
+      "/letters/:author",
+      "/posts/:author"
+    ]
+  },
+  {
+    "name": "竹白",
+    "url": "zhubai.love",
+    "routes": [
+      "/:id",
+      "/top20"
+    ]
+  },
+  {
+    "name": "国外主机测评",
+    "url": "zhujiceping.com",
+    "routes": [
+      "/"
+    ]
+  },
+  {
+    "name": "中国养猪网",
+    "url": "zhujia.zhuwang.cc",
+    "routes": [
+      "/zhujia"
+    ]
+  },
+  {
+    "name": "FIX 字幕侠",
+    "url": "zimuxia.cn",
+    "routes": [
+      "/:category?",
+      "/portfolio/:id"
+    ]
+  },
+  {
+    "name": "浙江省土地使用权网上交易系统",
+    "url": "zjgtjy.cn",
+    "routes": [
+      "/:type?"
+    ]
+  },
+  {
+    "name": "浙江在线",
+    "url": "zjol.com.cn",
+    "routes": [
+      "/paper/:id?"
+    ]
+  },
+  {
+    "name": "浙江大学",
+    "url": "physics.zju.edu.cn",
+    "routes": [
+      "/list/:type",
+      "/career/:type",
+      "/cst/custom/:id",
+      "/cst/:type",
+      "/grs/:type",
+      "/physics/:type"
+    ]
+  },
+  {
+    "name": "浙江工业大学",
+    "url": "www.zjut.edu.cn",
+    "routes": [
+      "/news/:type",
+      "/da/:type"
+    ]
+  },
+  {
+    "name": "浙江大学可视分析小组",
+    "url": "zjuvag.org",
+    "routes": [
+      "/blog"
+    ]
+  },
+  {
+    "name": "ZodGame",
+    "url": "zodgame.xyz",
+    "routes": [
+      "/forum/:fid?"
+    ]
+  },
+  {
+    "name": "Zotero",
+    "url": "zotero.org",
+    "routes": [
+      "/versions"
+    ]
+  },
+  {
+    "name": "赵容部落",
+    "url": "zrblog.net",
+    "routes": [
+      "/"
+    ]
+  },
+  {
+    "name": "中南财经政法大学",
+    "url": "wap.zuel.edu.cn",
+    "routes": [
+      "/notice"
+    ]
+  },
+  {
+    "name": "Zuvio",
+    "url": "irs.zuvio.com.tw",
+    "routes": [
+      "/student5/boards",
+      "/student5/:board?"
+    ]
+  },
+  {
+    "name": "综艺秀",
+    "url": "zyshow.net",
+    "routes": [
+      "*"
+    ]
+  },
+  {
+    "name": "zyw",
+    "url": "hot.zyw.asia",
+    "routes": [
+      "/hot/:site?"
+    ]
+  }
+]

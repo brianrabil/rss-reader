@@ -4,7 +4,7 @@ import Link, { LinkProps } from "next/link";
 import * as Icon from "@/components/icon";
 import { Button } from "@/components/ui/button";
 import { getUser } from "@/lib/actions/user";
-import { LucideIcon, User } from "lucide-react";
+import { LucideIcon } from "lucide-react";
 import { UserMenu } from "@/app/(dashboard)/user-menu";
 
 const navItems: { name: string; icon: LucideIcon; href: LinkProps<string>["href"] }[] = [

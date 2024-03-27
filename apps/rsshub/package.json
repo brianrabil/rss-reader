@@ -1,0 +1,19 @@
+{
+	"name": "@rss-reader/rsshub",
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"build": "npx tsx src/main.mts"
+	},
+	"devDependencies": {
+		"ts-node": "^10.9.2",
+		"typescript": "latest"
+	},
+	"dependencies": {
+		"cld": "^2.9.1",
+		"fs-jetpack": "^5.1.0",
+		"query-string": "^9.0.0",
+		"rss-parser": "^3.13.0",
+		"rsshub": "1.0.0-master.eab3832"
+	}
+}

@@ -16,7 +16,7 @@ export default function NonFoundPage() {
 						<Text.P className="mt-2 text-muted-foreground">
 							The page you&apos;re looking for doesn&apos;t seem to exist.
 						</Text.P>
-						<Link href="/feed" className="mt-6">
+						<Link href="/feed" className="mt-6" passHref>
 							<Button variant="default">Go back home</Button>
 						</Link>
 					</div>
