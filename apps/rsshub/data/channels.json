@@ -1,5 +1,6 @@
 [
   {
+    "id": "81",
     "name": "中国军网",
     "url": "81rc.81.cn",
     "routes": [
@@ -7,6 +8,7 @@
     ]
   },
   {
+    "id": "163",
     "name": "网易公开课",
     "url": "163.com",
     "routes": [
@@ -29,6 +31,7 @@
     ]
   },
   {
+    "id": "591",
     "name": "591 Rental house",
     "url": "rent.591.com.tw",
     "routes": [
@@ -36,6 +39,7 @@
     ]
   },
   {
+    "id": "2048",
     "name": "2048 核基地",
     "url": "hjd2048.com",
     "routes": [
@@ -43,6 +47,7 @@
     ]
   },
   {
+    "id": "8264",
     "name": "8264",
     "url": "8264.com",
     "routes": [
@@ -50,6 +55,7 @@
     ]
   },
   {
+    "id": "12306",
     "name": "12306",
     "url": "kyfw.12306.cn",
     "routes": [
@@ -58,6 +64,7 @@
     ]
   },
   {
+    "id": "0818tuan",
     "name": "0818 团",
     "url": "0818tuan.com",
     "routes": [
@@ -65,6 +72,7 @@
     ]
   },
   {
+    "id": "141jav",
     "name": "141JAV",
     "url": "141jav.com",
     "routes": [
@@ -72,6 +80,7 @@
     ]
   },
   {
+    "id": "141ppv",
     "name": "141PPV",
     "url": "141ppv.com",
     "routes": [
@@ -79,6 +88,7 @@
     ]
   },
   {
+    "id": "18comic",
     "name": "禁漫天堂",
     "url": "18comic.org",
     "routes": [
@@ -89,6 +99,7 @@
     ]
   },
   {
+    "id": "19lou",
     "name": "19 楼",
     "url": "19lou.com",
     "routes": [
@@ -96,6 +107,7 @@
     ]
   },
   {
+    "id": "1lou",
     "name": "BT 之家 1LOU 站",
     "url": "1lou.me",
     "routes": [
@@ -103,6 +115,7 @@
     ]
   },
   {
+    "id": "1point3acres",
     "name": "一亩三分地",
     "url": "blog.1point3acres.com",
     "routes": [
@@ -117,6 +130,7 @@
     ]
   },
   {
+    "id": "1x",
     "name": "1x.com",
     "url": "1x.com",
     "routes": [
@@ -124,6 +138,7 @@
     ]
   },
   {
+    "id": "2023game",
     "name": "游戏星辰",
     "url": "www.2023game.com",
     "routes": [
@@ -131,6 +146,7 @@
     ]
   },
   {
+    "id": "2cycd",
     "name": "二次元虫洞",
     "url": "2cycd.com",
     "routes": [
@@ -138,6 +154,7 @@
     ]
   },
   {
+    "id": "36kr",
     "name": "36kr",
     "url": "36kr.com",
     "routes": [
@@ -146,6 +163,7 @@
     ]
   },
   {
+    "id": "3dmgame",
     "name": "3DMGame",
     "url": "3dmgame.com",
     "routes": [
@@ -154,6 +172,7 @@
     ]
   },
   {
+    "id": "3kns",
     "name": "3k-Switch游戏库",
     "url": "www.3kns.com",
     "routes": [
@@ -161,6 +180,7 @@
     ]
   },
   {
+    "id": "423down",
     "name": "423Down",
     "url": "www.423down.com",
     "routes": [
@@ -168,6 +188,7 @@
     ]
   },
   {
+    "id": "4gamers",
     "name": "4Gamers",
     "url": "www.4gamers.com.tw",
     "routes": [
@@ -178,6 +199,7 @@
     ]
   },
   {
+    "id": "4ksj",
     "name": "4k 世界",
     "url": "4ksj.com",
     "routes": [
@@ -185,6 +207,7 @@
     ]
   },
   {
+    "id": "500px",
     "name": "500px 摄影社区",
     "url": "500px.com.cn",
     "routes": [
@@ -193,6 +216,7 @@
     ]
   },
   {
+    "id": "50forum",
     "name": "经济 50 人论坛",
     "url": "50forum.org.cn",
     "routes": [
@@ -200,6 +224,7 @@
     ]
   },
   {
+    "id": "52hrtt",
     "name": "52hrtt 华人头条",
     "url": "52hrtt.com",
     "routes": [
@@ -208,6 +233,7 @@
     ]
   },
   {
+    "id": "56kog",
     "name": "明月中文网",
     "url": "56kog.com",
     "routes": [
@@ -216,6 +242,7 @@
     ]
   },
   {
+    "id": "5eplay",
     "name": "5EPLAY",
     "url": "csgo.5eplay.com",
     "routes": [
@@ -223,6 +250,7 @@
     ]
   },
   {
+    "id": "6park",
     "name": "留园网",
     "url": "club.6parkbbs.com",
     "routes": [
@@ -231,6 +259,7 @@
     ]
   },
   {
+    "id": "6v123",
     "name": "6v 电影",
     "url": "hao6v.cc",
     "routes": [
@@ -239,6 +268,7 @@
     ]
   },
   {
+    "id": "78dm",
     "name": "78 动漫",
     "url": "78dm.net",
     "routes": [
@@ -246,6 +276,7 @@
     ]
   },
   {
+    "id": "7mmtv",
     "name": "7mmtv",
     "url": "7mmtv.tv",
     "routes": [
@@ -253,6 +284,7 @@
     ]
   },
   {
+    "id": "8kcos",
     "name": "8KCosplay",
     "url": "8kcosplay.com",
     "routes": [
@@ -262,6 +294,7 @@
     ]
   },
   {
+    "id": "8world",
     "name": "8 视界",
     "url": "8world.com",
     "routes": [
@@ -269,6 +302,7 @@
     ]
   },
   {
+    "id": "91porn",
     "name": "91porn",
     "url": "91porn.com",
     "routes": [
@@ -277,6 +311,7 @@
     ]
   },
   {
+    "id": "95mm",
     "name": "MM 范",
     "url": "95mm.org",
     "routes": [
@@ -286,6 +321,7 @@
     ]
   },
   {
+    "id": "9to5",
     "name": "9To5",
     "url": "9to5toys.com",
     "routes": [
@@ -293,6 +329,7 @@
     ]
   },
   {
+    "id": "a9vg",
     "name": "A9VG 电玩部落",
     "url": "a9vg.com",
     "routes": [
@@ -300,6 +337,7 @@
     ]
   },
   {
+    "id": "aamacau",
     "name": "論盡媒體 AllAboutMacau Media",
     "url": "aamacau.com",
     "routes": [
@@ -307,6 +345,7 @@
     ]
   },
   {
+    "id": "abc",
     "name": "ABC News",
     "url": "abc.net.au",
     "routes": [
@@ -314,6 +353,7 @@
     ]
   },
   {
+    "id": "abmedia",
     "name": "链新闻 ABMedia",
     "url": "www.abmedia.io",
     "routes": [
@@ -322,6 +362,7 @@
     ]
   },
   {
+    "id": "abskoop",
     "name": "A 姐分享",
     "url": "nsfw.abskoop.com",
     "routes": [
@@ -330,6 +371,7 @@
     ]
   },
   {
+    "id": "acfun",
     "name": "AcFun",
     "url": "www.acfun.cn",
     "routes": [
@@ -339,6 +381,7 @@
     ]
   },
   {
+    "id": "acg17",
     "name": "ACG17",
     "url": "acg17.com",
     "routes": [
@@ -346,6 +389,7 @@
     ]
   },
   {
+    "id": "acpaa",
     "name": "中华全国专利代理师协会",
     "url": "acpaa.cn",
     "routes": [
@@ -353,6 +397,7 @@
     ]
   },
   {
+    "id": "acs",
     "name": "Unknown",
     "url": "pubs.acs.org",
     "routes": [
@@ -360,6 +405,7 @@
     ]
   },
   {
+    "id": "aeaweb",
     "name": "American Economic Association",
     "url": "aeaweb.org",
     "routes": [
@@ -367,6 +413,7 @@
     ]
   },
   {
+    "id": "aeon",
     "name": "AEON",
     "url": "aeon.aeon.co",
     "routes": [
@@ -375,6 +422,7 @@
     ]
   },
   {
+    "id": "afdian",
     "name": "爱发电",
     "url": "afdian.net",
     "routes": [
@@ -383,6 +431,7 @@
     ]
   },
   {
+    "id": "agefans",
     "name": "AGE 动漫",
     "url": "agemys.cc",
     "routes": [
@@ -391,6 +440,7 @@
     ]
   },
   {
+    "id": "agirls",
     "name": "电獭少女",
     "url": "agirls.aotter.net",
     "routes": [
@@ -400,6 +450,7 @@
     ]
   },
   {
+    "id": "agora0",
     "name": "AG⓪RA",
     "url": "agorahub.github.io",
     "routes": [
@@ -408,6 +459,7 @@
     ]
   },
   {
+    "id": "ahjzu",
     "name": "安徽建筑大学",
     "url": "news.ahjzu.edu.cn",
     "routes": [
@@ -415,6 +467,7 @@
     ]
   },
   {
+    "id": "aicaijing",
     "name": "AI 财经社",
     "url": "www.aicaijing.com",
     "routes": [
@@ -422,6 +475,7 @@
     ]
   },
   {
+    "id": "aiea",
     "name": "Asian Innovation and Entrepreneurship Association",
     "url": "www.aiea.org",
     "routes": [
@@ -429,6 +483,7 @@
     ]
   },
   {
+    "id": "aijishu",
     "name": "极术社区",
     "url": "www.aijishu",
     "routes": [
@@ -436,6 +491,7 @@
     ]
   },
   {
+    "id": "ainvest",
     "name": "AInvest",
     "url": "ainvest.com",
     "routes": [
@@ -444,6 +500,7 @@
     ]
   },
   {
+    "id": "aip",
     "name": "American Institute of Physics",
     "url": "pubs.aip.org",
     "routes": [
@@ -451,6 +508,7 @@
     ]
   },
   {
+    "id": "airchina",
     "name": "中国国际航空公司",
     "url": "www.airchina.com.cn",
     "routes": [
@@ -458,6 +516,7 @@
     ]
   },
   {
+    "id": "aisixiang",
     "name": "爱思想",
     "url": "aisixiang.com",
     "routes": [
@@ -469,6 +528,7 @@
     ]
   },
   {
+    "id": "ajmide",
     "name": "阿基米德 FM",
     "url": "m.ajmide.com",
     "routes": [
@@ -476,6 +536,7 @@
     ]
   },
   {
+    "id": "aliresearch",
     "name": "阿里研究院",
     "url": "aliresearch.com",
     "routes": [
@@ -483,6 +544,7 @@
     ]
   },
   {
+    "id": "alistapart",
     "name": "A List Apart",
     "url": "alistapart.com",
     "routes": [
@@ -491,6 +553,7 @@
     ]
   },
   {
+    "id": "aliyun",
     "name": "阿里云",
     "url": "developer.aliyun.com",
     "routes": [
@@ -500,6 +563,7 @@
     ]
   },
   {
+    "id": "aljazeera",
     "name": "Aljazeera 半岛电视台",
     "url": "aljazeera.com",
     "routes": [
@@ -507,6 +571,7 @@
     ]
   },
   {
+    "id": "ally",
     "name": "艾莱资讯",
     "url": "rail.ally.net.cn",
     "routes": [
@@ -514,6 +579,7 @@
     ]
   },
   {
+    "id": "alternativeto",
     "name": "AlternativeTo",
     "url": "www.alternativeto.net",
     "routes": [
@@ -522,6 +588,7 @@
     ]
   },
   {
+    "id": "amazon",
     "name": "Amazon",
     "url": "amazon.com",
     "routes": [
@@ -530,6 +597,7 @@
     ]
   },
   {
+    "id": "android",
     "name": "Android",
     "url": "developer.android.com",
     "routes": [
@@ -537,6 +605,7 @@
     ]
   },
   {
+    "id": "annualreviews",
     "name": "Annual Reviews",
     "url": "annualreviews.org",
     "routes": [
@@ -544,6 +613,7 @@
     ]
   },
   {
+    "id": "anquanke",
     "name": "安全客",
     "url": "anquanke.com",
     "routes": [
@@ -551,6 +621,7 @@
     ]
   },
   {
+    "id": "apache",
     "name": "Apache",
     "url": "apisix.apache.org",
     "routes": [
@@ -558,6 +629,7 @@
     ]
   },
   {
+    "id": "apiseven",
     "name": "支流科技",
     "url": "apiseven.com",
     "routes": [
@@ -565,6 +637,7 @@
     ]
   },
   {
+    "id": "apkpure",
     "name": "APKPure",
     "url": "apkpure.com",
     "routes": [
@@ -572,6 +645,7 @@
     ]
   },
   {
+    "id": "apnews",
     "name": "AP News",
     "url": "apnews.com",
     "routes": [
@@ -579,6 +653,7 @@
     ]
   },
   {
+    "id": "app-center",
     "name": "App Center",
     "url": "install.appcenter.ms",
     "routes": [
@@ -586,6 +661,7 @@
     ]
   },
   {
+    "id": "apple",
     "name": "Apple",
     "url": "apps.apple.com",
     "routes": [
@@ -594,6 +670,7 @@
     ]
   },
   {
+    "id": "appleinsider",
     "name": "AppleInsider",
     "url": "appleinsider.com",
     "routes": [
@@ -601,6 +678,7 @@
     ]
   },
   {
+    "id": "appstore",
     "name": "App Store/Mac App Store",
     "url": "apps.apple.com",
     "routes": [
@@ -610,6 +688,7 @@
     ]
   },
   {
+    "id": "appstorrent",
     "name": "AppsTorrent",
     "url": "appstorrent.ru",
     "routes": [
@@ -617,6 +696,7 @@
     ]
   },
   {
+    "id": "aqara",
     "name": "Aqara",
     "url": "aqara.com",
     "routes": [
@@ -627,6 +707,7 @@
     ]
   },
   {
+    "id": "arcteryx",
     "name": "Arcteryx",
     "url": "arcteryx.com",
     "routes": [
@@ -636,6 +717,7 @@
     ]
   },
   {
+    "id": "arknights",
     "name": "明日方舟",
     "url": "ak.arknights.jp",
     "routes": [
@@ -645,6 +727,7 @@
     ]
   },
   {
+    "id": "artstation",
     "name": "ArtStation",
     "url": "www.artstation.com",
     "routes": [
@@ -652,6 +735,7 @@
     ]
   },
   {
+    "id": "asiantolick",
     "name": "Asian to lick",
     "url": "asiantolick.com",
     "routes": [
@@ -659,6 +743,7 @@
     ]
   },
   {
+    "id": "asus",
     "name": "ASUS",
     "url": "asus.com.cn",
     "routes": [
@@ -667,6 +752,7 @@
     ]
   },
   {
+    "id": "atcoder",
     "name": "AtCoder",
     "url": "atcoder.jp",
     "routes": [
@@ -675,6 +761,7 @@
     ]
   },
   {
+    "id": "auto-stats",
     "name": "中国汽车工业协会统计信息网",
     "url": "auto-stats.org.cn",
     "routes": [
@@ -682,6 +769,7 @@
     ]
   },
   {
+    "id": "baai",
     "name": "北京智源人工智能研究院",
     "url": "hub.baai.ac.cn",
     "routes": [
@@ -693,6 +781,7 @@
     ]
   },
   {
+    "id": "backlinko",
     "name": "Backlinko",
     "url": "backlinko.com",
     "routes": [
@@ -700,6 +789,7 @@
     ]
   },
   {
+    "id": "bad",
     "name": "Bad.news",
     "url": "bad.news",
     "routes": [
@@ -707,6 +797,7 @@
     ]
   },
   {
+    "id": "baidu",
     "name": "百度",
     "url": "www.baidu.com",
     "routes": [
@@ -722,6 +813,7 @@
     ]
   },
   {
+    "id": "bandcamp",
     "name": "Bandcamp",
     "url": "bandcamp.com",
     "routes": [
@@ -731,6 +823,7 @@
     ]
   },
   {
+    "id": "bangumi",
     "name": "アニメ新番組",
     "url": "bangumi.moe",
     "routes": [
@@ -747,6 +840,7 @@
     ]
   },
   {
+    "id": "baozimh",
     "name": "包子漫画",
     "url": "www.baozimh.com",
     "routes": [
@@ -754,6 +848,7 @@
     ]
   },
   {
+    "id": "barronschina",
     "name": "巴伦周刊中文版",
     "url": "barronschina.com.cn",
     "routes": [
@@ -761,6 +856,7 @@
     ]
   },
   {
+    "id": "bast",
     "name": "北京市科学技术协会",
     "url": "bast.net.cn",
     "routes": [
@@ -768,6 +864,7 @@
     ]
   },
   {
+    "id": "bbc",
     "name": "BBC",
     "url": "bbc.com",
     "routes": [
@@ -775,6 +872,7 @@
     ]
   },
   {
+    "id": "bbcnewslabs",
     "name": "BBC News Labs",
     "url": "bbcnewslabs.co.uk",
     "routes": [
@@ -782,6 +880,7 @@
     ]
   },
   {
+    "id": "bdys",
     "name": "哔嘀影视",
     "url": "52bdys.com",
     "routes": [
@@ -789,6 +888,7 @@
     ]
   },
   {
+    "id": "behance",
     "name": "Behance",
     "url": "www.behance.net",
     "routes": [
@@ -796,6 +896,7 @@
     ]
   },
   {
+    "id": "bellroy",
     "name": "Bellroy",
     "url": "bellroy.com",
     "routes": [
@@ -803,6 +904,7 @@
     ]
   },
   {
+    "id": "bendibao",
     "name": "本地宝",
     "url": "bendibao.com",
     "routes": [
@@ -810,6 +912,7 @@
     ]
   },
   {
+    "id": "bgmlist",
     "name": "番组放送",
     "url": "bgmlist.com",
     "routes": [
@@ -817,6 +920,7 @@
     ]
   },
   {
+    "id": "bigquant",
     "name": "BigQuant",
     "url": "bigquant.com",
     "routes": [
@@ -824,6 +928,7 @@
     ]
   },
   {
+    "id": "bilibili",
     "name": "Bilibili",
     "url": "www.bilibili.com",
     "routes": [
@@ -870,6 +975,7 @@
     ]
   },
   {
+    "id": "bing",
     "name": "Bing",
     "url": "cn.bing.com",
     "routes": [
@@ -878,6 +984,7 @@
     ]
   },
   {
+    "id": "biodiscover",
     "name": "biodiscover.com 生物探索",
     "url": "www.biodiscover.com",
     "routes": [
@@ -885,6 +992,7 @@
     ]
   },
   {
+    "id": "bioone",
     "name": "BioOne",
     "url": "bioone.org",
     "routes": [
@@ -893,6 +1001,7 @@
     ]
   },
   {
+    "id": "biquge",
     "name": "笔趣阁",
     "url": "xbiquwx.la",
     "routes": [
@@ -900,6 +1009,7 @@
     ]
   },
   {
+    "id": "bit",
     "name": "北京理工大学",
     "url": "cs.bit.edu.cn",
     "routes": [
@@ -910,6 +1020,7 @@
     ]
   },
   {
+    "id": "bitbucket",
     "name": "Bitbucket",
     "url": "bitbucket.com",
     "routes": [
@@ -918,6 +1029,7 @@
     ]
   },
   {
+    "id": "bitmovin",
     "name": "Bitmovin",
     "url": "bitmovin.com",
     "routes": [
@@ -925,6 +1037,7 @@
     ]
   },
   {
+    "id": "bjfu",
     "name": "北京林业大学",
     "url": "graduate.bjfu.edu.cn",
     "routes": [
@@ -936,6 +1049,7 @@
     ]
   },
   {
+    "id": "bjp",
     "name": "北京天文馆",
     "url": "bjp.org.cn",
     "routes": [
@@ -943,6 +1057,7 @@
     ]
   },
   {
+    "id": "bjsk",
     "name": "北京社科网",
     "url": "bjsk.org.cn",
     "routes": [
@@ -951,6 +1066,7 @@
     ]
   },
   {
+    "id": "bjwxdxh",
     "name": "北京无线电协会",
     "url": "www.bjwxdxh.org.cn",
     "routes": [
@@ -958,6 +1074,7 @@
     ]
   },
   {
+    "id": "bjx",
     "name": "北极星电力网",
     "url": "guangfu.bjx.com.cn",
     "routes": [
@@ -966,6 +1083,7 @@
     ]
   },
   {
+    "id": "blizzard",
     "name": "Blizzard",
     "url": "news.blizzard.com",
     "routes": [
@@ -973,6 +1091,7 @@
     ]
   },
   {
+    "id": "blogread",
     "name": "技术头条",
     "url": "blogread.cn",
     "routes": [
@@ -980,6 +1099,7 @@
     ]
   },
   {
+    "id": "bloomberg",
     "name": "Bloomberg",
     "url": "www.bloomberg.com",
     "routes": [
@@ -989,6 +1109,7 @@
     ]
   },
   {
+    "id": "bluestacks",
     "name": "BlueStacks",
     "url": "bluestacks.com",
     "routes": [
@@ -996,6 +1117,7 @@
     ]
   },
   {
+    "id": "bmkg",
     "name": "BADAN METEOROLOGI, KLIMATOLOGI, DAN GEOFISIKA(Indonesian)",
     "url": "bmkg.go.id",
     "routes": [
@@ -1004,6 +1126,7 @@
     ]
   },
   {
+    "id": "bnu",
     "name": "北京师范大学",
     "url": "bs.bnu.edu.cn",
     "routes": [
@@ -1015,6 +1138,7 @@
     ]
   },
   {
+    "id": "boc",
     "name": "中国银行",
     "url": "boc.cn",
     "routes": [
@@ -1022,6 +1146,7 @@
     ]
   },
   {
+    "id": "bookfere",
     "name": "书伴",
     "url": "bookfere.com",
     "routes": [
@@ -1029,6 +1154,7 @@
     ]
   },
   {
+    "id": "booru",
     "name": "Booru",
     "url": "mmda.booru.org",
     "routes": [
@@ -1036,6 +1162,7 @@
     ]
   },
   {
+    "id": "bossdesign",
     "name": "Boss 设计",
     "url": "bossdesign.cn",
     "routes": [
@@ -1043,6 +1170,7 @@
     ]
   },
   {
+    "id": "brave",
     "name": "Brave",
     "url": "brave.com",
     "routes": [
@@ -1050,6 +1178,7 @@
     ]
   },
   {
+    "id": "brooklynmuseum",
     "name": "Brooklyn Museum 纽约布鲁克林博物馆",
     "url": "www.brooklynmuseum.org",
     "routes": [
@@ -1057,6 +1186,7 @@
     ]
   },
   {
+    "id": "bse",
     "name": "北京证券交易所",
     "url": "bse.cn",
     "routes": [
@@ -1064,6 +1194,7 @@
     ]
   },
   {
+    "id": "bsky",
     "name": "Bluesky (bsky)",
     "url": "bsky.app",
     "routes": [
@@ -1072,6 +1203,7 @@
     ]
   },
   {
+    "id": "btzj",
     "name": "BT 之家",
     "url": "btbtt20.com",
     "routes": [
@@ -1079,6 +1211,7 @@
     ]
   },
   {
+    "id": "buaa",
     "name": "北京航空航天大学",
     "url": "news.buaa.edu.cn",
     "routes": [
@@ -1087,6 +1220,7 @@
     ]
   },
   {
+    "id": "bulianglin",
     "name": "不良林",
     "url": "bulianglin.com",
     "routes": [
@@ -1094,6 +1228,7 @@
     ]
   },
   {
+    "id": "bupt",
     "name": "北京邮电大学",
     "url": "bupt.edu.cn",
     "routes": [
@@ -1101,6 +1236,7 @@
     ]
   },
   {
+    "id": "byteclicks",
     "name": "字节点击",
     "url": "byteclicks.com",
     "routes": [
@@ -1109,6 +1245,7 @@
     ]
   },
   {
+    "id": "bytes",
     "name": "ui.dev",
     "url": "bytes.dev",
     "routes": [
@@ -1116,6 +1253,7 @@
     ]
   },
   {
+    "id": "c114",
     "name": "C114 通信网",
     "url": "c114.com.cn",
     "routes": [
@@ -1123,6 +1261,7 @@
     ]
   },
   {
+    "id": "caai",
     "name": "中国人工智能学会",
     "url": "caai.cn",
     "routes": [
@@ -1130,6 +1269,7 @@
     ]
   },
   {
+    "id": "caam",
     "name": "中国汽车工业协会",
     "url": "caam.org.cn",
     "routes": [
@@ -1137,6 +1277,7 @@
     ]
   },
   {
+    "id": "caareviews",
     "name": "caa.reviews",
     "url": "caareviews.org",
     "routes": [
@@ -1146,6 +1287,7 @@
     ]
   },
   {
+    "id": "cahkms",
     "name": "全国港澳研究会",
     "url": "cahkms.org",
     "routes": [
@@ -1153,6 +1295,7 @@
     ]
   },
   {
+    "id": "caijing",
     "name": "财经网",
     "url": "roll.caijing.com.cn",
     "routes": [
@@ -1160,6 +1303,7 @@
     ]
   },
   {
+    "id": "caixin",
     "name": "财新博客",
     "url": "caixin.com",
     "routes": [
@@ -1173,6 +1317,7 @@
     ]
   },
   {
+    "id": "caixinglobal",
     "name": "Caixin Global",
     "url": "caixinglobal.com",
     "routes": [
@@ -1180,6 +1325,7 @@
     ]
   },
   {
+    "id": "camchina",
     "name": "中国管理现代化研究会",
     "url": "cste.org.cn",
     "routes": [
@@ -1187,6 +1333,7 @@
     ]
   },
   {
+    "id": "cankaoxiaoxi",
     "name": "参考消息",
     "url": "cankaoxiaoxi.com",
     "routes": [
@@ -1195,6 +1342,7 @@
     ]
   },
   {
+    "id": "cartoonmad",
     "name": "動漫狂",
     "url": "cartoonmad.com",
     "routes": [
@@ -1202,6 +1350,7 @@
     ]
   },
   {
+    "id": "cas",
     "name": "中国科学院",
     "url": "www.cas.cn",
     "routes": [
@@ -1215,6 +1364,7 @@
     ]
   },
   {
+    "id": "casssp",
     "name": "中国科学学与科技政策研究会",
     "url": "casssp.org.cn",
     "routes": [
@@ -1222,6 +1372,7 @@
     ]
   },
   {
+    "id": "cast",
     "name": "中国科学技术协会",
     "url": "cast.org.cn",
     "routes": [
@@ -1229,6 +1380,7 @@
     ]
   },
   {
+    "id": "cau",
     "name": "中国农业大学",
     "url": "ciee.cau.edu.cn",
     "routes": [
@@ -1237,6 +1389,7 @@
     ]
   },
   {
+    "id": "caus",
     "name": "加美财经",
     "url": "caus.com",
     "routes": [
@@ -1244,6 +1397,7 @@
     ]
   },
   {
+    "id": "cbaigui",
     "name": "纪妖",
     "url": "cbaigui.com",
     "routes": [
@@ -1251,6 +1405,7 @@
     ]
   },
   {
+    "id": "cbc",
     "name": "Canadian Broadcasting Corporation",
     "url": "cbc.ca",
     "routes": [
@@ -1258,6 +1413,7 @@
     ]
   },
   {
+    "id": "cbirc",
     "name": "中国银行保险监督管理委员会",
     "url": "cbirc.gov.cn",
     "routes": [
@@ -1265,6 +1421,7 @@
     ]
   },
   {
+    "id": "cbnweek",
     "name": "第一财经杂志",
     "url": "cbnweek.com",
     "routes": [
@@ -1272,6 +1429,7 @@
     ]
   },
   {
+    "id": "ccac",
     "name": "Macau Independent Commission Against Corruption 澳门廉政公署",
     "url": "ccac.org.mo",
     "routes": [
@@ -1279,6 +1437,7 @@
     ]
   },
   {
+    "id": "ccf",
     "name": "中国计算机学会",
     "url": "ccf.org.cn",
     "routes": [
@@ -1288,6 +1447,7 @@
     ]
   },
   {
+    "id": "ccnu",
     "name": "华中师范大学",
     "url": "ccnu.91wllm.com",
     "routes": [
@@ -1298,6 +1458,7 @@
     ]
   },
   {
+    "id": "ccreports",
     "name": "消费者报道",
     "url": "www.ccreports.com.cn",
     "routes": [
@@ -1305,6 +1466,7 @@
     ]
   },
   {
+    "id": "cctv",
     "name": "央视新闻",
     "url": "news.cctv.com",
     "routes": [
@@ -1315,6 +1477,7 @@
     ]
   },
   {
+    "id": "cde",
     "name": "国家药品审评网站",
     "url": "www.cde.org.cn",
     "routes": [
@@ -1324,6 +1487,7 @@
     ]
   },
   {
+    "id": "cdi",
     "name": "国家高端智库 / 综合开发研究院",
     "url": "cdi.com.cn",
     "routes": [
@@ -1331,6 +1495,7 @@
     ]
   },
   {
+    "id": "cdzjryb",
     "name": "成都住建蓉 e 办",
     "url": "zw.cdzjryb.com",
     "routes": [
@@ -1338,6 +1503,7 @@
     ]
   },
   {
+    "id": "cebbank",
     "name": "中国光大银行",
     "url": "cebbank.com",
     "routes": [
@@ -1346,6 +1512,7 @@
     ]
   },
   {
+    "id": "cfachina",
     "name": "中国期货业协会",
     "url": "cfachina.org",
     "routes": [
@@ -1353,6 +1520,7 @@
     ]
   },
   {
+    "id": "cfmmc",
     "name": "中国期货市场监控中心",
     "url": "cfmmc.com",
     "routes": [
@@ -1360,6 +1528,7 @@
     ]
   },
   {
+    "id": "cgtn",
     "name": "中国环球电视网",
     "url": "cgtn.com",
     "routes": [
@@ -1367,6 +1536,7 @@
     ]
   },
   {
+    "id": "chaincatcher",
     "name": "链捕手 ChainCatcher",
     "url": "chaincatcher.com",
     "routes": [
@@ -1375,6 +1545,7 @@
     ]
   },
   {
+    "id": "changba",
     "name": "唱吧",
     "url": "changba.com",
     "routes": [
@@ -1382,6 +1553,7 @@
     ]
   },
   {
+    "id": "chaoxing",
     "name": "超星",
     "url": "chaoxing.com",
     "routes": [
@@ -1389,6 +1561,7 @@
     ]
   },
   {
+    "id": "chaping",
     "name": "差评",
     "url": "chaping.cn",
     "routes": [
@@ -1398,6 +1571,7 @@
     ]
   },
   {
+    "id": "chiculture",
     "name": "通識・現代中國",
     "url": "chiculture.org.hk",
     "routes": [
@@ -1405,6 +1579,7 @@
     ]
   },
   {
+    "id": "china",
     "name": "China.com 中华网",
     "url": "finance.china.com",
     "routes": [
@@ -1414,6 +1589,7 @@
     ]
   },
   {
+    "id": "chinadegrees",
     "name": "中华人民共和国学位证书查询",
     "url": "chinadegrees.com.cn",
     "routes": [
@@ -1421,6 +1597,7 @@
     ]
   },
   {
+    "id": "chinafactcheck",
     "name": "有据",
     "url": "chinafactcheck.com",
     "routes": [
@@ -1428,6 +1605,7 @@
     ]
   },
   {
+    "id": "chinaisa",
     "name": "中国钢铁工业协会",
     "url": "chinaisa.org.cn",
     "routes": [
@@ -1435,6 +1613,7 @@
     ]
   },
   {
+    "id": "chinamoney",
     "name": "中国货币网",
     "url": "chinamoney.com.cn",
     "routes": [
@@ -1442,6 +1621,7 @@
     ]
   },
   {
+    "id": "chinanews",
     "name": "中国新闻网",
     "url": "chinanews.com.cn",
     "routes": [
@@ -1449,6 +1629,7 @@
     ]
   },
   {
+    "id": "chinathinktanks",
     "name": "中国智库网",
     "url": "www.chinathinktanks.org.cn",
     "routes": [
@@ -1456,6 +1637,7 @@
     ]
   },
   {
+    "id": "chinaventure",
     "name": "投中网",
     "url": "chinaventure.com.cn",
     "routes": [
@@ -1463,6 +1645,7 @@
     ]
   },
   {
+    "id": "chinawriter",
     "name": "中国作家网",
     "url": "chinawriter.com.cn",
     "routes": [
@@ -1470,6 +1653,7 @@
     ]
   },
   {
+    "id": "chsi",
     "name": "中国研究生招生信息网",
     "url": "yz.chsi.com.cn",
     "routes": [
@@ -1479,6 +1663,7 @@
     ]
   },
   {
+    "id": "chuanliu",
     "name": "川流",
     "url": "chuanliu.org",
     "routes": [
@@ -1486,6 +1671,7 @@
     ]
   },
   {
+    "id": "cib",
     "name": "中国兴业银行",
     "url": "cib.com.cn",
     "routes": [
@@ -1493,6 +1679,7 @@
     ]
   },
   {
+    "id": "ciidbnu",
     "name": "中国收入分配研究院",
     "url": "ciidbnu.org",
     "routes": [
@@ -1500,6 +1687,7 @@
     ]
   },
   {
+    "id": "civitai",
     "name": "Civitai",
     "url": "civitai.com",
     "routes": [
@@ -1508,6 +1696,7 @@
     ]
   },
   {
+    "id": "ciweimao",
     "name": "刺猬猫",
     "url": "wap.ciweimao.com",
     "routes": [
@@ -1515,6 +1704,7 @@
     ]
   },
   {
+    "id": "clickme",
     "name": "ClickMe",
     "url": "clickme.net",
     "routes": [
@@ -1522,6 +1712,7 @@
     ]
   },
   {
+    "id": "cloudnative",
     "name": "云原生社区",
     "url": "cloudnative.to",
     "routes": [
@@ -1529,6 +1720,7 @@
     ]
   },
   {
+    "id": "cls",
     "name": "财联社",
     "url": "cls.cn",
     "routes": [
@@ -1538,6 +1730,7 @@
     ]
   },
   {
+    "id": "cma",
     "name": "中国气象局",
     "url": "weather.cma.cn",
     "routes": [
@@ -1545,6 +1738,7 @@
     ]
   },
   {
+    "id": "cmde",
     "name": "国家药品监督管理局医疗器械技术审评中心",
     "url": "www.cmde.org.cn",
     "routes": [
@@ -1552,6 +1746,7 @@
     ]
   },
   {
+    "id": "cmpxchg8b",
     "name": "cmpxchg8b",
     "url": "lock.cmpxchg8b.com",
     "routes": [
@@ -1559,6 +1754,7 @@
     ]
   },
   {
+    "id": "cn-healthcare",
     "name": "健康界",
     "url": "cn-healthcare.com",
     "routes": [
@@ -1566,6 +1762,7 @@
     ]
   },
   {
+    "id": "cna",
     "name": "中央通讯社",
     "url": "cna.com.tw",
     "routes": [
@@ -1574,6 +1771,7 @@
     ]
   },
   {
+    "id": "cnbc",
     "name": "CNBC",
     "url": "search.cnbc.com",
     "routes": [
@@ -1581,6 +1779,7 @@
     ]
   },
   {
+    "id": "cnbeta",
     "name": "cnBeta.COM",
     "url": "cnbeta.com.tw",
     "routes": [
@@ -1589,6 +1788,7 @@
     ]
   },
   {
+    "id": "cnblogs",
     "name": "博客园",
     "url": "www.cnblogs.com",
     "routes": [
@@ -1600,6 +1800,7 @@
     ]
   },
   {
+    "id": "cncf",
     "name": "CNCF",
     "url": "cncf.io",
     "routes": [
@@ -1608,6 +1809,7 @@
     ]
   },
   {
+    "id": "cneb",
     "name": "中国国家应急广播",
     "url": "cneb.gov.cn",
     "routes": [
@@ -1616,6 +1818,7 @@
     ]
   },
   {
+    "id": "cngal",
     "name": "CnGal",
     "url": "www.cngal.org",
     "routes": [
@@ -1624,6 +1827,7 @@
     ]
   },
   {
+    "id": "cnjxol",
     "name": "南湖清风",
     "url": "cnjxol.com",
     "routes": [
@@ -1631,6 +1835,7 @@
     ]
   },
   {
+    "id": "cnki",
     "name": "中国知网",
     "url": "navi.cnki.net",
     "routes": [
@@ -1640,6 +1845,7 @@
     ]
   },
   {
+    "id": "cnljxh",
     "name": "中国炼焦行业协会",
     "url": "cnljxh.com",
     "routes": [
@@ -1647,6 +1853,7 @@
     ]
   },
   {
+    "id": "cntheory",
     "name": "理论网",
     "url": "paper.cntheory.com",
     "routes": [
@@ -1654,6 +1861,7 @@
     ]
   },
   {
+    "id": "cntv",
     "name": "CNTV",
     "url": "navi.cctv.com",
     "routes": [
@@ -1661,6 +1869,7 @@
     ]
   },
   {
+    "id": "codeforces",
     "name": "Codeforces",
     "url": "codeforces.com",
     "routes": [
@@ -1669,6 +1878,7 @@
     ]
   },
   {
+    "id": "coindesk",
     "name": "CoinDesk Consensus Magazine",
     "url": "coindesk.com",
     "routes": [
@@ -1676,6 +1886,7 @@
     ]
   },
   {
+    "id": "comicat",
     "name": "Comicat",
     "url": "comicat.org",
     "routes": [
@@ -1683,6 +1894,7 @@
     ]
   },
   {
+    "id": "comicskingdom",
     "name": "Comics Kingdom",
     "url": "comicskingdom.com",
     "routes": [
@@ -1690,6 +1902,7 @@
     ]
   },
   {
+    "id": "consumer",
     "name": "消费者委员会",
     "url": "consumer.org.hk",
     "routes": [
@@ -1698,6 +1911,7 @@
     ]
   },
   {
+    "id": "cool18",
     "name": "禁忌书屋",
     "url": "cool18.com",
     "routes": [
@@ -1705,6 +1919,7 @@
     ]
   },
   {
+    "id": "coolapk",
     "name": "酷安",
     "url": "coolapk.com",
     "routes": [
@@ -1718,6 +1933,7 @@
     ]
   },
   {
+    "id": "coomer",
     "name": "Coomer",
     "url": "coomer.party",
     "routes": [
@@ -1726,6 +1942,7 @@
     ]
   },
   {
+    "id": "copymanga",
     "name": "拷贝漫画",
     "url": "copymanga.com",
     "routes": [
@@ -1733,6 +1950,7 @@
     ]
   },
   {
+    "id": "cpcey",
     "name": "台湾行政院消费者保护会",
     "url": "cpc.ey.gov.tw",
     "routes": [
@@ -1740,6 +1958,7 @@
     ]
   },
   {
+    "id": "cpuid",
     "name": "CPUID",
     "url": "cpuid.com",
     "routes": [
@@ -1747,6 +1966,7 @@
     ]
   },
   {
+    "id": "cqgas",
     "name": "重庆燃气",
     "url": "cqgas.cn",
     "routes": [
@@ -1754,6 +1974,7 @@
     ]
   },
   {
+    "id": "cqwu",
     "name": "重庆文理学院",
     "url": "www.cqwu.net",
     "routes": [
@@ -1761,6 +1982,7 @@
     ]
   },
   {
+    "id": "crac",
     "name": "中国无线电协会业余无线电分会",
     "url": "www.crac.org.cn",
     "routes": [
@@ -1768,6 +1990,7 @@
     ]
   },
   {
+    "id": "creative-comic",
     "name": "CCC 創作集",
     "url": "creative-comic.tw",
     "routes": [
@@ -1775,6 +1998,7 @@
     ]
   },
   {
+    "id": "crossbell",
     "name": "Crossbell",
     "url": "crossbell.io",
     "routes": [
@@ -1785,6 +2009,7 @@
     ]
   },
   {
+    "id": "cs",
     "name": "中证网",
     "url": "cs.com.cn",
     "routes": [
@@ -1795,6 +2020,7 @@
     ]
   },
   {
+    "id": "csdn",
     "name": "CSDN",
     "url": "blog.csdn.net",
     "routes": [
@@ -1802,6 +2028,7 @@
     ]
   },
   {
+    "id": "cssn",
     "name": "Chinese Social Science Net",
     "url": "iolaw.cssn.cn",
     "routes": [
@@ -1809,6 +2036,7 @@
     ]
   },
   {
+    "id": "cste",
     "name": "中国技术经济学会",
     "url": "cste.org.cn",
     "routes": [
@@ -1816,6 +2044,7 @@
     ]
   },
   {
+    "id": "csu",
     "name": "中南大学",
     "url": "career.csu.edu.cn",
     "routes": [
@@ -1825,6 +2054,7 @@
     ]
   },
   {
+    "id": "cts",
     "name": "華視",
     "url": "news.cts.com.tw",
     "routes": [
@@ -1832,6 +2062,7 @@
     ]
   },
   {
+    "id": "cuc",
     "name": "中国传媒大学",
     "url": "yz.cuc.edu.cn",
     "routes": [
@@ -1839,6 +2070,7 @@
     ]
   },
   {
+    "id": "curiouscat",
     "name": "CuriousCat",
     "url": "curiouscat.live",
     "routes": [
@@ -1846,6 +2078,7 @@
     ]
   },
   {
+    "id": "curius",
     "name": "Curius",
     "url": "curius.app",
     "routes": [
@@ -1853,6 +2086,7 @@
     ]
   },
   {
+    "id": "cw",
     "name": "天下雜誌",
     "url": "cw.com.tw",
     "routes": [
@@ -1863,6 +2097,7 @@
     ]
   },
   {
+    "id": "cyzone",
     "name": "创业邦",
     "url": "cyzone.cn",
     "routes": [
@@ -1873,6 +2108,7 @@
     ]
   },
   {
+    "id": "cztv",
     "name": "新蓝网（浙江广播电视集团）",
     "url": "cztv.com",
     "routes": [
@@ -1881,6 +2117,7 @@
     ]
   },
   {
+    "id": "dahecube",
     "name": "大河财立方",
     "url": "dahecube.com",
     "routes": [
@@ -1888,6 +2125,7 @@
     ]
   },
   {
+    "id": "daily",
     "name": "Daily.dev",
     "url": "daily.dev",
     "routes": [
@@ -1897,6 +2135,7 @@
     ]
   },
   {
+    "id": "damai",
     "name": "大麦网",
     "url": "search.damai.cn",
     "routes": [
@@ -1904,6 +2143,7 @@
     ]
   },
   {
+    "id": "dapenti",
     "name": "喷嚏",
     "url": "dapenti.com",
     "routes": [
@@ -1912,6 +2152,7 @@
     ]
   },
   {
+    "id": "darwinawards",
     "name": "Darwin Awards",
     "url": "darwinawards.com",
     "routes": [
@@ -1920,6 +2161,7 @@
     ]
   },
   {
+    "id": "dayanzai",
     "name": "大眼仔旭",
     "url": "dayanzai.me",
     "routes": [
@@ -1927,6 +2169,7 @@
     ]
   },
   {
+    "id": "dbaplus",
     "name": "dbaplus社群",
     "url": "dbaplus.cn",
     "routes": [
@@ -1934,6 +2177,7 @@
     ]
   },
   {
+    "id": "dblp",
     "name": "DBLP",
     "url": "dblp.org",
     "routes": [
@@ -1941,6 +2185,7 @@
     ]
   },
   {
+    "id": "dcard",
     "name": "Dcard",
     "url": "www.dcard.tw",
     "routes": [
@@ -1948,6 +2193,7 @@
     ]
   },
   {
+    "id": "dcfever",
     "name": "DCFever",
     "url": "dcfever.com",
     "routes": [
@@ -1958,6 +2204,7 @@
     ]
   },
   {
+    "id": "ddosi",
     "name": "雨苁博客",
     "url": "ddosi.org",
     "routes": [
@@ -1966,6 +2213,7 @@
     ]
   },
   {
+    "id": "deadline",
     "name": "Deadline",
     "url": "deadline.com",
     "routes": [
@@ -1973,6 +2221,7 @@
     ]
   },
   {
+    "id": "dedao",
     "name": "得到",
     "url": "dedao.cn",
     "routes": [
@@ -1983,6 +2232,7 @@
     ]
   },
   {
+    "id": "deeplearning",
     "name": "deeplearning.ai",
     "url": "www.deeplearning.ai",
     "routes": [
@@ -1990,6 +2240,7 @@
     ]
   },
   {
+    "id": "deepmind",
     "name": "DeepMind",
     "url": "deepmind.com",
     "routes": [
@@ -1997,9 +2248,7 @@
     ]
   },
   {
-    "routes": []
-  },
-  {
+    "id": "deltaio",
     "name": "Delta Lake",
     "url": "delta.io",
     "routes": [
@@ -2007,6 +2256,7 @@
     ]
   },
   {
+    "id": "devolverdigital",
     "name": "DevolverDigital",
     "url": "devolverdigital.com",
     "routes": [
@@ -2014,6 +2264,7 @@
     ]
   },
   {
+    "id": "dgjyw",
     "name": "东莞教研网",
     "url": "dgjyw.com",
     "routes": [
@@ -2021,6 +2272,7 @@
     ]
   },
   {
+    "id": "dhu",
     "name": "东华大学",
     "url": "gs.dhu.edu.cn",
     "routes": [
@@ -2032,6 +2284,7 @@
     ]
   },
   {
+    "id": "diandong",
     "name": "电动邦",
     "url": "diandong.com",
     "routes": [
@@ -2039,6 +2292,7 @@
     ]
   },
   {
+    "id": "diershoubing",
     "name": "二柄 APP",
     "url": "diershoubing.com",
     "routes": [
@@ -2046,6 +2300,7 @@
     ]
   },
   {
+    "id": "discord",
     "name": "Discord",
     "url": "discord.com",
     "routes": [
@@ -2053,6 +2308,7 @@
     ]
   },
   {
+    "id": "discourse",
     "name": "Discourse",
     "routes": [
       "/:configId/notifications/:fulltext?",
@@ -2060,6 +2316,7 @@
     ]
   },
   {
+    "id": "discuz",
     "name": "Discuz",
     "routes": [
       "/:ver{[7x]}/:cid{[0-9]{2}}/:link{.+}",
@@ -2068,6 +2325,7 @@
     ]
   },
   {
+    "id": "disinfo",
     "name": "EU Disinfo Lab",
     "url": "disinfo.eu",
     "routes": [
@@ -2075,6 +2333,7 @@
     ]
   },
   {
+    "id": "diskanalyzer",
     "name": "WizTree",
     "url": "diskanalyzer.com",
     "routes": [
@@ -2082,6 +2341,7 @@
     ]
   },
   {
+    "id": "distill",
     "name": "Distill",
     "url": "distill.pub",
     "routes": [
@@ -2089,6 +2349,7 @@
     ]
   },
   {
+    "id": "dlnews",
     "name": "DL NEWS",
     "url": "dlnews.com",
     "routes": [
@@ -2096,6 +2357,7 @@
     ]
   },
   {
+    "id": "dlsite",
     "name": "DLsite",
     "url": "dlsite.com",
     "routes": [
@@ -2106,6 +2368,7 @@
     ]
   },
   {
+    "id": "dmzj",
     "name": "动漫之家",
     "url": "news.dmzj.com",
     "routes": [
@@ -2113,6 +2376,7 @@
     ]
   },
   {
+    "id": "dn",
     "name": "DN.com",
     "url": "dn.com",
     "routes": [
@@ -2120,6 +2384,7 @@
     ]
   },
   {
+    "id": "dnaindia",
     "name": "DNA India",
     "url": "dnaindia.com",
     "routes": [
@@ -2128,6 +2393,7 @@
     ]
   },
   {
+    "id": "dockerhub",
     "name": "Docker Hub",
     "url": "hub.docker.com",
     "routes": [
@@ -2136,6 +2402,7 @@
     ]
   },
   {
+    "id": "docschina",
     "name": "印记中文",
     "url": "docschina.org",
     "routes": [
@@ -2143,6 +2410,7 @@
     ]
   },
   {
+    "id": "dol",
     "name": "Thailand Department of Lands",
     "url": "announce.dol.go.th",
     "routes": [
@@ -2150,6 +2418,7 @@
     ]
   },
   {
+    "id": "domp4",
     "name": "DoMP4 影视",
     "url": "domp4.cc",
     "routes": [
@@ -2158,6 +2427,7 @@
     ]
   },
   {
+    "id": "dongqiudi",
     "name": "懂球帝",
     "url": "m.dongqiudi.com",
     "routes": [
@@ -2170,6 +2440,7 @@
     ]
   },
   {
+    "id": "dorohedoro",
     "name": "Dorohedoro",
     "url": "dorohedoro.net",
     "routes": [
@@ -2177,6 +2448,7 @@
     ]
   },
   {
+    "id": "douban",
     "name": "豆瓣",
     "url": "www.douban.com",
     "routes": [
@@ -2211,6 +2483,7 @@
     ]
   },
   {
+    "id": "douyin",
     "name": "抖音直播",
     "url": "douyin.com",
     "routes": [
@@ -2220,6 +2493,7 @@
     ]
   },
   {
+    "id": "douyu",
     "name": "斗鱼直播",
     "url": "www.douyu.com",
     "routes": [
@@ -2229,6 +2503,7 @@
     ]
   },
   {
+    "id": "dribbble",
     "name": "Dribbble",
     "url": "dribbble.com",
     "routes": [
@@ -2238,6 +2513,7 @@
     ]
   },
   {
+    "id": "dtcj",
     "name": "DT 财经",
     "url": "dtcj.com",
     "routes": [
@@ -2246,6 +2522,7 @@
     ]
   },
   {
+    "id": "duozhuayu",
     "name": "多抓鱼",
     "url": "duozhuayu.com",
     "routes": [
@@ -2253,6 +2530,7 @@
     ]
   },
   {
+    "id": "dushu",
     "name": "樊登读书",
     "url": "card.dushu.io",
     "routes": [
@@ -2260,6 +2538,7 @@
     ]
   },
   {
+    "id": "dut",
     "name": "大连理工大学",
     "url": "dutdice.dlut.edu.cn",
     "routes": [
@@ -2268,6 +2547,7 @@
     ]
   },
   {
+    "id": "dx2025",
     "name": "东西智库",
     "url": "dx2025.com",
     "routes": [
@@ -2275,6 +2555,7 @@
     ]
   },
   {
+    "id": "dxy",
     "name": "丁香园",
     "url": "dxy.cn",
     "routes": [
@@ -2283,6 +2564,7 @@
     ]
   },
   {
+    "id": "e-hentai",
     "name": "E-Hentai",
     "url": "e-hentai.org",
     "routes": [
@@ -2290,6 +2572,7 @@
     ]
   },
   {
+    "id": "eagle",
     "name": "Eagle",
     "url": "cn.eagle.cool",
     "routes": [
@@ -2298,6 +2581,7 @@
     ]
   },
   {
+    "id": "earthquake",
     "name": "地震速报",
     "url": "www.ceic.ac.cn",
     "routes": [
@@ -2306,6 +2590,7 @@
     ]
   },
   {
+    "id": "eastday",
     "name": "东方网",
     "url": "mini.eastday.com",
     "routes": [
@@ -2315,6 +2600,7 @@
     ]
   },
   {
+    "id": "eastmoney",
     "name": "东方财富",
     "url": "data.eastmoney.com",
     "routes": [
@@ -2324,6 +2610,7 @@
     ]
   },
   {
+    "id": "ecnu",
     "name": "East China Normal University 华东师范大学",
     "url": "acm.ecnu.edu.cn",
     "routes": [
@@ -2332,6 +2619,7 @@
     ]
   },
   {
+    "id": "economist",
     "name": "The Economist",
     "url": "economist.com",
     "routes": [
@@ -2341,6 +2629,7 @@
     ]
   },
   {
+    "id": "ecust",
     "name": "华东理工大学",
     "url": "e.ecust.edu.cn",
     "routes": [
@@ -2350,6 +2639,7 @@
     ]
   },
   {
+    "id": "egsea",
     "name": "e 公司",
     "url": "egsea.com",
     "routes": [
@@ -2357,6 +2647,7 @@
     ]
   },
   {
+    "id": "ehentai",
     "name": "E-Hentai",
     "routes": [
       "/favorites/:favcat?/:order?/:page?/:routeParams?",
@@ -2365,6 +2656,7 @@
     ]
   },
   {
+    "id": "ekantipur",
     "name": "Ekantipur / कान्तिपुर (Nepal)",
     "url": "ekantipur.com",
     "routes": [
@@ -2372,6 +2664,7 @@
     ]
   },
   {
+    "id": "elasticsearch-cn",
     "name": "Elastic 中文社区",
     "url": "elasticsearch.cn",
     "routes": [
@@ -2379,6 +2672,7 @@
     ]
   },
   {
+    "id": "eleduck",
     "name": "电鸭社区",
     "url": "eleduck.com",
     "routes": [
@@ -2387,6 +2681,7 @@
     ]
   },
   {
+    "id": "elsevier",
     "name": "ELSEVIER",
     "url": "www.sciencedirect.com",
     "routes": [
@@ -2397,6 +2692,7 @@
     ]
   },
   {
+    "id": "embassy",
     "name": "中国驻外使领馆",
     "url": "ca.china-embassy.org",
     "routes": [
@@ -2404,6 +2700,7 @@
     ]
   },
   {
+    "id": "epicgames",
     "name": "Epic Games Store",
     "url": "store.epicgames.com",
     "routes": [
@@ -2411,6 +2708,7 @@
     ]
   },
   {
+    "id": "eprice",
     "name": "ePrice",
     "url": "eprice.com.tw",
     "routes": [
@@ -2418,6 +2716,7 @@
     ]
   },
   {
+    "id": "eventernote",
     "name": "Eventernote",
     "url": "www.eventernote.com",
     "routes": [
@@ -2425,6 +2724,7 @@
     ]
   },
   {
+    "id": "f-droid",
     "name": "F-Droid",
     "url": "f-droid.org",
     "routes": [
@@ -2432,6 +2732,7 @@
     ]
   },
   {
+    "id": "famitsu",
     "name": "ファミ通",
     "url": "famitsu.com",
     "routes": [
@@ -2439,6 +2740,7 @@
     ]
   },
   {
+    "id": "fansly",
     "name": "Fansly",
     "url": "fansly.com",
     "routes": [
@@ -2447,6 +2749,7 @@
     ]
   },
   {
+    "id": "fantia",
     "name": "Fantia",
     "url": "fantia.jp",
     "routes": [
@@ -2455,6 +2758,7 @@
     ]
   },
   {
+    "id": "fanxinzhui",
     "name": "追新番",
     "url": "fanxinzhui.com",
     "routes": [
@@ -2462,6 +2766,7 @@
     ]
   },
   {
+    "id": "farmatters",
     "name": "Farmatters",
     "url": "farmatters.com",
     "routes": [
@@ -2472,6 +2777,7 @@
     ]
   },
   {
+    "id": "fastbull",
     "name": "法布财经",
     "url": "fastbull.cn",
     "routes": [
@@ -2481,6 +2787,7 @@
     ]
   },
   {
+    "id": "fda",
     "name": "U.S. Food and Drug Administration",
     "url": "fda.gov",
     "routes": [
@@ -2488,6 +2795,7 @@
     ]
   },
   {
+    "id": "feng",
     "name": "威锋",
     "url": "feng.com",
     "routes": [
@@ -2495,6 +2803,7 @@
     ]
   },
   {
+    "id": "ff14",
     "name": "FINAL FANTASY XIV 最终幻想 14",
     "url": "eu.finalfantasyxiv.com",
     "routes": [
@@ -2505,6 +2814,7 @@
     ]
   },
   {
+    "id": "fffdm",
     "name": "风之动漫",
     "url": "manhua.fffdm.com",
     "routes": [
@@ -2512,6 +2822,7 @@
     ]
   },
   {
+    "id": "finology",
     "name": "Finology Insider",
     "url": "insider.finology.in",
     "routes": [
@@ -2522,6 +2833,7 @@
     ]
   },
   {
+    "id": "finviz",
     "name": "finviz",
     "url": "finviz.com",
     "routes": [
@@ -2530,6 +2842,7 @@
     ]
   },
   {
+    "id": "firecore",
     "name": "Infuse",
     "url": "firecore.com",
     "routes": [
@@ -2537,6 +2850,7 @@
     ]
   },
   {
+    "id": "firefox",
     "name": "Mozilla",
     "url": "monitor.firefox.com",
     "routes": [
@@ -2546,6 +2860,7 @@
     ]
   },
   {
+    "id": "fisher-spb",
     "name": "Fisher Spb",
     "url": "fisher.spb.ru",
     "routes": [
@@ -2553,6 +2868,7 @@
     ]
   },
   {
+    "id": "fishshell",
     "name": "fish shell",
     "url": "fishshell.com",
     "routes": [
@@ -2560,6 +2876,7 @@
     ]
   },
   {
+    "id": "fjksbm",
     "name": "福建考试报名网",
     "url": "fjksbm.com",
     "routes": [
@@ -2567,6 +2884,7 @@
     ]
   },
   {
+    "id": "flyert",
     "name": "飞客茶馆",
     "url": "flyert.com",
     "routes": [
@@ -2575,6 +2893,7 @@
     ]
   },
   {
+    "id": "focustaiwan",
     "name": "Focus Taiwan",
     "url": "focustaiwan.tw",
     "routes": [
@@ -2582,6 +2901,7 @@
     ]
   },
   {
+    "id": "followin",
     "name": "Followin",
     "url": "followin.io",
     "routes": [
@@ -2593,6 +2913,7 @@
     ]
   },
   {
+    "id": "foresightnews",
     "name": "Foresight News",
     "url": "foresightnews.pro",
     "routes": [
@@ -2603,6 +2924,7 @@
     ]
   },
   {
+    "id": "foreverblog",
     "name": "十年之约",
     "url": "www.foreverblog.cn",
     "routes": [
@@ -2610,6 +2932,7 @@
     ]
   },
   {
+    "id": "fortnite",
     "name": "Fortnite",
     "url": "fortnite.com",
     "routes": [
@@ -2617,6 +2940,7 @@
     ]
   },
   {
+    "id": "fortunechina",
     "name": "财富中文网",
     "url": "fortunechina.com",
     "routes": [
@@ -2624,6 +2948,7 @@
     ]
   },
   {
+    "id": "fosshub",
     "name": "FossHub",
     "url": "fosshub.com",
     "routes": [
@@ -2631,6 +2956,7 @@
     ]
   },
   {
+    "id": "free",
     "name": "免費資源網路社群",
     "url": "free.com.tw",
     "routes": [
@@ -2638,6 +2964,7 @@
     ]
   },
   {
+    "id": "freebuf",
     "name": "FreeBuf",
     "url": "freebuf.com",
     "routes": [
@@ -2645,6 +2972,7 @@
     ]
   },
   {
+    "id": "freecomputerbooks",
     "name": "Free Computer Books",
     "url": "freecomputerbooks.com",
     "routes": [
@@ -2652,6 +2980,7 @@
     ]
   },
   {
+    "id": "freewechat",
     "name": "自由微信",
     "url": "freewechat.com",
     "routes": [
@@ -2659,6 +2988,7 @@
     ]
   },
   {
+    "id": "ft",
     "name": "Financial Times",
     "url": "ftchinese.com",
     "routes": [
@@ -2667,6 +2997,7 @@
     ]
   },
   {
+    "id": "fuliba",
     "name": "福利吧",
     "url": "fuliba2023.net",
     "routes": [
@@ -2674,6 +3005,7 @@
     ]
   },
   {
+    "id": "furstar",
     "name": "Furstar",
     "url": "furstar.jp",
     "routes": [
@@ -2683,6 +3015,7 @@
     ]
   },
   {
+    "id": "futunn",
     "name": "Futubull 富途牛牛",
     "url": "news.futunn.com",
     "routes": [
@@ -2692,6 +3025,7 @@
     ]
   },
   {
+    "id": "fx-markets",
     "name": "FX Markets",
     "url": "fx-markets.com",
     "routes": [
@@ -2699,6 +3033,7 @@
     ]
   },
   {
+    "id": "fx678",
     "name": "汇通网",
     "url": "fx678.com",
     "routes": [
@@ -2706,6 +3041,7 @@
     ]
   },
   {
+    "id": "fxiaoke",
     "name": "纷享销客 CRM",
     "url": "fxiaoke.com",
     "routes": [
@@ -2713,6 +3049,7 @@
     ]
   },
   {
+    "id": "fzmtr",
     "name": "福州地铁",
     "url": "www.fzmtr.com",
     "routes": [
@@ -2720,6 +3057,7 @@
     ]
   },
   {
+    "id": "gameapps",
     "name": "GameApps.hk 香港手机游戏网",
     "url": "gameapps.hk",
     "routes": [
@@ -2727,6 +3065,7 @@
     ]
   },
   {
+    "id": "gamebase",
     "name": "遊戲基地 Gamebase",
     "url": "news.gamebase.com.tw",
     "routes": [
@@ -2734,6 +3073,7 @@
     ]
   },
   {
+    "id": "gamegene",
     "name": "游戏基因",
     "url": "news.gamegene.cn",
     "routes": [
@@ -2741,6 +3081,7 @@
     ]
   },
   {
+    "id": "gamer",
     "name": "巴哈姆特電玩資訊站",
     "url": "acg.gamer.com.tw",
     "routes": [
@@ -2751,6 +3092,7 @@
     ]
   },
   {
+    "id": "gamer520",
     "name": "全球游戏交流中心",
     "url": "www.gamer520.com",
     "routes": [
@@ -2758,6 +3100,7 @@
     ]
   },
   {
+    "id": "gamersecret",
     "name": "Gamer Secret",
     "url": "gamersecret.com",
     "routes": [
@@ -2765,6 +3108,7 @@
     ]
   },
   {
+    "id": "gamme",
     "name": "卡卡洛普",
     "url": "news.gamme.com.tw",
     "routes": [
@@ -2773,6 +3117,7 @@
     ]
   },
   {
+    "id": "gcores",
     "name": "机核网",
     "url": "gcores.com",
     "routes": [
@@ -2783,6 +3128,7 @@
     ]
   },
   {
+    "id": "gdsrx",
     "name": "广东省食品药品审评认证技术协会",
     "url": "gdsrx.org.cn",
     "routes": [
@@ -2790,6 +3136,7 @@
     ]
   },
   {
+    "id": "gdut",
     "name": "广东工业大学",
     "url": "oas.gdut.edu.cn",
     "routes": [
@@ -2797,6 +3144,7 @@
     ]
   },
   {
+    "id": "gelonghui",
     "name": "格隆汇",
     "url": "gelonghui.com",
     "routes": [
@@ -2809,6 +3157,7 @@
     ]
   },
   {
+    "id": "geocaching",
     "name": "Geocaching",
     "url": "geocaching.com",
     "routes": [
@@ -2816,6 +3165,7 @@
     ]
   },
   {
+    "id": "getdr",
     "name": "趨勢科技防詐達人",
     "url": "getdr.com",
     "routes": [
@@ -2823,6 +3173,7 @@
     ]
   },
   {
+    "id": "getitfree",
     "name": "正版中国",
     "url": "getitfree.cn",
     "routes": [
@@ -2830,6 +3181,7 @@
     ]
   },
   {
+    "id": "gettr",
     "name": "GETTR",
     "url": "gettr.com",
     "routes": [
@@ -2837,6 +3189,7 @@
     ]
   },
   {
+    "id": "gf-cn",
     "name": "少女前线",
     "url": "sunborngame.com",
     "routes": [
@@ -2844,6 +3197,7 @@
     ]
   },
   {
+    "id": "gihyo",
     "name": "gihyo.jp",
     "url": "gihyo.jp",
     "routes": [
@@ -2851,6 +3205,7 @@
     ]
   },
   {
+    "id": "gitee",
     "name": "Gitee",
     "url": "gitee.com",
     "routes": [
@@ -2861,6 +3216,7 @@
     ]
   },
   {
+    "id": "github",
     "name": "GitHub",
     "url": "github.com",
     "routes": [
@@ -2884,6 +3240,7 @@
     ]
   },
   {
+    "id": "gitpod",
     "name": "Gitpod",
     "url": "gitpod.io",
     "routes": [
@@ -2892,6 +3249,7 @@
     ]
   },
   {
+    "id": "globallawreview",
     "name": "环球法律评论",
     "url": "globallawreview.org",
     "routes": [
@@ -2899,6 +3257,7 @@
     ]
   },
   {
+    "id": "gocn",
     "name": "GoCN",
     "url": "gocn.vip",
     "routes": [
@@ -2909,6 +3268,7 @@
     ]
   },
   {
+    "id": "gofans",
     "name": "GoFans",
     "url": "gofans.cn",
     "routes": [
@@ -2916,6 +3276,7 @@
     ]
   },
   {
+    "id": "gogoanimehd",
     "name": "Gogoanimehd",
     "url": "developer.anitaku.to",
     "routes": [
@@ -2923,6 +3284,7 @@
     ]
   },
   {
+    "id": "google",
     "name": "Google",
     "url": "www.google.com",
     "routes": [
@@ -2938,6 +3300,7 @@
     ]
   },
   {
+    "id": "gov",
     "name": "中国人民银行",
     "url": "kjt.ah.gov.cn",
     "routes": [
@@ -3045,6 +3408,7 @@
     ]
   },
   {
+    "id": "greasyfork",
     "name": "Greasy Fork",
     "url": "greasyfork.org",
     "routes": [
@@ -3055,6 +3419,7 @@
     ]
   },
   {
+    "id": "grist",
     "name": "Grist",
     "url": "grist.org",
     "routes": [
@@ -3065,6 +3430,7 @@
     ]
   },
   {
+    "id": "grubstreet",
     "name": "Grub Street",
     "url": "grubstreet.com",
     "routes": [
@@ -3072,6 +3438,7 @@
     ]
   },
   {
+    "id": "guancha",
     "name": "观察者网",
     "url": "guancha.cn",
     "routes": [
@@ -3083,6 +3450,7 @@
     ]
   },
   {
+    "id": "guangdiu",
     "name": "逛丢",
     "url": "guangdiu.com",
     "routes": [
@@ -3093,6 +3461,7 @@
     ]
   },
   {
+    "id": "guangzhoumetro",
     "name": "广州地铁",
     "url": "www.gzmtr.com",
     "routes": [
@@ -3100,6 +3469,7 @@
     ]
   },
   {
+    "id": "guanhai",
     "name": "观海新闻",
     "url": "guanhai.com.cn",
     "routes": [
@@ -3107,6 +3477,7 @@
     ]
   },
   {
+    "id": "guduodata",
     "name": "骨朵数据",
     "url": "data.guduodata.com",
     "routes": [
@@ -3114,6 +3485,7 @@
     ]
   },
   {
+    "id": "gumroad",
     "name": "Gumroad",
     "url": "gumroad.com",
     "routes": [
@@ -3121,6 +3493,7 @@
     ]
   },
   {
+    "id": "guokr",
     "name": "果壳网",
     "url": "guokr.com",
     "routes": [
@@ -3129,6 +3502,7 @@
     ]
   },
   {
+    "id": "gxmzu",
     "name": "广西民族大学",
     "url": "ai.gxmzu.edu.cn",
     "routes": [
@@ -3138,6 +3512,7 @@
     ]
   },
   {
+    "id": "gzdaily",
     "name": "广州日报",
     "url": "gzdaily.cn",
     "routes": [
@@ -3145,6 +3520,7 @@
     ]
   },
   {
+    "id": "gzhu",
     "name": "广州大学",
     "url": "yjsy.gzhu.edu.cn",
     "routes": [
@@ -3152,6 +3528,7 @@
     ]
   },
   {
+    "id": "hackernews",
     "name": "Hacker News",
     "url": "ycombinator.com",
     "routes": [
@@ -3159,6 +3536,7 @@
     ]
   },
   {
+    "id": "hackertalk",
     "name": "HACKER TALK 黑客说",
     "url": "hackertalk.net",
     "routes": [
@@ -3166,6 +3544,7 @@
     ]
   },
   {
+    "id": "hacking8",
     "name": "Hacking8",
     "url": "hacking8.com",
     "routes": [
@@ -3174,6 +3553,7 @@
     ]
   },
   {
+    "id": "hackmd",
     "name": "HackMD",
     "url": "hackmd.io",
     "routes": [
@@ -3181,6 +3561,7 @@
     ]
   },
   {
+    "id": "hackyournews",
     "name": "HackYourNews",
     "url": "hackyournews.com",
     "routes": [
@@ -3188,6 +3569,7 @@
     ]
   },
   {
+    "id": "hafu",
     "name": "河南财政金融学院",
     "url": "www.hafu.edu.cn",
     "routes": [
@@ -3195,6 +3577,7 @@
     ]
   },
   {
+    "id": "hakkatv",
     "name": "客家電視台",
     "url": "hakkatv.org.tw",
     "routes": [
@@ -3202,6 +3585,7 @@
     ]
   },
   {
+    "id": "hameln",
     "name": "hameln",
     "url": "syosetu.org",
     "routes": [
@@ -3209,6 +3593,7 @@
     ]
   },
   {
+    "id": "harvard",
     "name": "Harvard Health Publishing",
     "url": "www.health.harvard.edu",
     "routes": [
@@ -3216,6 +3601,7 @@
     ]
   },
   {
+    "id": "hashnode",
     "name": "hashnode",
     "url": "hashnode.dev",
     "routes": [
@@ -3223,6 +3609,7 @@
     ]
   },
   {
+    "id": "hbooker",
     "name": "欢乐书客",
     "url": "hbooker.com",
     "routes": [
@@ -3230,6 +3617,7 @@
     ]
   },
   {
+    "id": "hbr",
     "name": "Harvard Business Review",
     "url": "hbr.org",
     "routes": [
@@ -3237,6 +3625,7 @@
     ]
   },
   {
+    "id": "hdu",
     "name": "杭州电子科技大学",
     "url": "computer.hdu.edu.cn",
     "routes": [
@@ -3245,6 +3634,7 @@
     ]
   },
   {
+    "id": "hebtv",
     "name": "河北网络广播电视台",
     "url": "web.cmc.hebtv.com",
     "routes": [
@@ -3252,6 +3642,7 @@
     ]
   },
   {
+    "id": "hellobtc",
     "name": "白话区块链",
     "url": "hellobtc.com",
     "routes": [
@@ -3261,6 +3652,7 @@
     ]
   },
   {
+    "id": "hellogithub",
     "name": "HelloGitHub",
     "url": "hellogithub.com",
     "routes": [
@@ -3273,6 +3665,7 @@
     ]
   },
   {
+    "id": "hex-rays",
     "name": "Hex-Rays",
     "url": "hex-rays.com",
     "routes": [
@@ -3280,6 +3673,7 @@
     ]
   },
   {
+    "id": "hicairo",
     "name": "HiFeng'Blog",
     "url": "hicairo.com",
     "routes": [
@@ -3287,6 +3681,7 @@
     ]
   },
   {
+    "id": "hinatazaka46",
     "name": "Sakamichi Series 坂道系列官网资讯",
     "url": "hinatazaka46.com",
     "routes": [
@@ -3295,6 +3690,7 @@
     ]
   },
   {
+    "id": "hit",
     "name": "哈尔滨工业大学",
     "url": "jwc.hit.edu.cn",
     "routes": [
@@ -3304,6 +3700,7 @@
     ]
   },
   {
+    "id": "hitsz",
     "name": "哈尔滨工业大学（深圳）",
     "url": "hitsz.edu.cn",
     "routes": [
@@ -3311,6 +3708,7 @@
     ]
   },
   {
+    "id": "hitwh",
     "name": "哈尔滨工业大学（威海）",
     "url": "hitwh.edu.cn",
     "routes": [
@@ -3318,6 +3716,7 @@
     ]
   },
   {
+    "id": "hizu",
     "name": "珠海网",
     "url": "hizh.cn",
     "routes": [
@@ -3325,6 +3724,7 @@
     ]
   },
   {
+    "id": "hk01",
     "name": "香港 01",
     "url": "hk01.com",
     "routes": [
@@ -3337,6 +3737,7 @@
     ]
   },
   {
+    "id": "hkej",
     "name": "信报财经新闻",
     "url": "hkej.com",
     "routes": [
@@ -3344,6 +3745,7 @@
     ]
   },
   {
+    "id": "hkepc",
     "name": "HKEPC",
     "url": "hkepc.com",
     "routes": [
@@ -3351,6 +3753,7 @@
     ]
   },
   {
+    "id": "hket",
     "name": "香港经济日报",
     "url": "china.hket.com",
     "routes": [
@@ -3358,6 +3761,7 @@
     ]
   },
   {
+    "id": "hkjunkcall",
     "name": "HKJunkCall 資訊中心",
     "url": "hkjunkcall.com",
     "routes": [
@@ -3365,6 +3769,7 @@
     ]
   },
   {
+    "id": "hljucm",
     "name": "黑龙江中医药大学",
     "url": "yjsy.hljucm.net",
     "routes": [
@@ -3372,6 +3777,7 @@
     ]
   },
   {
+    "id": "hnrb",
     "name": "湖南日报",
     "url": "voc.com.cn",
     "routes": [
@@ -3379,6 +3785,7 @@
     ]
   },
   {
+    "id": "hnu",
     "name": "湖南大学",
     "url": "scc.hnu.edu.cn",
     "routes": [
@@ -3386,6 +3793,7 @@
     ]
   },
   {
+    "id": "hongkong",
     "name": "Hong Kong Department of Health 香港卫生署",
     "url": "dh.gov.hk",
     "routes": [
@@ -3394,6 +3802,7 @@
     ]
   },
   {
+    "id": "hostmonit",
     "name": "全球主机监控",
     "url": "stock.hostmonit.com",
     "routes": [
@@ -3402,6 +3811,7 @@
     ]
   },
   {
+    "id": "hotukdeals",
     "name": "hotukdeals",
     "url": "www.hotukdeals.com",
     "routes": [
@@ -3410,6 +3820,7 @@
     ]
   },
   {
+    "id": "houxu",
     "name": "后续",
     "url": "houxu.app",
     "routes": [
@@ -3422,6 +3833,7 @@
     ]
   },
   {
+    "id": "howtoforge",
     "name": "Howtoforge Linux Tutorials",
     "url": "howtoforge.com",
     "routes": [
@@ -3429,6 +3841,7 @@
     ]
   },
   {
+    "id": "hoyolab",
     "name": "HoYoLAB",
     "url": "hoyolab.com",
     "routes": [
@@ -3436,6 +3849,7 @@
     ]
   },
   {
+    "id": "hpoi",
     "name": "Hpoi 手办维基",
     "url": "www.hpoi.net",
     "routes": [
@@ -3448,6 +3862,7 @@
     ]
   },
   {
+    "id": "hrbeu",
     "name": "哈尔滨工程大学",
     "url": "yjsy.hrbeu.edu.cn",
     "routes": [
@@ -3462,6 +3877,7 @@
     ]
   },
   {
+    "id": "hrbust",
     "name": "哈尔滨理工大学",
     "url": "jwzx.hrbust.edu.cn",
     "routes": [
@@ -3469,6 +3885,7 @@
     ]
   },
   {
+    "id": "huanqiu",
     "name": "环球网",
     "url": "huanqiu.com",
     "routes": [
@@ -3476,6 +3893,7 @@
     ]
   },
   {
+    "id": "huggingface",
     "name": "Huggingface",
     "url": "huggingface.co",
     "routes": [
@@ -3484,6 +3902,7 @@
     ]
   },
   {
+    "id": "hunanpea",
     "name": "湖南人事考试网",
     "url": "rsks.hunanpea.com",
     "routes": [
@@ -3491,6 +3910,7 @@
     ]
   },
   {
+    "id": "hunau",
     "name": "湖南农业大学",
     "url": "gfxy.hunau.edu.cn",
     "routes": [
@@ -3501,6 +3921,7 @@
     ]
   },
   {
+    "id": "huoxian",
     "name": "火线",
     "url": "zone.huoxian.cn",
     "routes": [
@@ -3508,6 +3929,7 @@
     ]
   },
   {
+    "id": "hupu",
     "name": "虎扑",
     "url": ".hupu.com",
     "routes": [
@@ -3519,6 +3941,7 @@
     ]
   },
   {
+    "id": "hust",
     "name": "华中科技大学",
     "url": "aia.hust.edu.cn",
     "routes": [
@@ -3530,6 +3953,7 @@
     ]
   },
   {
+    "id": "huxiu",
     "name": "虎嗅",
     "url": "huxiu.com",
     "routes": [
@@ -3546,6 +3970,7 @@
     ]
   },
   {
+    "id": "ianspriggs",
     "name": "Ian Spriggss",
     "url": "ianspriggs.com",
     "routes": [
@@ -3553,6 +3978,7 @@
     ]
   },
   {
+    "id": "icac",
     "name": "Hong Kong Independent Commission Against Corruption 香港廉政公署",
     "url": "icac.org.hk",
     "routes": [
@@ -3560,6 +3986,7 @@
     ]
   },
   {
+    "id": "icbc",
     "name": "中国工商银行",
     "url": "icbc.com.cn",
     "routes": [
@@ -3567,6 +3994,7 @@
     ]
   },
   {
+    "id": "idaily",
     "name": "iDaily",
     "url": "idai.ly",
     "routes": [
@@ -3575,6 +4003,7 @@
     ]
   },
   {
+    "id": "idolypride",
     "name": "IDOLY PRIDE 偶像荣耀",
     "url": "idolypride.jp",
     "routes": [
@@ -3582,6 +4011,7 @@
     ]
   },
   {
+    "id": "ieee",
     "name": "IEEE Xplore",
     "url": "www.ieee.org",
     "routes": [
@@ -3593,6 +4023,7 @@
     ]
   },
   {
+    "id": "ieee-security",
     "name": "IEEE Computer Society",
     "url": "ieee-security.org",
     "routes": [
@@ -3600,6 +4031,7 @@
     ]
   },
   {
+    "id": "ielts",
     "name": "IELTS 雅思",
     "url": "ielts.neea.cn",
     "routes": [
@@ -3607,6 +4039,7 @@
     ]
   },
   {
+    "id": "ifeng",
     "name": "凤凰网",
     "url": "feng.ifeng.com",
     "routes": [
@@ -3615,6 +4048,7 @@
     ]
   },
   {
+    "id": "ifi-audio",
     "name": "iFi audio",
     "url": "ifi-audio.com",
     "routes": [
@@ -3622,6 +4056,7 @@
     ]
   },
   {
+    "id": "iguoguo",
     "name": "爱果果",
     "url": "iguoguo.net",
     "routes": [
@@ -3629,6 +4064,7 @@
     ]
   },
   {
+    "id": "iiilab",
     "name": "人人都是自媒体",
     "url": "www.iiilab.com",
     "routes": [
@@ -3636,6 +4072,7 @@
     ]
   },
   {
+    "id": "ikea",
     "name": "IKEA",
     "url": "ikea.com",
     "routes": [
@@ -3647,6 +4084,7 @@
     ]
   },
   {
+    "id": "imagemagick",
     "name": "ImageMagick",
     "url": "imagemagick.org",
     "routes": [
@@ -3654,6 +4092,7 @@
     ]
   },
   {
+    "id": "imiker",
     "name": "米课",
     "url": "imiker.com",
     "routes": [
@@ -3661,6 +4100,7 @@
     ]
   },
   {
+    "id": "indiansinkuwait",
     "name": "Indians in Kuwait",
     "url": "indiansinkuwait.com",
     "routes": [
@@ -3668,6 +4108,7 @@
     ]
   },
   {
+    "id": "indienova",
     "name": "indienova 独立游戏",
     "url": "indienova.com",
     "routes": [
@@ -3678,6 +4119,7 @@
     ]
   },
   {
+    "id": "inewsweek",
     "name": "中国新闻周刊",
     "url": "inewsweek.cn",
     "routes": [
@@ -3685,6 +4127,7 @@
     ]
   },
   {
+    "id": "infoq",
     "name": "InfoQ 中文",
     "url": "infoq.cn",
     "routes": [
@@ -3693,6 +4136,7 @@
     ]
   },
   {
+    "id": "informs",
     "name": "INFORMS",
     "url": "pubsonline.informs.org",
     "routes": [
@@ -3700,12 +4144,14 @@
     ]
   },
   {
+    "id": "infzm",
     "name": "infzm",
     "routes": [
       "/:id"
     ]
   },
   {
+    "id": "inoreader",
     "name": "Inoreader",
     "url": "inoreader.com",
     "routes": [
@@ -3714,6 +4160,7 @@
     ]
   },
   {
+    "id": "instagram",
     "name": "Instagram",
     "url": "www.instagram.com",
     "routes": [
@@ -3722,6 +4169,7 @@
     ]
   },
   {
+    "id": "instructables",
     "name": "Instructables",
     "url": "instructables.com",
     "routes": [
@@ -3729,6 +4177,7 @@
     ]
   },
   {
+    "id": "ippa",
     "name": "子方有料",
     "url": "ippa.top",
     "routes": [
@@ -3736,6 +4185,7 @@
     ]
   },
   {
+    "id": "ipsw",
     "name": "IPSW.me",
     "url": "ipsw.me",
     "routes": [
@@ -3743,6 +4193,7 @@
     ]
   },
   {
+    "id": "iqilu",
     "name": "齐鲁网",
     "url": "v.iqilu.com",
     "routes": [
@@ -3750,6 +4201,7 @@
     ]
   },
   {
+    "id": "iqiyi",
     "name": "爱奇艺",
     "url": "iq.com",
     "routes": [
@@ -3758,6 +4210,7 @@
     ]
   },
   {
+    "id": "iqnew",
     "name": "爱 Q 生活网",
     "url": "iqnew.com",
     "routes": [
@@ -3765,6 +4218,7 @@
     ]
   },
   {
+    "id": "iresearch",
     "name": "艾瑞",
     "url": "www.iresearch.com.cn",
     "routes": [
@@ -3773,6 +4227,7 @@
     ]
   },
   {
+    "id": "issuehunt",
     "name": "Issue Hunt",
     "url": "issuehunt.io",
     "routes": [
@@ -3780,6 +4235,7 @@
     ]
   },
   {
+    "id": "itch",
     "name": "itch.io",
     "url": "itch.io",
     "routes": [
@@ -3789,6 +4245,7 @@
     ]
   },
   {
+    "id": "ithome",
     "name": "iThome 台灣",
     "url": "ithome.com",
     "routes": [
@@ -3800,6 +4257,7 @@
     ]
   },
   {
+    "id": "iwara",
     "name": "iwara",
     "url": "ecchi.iwara.tv",
     "routes": [
@@ -3808,6 +4266,7 @@
     ]
   },
   {
+    "id": "ixigua",
     "name": "西瓜视频",
     "url": "ixigua.com",
     "routes": [
@@ -3815,6 +4274,7 @@
     ]
   },
   {
+    "id": "jandan",
     "name": "煎蛋",
     "url": "jandan.net",
     "routes": [
@@ -3823,6 +4283,7 @@
     ]
   },
   {
+    "id": "japanpost",
     "name": "Japanpost 日本郵便",
     "url": "trackings.post.japanpost.jp",
     "routes": [
@@ -3830,6 +4291,7 @@
     ]
   },
   {
+    "id": "javbus",
     "name": "JavBus",
     "url": "www.javbus.com",
     "routes": [
@@ -3837,6 +4299,7 @@
     ]
   },
   {
+    "id": "javdb",
     "name": "JavDB",
     "url": "javdb.com",
     "routes": [
@@ -3852,6 +4315,7 @@
     ]
   },
   {
+    "id": "javlibrary",
     "name": "JAVLibrary",
     "url": "javlibrary.com",
     "routes": [
@@ -3875,6 +4339,7 @@
     ]
   },
   {
+    "id": "jd",
     "name": "京东",
     "url": "item.jd.com",
     "routes": [
@@ -3882,6 +4347,7 @@
     ]
   },
   {
+    "id": "jewishmuseum",
     "name": "纽约犹太人博物馆",
     "url": "thejewishmuseum.org",
     "routes": [
@@ -3889,6 +4355,7 @@
     ]
   },
   {
+    "id": "jianshu",
     "name": "简书",
     "url": "www.jianshu.com",
     "routes": [
@@ -3898,6 +4365,7 @@
     ]
   },
   {
+    "id": "jiaoliudao",
     "name": "交流岛资源网",
     "url": "jiaoliudao.com",
     "routes": [
@@ -3905,6 +4373,7 @@
     ]
   },
   {
+    "id": "jiemian",
     "name": "界面新闻",
     "url": "jiemian.com",
     "routes": [
@@ -3913,6 +4382,7 @@
     ]
   },
   {
+    "id": "jike",
     "name": "即刻",
     "url": "m.okjike.com",
     "routes": [
@@ -3922,6 +4392,7 @@
     ]
   },
   {
+    "id": "jin10",
     "name": "金十数据",
     "url": "jin10.com",
     "routes": [
@@ -3930,6 +4401,7 @@
     ]
   },
   {
+    "id": "jinse",
     "name": "金色财经",
     "url": "jinse.cn",
     "routes": [
@@ -3939,6 +4411,7 @@
     ]
   },
   {
+    "id": "jisilu",
     "name": "集思录",
     "url": "jisilu.cn",
     "routes": [
@@ -3946,6 +4419,7 @@
     ]
   },
   {
+    "id": "jjwxc",
     "name": "晋江文学城",
     "url": "jjwxc.net",
     "routes": [
@@ -3954,6 +4428,7 @@
     ]
   },
   {
+    "id": "jornada",
     "name": "La Jornada",
     "url": "jornada.com.mx",
     "routes": [
@@ -3961,6 +4436,7 @@
     ]
   },
   {
+    "id": "jou",
     "name": "江苏海洋大学",
     "url": "www.jou.edu.cn",
     "routes": [
@@ -3969,6 +4445,7 @@
     ]
   },
   {
+    "id": "jpxgmn",
     "name": "极品性感美女",
     "url": "www.jpxgmn.com",
     "routes": [
@@ -3978,6 +4455,7 @@
     ]
   },
   {
+    "id": "jseea",
     "name": "Unknown",
     "url": "jseea.cn",
     "routes": [
@@ -3985,6 +4463,7 @@
     ]
   },
   {
+    "id": "jsu",
     "name": "吉首大学",
     "url": "jsu.edu.cn",
     "routes": [
@@ -3996,6 +4475,7 @@
     ]
   },
   {
+    "id": "juejin",
     "name": "掘金",
     "url": "juejin.cn",
     "routes": [
@@ -4011,6 +4491,7 @@
     ]
   },
   {
+    "id": "jump",
     "name": "JUMP",
     "url": "switch.jumpvg.com",
     "routes": [
@@ -4018,6 +4499,7 @@
     ]
   },
   {
+    "id": "kamen-rider-official",
     "name": "仮面ライダ",
     "url": "kamen-rider-official.com",
     "routes": [
@@ -4025,6 +4507,7 @@
     ]
   },
   {
+    "id": "kantarworldpanel",
     "name": "Kantar Worldpanel",
     "url": "kantarworldpanel.com",
     "routes": [
@@ -4032,6 +4515,7 @@
     ]
   },
   {
+    "id": "kaopu",
     "name": "靠谱新闻",
     "url": "kaopu.news",
     "routes": [
@@ -4039,6 +4523,7 @@
     ]
   },
   {
+    "id": "kbs",
     "name": "KBS",
     "url": "world.kbs.co.kr",
     "routes": [
@@ -4047,6 +4532,7 @@
     ]
   },
   {
+    "id": "kcna",
     "name": "Korean Central News Agency (KCNA) 朝鲜中央通讯社",
     "url": "www.kcna.kp",
     "routes": [
@@ -4054,6 +4540,7 @@
     ]
   },
   {
+    "id": "ke",
     "name": "贝壳研究院",
     "url": "www.research.ke.com",
     "routes": [
@@ -4061,6 +4548,7 @@
     ]
   },
   {
+    "id": "keep",
     "name": "Keep",
     "url": "gotokeep.com",
     "routes": [
@@ -4068,6 +4556,7 @@
     ]
   },
   {
+    "id": "keepass",
     "name": "KeePass",
     "url": "keepass.info",
     "routes": [
@@ -4075,6 +4564,7 @@
     ]
   },
   {
+    "id": "kemono",
     "name": "Kemono",
     "url": "kemono.su",
     "routes": [
@@ -4082,6 +4572,7 @@
     ]
   },
   {
+    "id": "kepu",
     "name": "中国科普博览",
     "url": "live.kepu.net.cn",
     "routes": [
@@ -4089,6 +4580,7 @@
     ]
   },
   {
+    "id": "keylol",
     "name": "其乐",
     "url": "keylol.com",
     "routes": [
@@ -4096,6 +4588,7 @@
     ]
   },
   {
+    "id": "kimlaw",
     "name": "The Korea Institute of Marine Law",
     "url": "kimlaw.or.kr",
     "routes": [
@@ -4103,6 +4596,7 @@
     ]
   },
   {
+    "id": "konghq",
     "name": "Kong API 网关平台",
     "url": "konghq.com",
     "routes": [
@@ -4110,6 +4604,7 @@
     ]
   },
   {
+    "id": "kuaidi100",
     "name": "快递 100",
     "url": "kuaidi100.com",
     "routes": [
@@ -4118,6 +4613,7 @@
     ]
   },
   {
+    "id": "kunchengblog",
     "name": "Kun Cheng",
     "url": "kunchengblog.com",
     "routes": [
@@ -4125,6 +4621,7 @@
     ]
   },
   {
+    "id": "kuwaitlocal",
     "name": "Kuwait Local",
     "url": "kuwaitlocal.com",
     "routes": [
@@ -4132,6 +4629,7 @@
     ]
   },
   {
+    "id": "kyodonews",
     "name": "共同网",
     "url": "china.kyodonews.net",
     "routes": [
@@ -4139,6 +4637,7 @@
     ]
   },
   {
+    "id": "laimanhua",
     "name": "来漫画",
     "url": "www.laimanhua8.com",
     "routes": [
@@ -4146,6 +4645,7 @@
     ]
   },
   {
+    "id": "lala",
     "name": "荒岛",
     "url": "lala.im",
     "routes": [
@@ -4153,6 +4653,7 @@
     ]
   },
   {
+    "id": "lang",
     "name": "浪 Play 直播",
     "url": "lang.live",
     "routes": [
@@ -4160,6 +4661,7 @@
     ]
   },
   {
+    "id": "lanqiao",
     "name": "蓝桥云课",
     "url": "lanqiao.cn",
     "routes": [
@@ -4169,6 +4671,7 @@
     ]
   },
   {
+    "id": "laohu8",
     "name": "老虎社区",
     "url": "laohu8.com",
     "routes": [
@@ -4176,6 +4679,7 @@
     ]
   },
   {
+    "id": "latepost",
     "name": "晚点 LatePost",
     "url": "latepost.com",
     "routes": [
@@ -4183,6 +4687,7 @@
     ]
   },
   {
+    "id": "layoffs",
     "name": "Layoffs.fyi",
     "url": "layoffs.fyi",
     "routes": [
@@ -4190,6 +4695,7 @@
     ]
   },
   {
+    "id": "learnblockchain",
     "name": "登链社区",
     "url": "learnblockchain.cn",
     "routes": [
@@ -4197,6 +4703,7 @@
     ]
   },
   {
+    "id": "learnku",
     "name": "LearnKu",
     "url": "learnku.com",
     "routes": [
@@ -4204,6 +4711,7 @@
     ]
   },
   {
+    "id": "leetcode",
     "name": "LeetCode",
     "url": "leetcode.com",
     "routes": [
@@ -4215,6 +4723,7 @@
     ]
   },
   {
+    "id": "leiphone",
     "name": "雷峰网",
     "url": "leiphone.com",
     "routes": [
@@ -4223,12 +4732,14 @@
     ]
   },
   {
+    "id": "lemmy",
     "name": "Lemmy",
     "routes": [
       "/:community/:sort?"
     ]
   },
   {
+    "id": "lfsyd",
     "name": "旅法师营地",
     "url": "www.iyingdi.com",
     "routes": [
@@ -4239,6 +4750,7 @@
     ]
   },
   {
+    "id": "lifeweek",
     "name": "三联生活周刊",
     "url": "lifeweek.com.cn",
     "routes": [
@@ -4247,6 +4759,7 @@
     ]
   },
   {
+    "id": "lightnovel",
     "name": "轻之国度",
     "url": "lightNovel.us",
     "routes": [
@@ -4254,6 +4767,7 @@
     ]
   },
   {
+    "id": "line",
     "name": "LINE",
     "url": "today.line.me",
     "routes": [
@@ -4262,6 +4776,7 @@
     ]
   },
   {
+    "id": "linkedin",
     "name": "LinkedIn 领英中国",
     "url": "linkedin.com",
     "routes": [
@@ -4270,6 +4785,7 @@
     ]
   },
   {
+    "id": "linkresearcher",
     "name": "Link Research",
     "url": "linkresearcher",
     "routes": [
@@ -4277,6 +4793,7 @@
     ]
   },
   {
+    "id": "linovelib",
     "name": "哔哩轻小说",
     "url": "linovelib.com",
     "routes": [
@@ -4285,6 +4802,7 @@
     ]
   },
   {
+    "id": "liquipedia",
     "name": "Liquipedia",
     "url": "liquipedia.net",
     "routes": [
@@ -4293,6 +4811,7 @@
     ]
   },
   {
+    "id": "literotica",
     "name": "Literotica",
     "url": "literotica.com",
     "routes": [
@@ -4301,6 +4820,7 @@
     ]
   },
   {
+    "id": "liulinblog",
     "name": "木木博客",
     "url": "liulinblog.com",
     "routes": [
@@ -4309,6 +4829,7 @@
     ]
   },
   {
+    "id": "liveuamap",
     "name": "Live Universal Awareness Map",
     "url": "liveuamap.com",
     "routes": [
@@ -4316,6 +4837,7 @@
     ]
   },
   {
+    "id": "lkong",
     "name": "龙空",
     "url": "lkong.com",
     "routes": [
@@ -4324,6 +4846,7 @@
     ]
   },
   {
+    "id": "lofter",
     "name": "Lofter",
     "url": "www.lofter.com",
     "routes": [
@@ -4332,6 +4855,7 @@
     ]
   },
   {
+    "id": "logclub",
     "name": "罗戈网",
     "url": "logclub.com",
     "routes": [
@@ -4341,6 +4865,7 @@
     ]
   },
   {
+    "id": "logonews",
     "name": "LogoNews 标志情报局",
     "url": "logonews.cn",
     "routes": [
@@ -4350,6 +4875,7 @@
     ]
   },
   {
+    "id": "loltw",
     "name": "英雄联盟",
     "url": "lol.garena.tw",
     "routes": [
@@ -4357,6 +4883,7 @@
     ]
   },
   {
+    "id": "loongarch",
     "name": "LA UOSC社区",
     "url": "loongarch.org",
     "routes": [
@@ -4364,6 +4891,7 @@
     ]
   },
   {
+    "id": "lovelive-anime",
     "name": "lovelive-anime",
     "url": "www.lovelive-anime.jp",
     "routes": [
@@ -4373,6 +4901,7 @@
     ]
   },
   {
+    "id": "lsnu",
     "name": "乐山师范学院",
     "url": "lsnu.edu.cn",
     "routes": [
@@ -4380,6 +4909,7 @@
     ]
   },
   {
+    "id": "luogu",
     "name": "洛谷",
     "url": "luogu.com.cn",
     "routes": [
@@ -4390,6 +4920,7 @@
     ]
   },
   {
+    "id": "luxiangdong",
     "name": "土猛的员外",
     "url": "luxiangdong.com",
     "routes": [
@@ -4397,6 +4928,7 @@
     ]
   },
   {
+    "id": "lvv2",
     "name": "LVV2",
     "url": "lvv2.com",
     "routes": [
@@ -4405,6 +4937,7 @@
     ]
   },
   {
+    "id": "lxixsxa",
     "name": "LiSA",
     "url": "www.sonymusic.co.jp",
     "routes": [
@@ -4413,6 +4946,7 @@
     ]
   },
   {
+    "id": "m4",
     "name": "四月网",
     "url": "news.m4.cn",
     "routes": [
@@ -4420,6 +4954,7 @@
     ]
   },
   {
+    "id": "macfilos",
     "name": "Macfilos",
     "url": "macfilos.com",
     "routes": [
@@ -4427,6 +4962,7 @@
     ]
   },
   {
+    "id": "macmenubar",
     "name": "MacMenuBar",
     "url": "macmenubar.com",
     "routes": [
@@ -4434,6 +4970,7 @@
     ]
   },
   {
+    "id": "macupdate",
     "name": "MacUpdate",
     "url": "macupdate.com",
     "routes": [
@@ -4441,6 +4978,7 @@
     ]
   },
   {
+    "id": "magazinelib",
     "name": "MagazineLib",
     "url": "magazinelib.com",
     "routes": [
@@ -4448,12 +4986,14 @@
     ]
   },
   {
+    "id": "mail",
     "name": "Email",
     "routes": [
       "/imap/:email/:folder{.+}?"
     ]
   },
   {
+    "id": "mangadex",
     "name": "Unknown",
     "url": "mangadex.org",
     "routes": [
@@ -4461,6 +5001,7 @@
     ]
   },
   {
+    "id": "manhuagui",
     "name": "看漫画",
     "url": "www.manhuagui.com",
     "routes": [
@@ -4470,6 +5011,7 @@
     ]
   },
   {
+    "id": "mastodon",
     "name": "Mastodon",
     "url": "mastodon.social",
     "routes": [
@@ -4480,6 +5022,7 @@
     ]
   },
   {
+    "id": "mckinsey",
     "name": "麦肯锡",
     "url": "mckinsey.com.cn",
     "routes": [
@@ -4487,6 +5030,7 @@
     ]
   },
   {
+    "id": "mdpi",
     "name": "MDPI",
     "url": "www.mdpi.com",
     "routes": [
@@ -4494,6 +5038,7 @@
     ]
   },
   {
+    "id": "medieval-china",
     "name": "中国的中古",
     "url": "medieval-china.club",
     "routes": [
@@ -4501,6 +5046,7 @@
     ]
   },
   {
+    "id": "medium",
     "name": "Medium",
     "url": "medium.com",
     "routes": [
@@ -4511,6 +5057,7 @@
     ]
   },
   {
+    "id": "medsci",
     "name": "梅斯医学 MedSci",
     "url": "medsci.cn",
     "routes": [
@@ -4518,6 +5065,7 @@
     ]
   },
   {
+    "id": "metacritic",
     "name": "Metacritic",
     "url": "metacritic.com",
     "routes": [
@@ -4525,6 +5073,7 @@
     ]
   },
   {
+    "id": "meteor",
     "name": "Meteor",
     "url": "meteor.today",
     "routes": [
@@ -4533,6 +5082,7 @@
     ]
   },
   {
+    "id": "metmuseum",
     "name": "Unknown",
     "url": "www.metmuseum.org",
     "routes": [
@@ -4540,6 +5090,7 @@
     ]
   },
   {
+    "id": "mi",
     "name": "小米",
     "url": "mi.com",
     "routes": [
@@ -4548,6 +5099,7 @@
     ]
   },
   {
+    "id": "microsoft",
     "name": "Microsoft Edge",
     "url": "microsoftedge.microsoft.com",
     "routes": [
@@ -4555,6 +5107,7 @@
     ]
   },
   {
+    "id": "mihoyo",
     "name": "米哈游",
     "url": "genshin.hoyoverse.com",
     "routes": [
@@ -4568,6 +5121,7 @@
     ]
   },
   {
+    "id": "mindmeister",
     "name": "MindMeister",
     "url": "mindmeister.com",
     "routes": [
@@ -4575,6 +5129,7 @@
     ]
   },
   {
+    "id": "minecraft",
     "name": "Minecraft",
     "url": "minecraft.net",
     "routes": [
@@ -4582,6 +5137,7 @@
     ]
   },
   {
+    "id": "mingpao",
     "name": "Ming Pao 明报",
     "url": "mingpao.com",
     "routes": [
@@ -4589,6 +5145,7 @@
     ]
   },
   {
+    "id": "miniflux",
     "name": "MiniFlux",
     "url": "miniflux.app",
     "routes": [
@@ -4597,6 +5154,7 @@
     ]
   },
   {
+    "id": "mirror",
     "name": "Mirror",
     "url": "mirror.xyz",
     "routes": [
@@ -4604,6 +5162,7 @@
     ]
   },
   {
+    "id": "missav",
     "name": "MissAV.com",
     "url": "missav.com",
     "routes": [
@@ -4611,6 +5170,7 @@
     ]
   },
   {
+    "id": "misskey",
     "name": "Misskey",
     "url": "misskey.io",
     "routes": [
@@ -4618,6 +5178,7 @@
     ]
   },
   {
+    "id": "mittrchina",
     "name": "麻省理工科技评论",
     "url": "mittrchina.com",
     "routes": [
@@ -4625,6 +5186,7 @@
     ]
   },
   {
+    "id": "miui",
     "name": "MIUI",
     "url": "miui.com",
     "routes": [
@@ -4632,6 +5194,7 @@
     ]
   },
   {
+    "id": "mixcloud",
     "name": "Mixcloud",
     "url": "www.mixcloud.com",
     "routes": [
@@ -4639,6 +5202,7 @@
     ]
   },
   {
+    "id": "modb",
     "name": "墨天轮",
     "url": "modb.pro",
     "routes": [
@@ -4646,6 +5210,7 @@
     ]
   },
   {
+    "id": "modelscope",
     "name": "ModelScope 魔搭社区",
     "url": "modelscope.cn",
     "routes": [
@@ -4656,6 +5221,7 @@
     ]
   },
   {
+    "id": "modian",
     "name": "摩点",
     "url": "modian.com",
     "routes": [
@@ -4663,6 +5229,7 @@
     ]
   },
   {
+    "id": "modrinth",
     "name": "Modrinth",
     "url": "modrinth.com",
     "routes": [
@@ -4670,6 +5237,7 @@
     ]
   },
   {
+    "id": "mohw",
     "name": "台灣衛生福利部",
     "url": "mohw.gov.tw",
     "routes": [
@@ -4677,6 +5245,7 @@
     ]
   },
   {
+    "id": "mox",
     "name": "Mox.moe",
     "url": "mox.moe",
     "routes": [
@@ -4684,6 +5253,7 @@
     ]
   },
   {
+    "id": "mpaypass",
     "name": "移动支付网",
     "url": "mpaypass.com.cn",
     "routes": [
@@ -4692,6 +5262,7 @@
     ]
   },
   {
+    "id": "mrdx",
     "name": "新华每日电讯",
     "url": "mrdx.cn",
     "routes": [
@@ -4699,6 +5270,7 @@
     ]
   },
   {
+    "id": "mrm",
     "name": "华储网",
     "url": "mrm.com.cn",
     "routes": [
@@ -4706,6 +5278,7 @@
     ]
   },
   {
+    "id": "mvm",
     "name": "管理世界",
     "url": "mwm.net.cn",
     "routes": [
@@ -4713,6 +5286,7 @@
     ]
   },
   {
+    "id": "mydrivers",
     "name": "快科技",
     "url": "m.mydrivers.com",
     "routes": [
@@ -4723,6 +5297,7 @@
     ]
   },
   {
+    "id": "myfigurecollection",
     "name": "MyFigureCollection",
     "url": "myfigurecollection.net",
     "routes": [
@@ -4731,6 +5306,7 @@
     ]
   },
   {
+    "id": "mygopen",
     "name": "MyGoPen",
     "url": "mygopen.com",
     "routes": [
@@ -4738,6 +5314,7 @@
     ]
   },
   {
+    "id": "mymusicsheet",
     "name": "MyMusicSheet",
     "url": "mymusicsheet.com",
     "routes": [
@@ -4745,6 +5322,7 @@
     ]
   },
   {
+    "id": "mysql",
     "name": "MySQL",
     "url": "dev.mysql.com",
     "routes": [
@@ -4752,6 +5330,7 @@
     ]
   },
   {
+    "id": "nasa",
     "name": "NASA Astronomy Picture of the Day",
     "url": "apod.nasa.gov",
     "routes": [
@@ -4761,6 +5340,7 @@
     ]
   },
   {
+    "id": "natgeo",
     "name": "国家地理",
     "url": "nationalgeographic.com",
     "routes": [
@@ -4770,6 +5350,7 @@
     ]
   },
   {
+    "id": "nationalgeographic",
     "name": "National Geographic",
     "url": "www.nationalgeographic.com",
     "routes": [
@@ -4777,6 +5358,7 @@
     ]
   },
   {
+    "id": "nature",
     "name": "Nature Journal",
     "url": "nature.com",
     "routes": [
@@ -4789,6 +5371,7 @@
     ]
   },
   {
+    "id": "nautil",
     "name": "Nautilus",
     "url": "nautil.us",
     "routes": [
@@ -4796,6 +5379,7 @@
     ]
   },
   {
+    "id": "nbd",
     "name": "每经网",
     "url": "nbd.com.cn",
     "routes": [
@@ -4804,6 +5388,7 @@
     ]
   },
   {
+    "id": "nber",
     "name": "National Bureau of Economic Research",
     "url": "nber.org",
     "routes": [
@@ -4812,6 +5397,7 @@
     ]
   },
   {
+    "id": "ncc-cma",
     "name": "国家气候中心",
     "url": "cmdp.ncc-cma.net",
     "routes": [
@@ -4819,6 +5405,7 @@
     ]
   },
   {
+    "id": "ncepu",
     "name": "华北电力大学",
     "url": "yjsy.ncepu.edu.cn",
     "routes": [
@@ -4826,6 +5413,7 @@
     ]
   },
   {
+    "id": "ncu",
     "name": "南昌大学",
     "url": "jwc.ncu.edu.cn",
     "routes": [
@@ -4833,6 +5421,7 @@
     ]
   },
   {
+    "id": "ncwu",
     "name": "华北水利水电大学",
     "url": "ncwu.edu.cn",
     "routes": [
@@ -4840,6 +5429,7 @@
     ]
   },
   {
+    "id": "ndss-symposium",
     "name": "Network and Distributed System Security (NDSS) Symposium",
     "url": "ndss-symposium.org",
     "routes": [
@@ -4847,6 +5437,7 @@
     ]
   },
   {
+    "id": "neatdownloadmanager",
     "name": "Neat Download Manager",
     "url": "neatdownloadmanager.com",
     "routes": [
@@ -4854,6 +5445,7 @@
     ]
   },
   {
+    "id": "neea",
     "name": "NEEA 中国教育考试网",
     "url": "jlpt.neea.cn",
     "routes": [
@@ -4862,6 +5454,7 @@
     ]
   },
   {
+    "id": "nenu",
     "name": "东北师范大学",
     "url": "sohac.nenu.edu.cn",
     "routes": [
@@ -4870,6 +5463,7 @@
     ]
   },
   {
+    "id": "netflav",
     "name": "Netflav",
     "url": "netflav.com",
     "routes": [
@@ -4877,6 +5471,7 @@
     ]
   },
   {
+    "id": "neu",
     "name": "东北大学",
     "url": "neunews.neu.edu.cn",
     "routes": [
@@ -4885,6 +5480,7 @@
     ]
   },
   {
+    "id": "newmuseum",
     "name": "New Museum 纽约新美术馆",
     "url": "www.newmuseum.org",
     "routes": [
@@ -4892,6 +5488,7 @@
     ]
   },
   {
+    "id": "newrank",
     "name": "新榜",
     "url": "newrank.cn",
     "routes": [
@@ -4900,6 +5497,7 @@
     ]
   },
   {
+    "id": "news",
     "name": "小黑盒",
     "url": "news.cn",
     "routes": [
@@ -4908,6 +5506,7 @@
     ]
   },
   {
+    "id": "newsmarket",
     "name": "上下游 News&Market",
     "url": "newsmarket.com.tw",
     "routes": [
@@ -4915,6 +5514,7 @@
     ]
   },
   {
+    "id": "newzmz",
     "name": "NEW 字幕组",
     "url": "newzmz.com",
     "routes": [
@@ -4922,6 +5522,7 @@
     ]
   },
   {
+    "id": "nextapple",
     "name": "壹蘋新聞網",
     "url": "tw.nextapple.com",
     "routes": [
@@ -4929,6 +5530,7 @@
     ]
   },
   {
+    "id": "nga",
     "name": "NGA",
     "url": "bbs.nga.cn",
     "routes": [
@@ -4937,6 +5539,7 @@
     ]
   },
   {
+    "id": "ngocn2",
     "name": "NGOCN",
     "url": "ngocn2.org",
     "routes": [
@@ -4944,6 +5547,7 @@
     ]
   },
   {
+    "id": "nhentai",
     "name": "nhentai",
     "url": "nhentai.net",
     "routes": [
@@ -4952,6 +5556,7 @@
     ]
   },
   {
+    "id": "nhk",
     "name": "NHK",
     "url": "www3.nhk.or.jp",
     "routes": [
@@ -4960,6 +5565,7 @@
     ]
   },
   {
+    "id": "niaogebiji",
     "name": "鸟哥笔记",
     "url": "niaogebiji.com",
     "routes": [
@@ -4969,6 +5575,7 @@
     ]
   },
   {
+    "id": "nifd",
     "name": "国家金融与发展实验室",
     "url": "www.nifd.cn",
     "routes": [
@@ -4976,6 +5583,7 @@
     ]
   },
   {
+    "id": "nikkei",
     "name": "The Nikkei 日本経済新聞",
     "url": "asia.nikkei.com",
     "routes": [
@@ -4987,6 +5595,7 @@
     ]
   },
   {
+    "id": "nintendo",
     "name": "Nintendo",
     "url": "nintendo.com",
     "routes": [
@@ -5001,6 +5610,7 @@
     ]
   },
   {
+    "id": "nippon",
     "name": "走进日本",
     "url": "www.nippon.com",
     "routes": [
@@ -5008,6 +5618,7 @@
     ]
   },
   {
+    "id": "njglyy",
     "name": "南京鼓楼医院",
     "url": "njglyy.com",
     "routes": [
@@ -5015,6 +5626,7 @@
     ]
   },
   {
+    "id": "njit",
     "name": "南京工程学院",
     "url": "jwc.njit.edu.cn",
     "routes": [
@@ -5023,6 +5635,7 @@
     ]
   },
   {
+    "id": "njnu",
     "name": "南京师范大学",
     "url": "ceai.njnu.edu.cn",
     "routes": [
@@ -5031,6 +5644,7 @@
     ]
   },
   {
+    "id": "nju",
     "name": "南京大学",
     "url": "admission.nju.edu.cn",
     "routes": [
@@ -5050,6 +5664,7 @@
     ]
   },
   {
+    "id": "njucm",
     "name": "南京中医药大学",
     "url": "lib.njucm.edu.cn",
     "routes": [
@@ -5057,6 +5672,7 @@
     ]
   },
   {
+    "id": "njupt",
     "name": "南京邮电大学",
     "url": "jwc.njupt.edu.cn",
     "routes": [
@@ -5064,6 +5680,7 @@
     ]
   },
   {
+    "id": "njust",
     "name": "南京理工大学",
     "url": "jwc.njust.edu.cn",
     "routes": [
@@ -5076,6 +5693,7 @@
     ]
   },
   {
+    "id": "njxzc",
     "name": "南京晓庄学院",
     "url": "lib.njxzc.edu.cn",
     "routes": [
@@ -5084,6 +5702,7 @@
     ]
   },
   {
+    "id": "nlc",
     "name": "中国国家图书馆",
     "url": "read.nlc.cn",
     "routes": [
@@ -5091,6 +5710,7 @@
     ]
   },
   {
+    "id": "nltimes",
     "name": "NL Times",
     "url": "nltimes.nl",
     "routes": [
@@ -5098,6 +5718,7 @@
     ]
   },
   {
+    "id": "nmc",
     "name": "中央气象台",
     "url": "nmc.cn",
     "routes": [
@@ -5105,6 +5726,7 @@
     ]
   },
   {
+    "id": "nmtv",
     "name": "内蒙古广播电视台",
     "url": "nmtv.cn",
     "routes": [
@@ -5112,6 +5734,7 @@
     ]
   },
   {
+    "id": "nodejs",
     "name": "Node.js",
     "url": "nodejs.org",
     "routes": [
@@ -5119,6 +5742,7 @@
     ]
   },
   {
+    "id": "nogizaka46",
     "name": "Sakamichi Series 坂道系列官网资讯",
     "url": "news.nogizaka46.com",
     "routes": [
@@ -5127,6 +5751,7 @@
     ]
   },
   {
+    "id": "nosec",
     "name": "NOSEC 安全讯息平台",
     "url": "nosec.org",
     "routes": [
@@ -5134,6 +5759,7 @@
     ]
   },
   {
+    "id": "notateslaapp",
     "name": "Not a Tesla App",
     "url": "notateslaapp.com",
     "routes": [
@@ -5141,6 +5767,7 @@
     ]
   },
   {
+    "id": "notefolio",
     "name": "Notefolio",
     "url": "notefolio.net",
     "routes": [
@@ -5148,6 +5775,7 @@
     ]
   },
   {
+    "id": "notion",
     "name": "Notion",
     "url": "notion.so",
     "routes": [
@@ -5155,6 +5783,7 @@
     ]
   },
   {
+    "id": "now",
     "name": "Now 新聞",
     "url": "news.now.com",
     "routes": [
@@ -5162,6 +5791,7 @@
     ]
   },
   {
+    "id": "nowcoder",
     "name": "牛客网",
     "url": "nowcoder.com",
     "routes": [
@@ -5173,6 +5803,7 @@
     ]
   },
   {
+    "id": "npm",
     "name": "NPM",
     "url": "npmjs.com",
     "routes": [
@@ -5180,6 +5811,7 @@
     ]
   },
   {
+    "id": "npr",
     "name": "National Public Radio",
     "url": "npr.org",
     "routes": [
@@ -5187,6 +5819,7 @@
     ]
   },
   {
+    "id": "ntdm",
     "name": "NT动漫",
     "url": "www.ntdm9.com",
     "routes": [
@@ -5194,6 +5827,7 @@
     ]
   },
   {
+    "id": "ntdtv",
     "name": "新唐人电视台",
     "url": "www.ntdtv.com",
     "routes": [
@@ -5201,6 +5835,7 @@
     ]
   },
   {
+    "id": "nua",
     "name": "Nanjing University of the Arts 南京艺术学院",
     "url": "index.nua.edu.cn",
     "routes": [
@@ -5212,6 +5847,7 @@
     ]
   },
   {
+    "id": "nuaa",
     "name": "南京航空航天大学",
     "url": "aao.nuaa.edu.cn",
     "routes": [
@@ -5222,6 +5858,7 @@
     ]
   },
   {
+    "id": "nuist",
     "name": "南京信息工程大学",
     "url": "bulletin.nuist.edu.cn",
     "routes": [
@@ -5236,6 +5873,7 @@
     ]
   },
   {
+    "id": "nwafu",
     "name": "西北农林科技大学",
     "url": "nwafu.edu.cn",
     "routes": [
@@ -5243,6 +5881,7 @@
     ]
   },
   {
+    "id": "nyaa",
     "name": "Nyaa",
     "url": "nyaa.si",
     "routes": [
@@ -5255,6 +5894,7 @@
     ]
   },
   {
+    "id": "nytimes",
     "name": "The New York Times 纽约时报",
     "url": "nytimes.com",
     "routes": [
@@ -5264,6 +5904,7 @@
     ]
   },
   {
+    "id": "oceanengine",
     "name": "巨量算数 - 算数指数",
     "url": "trendinsight.oceanengine.com",
     "routes": [
@@ -5271,6 +5912,7 @@
     ]
   },
   {
+    "id": "odaily",
     "name": "Odaily 星球日报",
     "url": "odaily.news",
     "routes": [
@@ -5282,6 +5924,7 @@
     ]
   },
   {
+    "id": "oeeee",
     "name": "南方都市报",
     "url": "oeeee.com",
     "routes": [
@@ -5291,6 +5934,7 @@
     ]
   },
   {
+    "id": "oilchem",
     "name": "隆众资讯",
     "url": "oilchem.net",
     "routes": [
@@ -5298,6 +5942,7 @@
     ]
   },
   {
+    "id": "oncc",
     "name": "东网",
     "url": "hk.on.cc",
     "routes": [
@@ -5306,6 +5951,7 @@
     ]
   },
   {
+    "id": "onehu",
     "name": "我不是盐神",
     "url": "onehu.xyz",
     "routes": [
@@ -5313,6 +5959,7 @@
     ]
   },
   {
+    "id": "onet",
     "name": "Onet",
     "url": "wiadomosci.onet.pl",
     "routes": [
@@ -5320,6 +5967,7 @@
     ]
   },
   {
+    "id": "oo-software",
     "name": "O&O Software",
     "url": "oo-software.com",
     "routes": [
@@ -5327,6 +5975,7 @@
     ]
   },
   {
+    "id": "openai",
     "name": "OpenAI",
     "url": "openai.com",
     "routes": [
@@ -5336,6 +5985,7 @@
     ]
   },
   {
+    "id": "openwrt",
     "name": "Unknown",
     "url": "openwrt.org",
     "routes": [
@@ -5343,6 +5993,7 @@
     ]
   },
   {
+    "id": "orcid",
     "name": "ORCID",
     "url": "orcid.org",
     "routes": [
@@ -5350,6 +6001,7 @@
     ]
   },
   {
+    "id": "oreno3d",
     "name": "俺の 3D エロ動画 (oreno3d)",
     "url": "oreno3d.com",
     "routes": [
@@ -5361,6 +6013,7 @@
     ]
   },
   {
+    "id": "oschina",
     "name": "开源中国",
     "url": "oschina.net",
     "routes": [
@@ -5371,6 +6024,7 @@
     ]
   },
   {
+    "id": "oshwhub",
     "name": "oshwhub 立创开源硬件平台",
     "url": "oshwhub.com",
     "routes": [
@@ -5378,6 +6032,7 @@
     ]
   },
   {
+    "id": "osu",
     "name": "osu!",
     "url": "osu.ppy.sh",
     "routes": [
@@ -5385,6 +6040,7 @@
     ]
   },
   {
+    "id": "otobanana",
     "name": "OTOBANANA",
     "url": "otobanana.com",
     "routes": [
@@ -5394,6 +6050,7 @@
     ]
   },
   {
+    "id": "ouc",
     "name": "中国海洋大学",
     "url": "it.ouc.edu.cn",
     "routes": [
@@ -5407,6 +6064,7 @@
     ]
   },
   {
+    "id": "oup",
     "name": "Oxford University Press",
     "url": "academic.oup.com",
     "routes": [
@@ -5414,6 +6072,7 @@
     ]
   },
   {
+    "id": "outagereport",
     "name": "Outage.Report",
     "url": "outage.report",
     "routes": [
@@ -5421,6 +6080,7 @@
     ]
   },
   {
+    "id": "panewslab",
     "name": "PANews",
     "url": "panewslab.com",
     "routes": [
@@ -5433,6 +6093,7 @@
     ]
   },
   {
+    "id": "papers",
     "name": "Cool Papers",
     "url": "papers.cool",
     "routes": [
@@ -5440,6 +6101,7 @@
     ]
   },
   {
+    "id": "paradigm",
     "name": "Paradigm",
     "url": "paradigm.xyz",
     "routes": [
@@ -5447,6 +6109,7 @@
     ]
   },
   {
+    "id": "parliament",
     "name": "Thailand Parliament",
     "url": "parliament.go.th",
     "routes": [
@@ -5454,6 +6117,7 @@
     ]
   },
   {
+    "id": "patagonia",
     "name": "Patagonia",
     "url": "patagonia.com",
     "routes": [
@@ -5461,6 +6125,7 @@
     ]
   },
   {
+    "id": "paulgraham",
     "name": "Paul Graham",
     "url": "paulgraham.com",
     "routes": [
@@ -5470,6 +6135,7 @@
     ]
   },
   {
+    "id": "penguin-random-house",
     "name": "Penguin Random House",
     "url": "penguinrandomhouse.com",
     "routes": [
@@ -5478,6 +6144,7 @@
     ]
   },
   {
+    "id": "people",
     "name": "人民网",
     "url": "people.com.cn",
     "routes": [
@@ -5487,6 +6154,7 @@
     ]
   },
   {
+    "id": "peopo",
     "name": "PeoPo 公民新聞",
     "url": "peopo.org",
     "routes": [
@@ -5494,6 +6162,7 @@
     ]
   },
   {
+    "id": "phoronix",
     "name": "Phoronix",
     "url": "phoronix.com",
     "routes": [
@@ -5501,6 +6170,7 @@
     ]
   },
   {
+    "id": "pianyivps",
     "name": "便宜VPS网",
     "url": "pianyivps.com",
     "routes": [
@@ -5508,6 +6178,7 @@
     ]
   },
   {
+    "id": "pianyuan",
     "name": "片源网",
     "url": "pianyuan.org",
     "routes": [
@@ -5516,6 +6187,7 @@
     ]
   },
   {
+    "id": "picnob",
     "name": "Instagram",
     "url": "picnob.com",
     "routes": [
@@ -5523,6 +6195,7 @@
     ]
   },
   {
+    "id": "picuki",
     "name": "Instagram",
     "url": "www.picuki.com",
     "routes": [
@@ -5530,6 +6203,7 @@
     ]
   },
   {
+    "id": "pikabu",
     "name": "Pikabu",
     "url": "pikabu.ru",
     "routes": [
@@ -5538,6 +6212,7 @@
     ]
   },
   {
+    "id": "pincong",
     "name": "品葱",
     "url": "pincong.rocks",
     "routes": [
@@ -5547,6 +6222,7 @@
     ]
   },
   {
+    "id": "pingwest",
     "name": "品玩",
     "url": "pingwest.com",
     "routes": [
@@ -5556,6 +6232,7 @@
     ]
   },
   {
+    "id": "pixabay",
     "name": "Pixabay",
     "url": "pixabay.com",
     "routes": [
@@ -5563,6 +6240,7 @@
     ]
   },
   {
+    "id": "pixiv",
     "name": "pixiv",
     "url": "www.pixiv.net",
     "routes": [
@@ -5575,6 +6253,7 @@
     ]
   },
   {
+    "id": "piyao",
     "name": "中国互联网联合辟谣平台",
     "url": "piyao.org.cn",
     "routes": [
@@ -5582,6 +6261,7 @@
     ]
   },
   {
+    "id": "pkmer",
     "name": "PKMer",
     "url": "pkmer.cn",
     "routes": [
@@ -5589,6 +6269,7 @@
     ]
   },
   {
+    "id": "pku",
     "name": "北京大学",
     "url": "admission.pku.edu.cn",
     "routes": [
@@ -5607,6 +6288,7 @@
     ]
   },
   {
+    "id": "playno1",
     "name": "PLAYNO.1 玩樂達人",
     "url": "stno1.playno1.com",
     "routes": [
@@ -5615,6 +6297,7 @@
     ]
   },
   {
+    "id": "playpcesor",
     "name": "电脑玩物",
     "url": "playpcesor.com",
     "routes": [
@@ -5622,6 +6305,7 @@
     ]
   },
   {
+    "id": "plurk",
     "name": "Plurk",
     "url": "plurk.com",
     "routes": [
@@ -5635,6 +6319,7 @@
     ]
   },
   {
+    "id": "pnas",
     "name": "Proceedings of The National Academy of Sciences",
     "url": "pnas.org",
     "routes": [
@@ -5642,6 +6327,7 @@
     ]
   },
   {
+    "id": "pornhub",
     "name": "PornHub",
     "url": "pornhub.com",
     "routes": [
@@ -5654,6 +6340,7 @@
     ]
   },
   {
+    "id": "postman",
     "name": "Postman",
     "url": "postman.com",
     "routes": [
@@ -5661,6 +6348,7 @@
     ]
   },
   {
+    "id": "priconne-redive",
     "name": "PRINCESS CONNECT! Re Dive プリンセスコネクト！Re Dive",
     "url": "priconne-redive.jp",
     "routes": [
@@ -5668,6 +6356,7 @@
     ]
   },
   {
+    "id": "producthunt",
     "name": "Product Hunt",
     "url": "www.producthunt.com",
     "routes": [
@@ -5675,6 +6364,7 @@
     ]
   },
   {
+    "id": "ps",
     "name": "PlayStation Store",
     "url": "www.playstation.com",
     "routes": [
@@ -5683,6 +6373,7 @@
     ]
   },
   {
+    "id": "pts",
     "name": "公視新聞網",
     "url": "news.pts.org.tw",
     "routes": [
@@ -5693,6 +6384,7 @@
     ]
   },
   {
+    "id": "pubmed",
     "name": "PubMed",
     "url": "pubmed.ncbi.nlm.nih.gov",
     "routes": [
@@ -5700,6 +6392,7 @@
     ]
   },
   {
+    "id": "pumc",
     "name": "北京协和医学院",
     "url": "mdadmission.pumc.edu.cn",
     "routes": [
@@ -5707,6 +6400,7 @@
     ]
   },
   {
+    "id": "putty",
     "name": "PuTTY",
     "url": "www.chiark.greenend.org.uk",
     "routes": [
@@ -5714,6 +6408,7 @@
     ]
   },
   {
+    "id": "pwc",
     "name": "PwC Strategy&",
     "url": "strategyand.pwc.com",
     "routes": [
@@ -5721,6 +6416,7 @@
     ]
   },
   {
+    "id": "qbitai",
     "name": "量子位",
     "url": "qbitai.com",
     "routes": [
@@ -5729,6 +6425,7 @@
     ]
   },
   {
+    "id": "qbittorrent",
     "name": "qBittorrent",
     "url": "qbittorrent.org",
     "routes": [
@@ -5736,6 +6433,7 @@
     ]
   },
   {
+    "id": "qdu",
     "name": "青岛大学",
     "url": "jwc.qdu.edu.cn",
     "routes": [
@@ -5744,6 +6442,7 @@
     ]
   },
   {
+    "id": "qianp",
     "name": "千篇网",
     "url": "qianp.com",
     "routes": [
@@ -5751,6 +6450,7 @@
     ]
   },
   {
+    "id": "qianzhan",
     "name": "前瞻网",
     "url": "qianzhan.com",
     "routes": [
@@ -5759,6 +6459,7 @@
     ]
   },
   {
+    "id": "qidian",
     "name": "起点",
     "url": "book.qidian.com",
     "routes": [
@@ -5770,6 +6471,7 @@
     ]
   },
   {
+    "id": "qingting",
     "name": "蜻蜓 FM",
     "url": "qingting.fm",
     "routes": [
@@ -5778,6 +6480,7 @@
     ]
   },
   {
+    "id": "qipamaijia",
     "name": "奇葩买家秀",
     "url": "qipamaijia.com",
     "routes": [
@@ -5785,6 +6488,7 @@
     ]
   },
   {
+    "id": "qiyoujiage",
     "name": "汽油价格网",
     "url": "qiyoujiage.com",
     "routes": [
@@ -5792,6 +6496,7 @@
     ]
   },
   {
+    "id": "qlu",
     "name": "齐鲁工业大学",
     "url": "qlu.edu.cn",
     "routes": [
@@ -5799,6 +6504,7 @@
     ]
   },
   {
+    "id": "qm120",
     "name": "全民健康网",
     "url": "qm120.com",
     "routes": [
@@ -5806,6 +6512,7 @@
     ]
   },
   {
+    "id": "qoo-app",
     "name": "QooApp",
     "url": "apps.qoo-app.com",
     "routes": [
@@ -5821,6 +6528,7 @@
     ]
   },
   {
+    "id": "qq",
     "name": "腾讯新闻较真查证平台",
     "url": "ac.qq.com",
     "routes": [
@@ -5832,6 +6540,7 @@
     ]
   },
   {
+    "id": "qq88",
     "name": "秋爸日字",
     "url": "qq88.info",
     "routes": [
@@ -5839,6 +6548,7 @@
     ]
   },
   {
+    "id": "qqorw",
     "name": "早报网",
     "url": "qqorw.cn",
     "routes": [
@@ -5846,6 +6556,7 @@
     ]
   },
   {
+    "id": "questmobile",
     "name": "QuestMobile",
     "url": "questmobile.com.cn",
     "routes": [
@@ -5853,6 +6564,7 @@
     ]
   },
   {
+    "id": "quicker",
     "name": "Quicker",
     "url": "getquicker.net",
     "routes": [
@@ -5864,6 +6576,7 @@
     ]
   },
   {
+    "id": "qust",
     "name": "青岛科技大学",
     "url": "jw.qust.edu.cn",
     "routes": [
@@ -5871,6 +6584,7 @@
     ]
   },
   {
+    "id": "qweather",
     "name": "和风天气",
     "url": "qweather.com",
     "routes": [
@@ -5879,6 +6593,7 @@
     ]
   },
   {
+    "id": "radio",
     "name": "云听",
     "url": "radio.cn",
     "routes": [
@@ -5888,6 +6603,7 @@
     ]
   },
   {
+    "id": "radio-canada",
     "name": "Radio-Canada.ca",
     "url": "ici.radio-canada.ca",
     "routes": [
@@ -5895,6 +6611,7 @@
     ]
   },
   {
+    "id": "rarehistoricalphotos",
     "name": "Rare Historical Photos",
     "url": "rarehistoricalphotos.com",
     "routes": [
@@ -5902,6 +6619,7 @@
     ]
   },
   {
+    "id": "rattibha",
     "name": "Rattibha",
     "url": "rattibha.com",
     "routes": [
@@ -5909,6 +6627,7 @@
     ]
   },
   {
+    "id": "rawkuma",
     "name": "Rawkuma",
     "url": "rawkuma.com",
     "routes": [
@@ -5916,6 +6635,7 @@
     ]
   },
   {
+    "id": "reactiflux",
     "name": "Reactiflux",
     "url": "reactiflux.com",
     "routes": [
@@ -5923,6 +6643,7 @@
     ]
   },
   {
+    "id": "reactnewsletter",
     "name": "ui.dev",
     "url": "bytes.dev",
     "routes": [
@@ -5930,6 +6651,7 @@
     ]
   },
   {
+    "id": "readhub",
     "name": "Readhub",
     "url": "readhub.cn",
     "routes": [
@@ -5938,6 +6660,7 @@
     ]
   },
   {
+    "id": "remnote",
     "name": "RemNote",
     "url": "remnote.com",
     "routes": [
@@ -5945,6 +6668,7 @@
     ]
   },
   {
+    "id": "researchgate",
     "name": "ResearchGate",
     "url": "researchgate.net",
     "routes": [
@@ -5952,6 +6676,7 @@
     ]
   },
   {
+    "id": "reuters",
     "name": "Reuters 路透社",
     "url": "reuters.com",
     "routes": [
@@ -5960,6 +6685,7 @@
     ]
   },
   {
+    "id": "rfa",
     "name": "Radio Free Asia (RFA) 自由亚洲电台",
     "url": "rfa.org",
     "routes": [
@@ -5967,6 +6693,7 @@
     ]
   },
   {
+    "id": "rfi",
     "name": "Radio France Internationale 法国国际广播电台",
     "url": "rfi.fr",
     "routes": [
@@ -5974,6 +6701,7 @@
     ]
   },
   {
+    "id": "right",
     "name": "恩山无线论坛",
     "url": "right.com.cn",
     "routes": [
@@ -5981,6 +6709,7 @@
     ]
   },
   {
+    "id": "rodong",
     "name": "Rodong Sinmun 劳动新闻",
     "url": "rodong.rep.kp",
     "routes": [
@@ -5988,6 +6717,7 @@
     ]
   },
   {
+    "id": "routledge",
     "name": "Routledge",
     "url": "routledge.com",
     "routes": [
@@ -5995,6 +6725,7 @@
     ]
   },
   {
+    "id": "rsc",
     "name": "Royal Society of Chemistry",
     "url": "pubs.rsc.org",
     "routes": [
@@ -6002,6 +6733,7 @@
     ]
   },
   {
+    "id": "rsshub",
     "name": "RSSHub",
     "url": "docs.rsshub.app",
     "routes": [
@@ -6012,6 +6744,7 @@
     ]
   },
   {
+    "id": "ruancan",
     "name": "软餐",
     "url": "ruancan.com",
     "routes": [
@@ -6022,6 +6755,7 @@
     ]
   },
   {
+    "id": "ruc",
     "name": "中国人民大学",
     "url": "hr.ruc.edu.cn",
     "routes": [
@@ -6029,6 +6763,7 @@
     ]
   },
   {
+    "id": "runtrail",
     "name": "跑野大爆炸",
     "url": "runtrail.cn",
     "routes": [
@@ -6036,6 +6771,7 @@
     ]
   },
   {
+    "id": "rustcc",
     "name": "Rust 语言中文社区",
     "url": "rustcc.cn",
     "routes": [
@@ -6044,6 +6780,7 @@
     ]
   },
   {
+    "id": "sakurazaka46",
     "name": "Sakamichi Series 坂道系列官网资讯",
     "url": "sakurazaka46.com",
     "routes": [
@@ -6052,6 +6789,7 @@
     ]
   },
   {
+    "id": "samsung",
     "name": "Samsung",
     "url": "research.samsung.com",
     "routes": [
@@ -6059,6 +6797,7 @@
     ]
   },
   {
+    "id": "saraba1st",
     "name": "Saraba1st",
     "url": "bbs.saraba1st.com",
     "routes": [
@@ -6067,6 +6806,7 @@
     ]
   },
   {
+    "id": "sass",
     "name": "上海社会科学院",
     "url": "gs.sass.org.cn",
     "routes": [
@@ -6074,6 +6814,7 @@
     ]
   },
   {
+    "id": "scau",
     "name": "华南农业大学",
     "url": "yzb.scau.edu.cn",
     "routes": [
@@ -6082,6 +6823,7 @@
     ]
   },
   {
+    "id": "science",
     "name": "Science Magazine",
     "url": "science.org",
     "routes": [
@@ -6092,6 +6834,7 @@
     ]
   },
   {
+    "id": "sciencedirect",
     "name": "ScienceDirect",
     "url": "sciencedirect.com",
     "routes": [
@@ -6099,6 +6842,7 @@
     ]
   },
   {
+    "id": "sciencenet",
     "name": "科学网",
     "url": "blog.sciencenet.cn",
     "routes": [
@@ -6107,6 +6851,7 @@
     ]
   },
   {
+    "id": "scmp",
     "name": "Corona Virus Disease 2019",
     "url": "scmp.com",
     "routes": [
@@ -6116,6 +6861,7 @@
     ]
   },
   {
+    "id": "scnu",
     "name": "华南师范大学",
     "url": "cs.scnu.edu.cn",
     "routes": [
@@ -6127,6 +6873,7 @@
     ]
   },
   {
+    "id": "sctv",
     "name": "四川广播电视台",
     "url": "sctv.com",
     "routes": [
@@ -6134,6 +6881,7 @@
     ]
   },
   {
+    "id": "scut",
     "name": "华南理工大学",
     "url": "jw.scut.edu.cn",
     "routes": [
@@ -6147,6 +6895,7 @@
     ]
   },
   {
+    "id": "scvtc",
     "name": "四川职业技术学院",
     "url": "scvtc.edu.cn",
     "routes": [
@@ -6154,6 +6903,7 @@
     ]
   },
   {
+    "id": "sdu",
     "name": "山东大学（威海）",
     "url": "xinwen.wh.sdu.edu.cn",
     "routes": [
@@ -6167,6 +6917,7 @@
     ]
   },
   {
+    "id": "sdust",
     "name": "山东科技大学",
     "url": "sdust.edu.cn",
     "routes": [
@@ -6174,6 +6925,7 @@
     ]
   },
   {
+    "id": "sdzk",
     "name": "山东省教育招生考试院",
     "url": "sdzk.cn",
     "routes": [
@@ -6181,6 +6933,7 @@
     ]
   },
   {
+    "id": "sec-in",
     "name": "SecIN 信息安全技术社区",
     "url": "sec-in.com",
     "routes": [
@@ -6188,6 +6941,7 @@
     ]
   },
   {
+    "id": "sec-wiki",
     "name": "SecWiki - 安全维基",
     "url": "www.sec-wiki.com",
     "routes": [
@@ -6195,6 +6949,7 @@
     ]
   },
   {
+    "id": "secrss",
     "name": "安全内参",
     "url": "secrss.com",
     "routes": [
@@ -6203,6 +6958,7 @@
     ]
   },
   {
+    "id": "seekingalpha",
     "name": "Seeking Alpha",
     "url": "seekingalpha.com",
     "routes": [
@@ -6210,6 +6966,7 @@
     ]
   },
   {
+    "id": "sega",
     "name": "SEGA",
     "url": "pjsekai.sega.jp",
     "routes": [
@@ -6218,6 +6975,7 @@
     ]
   },
   {
+    "id": "segmentfault",
     "name": "SegmentFault",
     "url": "segmentfault.com",
     "routes": [
@@ -6227,6 +6985,7 @@
     ]
   },
   {
+    "id": "sehuatang",
     "name": "色花堂",
     "url": "sehuatang.net",
     "routes": [
@@ -6239,6 +6998,7 @@
     ]
   },
   {
+    "id": "sensortower",
     "name": "Sensor Tower",
     "url": "sensortower.com",
     "routes": [
@@ -6246,6 +7006,7 @@
     ]
   },
   {
+    "id": "setn",
     "name": "三立新聞網",
     "url": "setn.com",
     "routes": [
@@ -6253,6 +7014,7 @@
     ]
   },
   {
+    "id": "seu",
     "name": "东南大学",
     "url": "cse.seu.edu.cn",
     "routes": [
@@ -6263,6 +7025,7 @@
     ]
   },
   {
+    "id": "sfacg",
     "name": "SF 轻小说",
     "url": "book.sfacg.com",
     "routes": [
@@ -6270,6 +7033,7 @@
     ]
   },
   {
+    "id": "shcstheatre",
     "name": "上海文化广场",
     "url": "www.shcstheatre.com",
     "routes": [
@@ -6277,6 +7041,7 @@
     ]
   },
   {
+    "id": "shiep",
     "name": "上海电力大学",
     "url": "bwc.shiep.edu.cn",
     "routes": [
@@ -6284,6 +7049,7 @@
     ]
   },
   {
+    "id": "shisu",
     "name": "上海外国语大学",
     "url": "news.shisu.edu.cn",
     "routes": [
@@ -6291,6 +7057,7 @@
     ]
   },
   {
+    "id": "shmeea",
     "name": "上海市教育考试院",
     "url": "www.shmeea.edu.cn",
     "routes": [
@@ -6299,6 +7066,7 @@
     ]
   },
   {
+    "id": "shmtu",
     "name": "上海海事大学",
     "url": "jwc.shmtu.edu.cn",
     "routes": [
@@ -6308,6 +7076,7 @@
     ]
   },
   {
+    "id": "shoac",
     "name": "上海东方艺术中心",
     "url": "shoac.com.cn",
     "routes": [
@@ -6315,6 +7084,7 @@
     ]
   },
   {
+    "id": "shopback",
     "name": "ShopBack",
     "url": "shopback.com.tw",
     "routes": [
@@ -6322,6 +7092,7 @@
     ]
   },
   {
+    "id": "shoppingdesign",
     "name": "Shopping Design",
     "url": "www.shoppingdesign.com.tw",
     "routes": [
@@ -6329,6 +7100,7 @@
     ]
   },
   {
+    "id": "showstart",
     "name": "秀动网",
     "url": "www.showstart.com",
     "routes": [
@@ -6339,6 +7111,7 @@
     ]
   },
   {
+    "id": "shu",
     "name": "上海大学",
     "url": "jwb.shu.edu.cn",
     "routes": [
@@ -6348,6 +7121,7 @@
     ]
   },
   {
+    "id": "shuiguopai",
     "name": "水果派",
     "url": "shuiguopai.com",
     "routes": [
@@ -6355,6 +7129,7 @@
     ]
   },
   {
+    "id": "sicau",
     "name": "四川农业大学",
     "url": "dky.sicau.edu.cn",
     "routes": [
@@ -6364,6 +7139,7 @@
     ]
   },
   {
+    "id": "sigsac",
     "name": "ACM Special Interest Group on Security Audit and Control",
     "url": "sigsac.org",
     "routes": [
@@ -6371,6 +7147,7 @@
     ]
   },
   {
+    "id": "simpleinfo",
     "name": "簡訊設計",
     "url": "blog.simpleinfo.cc",
     "routes": [
@@ -6378,6 +7155,7 @@
     ]
   },
   {
+    "id": "sina",
     "name": "新浪",
     "url": "finance.sina.com.cn",
     "routes": [
@@ -6390,6 +7168,7 @@
     ]
   },
   {
+    "id": "sinchew",
     "name": "星洲网",
     "url": "sinchew.com.my",
     "routes": [
@@ -6397,6 +7176,7 @@
     ]
   },
   {
+    "id": "sis001",
     "name": "第一会所",
     "url": "sis001.com",
     "routes": [
@@ -6404,6 +7184,7 @@
     ]
   },
   {
+    "id": "sjtu",
     "name": "上海交通大学",
     "url": "bjwb.seiee.sjtu.edu.cn",
     "routes": [
@@ -6414,6 +7195,7 @@
     ]
   },
   {
+    "id": "skysports",
     "name": "Sky Sports",
     "url": "skysports.com",
     "routes": [
@@ -6421,6 +7203,7 @@
     ]
   },
   {
+    "id": "slowmist",
     "name": "慢雾科技",
     "url": "slowmist.com",
     "routes": [
@@ -6428,6 +7211,7 @@
     ]
   },
   {
+    "id": "smashingmagazine",
     "name": "Smashing Magazine",
     "url": "smashingmagazine.com",
     "routes": [
@@ -6435,6 +7219,7 @@
     ]
   },
   {
+    "id": "smzdm",
     "name": "什么值得买",
     "url": "post.smzdm.com",
     "routes": [
@@ -6447,6 +7232,7 @@
     ]
   },
   {
+    "id": "snowpeak",
     "name": "Snow Peak",
     "url": "snowpeak.com",
     "routes": [
@@ -6454,6 +7240,7 @@
     ]
   },
   {
+    "id": "sobooks",
     "name": "SoBooks",
     "url": "sobooks.net",
     "routes": [
@@ -6463,6 +7250,7 @@
     ]
   },
   {
+    "id": "sogou",
     "name": "搜狗",
     "url": "www.sogou.com",
     "routes": [
@@ -6471,6 +7259,7 @@
     ]
   },
   {
+    "id": "sohu",
     "name": "搜狐号",
     "url": "sohu.com",
     "routes": [
@@ -6478,6 +7267,7 @@
     ]
   },
   {
+    "id": "solidot",
     "name": "Solidot",
     "url": "www.solidot.org",
     "routes": [
@@ -6485,6 +7275,7 @@
     ]
   },
   {
+    "id": "sony",
     "name": "Sony",
     "url": "sony.com",
     "routes": [
@@ -6492,6 +7283,7 @@
     ]
   },
   {
+    "id": "soundofhope",
     "name": "希望之声",
     "url": "soundofhope.org",
     "routes": [
@@ -6499,6 +7291,7 @@
     ]
   },
   {
+    "id": "sourceforge",
     "name": "SourceForge",
     "url": "www.sourceforge.net",
     "routes": [
@@ -6506,6 +7299,7 @@
     ]
   },
   {
+    "id": "southcn",
     "name": "南方网",
     "url": "nfapp.southcn.com",
     "routes": [
@@ -6514,6 +7308,7 @@
     ]
   },
   {
+    "id": "spotify",
     "name": "Spotify",
     "url": "open.spotify.com",
     "routes": [
@@ -6526,6 +7321,7 @@
     ]
   },
   {
+    "id": "springer",
     "name": "Springer",
     "url": "www.springer.com",
     "routes": [
@@ -6533,6 +7329,7 @@
     ]
   },
   {
+    "id": "sputniknews",
     "name": "Sputnik News 俄罗斯卫星通讯社",
     "url": "sputniknews.cn",
     "routes": [
@@ -6540,6 +7337,7 @@
     ]
   },
   {
+    "id": "sqmc",
     "name": "新乡医学院三全学院",
     "url": "sqmc.edu.cn",
     "routes": [
@@ -6547,6 +7345,7 @@
     ]
   },
   {
+    "id": "sse",
     "name": "上海证券交易所",
     "url": "bond.sse.com.cn",
     "routes": [
@@ -6558,6 +7357,7 @@
     ]
   },
   {
+    "id": "ssm",
     "name": "澳门卫生局",
     "url": "www.ssm.gov.mo",
     "routes": [
@@ -6565,6 +7365,7 @@
     ]
   },
   {
+    "id": "sspai",
     "name": "少数派 sspai",
     "url": "sspai.com",
     "routes": [
@@ -6583,6 +7384,7 @@
     ]
   },
   {
+    "id": "sspu",
     "name": "上海第二工业大学",
     "url": "jwc.sspu.edu.cn",
     "routes": [
@@ -6591,6 +7393,7 @@
     ]
   },
   {
+    "id": "startuplatte",
     "name": "創新拿鐵",
     "url": "startuplatte.com",
     "routes": [
@@ -6598,6 +7401,7 @@
     ]
   },
   {
+    "id": "stbu",
     "name": "四川工商学院",
     "url": "stbu.edu.cn",
     "routes": [
@@ -6606,6 +7410,7 @@
     ]
   },
   {
+    "id": "stcn",
     "name": "证券时报网",
     "url": "stcn.com",
     "routes": [
@@ -6613,6 +7418,7 @@
     ]
   },
   {
+    "id": "stdaily",
     "name": "中国科技网",
     "url": "digitalpaper.stdaily.com",
     "routes": [
@@ -6620,6 +7426,7 @@
     ]
   },
   {
+    "id": "steam",
     "name": "Steam",
     "url": "store.steampowered.com",
     "routes": [
@@ -6627,6 +7434,7 @@
     ]
   },
   {
+    "id": "stheadline",
     "name": "星島日報",
     "url": "std.stheadline.com",
     "routes": [
@@ -6634,6 +7442,7 @@
     ]
   },
   {
+    "id": "stockedge",
     "name": "Stock Edge",
     "url": "web.stockedge.com",
     "routes": [
@@ -6641,6 +7450,7 @@
     ]
   },
   {
+    "id": "storm",
     "name": "風傳媒",
     "url": "storm.mg",
     "routes": [
@@ -6648,6 +7458,7 @@
     ]
   },
   {
+    "id": "storyfm",
     "name": "故事 FM",
     "url": "storyfm.cn",
     "routes": [
@@ -6656,6 +7467,7 @@
     ]
   },
   {
+    "id": "stratechery",
     "name": "Stratechery by Ben Thompson",
     "url": "blog.stratechery.com",
     "routes": [
@@ -6663,6 +7475,7 @@
     ]
   },
   {
+    "id": "studygolang",
     "name": "Go 语言中文网",
     "url": "studygolang.com",
     "routes": [
@@ -6672,6 +7485,7 @@
     ]
   },
   {
+    "id": "subhd",
     "name": "Sub HD",
     "url": "subhd.tv",
     "routes": [
@@ -6679,6 +7493,7 @@
     ]
   },
   {
+    "id": "supchina",
     "name": "SupChina",
     "url": "supchina.com",
     "routes": [
@@ -6687,6 +7502,7 @@
     ]
   },
   {
+    "id": "surfshark",
     "name": "Surfshark",
     "url": "surfshark.com",
     "routes": [
@@ -6694,6 +7510,7 @@
     ]
   },
   {
+    "id": "sustech",
     "name": "南方科技大学",
     "url": "biddingoffice.sustech.edu.cn",
     "routes": [
@@ -6703,6 +7520,7 @@
     ]
   },
   {
+    "id": "swissinfo",
     "name": "swissinfo",
     "url": "swissinfo.ch",
     "routes": [
@@ -6710,6 +7528,7 @@
     ]
   },
   {
+    "id": "swjtu",
     "name": "西南交通大学",
     "url": "ctt.swjtu.edu.cn",
     "routes": [
@@ -6720,6 +7539,7 @@
     ]
   },
   {
+    "id": "swpu",
     "name": "西南石油大学",
     "url": "swpu.edu.cn",
     "routes": [
@@ -6732,6 +7552,7 @@
     ]
   },
   {
+    "id": "syosetu",
     "name": "syosetu",
     "url": "ncode.syosetu.com",
     "routes": [
@@ -6739,6 +7560,7 @@
     ]
   },
   {
+    "id": "sysu",
     "name": "中山大学",
     "url": "cse.sysu.edu.cn",
     "routes": [
@@ -6747,6 +7569,7 @@
     ]
   },
   {
+    "id": "szse",
     "name": "深圳证券交易所",
     "url": "szse.cn",
     "routes": [
@@ -6757,6 +7580,7 @@
     ]
   },
   {
+    "id": "szu",
     "name": "深圳大学",
     "url": "yz.szu.edu.cn",
     "routes": [
@@ -6764,6 +7588,7 @@
     ]
   },
   {
+    "id": "t66y",
     "name": "草榴社区",
     "url": "t66y.com",
     "routes": [
@@ -6772,6 +7597,7 @@
     ]
   },
   {
+    "id": "tableau",
     "name": "Tableau",
     "url": "public.tableau.com",
     "routes": [
@@ -6779,6 +7605,7 @@
     ]
   },
   {
+    "id": "taiwannews",
     "name": "Taiwan News 台灣英文新聞",
     "url": "taiwannews.com.tw",
     "routes": [
@@ -6786,6 +7613,7 @@
     ]
   },
   {
+    "id": "tangshufang",
     "name": "唐书房",
     "url": "tangshufang.com",
     "routes": [
@@ -6793,6 +7621,7 @@
     ]
   },
   {
+    "id": "taobao",
     "name": "淘宝众筹",
     "url": "izhongchou.taobao.com",
     "routes": [
@@ -6800,6 +7629,7 @@
     ]
   },
   {
+    "id": "taoguba",
     "name": "淘股吧",
     "url": "taoguba.com.cn",
     "routes": [
@@ -6810,6 +7640,7 @@
     ]
   },
   {
+    "id": "taptap",
     "name": "TapTap 中国",
     "url": "taptap.com",
     "routes": [
@@ -6821,6 +7652,7 @@
     ]
   },
   {
+    "id": "tass",
     "name": "Russian News Agency TASS",
     "url": "tass.com",
     "routes": [
@@ -6828,6 +7660,7 @@
     ]
   },
   {
+    "id": "techcrunch",
     "name": "TechCrunch",
     "url": "techcrunch.com",
     "routes": [
@@ -6835,6 +7668,7 @@
     ]
   },
   {
+    "id": "techflowpost",
     "name": "深潮 TechFlow",
     "url": "techflowpost.com",
     "routes": [
@@ -6844,6 +7678,7 @@
     ]
   },
   {
+    "id": "techpowerup",
     "name": "TechPowerUp",
     "url": "techpowerup.com",
     "routes": [
@@ -6852,6 +7687,7 @@
     ]
   },
   {
+    "id": "telecompaper",
     "name": "Telecompaper",
     "url": "telecompaper.com",
     "routes": [
@@ -6860,6 +7696,7 @@
     ]
   },
   {
+    "id": "telegram",
     "name": "Telegram",
     "url": "t.me",
     "routes": [
@@ -6869,6 +7706,7 @@
     ]
   },
   {
+    "id": "tencent",
     "name": "王者荣耀",
     "url": "mp.weixin.qq.com",
     "routes": [
@@ -6880,6 +7718,7 @@
     ]
   },
   {
+    "id": "tesla",
     "name": "特斯拉中国",
     "url": "tesla.cn",
     "routes": [
@@ -6888,12 +7727,14 @@
     ]
   },
   {
+    "id": "test",
     "name": "Unknown",
     "routes": [
       "/:id"
     ]
   },
   {
+    "id": "tfc-taiwan",
     "name": "台灣事實查核中心",
     "url": "tfc-taiwan.org.tw",
     "routes": [
@@ -6905,6 +7746,7 @@
     ]
   },
   {
+    "id": "tgbus",
     "name": "电玩巴士 TGBUS",
     "url": "tgbus.com",
     "routes": [
@@ -6912,6 +7754,7 @@
     ]
   },
   {
+    "id": "theatlantic",
     "name": "The Atlantic",
     "url": "www.theatlantic.com",
     "routes": [
@@ -6919,6 +7762,7 @@
     ]
   },
   {
+    "id": "theblockbeats",
     "name": "律动",
     "url": "rszhaopin.theblockbeats.info",
     "routes": [
@@ -6926,6 +7770,7 @@
     ]
   },
   {
+    "id": "thecatcity",
     "name": "貓奴日常",
     "url": "thecatcity.com",
     "routes": [
@@ -6933,6 +7778,7 @@
     ]
   },
   {
+    "id": "thecover",
     "name": "封面新闻",
     "url": "thecover.cn",
     "routes": [
@@ -6940,6 +7786,7 @@
     ]
   },
   {
+    "id": "thehindu",
     "name": "The Hindu",
     "url": "thehindu.com",
     "routes": [
@@ -6947,6 +7794,7 @@
     ]
   },
   {
+    "id": "theinitium",
     "name": "端传媒",
     "url": "theinitium.com",
     "routes": [
@@ -6954,6 +7802,7 @@
     ]
   },
   {
+    "id": "themoviedb",
     "name": "The Movie Database",
     "url": "themoviedb.org",
     "routes": [
@@ -6965,6 +7814,7 @@
     ]
   },
   {
+    "id": "thenewslens",
     "name": "The News Lens 關鍵評論",
     "url": "thenewslens.com",
     "routes": [
@@ -6972,6 +7822,7 @@
     ]
   },
   {
+    "id": "thepaper",
     "name": "澎湃新闻",
     "url": "thepaper.cn",
     "routes": [
@@ -6985,6 +7836,7 @@
     ]
   },
   {
+    "id": "theverge",
     "name": "The Verge",
     "url": "theverge.com",
     "routes": [
@@ -6992,6 +7844,7 @@
     ]
   },
   {
+    "id": "thoughtco",
     "name": "ThoughtCo",
     "url": "thoughtco.com",
     "routes": [
@@ -6999,6 +7852,7 @@
     ]
   },
   {
+    "id": "threads",
     "name": "Threads",
     "url": "threads.net",
     "routes": [
@@ -7006,6 +7860,7 @@
     ]
   },
   {
+    "id": "thwiki",
     "name": "THBWiki",
     "url": "thwiki.cc",
     "routes": [
@@ -7013,6 +7868,7 @@
     ]
   },
   {
+    "id": "tiktok",
     "name": "TikTok",
     "url": "tiktok.com",
     "routes": [
@@ -7020,6 +7876,7 @@
     ]
   },
   {
+    "id": "timednews",
     "name": "时刻新闻",
     "url": "timednews.com",
     "routes": [
@@ -7027,6 +7884,7 @@
     ]
   },
   {
+    "id": "tingshuitz",
     "name": "停水通知",
     "url": "swj.dl.gov.cn",
     "routes": [
@@ -7044,6 +7902,7 @@
     ]
   },
   {
+    "id": "tingtingfm",
     "name": "听听 FM",
     "url": "mobile.tingtingfm.com",
     "routes": [
@@ -7051,6 +7910,7 @@
     ]
   },
   {
+    "id": "tisi",
     "name": "腾讯研究院",
     "url": "tisi.org",
     "routes": [
@@ -7058,6 +7918,7 @@
     ]
   },
   {
+    "id": "tju",
     "name": "Tianjin University 天津大学",
     "url": "cic.tju.edu.cn",
     "routes": [
@@ -7068,6 +7929,7 @@
     ]
   },
   {
+    "id": "tokeninsight",
     "name": "TokenInsight",
     "url": "tokeninsight.com",
     "routes": [
@@ -7077,6 +7939,7 @@
     ]
   },
   {
+    "id": "tongji",
     "name": "同济大学",
     "url": "bksy.tongji.edu.cn",
     "routes": [
@@ -7086,6 +7949,7 @@
     ]
   },
   {
+    "id": "tongli",
     "name": "東立出版社",
     "url": "tongli.com.tw",
     "routes": [
@@ -7093,6 +7957,7 @@
     ]
   },
   {
+    "id": "toodaylab",
     "name": "理想生活实验室",
     "url": "toodaylab.com",
     "routes": [
@@ -7100,6 +7965,7 @@
     ]
   },
   {
+    "id": "tophub",
     "name": "今日热榜",
     "url": "tophub.today",
     "routes": [
@@ -7108,6 +7974,7 @@
     ]
   },
   {
+    "id": "topys",
     "name": "TOPYS",
     "url": "topys.cn",
     "routes": [
@@ -7115,6 +7982,7 @@
     ]
   },
   {
+    "id": "tradingview",
     "name": "TradingView",
     "url": "tradingview.com",
     "routes": [
@@ -7124,6 +7992,7 @@
     ]
   },
   {
+    "id": "transcriptforest",
     "name": "Transcript Forest",
     "url": "www.transcriptforest.com",
     "routes": [
@@ -7131,6 +8000,7 @@
     ]
   },
   {
+    "id": "trending",
     "name": "热搜聚合",
     "url": "so.toutiao.com",
     "routes": [
@@ -7138,6 +8008,7 @@
     ]
   },
   {
+    "id": "trendingpapers",
     "name": "Trending Papers",
     "url": "trendingpapers.com",
     "routes": [
@@ -7145,6 +8016,7 @@
     ]
   },
   {
+    "id": "tribalfootball",
     "name": "Tribal Football",
     "url": "tribalfootball.com",
     "routes": [
@@ -7152,6 +8024,7 @@
     ]
   },
   {
+    "id": "trow",
     "name": "The Ring of Wonder",
     "url": "trow.cc",
     "routes": [
@@ -7159,6 +8032,7 @@
     ]
   },
   {
+    "id": "tvb",
     "name": "无线新闻",
     "url": "tvb.com",
     "routes": [
@@ -7166,6 +8040,7 @@
     ]
   },
   {
+    "id": "tvtropes",
     "name": "TV Tropes",
     "url": "tvtropes.org",
     "routes": [
@@ -7173,6 +8048,7 @@
     ]
   },
   {
+    "id": "twitch",
     "name": "Twitch",
     "url": "www.twitch.tv",
     "routes": [
@@ -7182,6 +8058,7 @@
     ]
   },
   {
+    "id": "twitter",
     "name": "Twitter",
     "url": "twitter.com",
     "routes": [
@@ -7196,6 +8073,7 @@
     ]
   },
   {
+    "id": "twreporter",
     "name": "報導者",
     "url": "twreporter.org",
     "routes": [
@@ -7204,6 +8082,7 @@
     ]
   },
   {
+    "id": "txrjy",
     "name": "通信人家园",
     "url": "txrjy.com",
     "routes": [
@@ -7211,6 +8090,7 @@
     ]
   },
   {
+    "id": "tynu",
     "name": "太原师范学院",
     "url": "tynu.edu.cn",
     "routes": [
@@ -7218,6 +8098,7 @@
     ]
   },
   {
+    "id": "typora",
     "name": "Typora",
     "url": "typora.io",
     "routes": [
@@ -7226,6 +8107,7 @@
     ]
   },
   {
+    "id": "u3c3",
     "name": "U9A9",
     "url": "u3c3.com",
     "routes": [
@@ -7234,6 +8116,7 @@
     ]
   },
   {
+    "id": "u9a9",
     "name": "Unknown",
     "url": "u9a9.com",
     "routes": [
@@ -7242,6 +8125,7 @@
     ]
   },
   {
+    "id": "uber",
     "name": "Uber 优步",
     "url": "www.uber.com",
     "routes": [
@@ -7249,6 +8133,7 @@
     ]
   },
   {
+    "id": "ucas",
     "name": "中国科学院大学",
     "url": "ai.ucas.ac.cn",
     "routes": [
@@ -7257,6 +8142,7 @@
     ]
   },
   {
+    "id": "uchicago",
     "name": "The University of Chicago Press: Journals",
     "url": "journals.uchicago.edu",
     "routes": [
@@ -7264,6 +8150,7 @@
     ]
   },
   {
+    "id": "udn",
     "name": "聯合新聞網",
     "url": "udn.com",
     "routes": [
@@ -7273,6 +8160,7 @@
     ]
   },
   {
+    "id": "uestc",
     "name": "电子科技大学",
     "url": "gr.uestc.edu.cn",
     "routes": [
@@ -7287,6 +8175,7 @@
     ]
   },
   {
+    "id": "uibe",
     "name": "对外经济贸易大学",
     "url": "hr.uibe.edu.cn",
     "routes": [
@@ -7294,6 +8183,7 @@
     ]
   },
   {
+    "id": "ulapia",
     "name": "乌拉邦",
     "url": "www.ulapia.com",
     "routes": [
@@ -7302,6 +8192,7 @@
     ]
   },
   {
+    "id": "uniqlo",
     "name": "Uniqlo",
     "url": "www.uniqlo.com",
     "routes": [
@@ -7309,6 +8200,7 @@
     ]
   },
   {
+    "id": "unraid",
     "name": "Unraid",
     "url": "unraid.net",
     "routes": [
@@ -7316,6 +8208,7 @@
     ]
   },
   {
+    "id": "unusualwhales",
     "name": "Unusual Whales",
     "url": "unusualwhales.com",
     "routes": [
@@ -7323,6 +8216,7 @@
     ]
   },
   {
+    "id": "upc",
     "name": "中国石油大学（华东）",
     "url": "computer.upc.edu.cn",
     "routes": [
@@ -7332,6 +8226,7 @@
     ]
   },
   {
+    "id": "uptimerobot",
     "name": "Uptime Robot",
     "url": "rss.uptimerobot.com",
     "routes": [
@@ -7339,6 +8234,7 @@
     ]
   },
   {
+    "id": "uraaka-joshi",
     "name": "裏垢女子まとめ",
     "url": "uraaka-joshi.com",
     "routes": [
@@ -7347,6 +8243,7 @@
     ]
   },
   {
+    "id": "urbandictionary",
     "name": "Urban Dictionary",
     "url": "urbandictionary.com",
     "routes": [
@@ -7354,6 +8251,7 @@
     ]
   },
   {
+    "id": "usenix",
     "name": "USENIX",
     "url": "usenix.org",
     "routes": [
@@ -7362,6 +8260,7 @@
     ]
   },
   {
+    "id": "usepanda",
     "name": "Panda",
     "url": "usepanda.com",
     "routes": [
@@ -7369,6 +8268,7 @@
     ]
   },
   {
+    "id": "ustb",
     "name": "北京科技大学",
     "url": "gs.ustb.edu.cn",
     "routes": [
@@ -7378,6 +8278,7 @@
     ]
   },
   {
+    "id": "ustc",
     "name": "中国科学技术大学",
     "url": "ustc.edu.cn",
     "routes": [
@@ -7390,6 +8291,7 @@
     ]
   },
   {
+    "id": "usts",
     "name": "苏州科技大学",
     "url": "jwch.usts.edu.cn",
     "routes": [
@@ -7397,6 +8299,7 @@
     ]
   },
   {
+    "id": "utgd",
     "name": "UNTAG",
     "url": "utgd.net",
     "routes": [
@@ -7406,6 +8309,7 @@
     ]
   },
   {
+    "id": "uw",
     "name": "University of Washington",
     "url": "gixnetwork.org",
     "routes": [
@@ -7413,6 +8317,7 @@
     ]
   },
   {
+    "id": "v1tx",
     "name": "v1tx",
     "url": "v1tx.com",
     "routes": [
@@ -7420,6 +8325,7 @@
     ]
   },
   {
+    "id": "v2ex",
     "name": "V2EX",
     "url": "v2ex.com",
     "routes": [
@@ -7429,6 +8335,7 @@
     ]
   },
   {
+    "id": "v2rayshare",
     "name": "V2rayShare",
     "url": "v2rayshare.com",
     "routes": [
@@ -7436,6 +8343,7 @@
     ]
   },
   {
+    "id": "vcb-s",
     "name": "VCB-Studio",
     "url": "vcb-s.com",
     "routes": [
@@ -7444,6 +8352,7 @@
     ]
   },
   {
+    "id": "verfghbw",
     "name": "Constitutional Court of Baden-Württemberg (Germany)",
     "url": "verfgh.baden-wuerttemberg.de",
     "routes": [
@@ -7451,6 +8360,7 @@
     ]
   },
   {
+    "id": "vimeo",
     "name": "Vimeo",
     "url": "vimeo.com",
     "routes": [
@@ -7460,6 +8370,7 @@
     ]
   },
   {
+    "id": "vocus",
     "name": "方格子",
     "url": "vocus.cc",
     "routes": [
@@ -7468,6 +8379,7 @@
     ]
   },
   {
+    "id": "vom",
     "name": "Voice of Mongolia 蒙古之声",
     "url": "vom.mn",
     "routes": [
@@ -7475,6 +8387,7 @@
     ]
   },
   {
+    "id": "wallhaven",
     "name": "wallhaven",
     "url": "wallhaven.cc",
     "routes": [
@@ -7483,6 +8396,7 @@
     ]
   },
   {
+    "id": "wallpaperhub",
     "name": "WallpaperHub",
     "url": "wallpaperhub.app",
     "routes": [
@@ -7490,6 +8404,7 @@
     ]
   },
   {
+    "id": "wallstreetcn",
     "name": "华尔街见闻",
     "url": "wallstreetcn.com",
     "routes": [
@@ -7500,6 +8415,7 @@
     ]
   },
   {
+    "id": "wanqu",
     "name": "湾区日报",
     "url": "wanqu.co",
     "routes": [
@@ -7507,6 +8423,7 @@
     ]
   },
   {
+    "id": "warthunder",
     "name": "War Thunder",
     "url": "warthunder.com",
     "routes": [
@@ -7514,6 +8431,7 @@
     ]
   },
   {
+    "id": "wdc",
     "name": "Western Digital",
     "url": "support.wdc.com",
     "routes": [
@@ -7521,6 +8439,7 @@
     ]
   },
   {
+    "id": "web",
     "name": "web.dev",
     "url": "web.dev",
     "routes": [
@@ -7530,6 +8449,7 @@
     ]
   },
   {
+    "id": "web3caff",
     "name": "Web3Caff",
     "url": "web3caff.com",
     "routes": [
@@ -7537,6 +8457,7 @@
     ]
   },
   {
+    "id": "wechat",
     "name": "微信小程序",
     "url": "posts.careerengine.us",
     "routes": [
@@ -7553,6 +8474,7 @@
     ]
   },
   {
+    "id": "weekendhk",
     "name": "新假期周刊",
     "url": "weekendhk.com",
     "routes": [
@@ -7560,6 +8482,7 @@
     ]
   },
   {
+    "id": "weibo",
     "name": "微博绿洲",
     "url": "weibo.com",
     "routes": [
@@ -7574,6 +8497,7 @@
     ]
   },
   {
+    "id": "wenku8",
     "name": "轻小说文库",
     "url": "www.wenku8.net",
     "routes": [
@@ -7583,6 +8507,7 @@
     ]
   },
   {
+    "id": "wfdf",
     "name": "WFDF",
     "url": "wfdf.sport",
     "routes": [
@@ -7590,6 +8515,7 @@
     ]
   },
   {
+    "id": "wfu",
     "name": "潍坊学院",
     "url": "jwc.wfu.edu.cn",
     "routes": [
@@ -7598,6 +8524,7 @@
     ]
   },
   {
+    "id": "whitehouse",
     "name": "The White House",
     "url": "whitehouse.gov",
     "routes": [
@@ -7606,6 +8533,7 @@
     ]
   },
   {
+    "id": "who",
     "name": "World Health Organization | WHO",
     "url": "who.int",
     "routes": [
@@ -7615,6 +8543,7 @@
     ]
   },
   {
+    "id": "whu",
     "name": "武汉大学",
     "url": "cs.whu.edu.cn",
     "routes": [
@@ -7625,6 +8554,7 @@
     ]
   },
   {
+    "id": "wikinews",
     "name": "维基新闻",
     "url": "zh.wikinews.org",
     "routes": [
@@ -7632,6 +8562,7 @@
     ]
   },
   {
+    "id": "winstall",
     "name": "winstall",
     "url": "winstall.app",
     "routes": [
@@ -7639,6 +8570,7 @@
     ]
   },
   {
+    "id": "wise",
     "name": "Wise",
     "url": "wise.com",
     "routes": [
@@ -7646,6 +8578,7 @@
     ]
   },
   {
+    "id": "wizfile",
     "name": "WziFile",
     "url": "antibody-software.com",
     "routes": [
@@ -7653,6 +8586,7 @@
     ]
   },
   {
+    "id": "wmc-bj",
     "name": "World Meteorological Centre Beijing",
     "url": "wmc-bj.net",
     "routes": [
@@ -7660,6 +8594,7 @@
     ]
   },
   {
+    "id": "wmpvp",
     "name": "完美世界电竞",
     "url": "wmpvp.com",
     "routes": [
@@ -7667,6 +8602,7 @@
     ]
   },
   {
+    "id": "wnacg",
     "name": "紳士漫畫",
     "url": "wnacg.org",
     "routes": [
@@ -7676,6 +8612,7 @@
     ]
   },
   {
+    "id": "worldjournal",
     "name": "世界新聞網",
     "url": "worldjournal.com",
     "routes": [
@@ -7683,6 +8620,7 @@
     ]
   },
   {
+    "id": "woshipm",
     "name": "人人都是产品经理",
     "url": "woshipm.com",
     "routes": [
@@ -7692,6 +8630,7 @@
     ]
   },
   {
+    "id": "wsj",
     "name": "The Wall Street Journal (WSJ) 华尔街日报",
     "url": "cn.wsj.com",
     "routes": [
@@ -7699,6 +8638,7 @@
     ]
   },
   {
+    "id": "wsyu",
     "name": "武昌首义学院",
     "url": "www.wsyu.edu.cn",
     "routes": [
@@ -7706,6 +8646,7 @@
     ]
   },
   {
+    "id": "wtu",
     "name": "武汉纺织大学",
     "url": "wtu.91wllm.com",
     "routes": [
@@ -7714,6 +8655,7 @@
     ]
   },
   {
+    "id": "wyzxwk",
     "name": "乌有之乡",
     "url": "wyzxwk.com",
     "routes": [
@@ -7721,6 +8663,7 @@
     ]
   },
   {
+    "id": "wzu",
     "name": "温州大学",
     "url": "wzu.edu.cn",
     "routes": [
@@ -7728,6 +8671,7 @@
     ]
   },
   {
+    "id": "x-mol",
     "name": "X-MOL",
     "url": "x-mol.com",
     "routes": [
@@ -7736,6 +8680,7 @@
     ]
   },
   {
+    "id": "x6d",
     "name": "小刀娱乐网",
     "url": "xd.x6d.com",
     "routes": [
@@ -7743,6 +8688,7 @@
     ]
   },
   {
+    "id": "xaufe",
     "name": "西安财经大学",
     "url": "jiaowu.xaufe.edu.cn",
     "routes": [
@@ -7750,6 +8696,7 @@
     ]
   },
   {
+    "id": "xaut",
     "name": "西安理工大学",
     "url": "index.xaut.edu.cn",
     "routes": [
@@ -7759,6 +8706,7 @@
     ]
   },
   {
+    "id": "xboxfan",
     "name": "盒心光环",
     "url": "xboxfan.com",
     "routes": [
@@ -7766,6 +8714,7 @@
     ]
   },
   {
+    "id": "xiaoheihe",
     "name": "小黑盒",
     "url": "xiaoheihe.cn",
     "routes": [
@@ -7775,6 +8724,7 @@
     ]
   },
   {
+    "id": "xiaohongshu",
     "name": "小红书",
     "url": "xiaohongshu.com",
     "routes": [
@@ -7784,6 +8734,7 @@
     ]
   },
   {
+    "id": "xiaomiyoupin",
     "name": "小米有品",
     "url": "xiaomiyoupin.com",
     "routes": [
@@ -7792,6 +8743,7 @@
     ]
   },
   {
+    "id": "xiaote",
     "name": "小特社区",
     "url": "xiaote.com",
     "routes": [
@@ -7799,6 +8751,7 @@
     ]
   },
   {
+    "id": "xiaoyuzhou",
     "name": "小宇宙",
     "url": "xiaoyuzhoufm.com",
     "routes": [
@@ -7807,6 +8760,7 @@
     ]
   },
   {
+    "id": "xiaozhuanlan",
     "name": "小专栏",
     "url": "xiaozhuanlan.com",
     "routes": [
@@ -7814,6 +8768,7 @@
     ]
   },
   {
+    "id": "xidian",
     "name": "西安电子科技大学",
     "url": "jwc.xidian.edu.cn",
     "routes": [
@@ -7821,6 +8776,7 @@
     ]
   },
   {
+    "id": "ximalaya",
     "name": "喜马拉雅",
     "url": "ximalaya.com",
     "routes": [
@@ -7829,6 +8785,7 @@
     ]
   },
   {
+    "id": "xinpianchang",
     "name": "新片场",
     "url": "xinpianchang.com",
     "routes": [
@@ -7838,6 +8795,7 @@
     ]
   },
   {
+    "id": "xjtu",
     "name": "西安交通大学",
     "url": "2yuan.xjtu.edu.cn",
     "routes": [
@@ -7852,6 +8810,7 @@
     ]
   },
   {
+    "id": "xkb",
     "name": "新快报",
     "url": "xkb.com.cn",
     "routes": [
@@ -7859,6 +8818,7 @@
     ]
   },
   {
+    "id": "xmanhua",
     "name": "X 漫画",
     "url": "xmanhua.com",
     "routes": [
@@ -7866,6 +8826,7 @@
     ]
   },
   {
+    "id": "xmnn",
     "name": "厦门网",
     "url": "epaper.xmnn.cn",
     "routes": [
@@ -7874,6 +8835,7 @@
     ]
   },
   {
+    "id": "xmut",
     "name": "厦门理工大学",
     "url": "jwc.xmut.edu.cn",
     "routes": [
@@ -7882,6 +8844,7 @@
     ]
   },
   {
+    "id": "xsijishe",
     "name": "司机社",
     "url": "xsijishe.com",
     "routes": [
@@ -7890,6 +8853,7 @@
     ]
   },
   {
+    "id": "xueqiu",
     "name": "雪球",
     "url": "danjuanapp.com",
     "routes": [
@@ -7906,6 +8870,7 @@
     ]
   },
   {
+    "id": "xunhupay",
     "name": "虎皮椒",
     "url": "www.xunhupay.com",
     "routes": [
@@ -7913,6 +8878,7 @@
     ]
   },
   {
+    "id": "xys",
     "name": "新语丝",
     "url": "xys.org",
     "routes": [
@@ -7920,6 +8886,7 @@
     ]
   },
   {
+    "id": "xyzrank",
     "name": "中文播客榜",
     "url": "xyzrank.com",
     "routes": [
@@ -7927,6 +8894,7 @@
     ]
   },
   {
+    "id": "yahoo",
     "name": "Yahoo",
     "url": "hk.news.yahoo.com",
     "routes": [
@@ -7937,6 +8905,7 @@
     ]
   },
   {
+    "id": "yangtzeu",
     "name": "长江大学",
     "url": "yangtzeu.edu.cn",
     "routes": [
@@ -7944,6 +8913,7 @@
     ]
   },
   {
+    "id": "ycwb",
     "name": "羊城晚报金羊网",
     "url": "xwlb.com.cn",
     "routes": [
@@ -7951,6 +8921,7 @@
     ]
   },
   {
+    "id": "ygkkk",
     "name": "甬哥侃侃侃YouTube教程摘要随笔",
     "url": "ygkkk.blogspot.com",
     "routes": [
@@ -7958,6 +8929,7 @@
     ]
   },
   {
+    "id": "yicai",
     "name": "第一财经",
     "url": "yicai.com",
     "routes": [
@@ -7973,6 +8945,7 @@
     ]
   },
   {
+    "id": "ymgal",
     "name": "月幕 Galgame",
     "url": "ymgal.games",
     "routes": [
@@ -7981,6 +8954,7 @@
     ]
   },
   {
+    "id": "yoasobi-music",
     "name": "Yoasobi Official",
     "url": "www.yoasobi-music.jp",
     "routes": [
@@ -7990,6 +8964,7 @@
     ]
   },
   {
+    "id": "yomiuri",
     "name": "Yomiuri Shimbun 読売新聞",
     "url": "www.yomiuri.co.jp",
     "routes": [
@@ -7997,6 +8972,7 @@
     ]
   },
   {
+    "id": "yomujp",
     "name": "日本語多読道場",
     "url": "yomujp.com",
     "routes": [
@@ -8004,6 +8980,7 @@
     ]
   },
   {
+    "id": "youku",
     "name": "优酷",
     "url": "i.youku.com",
     "routes": [
@@ -8011,6 +8988,7 @@
     ]
   },
   {
+    "id": "youtube",
     "name": "YouTube Live",
     "url": "charts.youtube.com",
     "routes": [
@@ -8025,6 +9003,7 @@
     ]
   },
   {
+    "id": "youzhiyouxing",
     "name": "有知有行",
     "url": "youzhiyouxing.cn",
     "routes": [
@@ -8032,6 +9011,7 @@
     ]
   },
   {
+    "id": "yuque",
     "name": "语雀",
     "url": "yuque.com",
     "routes": [
@@ -8039,6 +9019,7 @@
     ]
   },
   {
+    "id": "yxdown",
     "name": "游讯网",
     "url": "yxdown.com",
     "routes": [
@@ -8047,6 +9028,7 @@
     ]
   },
   {
+    "id": "yxdzqb",
     "name": "游戏打折情报",
     "url": "yxdzqb.com",
     "routes": [
@@ -8054,6 +9036,7 @@
     ]
   },
   {
+    "id": "yxrb",
     "name": "游戏日报",
     "url": "news.yxrb.net",
     "routes": [
@@ -8061,6 +9044,7 @@
     ]
   },
   {
+    "id": "yyets",
     "name": "人人影视",
     "url": "yysub.net",
     "routes": [
@@ -8069,6 +9053,7 @@
     ]
   },
   {
+    "id": "yystv",
     "name": "游研社",
     "url": "yystv.cn",
     "routes": [
@@ -8077,6 +9062,7 @@
     ]
   },
   {
+    "id": "zagg",
     "name": "Zagg",
     "url": "zagg.com",
     "routes": [
@@ -8084,6 +9070,7 @@
     ]
   },
   {
+    "id": "zaker",
     "name": "ZAKER",
     "url": "myzaker.com",
     "routes": [
@@ -8091,6 +9078,7 @@
     ]
   },
   {
+    "id": "zaobao",
     "name": "联合早报",
     "url": "www.zaobao.com",
     "routes": [
@@ -8101,6 +9089,7 @@
     ]
   },
   {
+    "id": "zaozao",
     "name": "前端早早聊",
     "url": "www.zaozao.run",
     "routes": [
@@ -8108,6 +9097,7 @@
     ]
   },
   {
+    "id": "zcmu",
     "name": "浙江中医药大学",
     "url": "jwc.zcmu.edu.cn",
     "routes": [
@@ -8116,6 +9106,7 @@
     ]
   },
   {
+    "id": "zcool",
     "name": "站酷",
     "url": "www.zcool.com.cn",
     "routes": [
@@ -8125,6 +9116,7 @@
     ]
   },
   {
+    "id": "zhibo8",
     "name": "直播吧",
     "url": "zhibo8.cc",
     "routes": [
@@ -8135,6 +9127,7 @@
     ]
   },
   {
+    "id": "zhihu",
     "name": "知乎",
     "url": "www.zhihu.com",
     "routes": [
@@ -8165,6 +9158,7 @@
     ]
   },
   {
+    "id": "zhitongcaijing",
     "name": "智通财经网",
     "url": "zhitongcaijing.com",
     "routes": [
@@ -8172,6 +9166,7 @@
     ]
   },
   {
+    "id": "zhiy",
     "name": "知园",
     "url": "zhiy.cc",
     "routes": [
@@ -8180,6 +9175,7 @@
     ]
   },
   {
+    "id": "zhubai",
     "name": "竹白",
     "url": "zhubai.love",
     "routes": [
@@ -8188,6 +9184,7 @@
     ]
   },
   {
+    "id": "zhujiceping",
     "name": "国外主机测评",
     "url": "zhujiceping.com",
     "routes": [
@@ -8195,6 +9192,7 @@
     ]
   },
   {
+    "id": "zhuwang",
     "name": "中国养猪网",
     "url": "zhujia.zhuwang.cc",
     "routes": [
@@ -8202,6 +9200,7 @@
     ]
   },
   {
+    "id": "zimuxia",
     "name": "FIX 字幕侠",
     "url": "zimuxia.cn",
     "routes": [
@@ -8210,6 +9209,7 @@
     ]
   },
   {
+    "id": "zjgtjy",
     "name": "浙江省土地使用权网上交易系统",
     "url": "zjgtjy.cn",
     "routes": [
@@ -8217,6 +9217,7 @@
     ]
   },
   {
+    "id": "zjol",
     "name": "浙江在线",
     "url": "zjol.com.cn",
     "routes": [
@@ -8224,6 +9225,7 @@
     ]
   },
   {
+    "id": "zju",
     "name": "浙江大学",
     "url": "physics.zju.edu.cn",
     "routes": [
@@ -8236,6 +9238,7 @@
     ]
   },
   {
+    "id": "zjut",
     "name": "浙江工业大学",
     "url": "www.zjut.edu.cn",
     "routes": [
@@ -8244,6 +9247,7 @@
     ]
   },
   {
+    "id": "zjuvag",
     "name": "浙江大学可视分析小组",
     "url": "zjuvag.org",
     "routes": [
@@ -8251,6 +9255,7 @@
     ]
   },
   {
+    "id": "zodgame",
     "name": "ZodGame",
     "url": "zodgame.xyz",
     "routes": [
@@ -8258,6 +9263,7 @@
     ]
   },
   {
+    "id": "zotero",
     "name": "Zotero",
     "url": "zotero.org",
     "routes": [
@@ -8265,6 +9271,7 @@
     ]
   },
   {
+    "id": "zrblog",
     "name": "赵容部落",
     "url": "zrblog.net",
     "routes": [
@@ -8272,6 +9279,7 @@
     ]
   },
   {
+    "id": "zuel",
     "name": "中南财经政法大学",
     "url": "wap.zuel.edu.cn",
     "routes": [
@@ -8279,6 +9287,7 @@
     ]
   },
   {
+    "id": "zuvio",
     "name": "Zuvio",
     "url": "irs.zuvio.com.tw",
     "routes": [
@@ -8287,6 +9296,7 @@
     ]
   },
   {
+    "id": "zyshow",
     "name": "综艺秀",
     "url": "zyshow.net",
     "routes": [
@@ -8294,6 +9304,7 @@
     ]
   },
   {
+    "id": "zyw",
     "name": "zyw",
     "url": "hot.zyw.asia",
     "routes": [

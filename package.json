@@ -24,7 +24,6 @@
 		"eslint-config-next": "latest",
 		"prettier": "^3.0.3",
 		"ts-node": "^10.9.2",
-		"ts-node-dev": "^2.0.0",
 		"tslog": "^4.9.2",
 		"turbo": "latest",
 		"typescript": "latest"

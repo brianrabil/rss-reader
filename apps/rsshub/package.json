@@ -3,10 +3,11 @@
 	"private": true,
 	"type": "module",
 	"scripts": {
-		"build": "npx tsx src/main.mts"
+		"build": "npx tsx src/main.mts",
+		"generate:rsshub": "npx tsx scripts/generate-rsshub.ts"
 	},
 	"devDependencies": {
-		"ts-node": "^10.9.2",
+		"ts-morph": "^22.0.0",
 		"typescript": "latest"
 	},
 	"dependencies": {

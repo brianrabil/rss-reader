@@ -2,6 +2,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=rent.591.com.tw",
     "channel": "591 Rental house",
+    "channelId": "591",
     "url": "rent.591.com.tw",
     "path": "/:country/rent/:query?",
     "categories": [
@@ -18,6 +19,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=1x.com",
     "channel": "1x.com",
+    "channelId": "1x",
     "url": "1x.com",
     "path": "/:category{.+}?",
     "categories": [
@@ -34,6 +36,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=7mmtv.tv",
     "channel": "7mmtv",
+    "channelId": "7mmtv",
     "url": "7mmtv.tv",
     "path": "/:language?/:category?/:type?",
     "categories": [
@@ -51,6 +54,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=91porn.com",
     "channel": "91porn",
+    "channelId": "91porn",
     "url": "91porn.com",
     "path": "/author/:uid/:lang?",
     "categories": [
@@ -67,6 +71,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=91porn.com",
     "channel": "91porn",
+    "channelId": "91porn",
     "url": "91porn.com",
     "path": "/:lang?",
     "categories": [
@@ -82,6 +87,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=abc.net.au",
     "channel": "ABC News",
+    "channelId": "abc",
     "url": "abc.net.au",
     "path": "/:category{.+}?",
     "categories": [
@@ -97,6 +103,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=pubs.acs.org",
     "channel": "Unknown",
+    "channelId": "acs",
     "url": "pubs.acs.org",
     "path": "/journal/:id",
     "lang": [
@@ -106,6 +113,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=aeaweb.org",
     "channel": "American Economic Association",
+    "channelId": "aeaweb",
     "url": "aeaweb.org",
     "path": "/:id",
     "categories": [
@@ -121,6 +129,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=www.aiea.org",
     "channel": "Asian Innovation and Entrepreneurship Association",
+    "channelId": "aiea",
     "url": "www.aiea.org",
     "path": "/seminars/:period",
     "categories": [
@@ -136,6 +145,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=pubs.aip.org",
     "channel": "American Institute of Physics",
+    "channelId": "aip",
     "url": "pubs.aip.org",
     "path": "/:pub/:jrn",
     "categories": [
@@ -152,6 +162,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=alistapart.com",
     "channel": "A List Apart",
+    "channelId": "alistapart",
     "url": "alistapart.com",
     "path": "/:topic",
     "categories": [
@@ -167,6 +178,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=www.alternativeto.net",
     "channel": "AlternativeTo",
+    "channelId": "alternativeto",
     "url": "www.alternativeto.net",
     "path": "/platform/:name/:routeParams?",
     "categories": [
@@ -183,6 +195,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=www.alternativeto.net",
     "channel": "AlternativeTo",
+    "channelId": "alternativeto",
     "url": "www.alternativeto.net",
     "path": "/software/:name/:routeParams?",
     "categories": [
@@ -199,6 +212,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=annualreviews.org",
     "channel": "Annual Reviews",
+    "channelId": "annualreviews",
     "url": "annualreviews.org",
     "path": "/:id",
     "categories": [
@@ -214,6 +228,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=apkpure.com",
     "channel": "APKPure",
+    "channelId": "apkpure",
     "url": "apkpure.com",
     "path": "/versions/:pkg/:region?",
     "categories": [
@@ -230,6 +245,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=apnews.com",
     "channel": "AP News",
+    "channelId": "apnews",
     "url": "apnews.com",
     "path": "/topics/:topic?",
     "categories": [
@@ -245,6 +261,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=install.appcenter.ms",
     "channel": "App Center",
+    "channelId": "app-center",
     "url": "install.appcenter.ms",
     "path": "/release/:user/:app/:distribution_group",
     "categories": [
@@ -262,6 +279,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=apps.apple.com",
     "channel": "Apple",
+    "channelId": "apple",
     "url": "apps.apple.com",
     "path": "/apps/update/:country/:id/:platform?",
     "categories": [
@@ -279,6 +297,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=apps.apple.com",
     "channel": "Apple",
+    "channelId": "apple",
     "url": "apps.apple.com",
     "path": "/exchange_repair/:country?",
     "categories": [
@@ -294,6 +313,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=appleinsider.com",
     "channel": "AppleInsider",
+    "channelId": "appleinsider",
     "url": "appleinsider.com",
     "path": "/:category?",
     "categories": [
@@ -309,6 +329,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=apps.apple.com",
     "channel": "App Store/Mac App Store",
+    "channelId": "appstore",
     "url": "apps.apple.com",
     "path": "/iap/:country/:id",
     "categories": [
@@ -325,6 +346,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=apps.apple.com",
     "channel": "App Store/Mac App Store",
+    "channelId": "appstore",
     "url": "apps.apple.com",
     "path": "/price/:country/:type/:id",
     "categories": [
@@ -342,6 +364,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=arcteryx.com",
     "channel": "Arcteryx",
+    "channelId": "arcteryx",
     "url": "arcteryx.com",
     "path": "/new-arrivals/:country/:gender",
     "categories": [
@@ -358,6 +381,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=arcteryx.com",
     "channel": "Arcteryx",
+    "channelId": "arcteryx",
     "url": "arcteryx.com",
     "path": "/outlet/:country/:gender",
     "categories": [
@@ -374,6 +398,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=www.artstation.com",
     "channel": "ArtStation",
+    "channelId": "artstation",
     "url": "www.artstation.com",
     "path": "/:handle",
     "categories": [
@@ -389,6 +414,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=asus.com.cn",
     "channel": "ASUS",
+    "channelId": "asus",
     "url": "asus.com.cn",
     "path": "/bios/:model",
     "categories": [
@@ -404,6 +430,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=atcoder.jp",
     "channel": "AtCoder",
+    "channelId": "atcoder",
     "url": "atcoder.jp",
     "path": "/contest/:language?/:rated?/:category?/:keyword?",
     "categories": [
@@ -422,6 +449,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=atcoder.jp",
     "channel": "AtCoder",
+    "channelId": "atcoder",
     "url": "atcoder.jp",
     "path": "/post/:language?/:keyword?",
     "categories": [
@@ -438,6 +466,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=bandcamp.com",
     "channel": "Bandcamp",
+    "channelId": "bandcamp",
     "url": "bandcamp.com",
     "path": "/tag/:tag?",
     "categories": [
@@ -453,6 +482,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=www.behance.net",
     "channel": "Behance",
+    "channelId": "behance",
     "url": "www.behance.net",
     "path": "/:user/:type?",
     "categories": [
@@ -469,6 +499,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=bioone.org",
     "channel": "BioOne",
+    "channelId": "bioone",
     "url": "bioone.org",
     "path": "/journals/:journal?",
     "categories": [
@@ -484,6 +515,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=bitbucket.com",
     "channel": "Bitbucket",
+    "channelId": "bitbucket",
     "url": "bitbucket.com",
     "path": "/commits/:workspace/:repo_slug",
     "categories": [
@@ -500,6 +532,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=bitbucket.com",
     "channel": "Bitbucket",
+    "channelId": "bitbucket",
     "url": "bitbucket.com",
     "path": "/tags/:workspace/:repo_slug",
     "categories": [
@@ -516,6 +549,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=news.blizzard.com",
     "channel": "Blizzard",
+    "channelId": "blizzard",
     "url": "news.blizzard.com",
     "path": "/news/:language?/:category?",
     "categories": [
@@ -532,6 +566,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=www.bloomberg.com",
     "channel": "Bloomberg",
+    "channelId": "bloomberg",
     "url": "www.bloomberg.com",
     "path": "/authors/:id/:slug/:source?",
     "categories": [
@@ -549,6 +584,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=bluestacks.com",
     "channel": "BlueStacks",
+    "channelId": "bluestacks",
     "url": "bluestacks.com",
     "path": "/release/5",
     "categories": [
@@ -562,6 +598,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=bsky.app",
     "channel": "Bluesky (bsky)",
+    "channelId": "bsky",
     "url": "bsky.app",
     "path": "/profile/:handle",
     "categories": [
@@ -577,6 +614,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=caareviews.org",
     "channel": "caa.reviews",
+    "channelId": "caareviews",
     "url": "caareviews.org",
     "path": "/book",
     "categories": [
@@ -590,6 +628,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=caareviews.org",
     "channel": "caa.reviews",
+    "channelId": "caareviews",
     "url": "caareviews.org",
     "path": "/essay",
     "categories": [
@@ -603,6 +642,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=caareviews.org",
     "channel": "caa.reviews",
+    "channelId": "caareviews",
     "url": "caareviews.org",
     "path": "/exhibition",
     "categories": [
@@ -616,6 +656,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=caixinglobal.com",
     "channel": "Caixin Global",
+    "channelId": "caixinglobal",
     "url": "caixinglobal.com",
     "path": "/latest",
     "categories": [
@@ -629,6 +670,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=cbc.ca",
     "channel": "Canadian Broadcasting Corporation",
+    "channelId": "cbc",
     "url": "cbc.ca",
     "path": "/topics/:topic?",
     "categories": [
@@ -644,6 +686,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=search.cnbc.com",
     "channel": "CNBC",
+    "channelId": "cnbc",
     "url": "search.cnbc.com",
     "path": "/rss/:id?",
     "categories": [
@@ -659,6 +702,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=cncf.io",
     "channel": "CNCF",
+    "channelId": "cncf",
     "url": "cncf.io",
     "path": "/:cate?",
     "categories": [
@@ -674,6 +718,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=codeforces.com",
     "channel": "Codeforces",
+    "channelId": "codeforces",
     "url": "codeforces.com",
     "path": "/contests",
     "categories": [
@@ -687,6 +732,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=codeforces.com",
     "channel": "Codeforces",
+    "channelId": "codeforces",
     "url": "codeforces.com",
     "path": "/recent-actions/:minrating?",
     "categories": [
@@ -702,6 +748,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=comicskingdom.com",
     "channel": "Comics Kingdom",
+    "channelId": "comicskingdom",
     "url": "comicskingdom.com",
     "path": "/:name",
     "categories": [
@@ -717,6 +764,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=coomer.party",
     "channel": "Coomer",
+    "channelId": "coomer",
     "url": "coomer.party",
     "path": "/artist/:id",
     "categories": [
@@ -732,6 +780,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=blog.csdn.net",
     "channel": "CSDN",
+    "channelId": "csdn",
     "url": "blog.csdn.net",
     "path": "/blog/:user",
     "categories": [
@@ -747,6 +796,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=iolaw.cssn.cn",
     "channel": "Chinese Social Science Net",
+    "channelId": "cssn",
     "url": "iolaw.cssn.cn",
     "path": "/iolaw/:section?",
     "categories": [
@@ -762,6 +812,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=curius.app",
     "channel": "Curius",
+    "channelId": "curius",
     "url": "curius.app",
     "path": "/links/:name",
     "categories": [
@@ -777,6 +828,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=dblp.org",
     "channel": "DBLP",
+    "channelId": "dblp",
     "url": "dblp.org",
     "path": "/:field",
     "categories": [
@@ -792,6 +844,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=discord.com",
     "channel": "Discord",
+    "channelId": "discord",
     "url": "discord.com",
     "path": "/channel/:channelId",
     "categories": [
@@ -807,6 +860,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=undefined",
     "channel": "Discourse",
+    "channelId": "discourse",
     "path": "/:configId/notifications/:fulltext?",
     "categories": [
       "bbs"
@@ -822,6 +876,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=undefined",
     "channel": "Discourse",
+    "channelId": "discourse",
     "path": "/:configId/posts",
     "categories": [
       "bbs"
@@ -836,6 +891,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=dlsite.com",
     "channel": "DLsite",
+    "channelId": "dlsite",
     "url": "dlsite.com",
     "path": "/campaign/:type/:free?",
     "categories": [
@@ -852,6 +908,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=dlsite.com",
     "channel": "DLsite",
+    "channelId": "dlsite",
     "url": "dlsite.com",
     "path": "/new/:type",
     "categories": [
@@ -867,6 +924,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=dlsite.com",
     "channel": "DLsite",
+    "channelId": "dlsite",
     "url": "dlsite.com",
     "path": "/ci-en/:id/article",
     "categories": [
@@ -882,6 +940,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=dn.com",
     "channel": "DN.com",
+    "channelId": "dn",
     "url": "dn.com",
     "path": "/:language/news/:category?",
     "categories": [
@@ -898,6 +957,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=dnaindia.com",
     "channel": "DNA India",
+    "channelId": "dnaindia",
     "url": "dnaindia.com",
     "path": [
       "/:category",
@@ -916,6 +976,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=dnaindia.com",
     "channel": "DNA India",
+    "channelId": "dnaindia",
     "url": "dnaindia.com",
     "path": [
       "/:category",
@@ -934,6 +995,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=hub.docker.com",
     "channel": "Docker Hub",
+    "channelId": "dockerhub",
     "url": "hub.docker.com",
     "path": "/build/:owner/:image/:tag?",
     "categories": [
@@ -951,6 +1013,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=hub.docker.com",
     "channel": "Docker Hub",
+    "channelId": "dockerhub",
     "url": "hub.docker.com",
     "path": "/tag/:owner/:image/:limits?",
     "categories": [
@@ -968,6 +1031,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=dribbble.com",
     "channel": "Dribbble",
+    "channelId": "dribbble",
     "url": "dribbble.com",
     "path": "/keyword/:keyword",
     "categories": [
@@ -983,6 +1047,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=dribbble.com",
     "channel": "Dribbble",
+    "channelId": "dribbble",
     "url": "dribbble.com",
     "path": "/popular/:timeframe?",
     "categories": [
@@ -998,6 +1063,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=dribbble.com",
     "channel": "Dribbble",
+    "channelId": "dribbble",
     "url": "dribbble.com",
     "path": "/user/:name",
     "categories": [
@@ -1013,6 +1079,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=cn.eagle.cool",
     "channel": "Eagle",
+    "channelId": "eagle",
     "url": "cn.eagle.cool",
     "path": "/blog/:cate?/:language?",
     "categories": [
@@ -1029,6 +1096,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=cn.eagle.cool",
     "channel": "Eagle",
+    "channelId": "eagle",
     "url": "cn.eagle.cool",
     "path": "/changelog/:language?",
     "categories": [
@@ -1044,6 +1112,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=economist.com",
     "channel": "The Economist",
+    "channelId": "economist",
     "url": "economist.com",
     "path": "/:endpoint",
     "categories": [
@@ -1059,6 +1128,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=economist.com",
     "channel": "The Economist",
+    "channelId": "economist",
     "url": "economist.com",
     "path": "/global-business-review/:language?",
     "categories": [
@@ -1074,6 +1144,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=undefined",
     "channel": "E-Hentai",
+    "channelId": "ehentai",
     "path": "/favorites/:favcat?/:order?/:page?/:routeParams?",
     "categories": [
       "picture"
@@ -1091,6 +1162,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=undefined",
     "channel": "E-Hentai",
+    "channelId": "ehentai",
     "path": "/search/:params?/:page?/:routeParams?",
     "categories": [
       "picture"
@@ -1107,6 +1179,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=undefined",
     "channel": "E-Hentai",
+    "channelId": "ehentai",
     "path": "/tag/:tag/:page?/:routeParams?",
     "categories": [
       "picture"
@@ -1123,6 +1196,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=store.epicgames.com",
     "channel": "Epic Games Store",
+    "channelId": "epicgames",
     "url": "store.epicgames.com",
     "path": "/freegames/:locale?/:country?",
     "categories": [
@@ -1139,6 +1213,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=f-droid.org",
     "channel": "F-Droid",
+    "channelId": "f-droid",
     "url": "f-droid.org",
     "path": "/apprelease/:app",
     "categories": [
@@ -1154,6 +1229,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=fantia.jp",
     "channel": "Fantia",
+    "channelId": "fantia",
     "url": "fantia.jp",
     "path": "/user/:id",
     "categories": [
@@ -1169,6 +1245,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=farmatters.com",
     "channel": "Farmatters",
+    "channelId": "farmatters",
     "url": "farmatters.com",
     "path": [
       "/exclusive/:locale?",
@@ -1189,6 +1266,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=farmatters.com",
     "channel": "Farmatters",
+    "channelId": "farmatters",
     "url": "farmatters.com",
     "path": [
       "/exclusive/:locale?",
@@ -1209,6 +1287,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=farmatters.com",
     "channel": "Farmatters",
+    "channelId": "farmatters",
     "url": "farmatters.com",
     "path": [
       "/exclusive/:locale?",
@@ -1229,6 +1308,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=farmatters.com",
     "channel": "Farmatters",
+    "channelId": "farmatters",
     "url": "farmatters.com",
     "path": [
       "/exclusive/:locale?",
@@ -1249,6 +1329,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=fda.gov",
     "channel": "U.S. Food and Drug Administration",
+    "channelId": "fda",
     "url": "fda.gov",
     "path": "/cdrh/:titleOnly?",
     "lang": [
@@ -1258,6 +1339,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=finviz.com",
     "channel": "finviz",
+    "channelId": "finviz",
     "url": "finviz.com",
     "path": "/:category?",
     "categories": [
@@ -1273,6 +1355,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=finviz.com",
     "channel": "finviz",
+    "channelId": "finviz",
     "url": "finviz.com",
     "path": "/news/:ticker",
     "categories": [
@@ -1288,6 +1371,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=monitor.firefox.com",
     "channel": "Mozilla",
+    "channelId": "firefox",
     "url": "monitor.firefox.com",
     "path": "/addons/:id",
     "categories": [
@@ -1303,6 +1387,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=followin.io",
     "channel": "Followin",
+    "channelId": "followin",
     "url": "followin.io",
     "path": "/:categoryId?/:lang?",
     "categories": [
@@ -1319,6 +1404,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=followin.io",
     "channel": "Followin",
+    "channelId": "followin",
     "url": "followin.io",
     "path": "/kol/:kolId/:lang?",
     "categories": [
@@ -1335,6 +1421,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=followin.io",
     "channel": "Followin",
+    "channelId": "followin",
     "url": "followin.io",
     "path": "/news/:lang?",
     "categories": [
@@ -1350,6 +1437,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=followin.io",
     "channel": "Followin",
+    "channelId": "followin",
     "url": "followin.io",
     "path": "/tag/:tagId/:lang?",
     "categories": [
@@ -1366,6 +1454,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=followin.io",
     "channel": "Followin",
+    "channelId": "followin",
     "url": "followin.io",
     "path": "/topic/:topicId/:lang?",
     "categories": [
@@ -1382,6 +1471,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=foresightnews.pro",
     "channel": "Foresight News",
+    "channelId": "foresightnews",
     "url": "foresightnews.pro",
     "path": "/article",
     "categories": [
@@ -1395,6 +1485,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=foresightnews.pro",
     "channel": "Foresight News",
+    "channelId": "foresightnews",
     "url": "foresightnews.pro",
     "path": "/",
     "lang": [
@@ -1404,6 +1495,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=foresightnews.pro",
     "channel": "Foresight News",
+    "channelId": "foresightnews",
     "url": "foresightnews.pro",
     "path": "/news",
     "categories": [
@@ -1417,6 +1509,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=fosshub.com",
     "channel": "FossHub",
+    "channelId": "fosshub",
     "url": "fosshub.com",
     "path": "/:id",
     "categories": [
@@ -1432,6 +1525,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=freecomputerbooks.com",
     "channel": "Free Computer Books",
+    "channelId": "freecomputerbooks",
     "url": "freecomputerbooks.com",
     "path": "/:category?",
     "categories": [
@@ -1447,6 +1541,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=ftchinese.com",
     "channel": "Financial Times",
+    "channelId": "ft",
     "url": "ftchinese.com",
     "path": "/myft/:key",
     "categories": [
@@ -1462,6 +1557,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=fx-markets.com",
     "channel": "FX Markets",
+    "channelId": "fx-markets",
     "url": "fx-markets.com",
     "path": "/:channel",
     "categories": [
@@ -1477,6 +1573,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=gamersecret.com",
     "channel": "Gamer Secret",
+    "channelId": "gamersecret",
     "url": "gamersecret.com",
     "path": "/:type?/:category?",
     "categories": [
@@ -1493,6 +1590,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=github.com",
     "channel": "GitHub",
+    "channelId": "github",
     "url": "github.com",
     "path": "/comments/:user/:repo/:number?",
     "categories": [
@@ -1510,6 +1608,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=github.com",
     "channel": "GitHub",
+    "channelId": "github",
     "url": "github.com",
     "path": "/contributors/:user/:repo/:order?/:anon?",
     "categories": [
@@ -1528,6 +1627,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=github.com",
     "channel": "GitHub",
+    "channelId": "github",
     "url": "github.com",
     "path": "/issue/:user/:repo/:state?/:labels?",
     "categories": [
@@ -1546,6 +1646,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=github.com",
     "channel": "GitHub",
+    "channelId": "github",
     "url": "github.com",
     "path": "/pull/:user/:repo/:state?/:labels?",
     "categories": [
@@ -1564,6 +1665,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=github.com",
     "channel": "GitHub",
+    "channelId": "github",
     "url": "github.com",
     "path": "/pulse/:user/:repo/:period?",
     "categories": [
@@ -1581,6 +1683,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=github.com",
     "channel": "GitHub",
+    "channelId": "github",
     "url": "github.com",
     "path": "/search/:query/:sort?/:order?",
     "categories": [
@@ -1598,6 +1701,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=github.com",
     "channel": "GitHub",
+    "channelId": "github",
     "url": "github.com",
     "path": "/starred_repos/:user",
     "categories": [
@@ -1613,6 +1717,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=github.com",
     "channel": "GitHub",
+    "channelId": "github",
     "url": "github.com",
     "path": "/topics/:name/:qs?",
     "categories": [
@@ -1629,6 +1734,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=github.com",
     "channel": "GitHub",
+    "channelId": "github",
     "url": "github.com",
     "path": "/trending/:since/:language/:spoken_language?",
     "categories": [
@@ -1646,6 +1752,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=github.com",
     "channel": "GitHub",
+    "channelId": "github",
     "url": "github.com",
     "path": "/wiki/:user/:repo/:page?",
     "categories": [
@@ -1663,6 +1770,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=gofans.cn",
     "channel": "GoFans",
+    "channelId": "gofans",
     "url": "gofans.cn",
     "path": "/:kind?",
     "categories": [
@@ -1678,6 +1786,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=www.google.com",
     "channel": "Google",
+    "channelId": "google",
     "url": "www.google.com",
     "path": "/album/:id",
     "categories": [
@@ -1693,6 +1802,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=www.google.com",
     "channel": "Google",
+    "channelId": "google",
     "url": "www.google.com",
     "path": "/doodles/:language?",
     "categories": [
@@ -1708,6 +1818,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=www.google.com",
     "channel": "Google",
+    "channelId": "google",
     "url": "www.google.com",
     "path": "/chrome/extension/:id",
     "categories": [
@@ -1723,6 +1834,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=www.google.com",
     "channel": "Google",
+    "channelId": "google",
     "url": "www.google.com",
     "path": "/fonts/:sort?",
     "categories": [
@@ -1738,6 +1850,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=www.google.com",
     "channel": "Google",
+    "channelId": "google",
     "url": "www.google.com",
     "path": "/news/:category/:locale",
     "categories": [
@@ -1754,6 +1867,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=www.google.com",
     "channel": "Google",
+    "channelId": "google",
     "url": "www.google.com",
     "path": "/scholar/:query",
     "categories": [
@@ -1769,6 +1883,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=www.google.com",
     "channel": "Google",
+    "channelId": "google",
     "url": "www.google.com",
     "path": "/search/:keyword/:language?",
     "categories": [
@@ -1785,6 +1900,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=greasyfork.org",
     "channel": "Greasy Fork",
+    "channelId": "greasyfork",
     "url": "greasyfork.org",
     "path": "/scripts/:script/feedback",
     "categories": [
@@ -1800,6 +1916,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=greasyfork.org",
     "channel": "Greasy Fork",
+    "channelId": "greasyfork",
     "url": "greasyfork.org",
     "path": [
       "/:language/:domain?",
@@ -1819,6 +1936,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=greasyfork.org",
     "channel": "Greasy Fork",
+    "channelId": "greasyfork",
     "url": "greasyfork.org",
     "path": [
       "/:language/:domain?",
@@ -1838,6 +1956,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=greasyfork.org",
     "channel": "Greasy Fork",
+    "channelId": "greasyfork",
     "url": "greasyfork.org",
     "path": "/scripts/:script/versions",
     "categories": [
@@ -1853,6 +1972,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=grist.org",
     "channel": "Grist",
+    "channelId": "grist",
     "url": "grist.org",
     "path": "/series/:series",
     "categories": [
@@ -1868,6 +1988,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=grist.org",
     "channel": "Grist",
+    "channelId": "grist",
     "url": "grist.org",
     "path": "/topic/:topic",
     "categories": [
@@ -1883,6 +2004,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=gumroad.com",
     "channel": "Gumroad",
+    "channelId": "gumroad",
     "url": "gumroad.com",
     "path": "/:username/:products",
     "categories": [
@@ -1899,6 +2021,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=hackmd.io",
     "channel": "HackMD",
+    "channelId": "hackmd",
     "url": "hackmd.io",
     "path": "/profile/:path",
     "categories": [
@@ -1914,6 +2037,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=syosetu.org",
     "channel": "hameln",
+    "channelId": "hameln",
     "url": "syosetu.org",
     "path": "/chapter/:id",
     "categories": [
@@ -1929,6 +2053,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=www.health.harvard.edu",
     "channel": "Harvard Health Publishing",
+    "channelId": "harvard",
     "url": "www.health.harvard.edu",
     "path": "/health/blog",
     "categories": [
@@ -1942,6 +2067,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=hbr.org",
     "channel": "Harvard Business Review",
+    "channelId": "hbr",
     "url": "hbr.org",
     "path": "/topic/:topic?/:type?",
     "categories": [
@@ -1958,6 +2084,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=www.hotukdeals.com",
     "channel": "hotukdeals",
+    "channelId": "hotukdeals",
     "url": "www.hotukdeals.com",
     "path": "/:type",
     "categories": [
@@ -1973,6 +2100,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=hoyolab.com",
     "channel": "HoYoLAB",
+    "channelId": "hoyolab",
     "url": "hoyolab.com",
     "path": "/news/:language/:gids/:type",
     "categories": [
@@ -1990,6 +2118,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=ianspriggs.com",
     "channel": "Ian Spriggss",
+    "channelId": "ianspriggs",
     "url": "ianspriggs.com",
     "path": "/:category?",
     "categories": [
@@ -2005,6 +2134,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=icac.org.hk",
     "channel": "Hong Kong Independent Commission Against Corruption 香港廉政公署",
+    "channelId": "icac",
     "url": "icac.org.hk",
     "path": "/news/:lang?",
     "categories": [
@@ -2020,6 +2150,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=www.ieee.org",
     "channel": "IEEE Xplore",
+    "channelId": "ieee",
     "url": "www.ieee.org",
     "path": "/journal/:journal/earlyaccess/:sortType?",
     "categories": [
@@ -2036,6 +2167,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=indiansinkuwait.com",
     "channel": "Indians in Kuwait",
+    "channelId": "indiansinkuwait",
     "url": "indiansinkuwait.com",
     "path": "/latest",
     "categories": [
@@ -2049,6 +2181,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=pubsonline.informs.org",
     "channel": "INFORMS",
+    "channelId": "informs",
     "url": "pubsonline.informs.org",
     "path": "/:category?",
     "categories": [
@@ -2064,6 +2197,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=inoreader.com",
     "channel": "Inoreader",
+    "channelId": "inoreader",
     "url": "inoreader.com",
     "path": "/rss/:user/:tag",
     "categories": [
@@ -2080,6 +2214,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=www.instagram.com",
     "channel": "Instagram",
+    "channelId": "instagram",
     "url": "www.instagram.com",
     "path": "/:category/:key",
     "categories": [
@@ -2096,6 +2231,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=www.instagram.com",
     "channel": "Instagram",
+    "channelId": "instagram",
     "url": "www.instagram.com",
     "path": "/2/:category/:key",
     "categories": [
@@ -2112,6 +2248,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=instructables.com",
     "channel": "Instructables",
+    "channelId": "instructables",
     "url": "instructables.com",
     "path": "/projects/:category?",
     "categories": [
@@ -2127,6 +2264,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=ipsw.me",
     "channel": "IPSW.me",
+    "channelId": "ipsw",
     "url": "ipsw.me",
     "path": "/index/:ptype/:pname",
     "categories": [
@@ -2143,6 +2281,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=issuehunt.io",
     "channel": "Issue Hunt",
+    "channelId": "issuehunt",
     "url": "issuehunt.io",
     "path": "/funded/:username/:repo",
     "categories": [
@@ -2159,6 +2298,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=itch.io",
     "channel": "itch.io",
+    "channelId": "itch",
     "url": "itch.io",
     "path": "/devlog/:user/:id",
     "categories": [
@@ -2175,6 +2315,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=itch.io",
     "channel": "itch.io",
+    "channelId": "itch",
     "url": "itch.io",
     "path": "/posts/:topic/:id",
     "categories": [
@@ -2191,6 +2332,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=trackings.post.japanpost.jp",
     "channel": "Japanpost 日本郵便",
+    "channelId": "japanpost",
     "url": "trackings.post.japanpost.jp",
     "path": "/track/:reqCode/:locale?",
     "categories": [
@@ -2207,6 +2349,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=javlibrary.com",
     "channel": "JAVLibrary",
+    "channelId": "javlibrary",
     "url": "javlibrary.com",
     "path": "/bestreviews/:language?/:mode?",
     "categories": [
@@ -2223,6 +2366,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=javlibrary.com",
     "channel": "JAVLibrary",
+    "channelId": "javlibrary",
     "url": "javlibrary.com",
     "path": "/videos/maker/:maker?/:language?/:mode?",
     "categories": [
@@ -2240,6 +2384,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=javlibrary.com",
     "channel": "JAVLibrary",
+    "channelId": "javlibrary",
     "url": "javlibrary.com",
     "path": "/star/:id/:language?/:mode?",
     "categories": [
@@ -2257,6 +2402,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=jornada.com.mx",
     "channel": "La Jornada",
+    "channelId": "jornada",
     "url": "jornada.com.mx",
     "path": "/:date?/:category?",
     "categories": [
@@ -2273,6 +2419,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=jseea.cn",
     "channel": "Unknown",
+    "channelId": "jseea",
     "url": "jseea.cn",
     "path": "/news/:type?",
     "lang": [
@@ -2282,6 +2429,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=world.kbs.co.kr",
     "channel": "KBS",
+    "channelId": "kbs",
     "url": "world.kbs.co.kr",
     "path": "/news/:category?/:language?",
     "categories": [
@@ -2298,6 +2446,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=world.kbs.co.kr",
     "channel": "KBS",
+    "channelId": "kbs",
     "url": "world.kbs.co.kr",
     "path": "/today/:language?",
     "categories": [
@@ -2313,6 +2462,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=kemono.su",
     "channel": "Kemono",
+    "channelId": "kemono",
     "url": "kemono.su",
     "path": "/:source?/:id?",
     "categories": [
@@ -2329,6 +2479,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=kimlaw.or.kr",
     "channel": "The Korea Institute of Marine Law",
+    "channelId": "kimlaw",
     "url": "kimlaw.or.kr",
     "path": "/thesis",
     "categories": [
@@ -2342,6 +2493,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=kuwaitlocal.com",
     "channel": "Kuwait Local",
+    "channelId": "kuwaitlocal",
     "url": "kuwaitlocal.com",
     "path": "/:category?",
     "categories": [
@@ -2357,6 +2509,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=layoffs.fyi",
     "channel": "Layoffs.fyi",
+    "channelId": "layoffs",
     "url": "layoffs.fyi",
     "path": "/",
     "lang": [
@@ -2366,6 +2519,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=undefined",
     "channel": "Lemmy",
+    "channelId": "lemmy",
     "path": "/:community/:sort?",
     "categories": [
       "social-media"
@@ -2381,6 +2535,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=today.line.me",
     "channel": "LINE",
+    "channelId": "line",
     "url": "today.line.me",
     "path": "/today/:edition/publisher/:id",
     "categories": [
@@ -2397,6 +2552,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=today.line.me",
     "channel": "LINE",
+    "channelId": "line",
     "url": "today.line.me",
     "path": "/today/:edition?/:tab?",
     "categories": [
@@ -2413,6 +2569,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=www.lofter.com",
     "channel": "Lofter",
+    "channelId": "lofter",
     "url": "www.lofter.com",
     "path": "/user/:name?",
     "categories": [
@@ -2428,6 +2585,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=www.lovelive-anime.jp",
     "channel": "lovelive-anime",
+    "channelId": "lovelive-anime",
     "url": "www.lovelive-anime.jp",
     "path": "/news/:option?",
     "categories": [
@@ -2443,6 +2601,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=www.lovelive-anime.jp",
     "channel": "lovelive-anime",
+    "channelId": "lovelive-anime",
     "url": "www.lovelive-anime.jp",
     "path": "/topics/:abbr/:category?/:option?",
     "categories": [
@@ -2460,6 +2619,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=macmenubar.com",
     "channel": "MacMenuBar",
+    "channelId": "macmenubar",
     "url": "macmenubar.com",
     "path": "/recently/:category?",
     "categories": [
@@ -2475,6 +2635,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=macupdate.com",
     "channel": "MacUpdate",
+    "channelId": "macupdate",
     "url": "macupdate.com",
     "path": "/app/:appId/:appSlug?",
     "categories": [
@@ -2491,6 +2652,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=magazinelib.com",
     "channel": "MagazineLib",
+    "channelId": "magazinelib",
     "url": "magazinelib.com",
     "path": "/latest-magazine/:query?",
     "categories": [
@@ -2506,6 +2668,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=mangadex.org",
     "channel": "Unknown",
+    "channelId": "mangadex",
     "url": "mangadex.org",
     "path": "/:id/:lang?",
     "lang": [
@@ -2515,6 +2678,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=mastodon.social",
     "channel": "Mastodon",
+    "channelId": "mastodon",
     "url": "mastodon.social",
     "path": "/acct/:acct/statuses/:only_media?",
     "categories": [
@@ -2531,6 +2695,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=mastodon.social",
     "channel": "Mastodon",
+    "channelId": "mastodon",
     "url": "mastodon.social",
     "path": "/timeline/:site/:only_media?",
     "categories": [
@@ -2547,6 +2712,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=mastodon.social",
     "channel": "Mastodon",
+    "channelId": "mastodon",
     "url": "mastodon.social",
     "path": "/remote/:site/:only_media?",
     "categories": [
@@ -2563,6 +2729,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=www.mdpi.com",
     "channel": "MDPI",
+    "channelId": "mdpi",
     "url": "www.mdpi.com",
     "path": "/:journal",
     "categories": [
@@ -2578,6 +2745,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=www.metmuseum.org",
     "channel": "Unknown",
+    "channelId": "metmuseum",
     "url": "www.metmuseum.org",
     "path": "/exhibitions/:state?",
     "lang": [
@@ -2587,6 +2755,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=microsoftedge.microsoft.com",
     "channel": "Microsoft Edge",
+    "channelId": "microsoft",
     "url": "microsoftedge.microsoft.com",
     "path": "/edge/addon/:crxid",
     "categories": [
@@ -2602,6 +2771,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=mindmeister.com",
     "channel": "MindMeister",
+    "channelId": "mindmeister",
     "url": "mindmeister.com",
     "path": "/:category?/:language?",
     "categories": [
@@ -2618,6 +2788,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=miniflux.app",
     "channel": "MiniFlux",
+    "channelId": "miniflux",
     "url": "miniflux.app",
     "path": "/entry/:feeds/:parameters?",
     "categories": [
@@ -2634,6 +2805,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=miniflux.app",
     "channel": "MiniFlux",
+    "channelId": "miniflux",
     "url": "miniflux.app",
     "path": "/subscription/:parameters?",
     "categories": [
@@ -2649,6 +2821,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=misskey.io",
     "channel": "Misskey",
+    "channelId": "misskey",
     "url": "misskey.io",
     "path": "/notes/featured/:site",
     "categories": [
@@ -2664,6 +2837,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=miui.com",
     "channel": "MIUI",
+    "channelId": "miui",
     "url": "miui.com",
     "path": "/:device/:type?/:region?",
     "categories": [
@@ -2681,6 +2855,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=www.mixcloud.com",
     "channel": "Mixcloud",
+    "channelId": "mixcloud",
     "url": "www.mixcloud.com",
     "path": "/:username/:type?",
     "categories": [
@@ -2697,6 +2872,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=modrinth.com",
     "channel": "Modrinth",
+    "channelId": "modrinth",
     "url": "modrinth.com",
     "path": "/project/:id/versions/:routeParams?",
     "categories": [
@@ -2713,6 +2889,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=myfigurecollection.net",
     "channel": "MyFigureCollection",
+    "channelId": "myfigurecollection",
     "url": "myfigurecollection.net",
     "path": "/activity/:category?/:language?/:latestAdditions?/:latestEdits?/:latestAlerts?/:latestPictures?",
     "categories": [
@@ -2733,6 +2910,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=dev.mysql.com",
     "channel": "MySQL",
+    "channelId": "mysql",
     "url": "dev.mysql.com",
     "path": "/release/:version?",
     "categories": [
@@ -2748,6 +2926,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=apod.nasa.gov",
     "channel": "NASA Astronomy Picture of the Day",
+    "channelId": "nasa",
     "url": "apod.nasa.gov",
     "path": "/apod-cn",
     "categories": [
@@ -2761,6 +2940,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=apod.nasa.gov",
     "channel": "NASA Astronomy Picture of the Day",
+    "channelId": "nasa",
     "url": "apod.nasa.gov",
     "path": "/apod-ncku",
     "categories": [
@@ -2774,6 +2954,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=apod.nasa.gov",
     "channel": "NASA Astronomy Picture of the Day",
+    "channelId": "nasa",
     "url": "apod.nasa.gov",
     "path": "/apod",
     "categories": [
@@ -2787,6 +2968,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=www.nationalgeographic.com",
     "channel": "National Geographic",
+    "channelId": "nationalgeographic",
     "url": "www.nationalgeographic.com",
     "path": "/latest-stories",
     "categories": [
@@ -2800,6 +2982,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=nature.com",
     "channel": "Nature Journal",
+    "channelId": "nature",
     "url": "nature.com",
     "path": "/cover",
     "categories": [
@@ -2813,6 +2996,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=nature.com",
     "channel": "Nature Journal",
+    "channelId": "nature",
     "url": "nature.com",
     "path": "/highlight/:journal?",
     "categories": [
@@ -2828,6 +3012,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=nature.com",
     "channel": "Nature Journal",
+    "channelId": "nature",
     "url": "nature.com",
     "path": "/news-and-comment/:journal?",
     "lang": [
@@ -2837,6 +3022,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=nature.com",
     "channel": "Nature Journal",
+    "channelId": "nature",
     "url": "nature.com",
     "path": "/news",
     "categories": [
@@ -2850,6 +3036,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=nature.com",
     "channel": "Nature Journal",
+    "channelId": "nature",
     "url": "nature.com",
     "path": "/research/:journal?",
     "categories": [
@@ -2865,6 +3052,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=nature.com",
     "channel": "Nature Journal",
+    "channelId": "nature",
     "url": "nature.com",
     "path": "/siteindex",
     "categories": [
@@ -2878,6 +3066,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=nautil.us",
     "channel": "Nautilus",
+    "channelId": "nautil",
     "url": "nautil.us",
     "path": "/topic/:tid",
     "categories": [
@@ -2893,6 +3082,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=nber.org",
     "channel": "National Bureau of Economic Research",
+    "channelId": "nber",
     "url": "nber.org",
     "path": [
       "/papers",
@@ -2909,6 +3099,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=nber.org",
     "channel": "National Bureau of Economic Research",
+    "channelId": "nber",
     "url": "nber.org",
     "path": [
       "/papers",
@@ -2925,6 +3116,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=ndss-symposium.org",
     "channel": "Network and Distributed System Security (NDSS) Symposium",
+    "channelId": "ndss-symposium",
     "url": "ndss-symposium.org",
     "path": "/ndss",
     "categories": [
@@ -2938,6 +3130,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=neatdownloadmanager.com",
     "channel": "Neat Download Manager",
+    "channelId": "neatdownloadmanager",
     "url": "neatdownloadmanager.com",
     "path": "/download/:os?",
     "categories": [
@@ -2953,6 +3146,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=nhentai.net",
     "channel": "nhentai",
+    "channelId": "nhentai",
     "url": "nhentai.net",
     "path": "/:key/:keyword/:mode?",
     "categories": [
@@ -2970,6 +3164,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=nhentai.net",
     "channel": "nhentai",
+    "channelId": "nhentai",
     "url": "nhentai.net",
     "path": "/search/:keyword/:mode?",
     "categories": [
@@ -2986,6 +3181,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=www3.nhk.or.jp",
     "channel": "NHK",
+    "channelId": "nhk",
     "url": "www3.nhk.or.jp",
     "path": "/news/:lang?",
     "categories": [
@@ -3001,6 +3197,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=nodejs.org",
     "channel": "Node.js",
+    "channelId": "nodejs",
     "url": "nodejs.org",
     "path": "/blog/:language?",
     "categories": [
@@ -3016,6 +3213,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=notefolio.net",
     "channel": "Notefolio",
+    "channelId": "notefolio",
     "url": "notefolio.net",
     "path": "/search/:category?/:order?/:time?/:query?",
     "categories": [
@@ -3034,6 +3232,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=notion.so",
     "channel": "Notion",
+    "channelId": "notion",
     "url": "notion.so",
     "path": "/database/:databaseId",
     "categories": [
@@ -3049,6 +3248,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=npr.org",
     "channel": "National Public Radio",
+    "channelId": "npr",
     "url": "npr.org",
     "path": "/:endpoint?",
     "categories": [
@@ -3064,6 +3264,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=oo-software.com",
     "channel": "O&O Software",
+    "channelId": "oo-software",
     "url": "oo-software.com",
     "path": "/changelog/:id",
     "categories": [
@@ -3079,6 +3280,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=openai.com",
     "channel": "OpenAI",
+    "channelId": "openai",
     "url": "openai.com",
     "path": "/blog/:tag?",
     "categories": [
@@ -3094,6 +3296,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=openwrt.org",
     "channel": "Unknown",
+    "channelId": "openwrt",
     "url": "openwrt.org",
     "path": "/releases/:brand/:model",
     "lang": [
@@ -3103,6 +3306,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=orcid.org",
     "channel": "ORCID",
+    "channelId": "orcid",
     "url": "orcid.org",
     "path": "/:id",
     "categories": [
@@ -3118,6 +3322,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=osu.ppy.sh",
     "channel": "osu!",
+    "channelId": "osu",
     "url": "osu.ppy.sh",
     "path": "/packs/:type?",
     "categories": [
@@ -3133,6 +3338,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=otobanana.com",
     "channel": "OTOBANANA",
+    "channelId": "otobanana",
     "url": "otobanana.com",
     "path": "/user/:id/cast",
     "categories": [
@@ -3148,6 +3354,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=otobanana.com",
     "channel": "OTOBANANA",
+    "channelId": "otobanana",
     "url": "otobanana.com",
     "path": "/user/:id/livestream",
     "categories": [
@@ -3163,6 +3370,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=otobanana.com",
     "channel": "OTOBANANA",
+    "channelId": "otobanana",
     "url": "otobanana.com",
     "path": "/user/:id",
     "categories": [
@@ -3178,6 +3386,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=academic.oup.com",
     "channel": "Oxford University Press",
+    "channelId": "oup",
     "url": "academic.oup.com",
     "path": "/journals/:name",
     "categories": [
@@ -3193,6 +3402,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=outage.report",
     "channel": "Outage.Report",
+    "channelId": "outagereport",
     "url": "outage.report",
     "path": "/:name/:count?",
     "categories": [
@@ -3209,6 +3419,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=parliament.go.th",
     "channel": "Thailand Parliament",
+    "channelId": "parliament",
     "url": "parliament.go.th",
     "path": "/section77/:type?",
     "categories": [
@@ -3224,6 +3435,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=patagonia.com",
     "channel": "Patagonia",
+    "channelId": "patagonia",
     "url": "patagonia.com",
     "path": "/new-arrivals/:category",
     "categories": [
@@ -3239,6 +3451,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=penguinrandomhouse.com",
     "channel": "Penguin Random House",
+    "channelId": "penguin-random-house",
     "url": "penguinrandomhouse.com",
     "path": "/articles",
     "categories": [
@@ -3252,6 +3465,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=penguinrandomhouse.com",
     "channel": "Penguin Random House",
+    "channelId": "penguin-random-house",
     "url": "penguinrandomhouse.com",
     "path": "/the-read-down",
     "categories": [
@@ -3265,6 +3479,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=phoronix.com",
     "channel": "Phoronix",
+    "channelId": "phoronix",
     "url": "phoronix.com",
     "path": "/:category?/:topic?",
     "categories": [
@@ -3281,6 +3496,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=www.picuki.com",
     "channel": "Instagram",
+    "channelId": "picuki",
     "url": "www.picuki.com",
     "path": "/profile/:id/:functionalFlag?",
     "categories": [
@@ -3297,6 +3513,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=pixabay.com",
     "channel": "Pixabay",
+    "channelId": "pixabay",
     "url": "pixabay.com",
     "path": "/search/:q/:order?",
     "categories": [
@@ -3313,6 +3530,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=www.pixiv.net",
     "channel": "pixiv",
+    "channelId": "pixiv",
     "url": "www.pixiv.net",
     "path": "/user/bookmarks/:id",
     "categories": [
@@ -3328,6 +3546,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=www.pixiv.net",
     "channel": "pixiv",
+    "channelId": "pixiv",
     "url": "www.pixiv.net",
     "path": "/user/novels/:id",
     "categories": [
@@ -3343,6 +3562,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=www.pixiv.net",
     "channel": "pixiv",
+    "channelId": "pixiv",
     "url": "www.pixiv.net",
     "path": "/search/:keyword/:order?/:mode?",
     "categories": [
@@ -3360,6 +3580,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=www.pixiv.net",
     "channel": "pixiv",
+    "channelId": "pixiv",
     "url": "www.pixiv.net",
     "path": "/user/:id",
     "categories": [
@@ -3375,6 +3596,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=plurk.com",
     "channel": "Plurk",
+    "channelId": "plurk",
     "url": "plurk.com",
     "path": "/news/:lang?",
     "categories": [
@@ -3390,6 +3612,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=plurk.com",
     "channel": "Plurk",
+    "channelId": "plurk",
     "url": "plurk.com",
     "path": "/search/:keyword",
     "categories": [
@@ -3405,6 +3628,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=plurk.com",
     "channel": "Plurk",
+    "channelId": "plurk",
     "url": "plurk.com",
     "path": "/top/:category?/:lang?",
     "categories": [
@@ -3421,6 +3645,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=plurk.com",
     "channel": "Plurk",
+    "channelId": "plurk",
     "url": "plurk.com",
     "path": "/topic/:topic",
     "categories": [
@@ -3436,6 +3661,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=plurk.com",
     "channel": "Plurk",
+    "channelId": "plurk",
     "url": "plurk.com",
     "path": "/user/:user",
     "categories": [
@@ -3451,6 +3677,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=pnas.org",
     "channel": "Proceedings of The National Academy of Sciences",
+    "channelId": "pnas",
     "url": "pnas.org",
     "path": "/:topicPath{.+}?",
     "lang": [
@@ -3460,6 +3687,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=pornhub.com",
     "channel": "PornHub",
+    "channelId": "pornhub",
     "url": "pornhub.com",
     "path": "/:language?/category_url/:url?",
     "categories": [
@@ -3476,6 +3704,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=pornhub.com",
     "channel": "PornHub",
+    "channelId": "pornhub",
     "url": "pornhub.com",
     "path": "/category/:caty",
     "categories": [
@@ -3491,6 +3720,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=pornhub.com",
     "channel": "PornHub",
+    "channelId": "pornhub",
     "url": "pornhub.com",
     "path": "/:language?/model/:username/:sort?",
     "categories": [
@@ -3508,6 +3738,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=pornhub.com",
     "channel": "PornHub",
+    "channelId": "pornhub",
     "url": "pornhub.com",
     "path": "/:language?/pornstar/:username/:sort?",
     "categories": [
@@ -3525,6 +3756,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=pornhub.com",
     "channel": "PornHub",
+    "channelId": "pornhub",
     "url": "pornhub.com",
     "path": "/:language?/users/:username",
     "categories": [
@@ -3541,6 +3773,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=www.playstation.com",
     "channel": "PlayStation Store",
+    "channelId": "ps",
     "url": "www.playstation.com",
     "path": "/monthly-games",
     "categories": [
@@ -3554,6 +3787,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=ici.radio-canada.ca",
     "channel": "Radio-Canada.ca",
+    "channelId": "radio-canada",
     "url": "ici.radio-canada.ca",
     "path": "/latest/:language?",
     "categories": [
@@ -3569,6 +3803,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=rarehistoricalphotos.com",
     "channel": "Rare Historical Photos",
+    "channelId": "rarehistoricalphotos",
     "url": "rarehistoricalphotos.com",
     "path": "/",
     "lang": [
@@ -3578,6 +3813,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=rattibha.com",
     "channel": "Rattibha",
+    "channelId": "rattibha",
     "url": "rattibha.com",
     "path": "/user/:user",
     "categories": [
@@ -3593,6 +3829,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=rawkuma.com",
     "channel": "Rawkuma",
+    "channelId": "rawkuma",
     "url": "rawkuma.com",
     "path": "/manga/:id",
     "categories": [
@@ -3608,6 +3845,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=reuters.com",
     "channel": "Reuters 路透社",
+    "channelId": "reuters",
     "url": "reuters.com",
     "path": "/:category/:topic?",
     "categories": [
@@ -3624,6 +3862,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=routledge.com",
     "channel": "Routledge",
+    "channelId": "routledge",
     "url": "routledge.com",
     "path": "/:bookName/book-series/:bookId",
     "lang": [
@@ -3633,6 +3872,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=pubs.rsc.org",
     "channel": "Royal Society of Chemistry",
+    "channelId": "rsc",
     "url": "pubs.rsc.org",
     "path": "/journal/:id/:category?",
     "categories": [
@@ -3649,6 +3889,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=docs.rsshub.app",
     "channel": "RSSHub",
+    "channelId": "rsshub",
     "url": "docs.rsshub.app",
     "path": "/routes/:lang?",
     "categories": [
@@ -3664,6 +3905,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=docs.rsshub.app",
     "channel": "RSSHub",
+    "channelId": "rsshub",
     "url": "docs.rsshub.app",
     "path": "/transform/html/:url/:routeParams",
     "categories": [
@@ -3680,6 +3922,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=docs.rsshub.app",
     "channel": "RSSHub",
+    "channelId": "rsshub",
     "url": "docs.rsshub.app",
     "path": "/transform/json/:url/:routeParams",
     "categories": [
@@ -3696,6 +3939,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=science.org",
     "channel": "Science Magazine",
+    "channelId": "science",
     "url": "science.org",
     "path": "/blogs/:name?",
     "categories": [
@@ -3711,6 +3955,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=science.org",
     "channel": "Science Magazine",
+    "channelId": "science",
     "url": "science.org",
     "path": "/cover",
     "categories": [
@@ -3724,6 +3969,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=science.org",
     "channel": "Science Magazine",
+    "channelId": "science",
     "url": "science.org",
     "path": "/current/:journal?",
     "categories": [
@@ -3739,6 +3985,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=science.org",
     "channel": "Science Magazine",
+    "channelId": "science",
     "url": "science.org",
     "path": "/early/:journal?",
     "categories": [
@@ -3754,6 +4001,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=sciencedirect.com",
     "channel": "ScienceDirect",
+    "channelId": "sciencedirect",
     "url": "sciencedirect.com",
     "path": "/journal/:id",
     "categories": [
@@ -3769,6 +4017,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=scmp.com",
     "channel": "Corona Virus Disease 2019",
+    "channelId": "scmp",
     "url": "scmp.com",
     "path": "/:category_id",
     "categories": [
@@ -3784,6 +4033,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=scmp.com",
     "channel": "Corona Virus Disease 2019",
+    "channelId": "scmp",
     "url": "scmp.com",
     "path": "/topics/:topic",
     "categories": [
@@ -3799,6 +4049,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=seekingalpha.com",
     "channel": "Seeking Alpha",
+    "channelId": "seekingalpha",
     "url": "seekingalpha.com",
     "path": "/:symbol/:category?",
     "categories": [
@@ -3815,6 +4066,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=sensortower.com",
     "channel": "Sensor Tower",
+    "channelId": "sensortower",
     "url": "sensortower.com",
     "path": "/blog/:language?",
     "categories": [
@@ -3830,6 +4082,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=shopback.com.tw",
     "channel": "ShopBack",
+    "channelId": "shopback",
     "url": "shopback.com.tw",
     "path": "/:store",
     "categories": [
@@ -3845,6 +4098,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=www.shoppingdesign.com.tw",
     "channel": "Shopping Design",
+    "channelId": "shoppingdesign",
     "url": "www.shoppingdesign.com.tw",
     "path": "/posts",
     "categories": [
@@ -3858,6 +4112,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=sigsac.org",
     "channel": "ACM Special Interest Group on Security Audit and Control",
+    "channelId": "sigsac",
     "url": "sigsac.org",
     "path": "/ccs",
     "categories": [
@@ -3871,6 +4126,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=skysports.com",
     "channel": "Sky Sports",
+    "channelId": "skysports",
     "url": "skysports.com",
     "path": "/news/:team",
     "categories": [
@@ -3886,6 +4142,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=smashingmagazine.com",
     "channel": "Smashing Magazine",
+    "channelId": "smashingmagazine",
     "url": "smashingmagazine.com",
     "path": "/:category?",
     "categories": [
@@ -3901,6 +4158,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=www.sourceforge.net",
     "channel": "SourceForge",
+    "channelId": "sourceforge",
     "url": "www.sourceforge.net",
     "path": "/:routeParams?",
     "categories": [
@@ -3916,6 +4174,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=open.spotify.com",
     "channel": "Spotify",
+    "channelId": "spotify",
     "url": "open.spotify.com",
     "path": "/saved/:limit?",
     "categories": [
@@ -3931,6 +4190,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=www.springer.com",
     "channel": "Springer",
+    "channelId": "springer",
     "url": "www.springer.com",
     "path": "/journal/:journal",
     "categories": [
@@ -3946,6 +4206,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=store.steampowered.com",
     "channel": "Steam",
+    "channelId": "steam",
     "url": "store.steampowered.com",
     "path": "/search/:params",
     "categories": [
@@ -3961,6 +4222,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=blog.stratechery.com",
     "channel": "Stratechery by Ben Thompson",
+    "channelId": "stratechery",
     "url": "blog.stratechery.com",
     "path": "/",
     "lang": [
@@ -3970,6 +4232,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=swissinfo.ch",
     "channel": "swissinfo",
+    "channelId": "swissinfo",
     "url": "swissinfo.ch",
     "path": "/:language?/:category?",
     "categories": [
@@ -3986,6 +4249,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=ncode.syosetu.com",
     "channel": "syosetu",
+    "channelId": "syosetu",
     "url": "ncode.syosetu.com",
     "path": "/chapter/:id",
     "categories": [
@@ -4001,6 +4265,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=tass.com",
     "channel": "Russian News Agency TASS",
+    "channelId": "tass",
     "url": "tass.com",
     "path": "/:category?",
     "categories": [
@@ -4016,6 +4281,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=techcrunch.com",
     "channel": "TechCrunch",
+    "channelId": "techcrunch",
     "url": "techcrunch.com",
     "path": "/news",
     "categories": [
@@ -4029,6 +4295,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=telecompaper.com",
     "channel": "Telecompaper",
+    "channelId": "telecompaper",
     "url": "telecompaper.com",
     "path": "/news/:caty/:year?/:country?/:type?",
     "categories": [
@@ -4047,6 +4314,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=telecompaper.com",
     "channel": "Telecompaper",
+    "channelId": "telecompaper",
     "url": "telecompaper.com",
     "path": "/search/:keyword?/:company?/:sort?/:period?",
     "categories": [
@@ -4065,6 +4333,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=t.me",
     "channel": "Telegram",
+    "channelId": "telegram",
     "url": "t.me",
     "path": "/channel/:username/:routeParams?",
     "categories": [
@@ -4081,6 +4350,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=t.me",
     "channel": "Telegram",
+    "channelId": "telegram",
     "url": "t.me",
     "path": "/stickerpack/:name",
     "categories": [
@@ -4096,6 +4366,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=mp.weixin.qq.com",
     "channel": "王者荣耀",
+    "channelId": "tencent",
     "url": "mp.weixin.qq.com",
     "path": "/qq/sdk/changelog/:platform",
     "categories": [
@@ -4111,6 +4382,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=undefined",
     "channel": "Unknown",
+    "channelId": "test",
     "path": "/:id",
     "lang": [
       "en"
@@ -4119,6 +4391,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=www.theatlantic.com",
     "channel": "The Atlantic",
+    "channelId": "theatlantic",
     "url": "www.theatlantic.com",
     "path": "/:category",
     "categories": [
@@ -4134,6 +4407,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=thehindu.com",
     "channel": "The Hindu",
+    "channelId": "thehindu",
     "url": "thehindu.com",
     "path": "/topic/:topic",
     "categories": [
@@ -4149,6 +4423,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=themoviedb.org",
     "channel": "The Movie Database",
+    "channelId": "themoviedb",
     "url": "themoviedb.org",
     "path": "/collection/:id/:lang?",
     "categories": [
@@ -4165,6 +4440,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=themoviedb.org",
     "channel": "The Movie Database",
+    "channelId": "themoviedb",
     "url": "themoviedb.org",
     "path": "/tv/:id/seasons/:seasonNumber/episodes/:lang?",
     "categories": [
@@ -4182,6 +4458,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=themoviedb.org",
     "channel": "The Movie Database",
+    "channelId": "themoviedb",
     "url": "themoviedb.org",
     "path": "/tv/:id/seasons/:lang?",
     "categories": [
@@ -4198,6 +4475,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=themoviedb.org",
     "channel": "The Movie Database",
+    "channelId": "themoviedb",
     "url": "themoviedb.org",
     "path": "/:mediaType/:sheet/:lang?",
     "categories": [
@@ -4215,6 +4493,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=themoviedb.org",
     "channel": "The Movie Database",
+    "channelId": "themoviedb",
     "url": "themoviedb.org",
     "path": "/trending/:mediaType/:timeWindow/:lang?",
     "categories": [
@@ -4232,6 +4511,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=theverge.com",
     "channel": "The Verge",
+    "channelId": "theverge",
     "url": "theverge.com",
     "path": "/:hub?",
     "categories": [
@@ -4247,6 +4527,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=thoughtco.com",
     "channel": "ThoughtCo",
+    "channelId": "thoughtco",
     "url": "thoughtco.com",
     "path": "/:category?",
     "categories": [
@@ -4262,6 +4543,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=threads.net",
     "channel": "Threads",
+    "channelId": "threads",
     "url": "threads.net",
     "path": "/:user/:routeParams?",
     "categories": [
@@ -4278,6 +4560,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=thwiki.cc",
     "channel": "THBWiki",
+    "channelId": "thwiki",
     "url": "thwiki.cc",
     "path": "/calendar/:before?/:after?",
     "categories": [
@@ -4294,6 +4577,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=tiktok.com",
     "channel": "TikTok",
+    "channelId": "tiktok",
     "url": "tiktok.com",
     "path": "/user/:user/:iframe?",
     "categories": [
@@ -4310,6 +4594,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=tokeninsight.com",
     "channel": "TokenInsight",
+    "channelId": "tokeninsight",
     "url": "tokeninsight.com",
     "path": "/blog/:lang?",
     "categories": [
@@ -4325,6 +4610,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=tokeninsight.com",
     "channel": "TokenInsight",
+    "channelId": "tokeninsight",
     "url": "tokeninsight.com",
     "path": "/bulletin/:lang?",
     "categories": [
@@ -4340,6 +4626,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=tokeninsight.com",
     "channel": "TokenInsight",
+    "channelId": "tokeninsight",
     "url": "tokeninsight.com",
     "path": "/report/:lang?",
     "categories": [
@@ -4355,6 +4642,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=trendingpapers.com",
     "channel": "Trending Papers",
+    "channelId": "trendingpapers",
     "url": "trendingpapers.com",
     "path": "/papers/:category?/:time?/:cited?",
     "categories": [
@@ -4372,6 +4660,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=tribalfootball.com",
     "channel": "Tribal Football",
+    "channelId": "tribalfootball",
     "url": "tribalfootball.com",
     "path": "/",
     "lang": [
@@ -4381,6 +4670,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=trow.cc",
     "channel": "The Ring of Wonder",
+    "channelId": "trow",
     "url": "trow.cc",
     "path": "/portal",
     "categories": [
@@ -4394,6 +4684,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=tvtropes.org",
     "channel": "TV Tropes",
+    "channelId": "tvtropes",
     "url": "tvtropes.org",
     "path": "/featured/:category?",
     "categories": [
@@ -4409,6 +4700,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=www.twitch.tv",
     "channel": "Twitch",
+    "channelId": "twitch",
     "url": "www.twitch.tv",
     "path": "/video/:login/:filter?",
     "categories": [
@@ -4425,6 +4717,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=twitter.com",
     "channel": "Twitter",
+    "channelId": "twitter",
     "url": "twitter.com",
     "path": "/keyword/:keyword/:routeParams?",
     "categories": [
@@ -4441,6 +4734,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=twitter.com",
     "channel": "Twitter",
+    "channelId": "twitter",
     "url": "twitter.com",
     "path": "/likes/:id/:routeParams?",
     "categories": [
@@ -4457,6 +4751,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=twitter.com",
     "channel": "Twitter",
+    "channelId": "twitter",
     "url": "twitter.com",
     "path": "/list/:id/:routeParams?",
     "categories": [
@@ -4474,6 +4769,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=twitter.com",
     "channel": "Twitter",
+    "channelId": "twitter",
     "url": "twitter.com",
     "path": "/media/:id/:routeParams?",
     "categories": [
@@ -4490,6 +4786,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=twitter.com",
     "channel": "Twitter",
+    "channelId": "twitter",
     "url": "twitter.com",
     "path": "/trends/:woeid?",
     "categories": [
@@ -4505,6 +4802,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=twitter.com",
     "channel": "Twitter",
+    "channelId": "twitter",
     "url": "twitter.com",
     "path": "/tweet/:id/status/:status/:original?",
     "categories": [
@@ -4522,6 +4820,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=twitter.com",
     "channel": "Twitter",
+    "channelId": "twitter",
     "url": "twitter.com",
     "path": "/user/:id/:routeParams?",
     "categories": [
@@ -4538,6 +4837,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=u3c3.com",
     "channel": "U9A9",
+    "channelId": "u3c3",
     "url": "u3c3.com",
     "path": [
       "/search/:keyword/:preview?",
@@ -4557,6 +4857,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=u3c3.com",
     "channel": "U9A9",
+    "channelId": "u3c3",
     "url": "u3c3.com",
     "path": [
       "/search/:keyword/:preview?",
@@ -4576,6 +4877,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=u9a9.com",
     "channel": "Unknown",
+    "channelId": "u9a9",
     "url": "u9a9.com",
     "path": [
       "/:preview?",
@@ -4588,6 +4890,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=u9a9.com",
     "channel": "Unknown",
+    "channelId": "u9a9",
     "url": "u9a9.com",
     "path": [
       "/:preview?",
@@ -4600,6 +4903,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=www.uber.com",
     "channel": "Uber 优步",
+    "channelId": "uber",
     "url": "www.uber.com",
     "path": "/blog/:maxPage?",
     "categories": [
@@ -4615,6 +4919,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=journals.uchicago.edu",
     "channel": "The University of Chicago Press: Journals",
+    "channelId": "uchicago",
     "url": "journals.uchicago.edu",
     "path": "/journals/current/:journal",
     "categories": [
@@ -4630,6 +4935,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=www.uniqlo.com",
     "channel": "Uniqlo",
+    "channelId": "uniqlo",
     "url": "www.uniqlo.com",
     "path": "/new/:country/:category",
     "categories": [
@@ -4646,6 +4952,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=rss.uptimerobot.com",
     "channel": "Uptime Robot",
+    "channelId": "uptimerobot",
     "url": "rss.uptimerobot.com",
     "path": "/rss/:id/:routeParams?",
     "categories": [
@@ -4662,6 +4969,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=urbandictionary.com",
     "channel": "Urban Dictionary",
+    "channelId": "urbandictionary",
     "url": "urbandictionary.com",
     "path": "/random",
     "categories": [
@@ -4675,6 +4983,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=gixnetwork.org",
     "channel": "University of Washington",
+    "channelId": "uw",
     "url": "gixnetwork.org",
     "path": "/gix/news/:category",
     "categories": [
@@ -4690,6 +4999,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=verfgh.baden-wuerttemberg.de",
     "channel": "Constitutional Court of Baden-Württemberg (Germany)",
+    "channelId": "verfghbw",
     "url": "verfgh.baden-wuerttemberg.de",
     "path": "/press/:keyword?",
     "categories": [
@@ -4705,6 +5015,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=vimeo.com",
     "channel": "Vimeo",
+    "channelId": "vimeo",
     "url": "vimeo.com",
     "path": "/category/:category/:staffpicks?",
     "categories": [
@@ -4721,6 +5032,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=vimeo.com",
     "channel": "Vimeo",
+    "channelId": "vimeo",
     "url": "vimeo.com",
     "path": "/channel/:channel",
     "categories": [
@@ -4736,6 +5048,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=vimeo.com",
     "channel": "Vimeo",
+    "channelId": "vimeo",
     "url": "vimeo.com",
     "path": "/user/:username/:cat?",
     "categories": [
@@ -4752,6 +5065,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=vom.mn",
     "channel": "Voice of Mongolia 蒙古之声",
+    "channelId": "vom",
     "url": "vom.mn",
     "path": "/featured/:lang?",
     "categories": [
@@ -4767,6 +5081,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=wallhaven.cc",
     "channel": "wallhaven",
+    "channelId": "wallhaven",
     "url": "wallhaven.cc",
     "path": [
       "/search/:filter?/:needDetails?",
@@ -4786,6 +5101,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=wallhaven.cc",
     "channel": "wallhaven",
+    "channelId": "wallhaven",
     "url": "wallhaven.cc",
     "path": [
       "/search/:filter?/:needDetails?",
@@ -4805,6 +5121,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=support.wdc.com",
     "channel": "Western Digital",
+    "channelId": "wdc",
     "url": "support.wdc.com",
     "path": "/download/:id?",
     "categories": [
@@ -4820,6 +5137,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=web.dev",
     "channel": "web.dev",
+    "channelId": "web",
     "url": "web.dev",
     "path": "/series/:seriesName",
     "categories": [
@@ -4835,6 +5153,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=whitehouse.gov",
     "channel": "The White House",
+    "channelId": "whitehouse",
     "url": "whitehouse.gov",
     "path": "/briefing-room/:category?",
     "categories": [
@@ -4850,6 +5169,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=whitehouse.gov",
     "channel": "The White House",
+    "channelId": "whitehouse",
     "url": "whitehouse.gov",
     "path": "/ostp",
     "categories": [
@@ -4863,6 +5183,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=who.int",
     "channel": "World Health Organization | WHO",
+    "channelId": "who",
     "url": "who.int",
     "path": "/news-room/:category?/:language?",
     "categories": [
@@ -4879,6 +5200,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=who.int",
     "channel": "World Health Organization | WHO",
+    "channelId": "who",
     "url": "who.int",
     "path": "/news/:language?",
     "categories": [
@@ -4894,6 +5216,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=who.int",
     "channel": "World Health Organization | WHO",
+    "channelId": "who",
     "url": "who.int",
     "path": "/speeches/:language?",
     "categories": [
@@ -4909,6 +5232,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=winstall.app",
     "channel": "winstall",
+    "channelId": "winstall",
     "url": "winstall.app",
     "path": "/:appId",
     "categories": [
@@ -4924,6 +5248,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=wise.com",
     "channel": "Wise",
+    "channelId": "wise",
     "url": "wise.com",
     "path": "/pair/:source/:target",
     "categories": [
@@ -4940,6 +5265,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=wmc-bj.net",
     "channel": "World Meteorological Centre Beijing",
+    "channelId": "wmc-bj",
     "url": "wmc-bj.net",
     "path": "/publish/:category{.+}?",
     "lang": [
@@ -4949,6 +5275,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=x-mol.com",
     "channel": "X-MOL",
+    "channelId": "x-mol",
     "url": "x-mol.com",
     "path": "/news/:tag?",
     "categories": [
@@ -4964,6 +5291,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=hk.news.yahoo.com",
     "channel": "Yahoo",
+    "channelId": "yahoo",
     "url": "hk.news.yahoo.com",
     "path": "/news/:region/:category?",
     "categories": [
@@ -4980,6 +5308,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=www.yoasobi-music.jp",
     "channel": "Yoasobi Official",
+    "channelId": "yoasobi-music",
     "url": "www.yoasobi-music.jp",
     "path": "/info/:category?",
     "categories": [
@@ -4995,6 +5324,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=www.yoasobi-music.jp",
     "channel": "Yoasobi Official",
+    "channelId": "yoasobi-music",
     "url": "www.yoasobi-music.jp",
     "path": "/live",
     "categories": [
@@ -5008,6 +5338,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=www.yoasobi-music.jp",
     "channel": "Yoasobi Official",
+    "channelId": "yoasobi-music",
     "url": "www.yoasobi-music.jp",
     "path": "/media",
     "categories": [
@@ -5021,6 +5352,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=charts.youtube.com",
     "channel": "YouTube Live",
+    "channelId": "youtube",
     "url": "charts.youtube.com",
     "path": "/channel/:id/:embed?",
     "categories": [
@@ -5037,6 +5369,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=charts.youtube.com",
     "channel": "YouTube Live",
+    "channelId": "youtube",
     "url": "charts.youtube.com",
     "path": "/charts/:category?/:country?/:embed?",
     "categories": [
@@ -5054,6 +5387,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=charts.youtube.com",
     "channel": "YouTube Live",
+    "channelId": "youtube",
     "url": "charts.youtube.com",
     "path": "/community/:handle",
     "categories": [
@@ -5069,6 +5403,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=charts.youtube.com",
     "channel": "YouTube Live",
+    "channelId": "youtube",
     "url": "charts.youtube.com",
     "path": "/live/:username/:embed?",
     "categories": [
@@ -5085,6 +5420,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=charts.youtube.com",
     "channel": "YouTube Live",
+    "channelId": "youtube",
     "url": "charts.youtube.com",
     "path": "/playlist/:id/:embed?",
     "categories": [
@@ -5101,6 +5437,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=charts.youtube.com",
     "channel": "YouTube Live",
+    "channelId": "youtube",
     "url": "charts.youtube.com",
     "path": "/subscriptions/:embed?",
     "categories": [
@@ -5116,6 +5453,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=charts.youtube.com",
     "channel": "YouTube Live",
+    "channelId": "youtube",
     "url": "charts.youtube.com",
     "path": "/user/:username/:embed?",
     "categories": [
@@ -5132,6 +5470,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=zagg.com",
     "channel": "Zagg",
+    "channelId": "zagg",
     "url": "zagg.com",
     "path": "/new-arrivals/:query?",
     "categories": [
@@ -5147,6 +5486,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=www.zhihu.com",
     "channel": "知乎",
+    "channelId": "zhihu",
     "url": "www.zhihu.com",
     "path": "/daily/section/:sectionId",
     "categories": [
@@ -5162,6 +5502,7 @@
   {
     "favicon": "https://www.google.com/s2/favicons?domain=zodgame.xyz",
     "channel": "ZodGame",
+    "channelId": "zodgame",
     "url": "zodgame.xyz",
     "path": "/forum/:fid?",
     "categories": [
